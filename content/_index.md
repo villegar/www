@@ -1,5 +1,5 @@
 ---
-author: Hugo Authors
-title: Soho Theme
+author: Roberto Villegas-Diaz
+title: Roberto's website
 ---
 

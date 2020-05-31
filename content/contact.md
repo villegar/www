@@ -1,6 +1,6 @@
 ---
-date: "2020-02-01"
+date: "2020-05-31"
 title: Contact
 ---
 
-Get in contact with us!
+Get in contact with me! contact@robertovillegas-diaz.com
