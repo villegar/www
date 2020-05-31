@@ -1,0 +1,10 @@
+---
+title: Curriculum Vitae
+author: Roberto Villegas-Diaz
+date: '2020-05-31'
+slug: vitae
+categories: []
+tags: []
+Description: ''
+menu: main
+---
