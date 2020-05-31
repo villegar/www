@@ -1,6 +1,7 @@
 ---
 date: "2020-05-01"
 description: About Soho Theme.
+draft: true
 tags:
 - theme
 title: Soho Theme

@@ -2,6 +2,7 @@
 author: Hugo Authors
 date: "2019-03-10"
 description: A brief description of Hugo Shortcodes
+draft: true
 tags:
 - shortcodes
 - privacy
