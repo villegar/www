@@ -74,6 +74,12 @@ post = "/:year/:month/:day/:slug/"
   identifier = "about"
   weight = 10
   url = "/about/"
+  
+  [[menu.main]]
+  name = "CV"
+  identifier = "cv"
+  weight = 15
+  url = "/vitae/"
 
   [[menu.main]]
   name = "Contact"
