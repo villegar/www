@@ -2,31 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Roberto&#39;s website</title>
-    <link>robertovillegas-diaz.com/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Roberto&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="robertovillegas-diaz.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Moving to the USA</title>
-      <link>robertovillegas-diaz.com/2020/05/31/moving-to-the-usa.en-uk/</link>
+      <link>/2020/05/31/moving-to-the-usa.en-uk/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>robertovillegas-diaz.com/2020/05/31/moving-to-the-usa.en-uk/</guid>
+      <guid>/2020/05/31/moving-to-the-usa.en-uk/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Soho Theme</title>
+      <link>/2020/05/01/soho-theme/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/01/soho-theme/</guid>
+      <description>Soho is a minimalist two-column hugo theme based on Hyde and inspired by the success of Flex.</description>
+    </item>
+    
+    <item>
       <title>Hidden Page</title>
-      <link>robertovillegas-diaz.com/2020/02/01/hidden-page/</link>
+      <link>/2020/02/01/hidden-page/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>robertovillegas-diaz.com/2020/02/01/hidden-page/</guid>
+      <guid>/2020/02/01/hidden-page/</guid>
       <description>This page is hidden and should not be visible without knowing the URL.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>/2019/03/11/markdown-syntax-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/11/markdown-syntax-guide/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>/2019/03/10/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/10/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>/2019/03/09/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/09/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>/2019/03/08/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/08/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>/2019/03/05/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/05/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/2015/07/23/hello-r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/2015/07/23/hello-r-markdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</description>
     </item>
     
   </channel>

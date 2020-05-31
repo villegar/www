@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>golang on Roberto&#39;s website</title>
-    <link>robertovillegas-diaz.com/tags/golang/</link>
+    <link>/tags/golang/</link>
     <description>Recent content in golang on Roberto&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="robertovillegas-diaz.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Moving to the USA</title>
-      <link>robertovillegas-diaz.com/2020/05/31/moving-to-the-usa.en-uk/</link>
+      <link>/2020/05/31/moving-to-the-usa.en-uk/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>robertovillegas-diaz.com/2020/05/31/moving-to-the-usa.en-uk/</guid>
+      <guid>/2020/05/31/moving-to-the-usa.en-uk/</guid>
       <description></description>
     </item>
     
