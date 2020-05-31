@@ -1,5 +1,5 @@
 theme = "soho"
-baseurl = "/"
+baseurl = "robertovillegas-diaz.com/"
 languageCode = "en-uk"
 title = "Roberto's website"
 DefaultContentLanguage = "en-uk"
@@ -8,9 +8,11 @@ summarylength = 10
 enableEmoji = true
 paginate = 5
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+googleAnalytics = "UA-168074535-1"
 
 [params]
 title = "Roberto's website"
+author = "Roberto Villegas-Diaz"
 # description = "Example Blog"
 # gravatar = "soho@example.com"
 images = ["images/roberto.jpg"]
@@ -24,10 +26,13 @@ mainSections = ["post"]
 ## Set custom theme color.
 themeColor = "#15446f"
 
+[permalinks]
+post = "/:year/:month/:day/:slug/"
+
   [[params.socialIcons]]
   icon = "fa-linkedin"
   title = "Linkedin"
-  url = "#"
+  url = "https://www.linkedin.com/in/roberthillo/"
 
   [[params.socialIcons]]
   icon = "fa-github"
@@ -37,7 +42,7 @@ themeColor = "#15446f"
   [[params.socialIcons]]
   icon = "fa-twitter"
   title = "Twitter"
-  url = "www.twitter.com/roberthillo"
+  url = "https://www.twitter.com/roberthillo"
 
 [taxonomies]
   series = "series"
