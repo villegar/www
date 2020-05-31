@@ -2,39 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Roberto&#39;s website</title>
-    <link>/categories/</link>
+    <link>robertovillegas-diaz.com/categories/</link>
     <description>Recent content in Categories on Roberto&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="robertovillegas-diaz.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>syntax</title>
-      <link>/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Development</title>
+      <link>robertovillegas-diaz.com/categories/development/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/syntax/</guid>
+      <guid>robertovillegas-diaz.com/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>themes</title>
-      <link>/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>GoLang</title>
+      <link>robertovillegas-diaz.com/categories/golang/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/categories/r/</guid>
+      <guid>robertovillegas-diaz.com/categories/golang/</guid>
       <description></description>
     </item>
     
