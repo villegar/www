@@ -1,5 +1,5 @@
 theme = "soho"
-baseurl = "robertovillegas-diaz.com/"
+baseurl = "/"
 languageCode = "en-uk"
 title = "Roberto's website"
 DefaultContentLanguage = "en-uk"
