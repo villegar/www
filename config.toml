@@ -56,6 +56,18 @@ post = "/:year/:month/:day/:slug/"
   weight = 100
   identifier = "posts"
   url = "/posts/"
+  
+  [[menu.main]]		
+  name = "Categories"		
+  weight = 200		
+  identifier = "categories"		
+  url = "/categories/"		
+
+  [[menu.main]]		
+  name = "Tags"		
+  weight = 200		
+  identifier = "tags"		
+  url = "/tags/"
 
   [[menu.main]]
   name = "About"
