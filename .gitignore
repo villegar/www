@@ -2,5 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-_public
+public*
 gtag.js
