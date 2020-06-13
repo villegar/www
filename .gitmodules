@@ -1,0 +1,3 @@
+[submodule "static/presentations"]
+	path = static/presentations
+	url = https://github.com/villegar/presentations
