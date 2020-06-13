@@ -1,6 +1,3 @@
-[submodule "static/--force"]
-	path = static/--force
-	url = https://github.com/villegar/presentations
 [submodule "static/presentations"]
 	path = static/presentations
 	url = https://github.com/villegar/presentations
