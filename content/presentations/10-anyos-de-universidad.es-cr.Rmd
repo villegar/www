@@ -17,4 +17,4 @@ blogdown::shortcode('tweet', '852205086956818432')
   _)9ÅÅÅÅÅL;'AZc v/
 ```
 
-<iframe height="800" width="100%" frameborder="no" src="presentations/2020-07"> </iframe>
+<iframe height="800" width="100%" frameborder="no" src="2020-07"> </iframe>
