@@ -1,1 +1,2 @@
-blogdown::build_dir("presentations")
+knitr::opts_knit$set(root.dir = 'presentations')
+blogdown::build_dir(".")
