@@ -1,0 +1,12 @@
+---
+title: "10 años de Universidad"
+subtitle: "¿qué ha pasado?"
+author: Roberto Villegas-Diaz
+date: '2020-05-31'
+slug: 10-anyos-de-universidad.es-cr
+Description: ''
+---
+
+```{r echo=FALSE, eval=FALSE}
+blogdown::shortcode('tweet', '852205086956818432')
+```
