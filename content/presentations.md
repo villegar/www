@@ -2,9 +2,9 @@
 aliases:
 - presentations
 author: Roberto Villegas-Diaz
-date: "2020-05-31"
-description: Personal website built using the Hugo framework.
+date: "2020-06-12"
+description: Presentations.
 title: Presentations
 ---
 
-- [10 años de Universidad: ¿qué ha pasado?](presentations/2020-07)
+- [10 años de Universidad: ¿qué ha pasado?](2020-07)
