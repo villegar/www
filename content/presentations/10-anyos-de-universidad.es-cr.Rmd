@@ -5,11 +5,16 @@ author: Roberto Villegas-Diaz
 date: '2020-05-31'
 slug: 10-anyos-de-universidad.es-cr
 Description: ''
-redirect: 2020-07
+output: html_document
 ---
 
 <meta http-equiv="refresh" content="time; URL=/presentations/2020-07" />
 
 ```{r echo=FALSE, eval=FALSE}
 blogdown::shortcode('tweet', '852205086956818432')
+.,mn er iop[]\09876543Z~5L9/0;--)9/6SWX1`ZAX!l90;./p-+
+  _)"9765y432e1w`sqa  asdfghia  ASLP;=
+  _)9ÅÅÅÅÅL;'AZc v/
 ```
+
+<iframe height="800" width="100%" frameborder="no" src="presentations/2020-07"> </iframe>
