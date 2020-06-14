@@ -21,7 +21,7 @@ copyright = "Roberto Villegas-Diaz"
 license = "CC BY-SA 4.0"
 licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 builtWith = true
-mainSections = [""]
+mainSections = ["post"]
 
 ## Set custom theme color.
 themeColor = "#15446f"
