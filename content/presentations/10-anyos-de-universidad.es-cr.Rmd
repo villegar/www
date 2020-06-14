@@ -1,20 +1,30 @@
 ---
-title: "10 años de Universidad"
-subtitle: "¿qué ha pasado?"
+title: '10 años de Universidad'
 author: Roberto Villegas-Diaz
-date: '2020-05-31'
+date: '2020-06-12'
 slug: 10-anyos-de-universidad.es-cr
-Description: ''
+description: ''
 output: html_document
+lang: 'es-cr'
 ---
 
-<meta http-equiv="refresh" content="time; URL=/presentations/2020-07" />
-
-```{r echo=FALSE, eval=FALSE}
-blogdown::shortcode('tweet', '852205086956818432')
-.,mn er iop[]\09876543Z~5L9/0;--)9/6SWX1`ZAX!l90;./p-+
-  _)"9765y432e1w`sqa  asdfghia  ASLP;=
-  _)9ÅÅÅÅÅL;'AZc v/
+```{r, echo = FALSE}
+BRANCH <- 'master'
+PROJECT <- '2020-07'
+REPO <- 'presentations'
 ```
 
-<iframe height="800" width="100%" frameborder="no" src="/presentations/2020-07"> </iframe>
+### Abstracto
+
+Presentación preparada para los estudiantes de Informática Empresarial de la Universidad de Costa Rica - Sede Guanacaste
+
+```{css button-style, echo = FALSE}
+.badge * {
+  display: inline;
+}
+```
+
+<!-- badges: start -->
+[![Start](https://img.shields.io/badge/Start-red.svg?style=for-the-badge&logo=peertube&logoColor=white)](/`r REPO`/`r PROJECT`){.badge} 
+[![Source](https://img.shields.io/badge/Source-black.svg?style=for-the-badge&logo=github)](https://github.com/villegar/`r REPO`/tree/`r BRANCH`/`r PROJECT`){.badge}
+<!-- badges: end -->
