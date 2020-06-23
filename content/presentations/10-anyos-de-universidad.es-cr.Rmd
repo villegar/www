@@ -16,8 +16,8 @@ REPO <- 'presentations'
 
 ### Abstracto
 
-Presentación preparada para los estudiantes de Informática Empresarial de la Universidad de Costa Rica - Sede Guanacaste. Lecciones aprendidas durante mis 10 años de educación Universitaria (y contando 🙈). No hay fórmula secreta para el éxito y el camino no ha sido fácil, pero con mucho esfuerzo se ha salido adelante.
-
+Presentación preparada para los estudiantes de Informática Empresarial de la Universidad de Costa Rica - Sede Guanacaste. Lecciones aprendidas durante mis 10 años de educación Universitaria (y contando 🙈). 
+<!-- No hay fórmula secreta para el éxito y el camino no ha sido fácil, pero con mucho esfuerzo se ha salido adelante. -->
 ```{css button-style, echo = FALSE}
 .badge * {
   display: inline;
