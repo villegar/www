@@ -5,7 +5,7 @@ aliases:
 - blog
 - showcase
 - docs
-author: Hugo Authors
+author: Roberto Villegas-Diaz
 tags:
 - index
 title: Posts
