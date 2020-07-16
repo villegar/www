@@ -21,7 +21,7 @@ copyright = "Roberto Villegas-Diaz"
 license = "CC BY-SA 4.0"
 licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 builtWith = true
-mainSections = ["post"]
+mainSections = ["presentations"]
 
 ## Set custom theme color.
 themeColor = "#15446f"
@@ -32,12 +32,12 @@ post = "/:year/:month/:day/:slug/"
   [[params.socialIcons]]
   icon = "fa-linkedin"
   title = "Linkedin"
-  url = "https://www.linkedin.com/in/roberthillo/"
+  url = "https://www.linkedin.com/in/roberto-villegas-diaz/"
 
   [[params.socialIcons]]
   icon = "fa-github"
   title = "GitHub"
-  url = "https://github.com/villegar/web"
+  url = "https://github.com/villegar/"
 
   [[params.socialIcons]]
   icon = "fa-twitter"
