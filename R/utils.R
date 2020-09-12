@@ -18,7 +18,7 @@
 hex_logo <- function(subplot = "static/images/monitor.png",
                      dpi = 600,
                      h_color = "#000000",
-                     h_fill = "#464646",
+                     h_fill = "#dd352e",
                      output = "static/images/logo.png",
                      package = "www",
                      p_color = "#EEEEEE",
