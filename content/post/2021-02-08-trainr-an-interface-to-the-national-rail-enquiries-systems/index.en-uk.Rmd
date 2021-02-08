@@ -3,22 +3,19 @@ title: 'trainR: An Interface to the National Rail Enquiries Systems'
 author: Roberto Villegas-Diaz
 date: '2021-02-08'
 slug: index.en-uk
-categories:
-  - R
 tags:
   - uk-railway
   - nre
 Categories:
   - Development
-  - GoLang
+  - R
 Description: ''
 Tags:
   - Development
   - R
-menu: main
 ---
 
-# trainR: An Interface to the National Rail Enquiries Systems <img src="https://raw.githubusercontent.com/villegar/trainR/main/inst/images/logo.png" alt="logo" align="right" height=200px/>
+<img src="https://raw.githubusercontent.com/villegar/trainR/main/inst/images/logo.png" alt="logo" align="right" height=200px/>
 
 The goal of `trainR` is to provide a simple interface to the 
 National Rail Enquiries (NRE) systems. There are few data feeds 
