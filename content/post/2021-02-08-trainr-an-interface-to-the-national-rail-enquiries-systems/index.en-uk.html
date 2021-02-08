@@ -406,32 +406,12 @@ devtools::install_github(&quot;villegar/trainR&quot;, &quot;dev&quot;)</code></p
 <pre class="r"><code>library(trainR)</code></pre>
 <div id="arrivals-board-at-reading-station-rdg" class="section level3">
 <h3>Arrivals board at Reading Station (RDG)</h3>
-<p>Generated on 2021-02-08 20:28:38.</p>
+<p>Generated on 2021-02-08 21:22:39.</p>
 <pre class="r"><code>rdg_arr &lt;- trainR::GetArrBoardRequest(&quot;RDG&quot;)
 print(rdg_arr)</code></pre>
-<pre><code>## Reading (RDG) Station Board on 2021-02-08 20:28:39
+<pre><code>## Reading (RDG) Station Board on 2021-02-08 21:22:40
 ## Time   From                                    Plat  Expected
-## 20:32  Cheltenham Spa                          10A   On time
-## 20:32  London Paddington                       8B    On time
-## 20:35  Redhill                                 14A   On time
-## 20:40  Bristol Temple Meads                    11    20:45
-## 20:43  London Paddington                       14    On time
-## 20:43  Manchester Piccadilly                   7     20:46
-## 20:44  Newbury                                 1     On time
-## 20:47  London Waterloo                         6     On time
-## 20:51  London Paddington                       8     On time
-## 20:52  London Paddington                       13    On time
-## 20:53  Great Malvern                           11A   On time
-## 20:53  Redhill                                 6     On time
-## 20:58  Penzance                                10    On time
-## 21:02  Basingstoke                             2     On time
-## 21:03  Didcot Parkway                          15    On time
-## 21:07  Bournemouth                             7B    On time
-## 21:10  London Waterloo                         4     On time
-## 21:11  London Paddington                       8     On time
-## 21:13  London Paddington                       14    On time
 ## 21:14  London Paddington                       12    On time
-## 21:16  London Paddington                       8B    On time
 ## 21:21  Bedwyn                                  11A   On time
 ## 21:25  London Paddington                       9     On time
 ## 21:27  London Paddington                       7     On time
@@ -451,35 +431,31 @@ print(rdg_arr)</code></pre>
 ## 22:13  London Paddington                       14    On time
 ## 22:13  Newbury                                 12    On time
 ## 22:14  London Paddington                       13    On time
-## 22:16  London Paddington                       9     On time
+## 22:16  London Paddington                       9B    On time
 ## 22:20  Bedwyn                                  11A   On time
-## 22:24  London Paddington                       9     On time</code></pre>
+## 22:24  London Paddington                       9B    On time
+## 22:30  Cheltenham Spa                          11    On time
+## 22:40  London Waterloo                         6     On time
+## 22:41  Manchester Piccadilly                   7B    On time
+## 22:43  London Paddington                       14    On time
+## 22:44  London Paddington                       12    On time
+## 22:48  Oxford                                  15    On time
+## 22:51  Salisbury                               13    On time
+## 22:57  Worcester Foregate Street               15A   On time
+## 23:03  Basingstoke                             15    On time
+## 23:11  Penzance                                15    On time
+## 23:13  London Paddington                       13    On time
+## 23:15  London Paddington                       14    On time
+## 23:15  London Waterloo                         6     On time
+## 23:21  Reigate                                 4     On time</code></pre>
 </div>
 <div id="departures-board-at-reading-station-rdg" class="section level3">
 <h3>Departures board at Reading Station (RDG)</h3>
-<p>Generated on 2021-02-08 20:28:41.</p>
+<p>Generated on 2021-02-08 21:22:42.</p>
 <pre class="r"><code>rdg_dep &lt;- trainR::GetDepBoardRequest(&quot;RDG&quot;)
 print(rdg_dep)</code></pre>
-<pre><code>## Reading (RDG) Station Board on 2021-02-08 20:28:41
+<pre><code>## Reading (RDG) Station Board on 2021-02-08 21:22:42
 ## Time   To                                      Plat  Expected
-## 20:35  Bedwyn                                  8B    On time
-## 20:36  London Paddington                       10A   On time
-## 20:42  London Paddington                       11    20:46
-## 20:42  London Waterloo                         6     On time
-## 20:52  Basingstoke                             1     On time
-## 20:52  Ealing Broadway                         14    On time
-## 20:53  Cheltenham Spa                          8     On time
-## 20:56  London Paddington                       11A   On time
-## 21:01  Gatwick Airport                         6     On time
-##        via Guildford                           
-## 21:05  London Paddington                       10    On time
-## 21:08  Ealing Broadway                         15    On time
-## 21:10  Newbury                                 1     On time
-## 21:12  London Waterloo                         6     On time
-## 21:13  Birmingham New Street                   7B    On time
-##        via Coventry                            
-## 21:13  Swansea                                 8     On time
-## 21:18  Great Malvern                           8B    On time
 ## 21:22  Ealing Broadway                         14    On time
 ## 21:23  Didcot Parkway                          12    On time
 ## 21:23  London Paddington                       11A   On time
@@ -492,17 +468,25 @@ print(rdg_dep)</code></pre>
 ## 21:52  Ealing Broadway                         13    On time
 ## 21:56  London Paddington                       10A   On time
 ## 21:59  Oxford                                  8B    On time
-## 22:05  Basingstoke                             2     On time
+## 22:05  Basingstoke                             1     On time
 ## 22:10  London Paddington                       10A   On time
 ## 22:10  Newbury                                 1     On time
 ## 22:12  London Waterloo                         6     On time
 ## 22:13  Swansea                                 9     On time
 ## 22:15  Ealing Broadway                         15    On time
-## 22:18  Worcester Shrub Hill                    9     On time
+## 22:18  Worcester Shrub Hill                    9B    On time
 ## 22:21  London Paddington                       11A   On time
 ## 22:22  Ealing Broadway                         14    On time
-## 22:25  Exeter St Davids                        9     On time
-##        via Bristol</code></pre>
+## 22:25  Exeter St Davids                        9B    On time
+##        via Bristol                             
+## 22:35  London Paddington                       11    On time
+## 22:46  Didcot Parkway                          12    On time
+## 22:48  Ealing Broadway                         13    On time
+## 22:49  Southampton Central                     7B    On time
+## 22:52  Ealing Broadway                         14    On time
+## 22:59  London Paddington                       15A   On time
+## 23:12  Ascot                                   6     On time
+## 23:19  London Paddington                       15    On time</code></pre>
 </div>
 </div>
 
