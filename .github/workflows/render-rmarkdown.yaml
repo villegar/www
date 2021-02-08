@@ -35,10 +35,10 @@ jobs:
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
       - name: Render README
-        run: Rscript -e 'rmarkdown::render("content/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.Rmd")'
+        run: Rscript -e 'rmarkdown::render("content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.Rmd")'
       - name: Commit results
         run: |
-          git config --local user.email "villegas.roberto@hotmail.com"
-          git config --local user.name "Roberto Villegas-Diaz"
-          git commit content/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.html -m 'Re-build trainR post' || echo "No changes to commit"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git commit content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.html -m 'Re-build trainR post' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
