@@ -4,11 +4,11 @@ on:
   schedule:
     - cron:  '0 0-1,5-23 * * *'
 
-name: Render Rmarkdown files
+name: Render trainR post
 
 jobs:
   render:
-    name: Render Rmarkdown files
+    name: Render trainR post
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
