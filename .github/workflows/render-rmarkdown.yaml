@@ -35,7 +35,7 @@ jobs:
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
       - name: Render README
-        run: Rscript -e 'rmarkdown::render("content/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.Rmd)'
+        run: Rscript -e 'rmarkdown::render("content/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.Rmd")'
       - name: Commit results
         run: |
           git config --local user.email "villegas.roberto@hotmail.com"
