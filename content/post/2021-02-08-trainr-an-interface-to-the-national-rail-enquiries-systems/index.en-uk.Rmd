@@ -63,7 +63,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example
+## Example (Last compiled on `r format(Sys.time(), '%Y-%m-%d %H:%M')`)
 
 Load `trainR` to your working environment:
 ```{r, message = FALSE}
@@ -72,16 +72,12 @@ library(trainR)
 
 ### Arrivals board at Reading Station (RDG)
 
-Generated on `r lubridate::now()`.
-
 ```{r arrivals-wo-details}
 rdg_arr <- trainR::GetArrBoardRequest("RDG")
 print(rdg_arr)
 ```
 
 ### Departures board at Reading Station (RDG)
-
-Generated on `r lubridate::now()`.
 
 ```{r departures-wo-details}
 rdg_dep <- trainR::GetDepBoardRequest("RDG")
