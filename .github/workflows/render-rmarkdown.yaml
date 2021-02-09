@@ -50,5 +50,5 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git commit content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.html -m 'Re-build trainR post' || echo "No changes to commit"
+          git commit content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.md -m 'Re-build trainR post' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
