@@ -22,7 +22,7 @@ jobs:
       - name: Query dependencies
         run: |
           install.packages("remotes")
-          remotes::install_cran("rmarkdown")
+          remotes::install_cran("rmarkdown", "blogdown")
           remotes::install_github("villegar/trainR", "dev")
           writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
@@ -35,7 +35,7 @@ jobs:
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
       - name: Render README
-        run: Rscript -e 'rmarkdown::render("content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.Rmd")'
+        run: Rscript -e 'rmarkdown::render("content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.Rmd", blogdown::html_page())'
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
