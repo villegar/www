@@ -54,10 +54,20 @@ your R session.</p>
 <pre class="r"><code>library(trainR)</code></pre>
 <div id="arrivals-board-at-reading-station-rdg" class="section level3">
 <h3>Arrivals board at Reading Station (RDG)</h3>
+<<<<<<< HEAD
 <pre class="r"><code>rdg_arr &lt;- trainR::GetArrBoardRequest(&quot;RDG&quot;)
 print(rdg_arr)</code></pre>
 <pre><code>## Reading (RDG) Station Board on 2021-02-09 09:27:55
 ## Time   From                                    Plat  Expected
+=======
+<p>Generated on 2021-02-09 09:23:29.</p>
+<pre class="r"><code>rdg_arr &lt;- trainR::GetArrBoardRequest(&quot;RDG&quot;)
+print(rdg_arr)</code></pre>
+<pre><code>## Reading (RDG) Station Board on 2021-02-09 09:23:30
+## Time   From                                    Plat  Expected
+## 09:14  London Paddington                       12    09:16
+## 09:27  Basingstoke                             2     On time
+>>>>>>> 20ed1310de35a512e9e8f69aa177fa4f64314486
 ## 09:27  London Paddington                       7     On time
 ## 09:28  London Paddington                       14    09:24
 ## 09:29  Gatwick Airport                         15A   09:25
@@ -106,6 +116,7 @@ print(rdg_arr)</code></pre>
 ## 11:10  London Waterloo                         4     On time
 ## 11:11  London Paddington                       9     On time
 ## 11:13  London Paddington                       14    On time
+<<<<<<< HEAD
 ## 11:16  London Paddington                       12    On time
 ## 11:16  London Paddington                       9     On time
 ## 11:19  Basingstoke                             2     On time
@@ -117,6 +128,22 @@ print(rdg_arr)</code></pre>
 print(rdg_dep)</code></pre>
 <pre><code>## Reading (RDG) Station Board on 2021-02-09 09:27:57
 ## Time   To                                      Plat  Expected
+=======
+## 11:16  London Paddington                       9     On time
+## 11:19  Basingstoke                             2     On time</code></pre>
+</div>
+<div id="departures-board-at-reading-station-rdg" class="section level3">
+<h3>Departures board at Reading Station (RDG)</h3>
+<p>Generated on 2021-02-09 09:23:32.</p>
+<pre class="r"><code>rdg_dep &lt;- trainR::GetDepBoardRequest(&quot;RDG&quot;)
+print(rdg_dep)</code></pre>
+<pre><code>## Reading (RDG) Station Board on 2021-02-09 09:23:33
+## Time   To                                      Plat  Expected
+## 09:20  Redhill                                 5     09:23
+## 09:21  London Paddington                       10A   On time
+## 09:22  Ealing Broadway                         14    On time
+## 09:23  Didcot Parkway                          12    On time
+>>>>>>> 20ed1310de35a512e9e8f69aa177fa4f64314486
 ## 09:29  Plymouth                                7     On time
 ## 09:33  London Paddington                       10    On time
 ## 09:36  Bedwyn                                  8B    On time
@@ -163,9 +190,14 @@ print(rdg_dep)</code></pre>
 ## 11:16  Manchester Piccadilly                   8B    On time
 ##        via Coventry &amp; Stoke-on-Trent           
 ## 11:19  Worcester Shrub Hill                    9     On time
+<<<<<<< HEAD
 ## 11:20  Redhill                                 15B   On time
 ## 11:22  Ealing Broadway                         14    On time
 ## 11:24  London Paddington                       11    On time
 ## 11:26  Didcot Parkway                          12    On time</code></pre>
+=======
+## 11:20  Redhill                                 15B   On time</code></pre>
+</div>
+>>>>>>> 20ed1310de35a512e9e8f69aa177fa4f64314486
 </div>
 </div>
