@@ -2,13 +2,13 @@ on:
   push:
     branches: master
   schedule:
-    - cron:  '0 6,18 * * *'
+    - cron:  '0 */2 * * *'
 
 name: Render trainR post
 
 jobs:
   render:
-    name: Render trainR post
+    name: Render the trainR post
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -34,7 +34,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
-      - name: Render README
+      - name: Render Rmd
         run: |
           # list up Rmd files
           rmd <- list.files("content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems", "\\.Rmd$", recursive = TRUE, full.names = TRUE)
