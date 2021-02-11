@@ -2,7 +2,7 @@
 title: 'trainR: An Interface to the National Rail Enquiries Systems'
 author: Roberto Villegas-Diaz
 date: '2021-02-08'
-slug: index.en-uk
+slug: trainR-an-interface-to-the-nre-systems
 tags:
   - uk-railway
   - nre
