@@ -63,7 +63,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last compiled on `r format(Sys.time(), '%Y-%m-%d %H:%M')`)
+## Example (Last rendered on `r format(Sys.time(), '%Y-%m-%d %H:%M')`)
 
 Load `trainR` to your working environment:
 ```{r, message = FALSE}
