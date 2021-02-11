@@ -42,8 +42,8 @@ jobs:
           # md_files  <- sub("\\.Rmd$", ".md", rmd)
           # names(md_files) <- rmd
           # knitr::knit(input = rmd[1], output = md_files[1], encoding = "UTF-8")
-          knitr::knit(input = "content/post/2021-02-08-trainr-an-interface-to-the-nre-systems.Rmd",
-                      output = "content/post/2021-02-08-trainr-an-interface-to-the-nre-systems.md",
+          knitr::knit(input = "content/post/2021-02-08-trainr-an-interface-to-the-nre-systems.en-uk.Rmd",
+                      output = "content/post/2021-02-08-trainr-an-interface-to-the-nre-systems.en-uk.md",
                       encoding = "UTF-8")
           # Rscript -e 'rmarkdown::render("content/post/2021-02-08-trainr-an-interface-to-the-national-rail-enquiries-systems/index.en-uk.Rmd", blogdown::html_page())'
         shell: Rscript {0}
