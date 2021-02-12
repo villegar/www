@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-02-12 08:59)
+## Example (Last rendered on 2021-02-12 09:16)
 
 Load `trainR` to your working environment:
 
@@ -82,28 +82,16 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-02-12 08:59:38
+## Reading (RDG) Station Board on 2021-02-12 09:16:14
 ## Time   From                                    Plat  Expected
-## 08:44  Manchester Piccadilly                   11B   08:55
-## 08:53  Plymouth                                -     Cancelled
-## 09:00  London Paddington                       13    On time
-## 09:01  Didcot Parkway                          15    On time
-## 09:03  London Paddington                       7     On time
-## 09:04  Reigate                                 5     09:12
-## 09:04  Taunton                                 10    On time
-## 09:05  Bournemouth                             8B    On time
-## 09:09  Bedwyn                                  11    09:11
-## 09:11  Hereford                                10    On time
-## 09:11  London Paddington                       9     On time
-## 09:13  London Paddington                       14    On time
-## 09:14  London Paddington                       12    09:29
-## 09:15  London Waterloo                         4     On time
+## 09:04  Reigate                                 5     09:14
+## 09:14  London Paddington                       12    09:30
 ## 09:16  London Paddington                       9     On time
 ## 09:20  Swansea                                 10    On time
 ## 09:27  Basingstoke                             2     On time
 ## 09:27  London Paddington                       7     On time
 ## 09:28  London Paddington                       14    On time
-## 09:29  Reigate                                 15A   Delayed
+## 09:29  Reigate                                 15A   09:43
 ## 09:30  Worcester Shrub Hill                    10    On time
 ## 09:31  London Paddington                       8     On time
 ## 09:34  Didcot Parkway                          15B   On time
@@ -137,10 +125,15 @@ print(rdg_arr)
 ## 10:43  London Paddington                       14    On time
 ## 10:45  Carmarthen                              11    On time
 ## 10:45  London Waterloo                         6     On time
-## 10:48  Reigate                                 15B   On time
+## 10:48  Betchworth                              15B   Delayed
 ## 10:52  London Paddington                       8     On time
 ## 10:54  Great Malvern                           10    On time
 ## 10:55  London Paddington                       9     On time
+## 10:57  Penzance                                -     Cancelled
+## 10:59  London Paddington                       7     On time
+## 11:10  London Waterloo                         4     On time
+## 11:11  London Paddington                       9     On time
+## 11:13  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -152,26 +145,13 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-02-12 08:59:40
+## Reading (RDG) Station Board on 2021-02-12 09:16:18
 ## Time   To                                      Plat  Expected
-## 08:52  Bournemouth                             11B   08:59
-## 08:56  London Paddington                       -     Cancelled
-## 08:59  Basingstoke                             1     On time
-## 09:03  Ealing Broadway                         14    On time
-## 09:06  London Paddington                       10    On time
-## 09:08  Ealing Broadway                         15    On time
-## 09:11  London Paddington                       11    09:12
-## 09:12  London Waterloo                         6     On time
-## 09:13  London Paddington                       10    On time
-## 09:13  Manchester Piccadilly                   8B    On time
-##        via Coventry & Stoke-on-Trent           
-## 09:13  Newbury                                 3     On time
-## 09:13  Swansea                                 9     On time
 ## 09:18  Great Malvern                           9     On time
 ## 09:20  Redhill                                 5     On time
 ## 09:21  London Paddington                       10    On time
 ## 09:22  Ealing Broadway                         14    On time
-## 09:23  Didcot Parkway                          12    09:30
+## 09:23  Didcot Parkway                          12    09:31
 ## 09:29  Plymouth                                7     On time
 ## 09:33  London Paddington                       10    On time
 ## 09:36  Bedwyn                                  8     On time
@@ -208,4 +188,10 @@ print(rdg_dep)
 ## 10:53  Cheltenham Spa                          8     On time
 ## 10:57  London Paddington                       10    On time
 ## 10:58  Bristol Temple Meads                    9     On time
+## 11:01  Exeter St Davids                        7     On time
+## 11:04  London Paddington                       -     Cancelled
+## 11:07  Basingstoke                             2     On time
+## 11:12  London Waterloo                         6     On time
+## 11:12  Newbury                                 1     On time
+## 11:13  Swansea                                 9     On time
 ```
