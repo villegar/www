@@ -19,6 +19,10 @@ jobs:
           fetch-depth: 0
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
+      - name: OS dependencies
+        run: |
+          brew install openssl
+          brew install libgit2
       - name: Query dependencies
         run: |
           install.packages(c("remotes", "blogdown"))
@@ -26,10 +30,6 @@ jobs:
           remotes::install_github("villegar/trainR", "dev")
           writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
-      - name: OS dependencies
-        run: |
-          brew install openssl
-          brew install libgit2
       - name: Cache R packages
         uses: actions/cache@v2
         with:
