@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-02-21 06:09)
+## Example (Last rendered on 2021-02-21 08:08)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,30 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-02-21 06:09:09
+## Reading (RDG) Station Board on 2021-02-21 08:08:23
 ## Time   From                                    Plat  Expected
-## 07:34  Gatwick Airport                         8     On time
-## 07:52  London Paddington                       9     On time
-## 08:02  Staines                                 4     On time
+## 08:28  London Paddington                       7B    On time
+## 08:34  Clapham Junction                        6     On time
+## 08:41  Redhill                                 -     On time
+## 08:47  Salisbury                               1     On time
+## 08:55  London Paddington                       8B    On time
+## 09:02  Clapham Junction                        4     On time
+## 09:03  London Paddington                       14    On time
+## 09:10  Didcot Parkway                          15    On time
+## 09:12  London Paddington                       12    On time
+## 09:17  Newbury                                 3     On time
+## 09:19  London Paddington                       7     On time
+## 09:23  London Paddington                       9     On time
+## 09:28  Bristol Parkway                         10    On time
+## 09:33  Barnes                                  4     On time
+## 09:33  Basingstoke                             2     On time
+## 09:34  London Paddington                       14    On time
+## 09:45  Salisbury                               1     On time
+## 10:00  London Paddington                       9     On time
+## 10:01  London Paddington                       14    On time
+## 10:02  Clapham Junction                        4     On time
+## 10:07  Gatwick Airport                         6     On time
+## 09:00  Basingstoke                             BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,14 +117,37 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-02-21 06:09:10
+## Reading (RDG) Station Board on 2021-02-21 08:08:25
 ## Time   To                                      Plat  Expected
-## 06:49  London Paddington                       10    On time
-## 06:57  Gatwick Airport                         5     On time
+## 08:10  London Paddington                       15    On time
+## 08:10  Newbury                                 13    On time
+## 08:24  Barnes                                  4     On time
+## 08:25  London Paddington                       9     On time
+## 08:32  Plymouth                                7B    On time
+## 08:33  Bedwyn                                  12    On time
+## 08:38  Basingstoke                             12    On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:39  Gatwick Airport                         15    On time
 ##        via Guildford                           
-## 07:39  Gatwick Airport                         7A    On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:54  Clapham Junction                        6     On time
+## 09:00  Port Talbot Parkway                     8B    On time
+## 09:12  Salisbury                               1     On time
+## 09:14  Slough                                  15    On time
+## 09:15  Manchester Piccadilly                   8     On time
+##        via Coventry & Stoke-on-Trent           
+## 09:18  Didcot Parkway                          12    On time
+## 09:20  Penzance                                7     On time
+## 09:22  Ealing Broadway                         14    On time
+## 09:24  Barnes                                  4     On time
+## 09:30  London Paddington                       10    On time
+## 09:31  Weston-super-Mare                       9     On time
+## 09:35  Bedwyn                                  12    On time
+## 09:38  Basingstoke                             2     On time
+## 09:40  Ealing Broadway                         14    On time
+## 09:41  Gatwick Airport                         6     On time
 ##        via Guildford                           
-## 07:54  Clapham Junction                        6     On time
-## 07:55  London Paddington                       10    On time
-## 07:20  Basingstoke                             BUS   On time
+## 09:52  Bournemouth                             8     On time
+## 09:54  Clapham Junction                        4     On time
+## 10:03  Port Talbot Parkway                     9     On time
 ```
