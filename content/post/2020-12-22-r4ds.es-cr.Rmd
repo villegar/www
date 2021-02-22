@@ -1,0 +1,20 @@
+---
+title: 'R4DS: R para Ciencia de Datos - Club de Lectura'
+author: "Roberto Villegas-Diaz"
+date: '2020-12-22'
+slug: r4ds-bookclub
+tags:
+- rstats
+- datascience
+Categories:
+- Development
+- R
+Description: ''
+Tags:
+- Development
+- R
+---
+
+<img src="https://camo.githubusercontent.com/ec147d1aa3e1a06269454b3a7b56a24a86020a85943cc1387856cd9202e424a3/68747470733a2f2f723464732d656e2d657370616e696f6c2e6e65746c6966792e6170702f6865785f723464732d65732e706e67" alt="logo" align="right" height=200px/>
+
+
