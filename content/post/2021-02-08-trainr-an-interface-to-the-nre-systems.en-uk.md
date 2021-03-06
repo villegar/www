@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-03-06 16:13)
+## Example (Last rendered on 2021-03-06 18:11)
 
 Load `trainR` to your working environment:
 
@@ -82,58 +82,56 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-03-06 16:13:55
+## Reading (RDG) Station Board on 2021-03-06 18:11:12
 ## Time   From                                    Plat  Expected
-## 14:46  Port Talbot Parkway                     -     Delayed
-## 15:47  Port Talbot Parkway                     -     Delayed
-## 16:01  Didcot Parkway                          -     On time
-## 16:05  Swindon                                 -     On time
-## 16:11  London Paddington                       -     On time
-## 16:13  London Paddington                       -     16:07
-## 16:16  London Paddington                       -     On time
-## 16:17  Plymouth                                -     On time
-## 16:26  London Paddington                       -     16:28
-## 16:27  Bedwyn                                  -     On time
-## 16:31  London Paddington                       -     On time
-## 16:33  Redhill                                 -     On time
-## 16:39  Manchester Piccadilly                   -     On time
-## 16:40  Bristol Temple Meads                    -     Cancelled
-## 16:41  Newbury                                 -     On time
-## 16:43  London Paddington                       -     On time
-## 16:44  London Paddington                       -     On time
-## 16:46  Port Talbot Parkway                     -     17:05
-## 16:53  London Paddington                       -     On time
-## 16:54  Worcester Foregate Street               -     On time
-## 16:56  Basingstoke                             -     On time
-## 16:56  London Paddington                       -     On time
-## 17:01  Didcot Parkway                          -     On time
-## 17:01  Penzance                                -     On time
-## 17:05  Bournemouth                             -     On time
-## 17:11  London Paddington                       -     On time
-## 17:13  London Paddington                       -     On time
-## 17:16  London Paddington                       -     On time
-## 17:21  Bedwyn                                  -     On time
-## 17:32  London Paddington                       -     On time
-## 17:33  Cheltenham Spa                          -     Delayed
-## 17:33  Redhill                                 -     On time
-## 17:38  Newbury                                 -     On time
-## 17:39  Manchester Piccadilly                   -     On time
-## 17:40  Bristol Temple Meads                    -     On time
-## 17:43  London Paddington                       -     On time
-## 17:44  London Paddington                       -     On time
-## 17:48  Port Talbot Parkway                     -     18:02
-## 17:53  London Paddington                       -     On time
-## 17:54  Hereford                                -     On time
-## 17:56  London Paddington                       -     On time
-## 17:57  Basingstoke                             -     On time
-## 16:12  Ascot                                   -     On time
-## 16:27  Ascot                                   -     On time
-## 16:42  Ascot                                   -     On time
-## 16:57  Ascot                                   -     On time
-## 17:12  Ascot                                   -     On time
-## 17:27  Ascot                                   -     On time
-## 17:42  Ascot                                   -     On time
-## 17:57  Ascot                                   -     On time
+## 17:48  Port Talbot Parkway                     -     Delayed
+## 18:01  Didcot Parkway                          -     On time
+## 18:11  London Paddington                       -     Delayed
+## 18:13  London Paddington                       -     18:08
+## 18:17  London Paddington                       -     On time
+## 18:17  Plymouth                                -     On time
+## 18:26  London Paddington                       -     On time
+## 18:27  Bedwyn                                  -     On time
+## 18:32  London Paddington                       -     On time
+## 18:33  Redhill                                 -     On time
+## 18:33  Swindon                                 -     On time
+## 18:40  Bristol Temple Meads                    -     On time
+## 18:41  Manchester Piccadilly                   -     On time
+## 18:42  Newbury                                 -     On time
+## 18:43  London Paddington                       -     On time
+## 18:44  London Paddington                       -     On time
+## 18:46  Port Talbot Parkway                     -     Cancelled
+## 18:53  London Paddington                       -     On time
+## 18:54  Great Malvern                           -     On time
+## 18:56  London Paddington                       -     Cancelled
+## 18:57  Basingstoke                             -     On time
+## 19:01  Didcot Parkway                          -     On time
+## 19:08  Bournemouth                             -     On time
+## 19:11  London Paddington                       -     On time
+## 19:13  London Paddington                       -     On time
+## 19:16  London Paddington                       -     On time
+## 19:17  Penzance                                -     On time
+## 19:27  Bedwyn                                  -     On time
+## 19:33  Redhill                                 -     On time
+## 19:37  London Paddington                       -     On time
+## 19:38  Newbury                                 -     On time
+## 19:39  Manchester Piccadilly                   -     On time
+## 19:40  Bristol Temple Meads                    -     On time
+## 19:43  London Paddington                       -     On time
+## 19:44  London Paddington                       -     On time
+## 19:46  Port Talbot Parkway                     -     Delayed
+## 19:53  London Paddington                       -     On time
+## 19:54  Great Malvern                           -     On time
+## 19:56  London Paddington                       -     On time
+## 19:57  Basingstoke                             -     On time
+## 18:12  Ascot                                   -     On time
+## 18:27  Ascot                                   -     On time
+## 18:42  Ascot                                   -     On time
+## 18:57  Ascot                                   -     On time
+## 19:12  Ascot                                   -     On time
+## 19:27  Ascot                                   -     On time
+## 19:42  Ascot                                   -     On time
+## 19:57  Ascot                                   -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -145,59 +143,57 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-03-06 16:13:57
+## Reading (RDG) Station Board on 2021-03-06 18:11:14
 ## Time   To                                      Plat  Expected
-## 14:48  London Paddington                       -     Delayed
-## 15:50  London Paddington                       -     Delayed
-## 16:05  London Paddington                       -     16:13
-## 16:13  Port Talbot Parkway                     -     On time
-## 16:15  Ealing Broadway                         -     On time
-## 16:15  Manchester Piccadilly                   -     On time
-##        via Coventry & Stoke-on-Trent           
-## 16:19  Great Malvern                           -     On time
-## 16:19  London Paddington                       -     On time
-## 16:20  Redhill                                 -     On time
-## 16:22  Ealing Broadway                         -     On time
-## 16:28  Plymouth                                -     16:28
-## 16:30  London Paddington                       -     On time
-## 16:34  Bedwyn                                  -     On time
-## 16:41  London Paddington                       -     Cancelled
-## 16:48  London Paddington                       -     17:06
-## 16:49  Bournemouth                             -     On time
-## 16:52  Basingstoke                             -     On time
-## 16:52  Ealing Broadway                         -     On time
-## 16:53  Didcot Parkway                          -     On time
-## 16:55  Bristol Temple Meads                    -     On time
-## 16:56  London Paddington                       -     On time
-## 16:58  Cheltenham Spa                          -     On time
-## 17:05  London Paddington                       -     On time
-## 17:10  Newbury                                 -     On time
-## 17:13  Port Talbot Parkway                     -     On time
-## 17:15  Ealing Broadway                         -     On time
-## 17:15  Manchester Piccadilly                   -     On time
-##        via Coventry & Stoke-on-Trent           
-## 17:19  Hereford                                -     On time
-## 17:20  Redhill                                 -     On time
-## 17:22  Ealing Broadway                         -     On time
-## 17:23  London Paddington                       -     On time
-## 17:29  Penzance                                -     On time
-## 17:34  Bedwyn                                  -     On time
-## 17:35  London Paddington                       -     Delayed
-## 17:41  London Paddington                       -     On time
-## 17:50  London Paddington                       -     18:03
-## 17:52  Basingstoke                             -     On time
-## 17:52  Ealing Broadway                         -     On time
-## 17:55  Didcot Parkway                          -     On time
-## 17:55  Weston-super-Mare                       -     On time
-## 17:56  London Paddington                       -     On time
-## 17:58  Cheltenham Spa                          -     On time
+## 17:50  London Paddington                       -     Delayed
 ## 18:10  Newbury                                 -     On time
-## 16:17  Ascot                                   -     On time
-## 16:32  Ascot                                   -     On time
-## 16:47  Ascot                                   -     On time
-## 17:02  Ascot                                   -     On time
-## 17:17  Ascot                                   -     On time
-## 17:32  Ascot                                   -     On time
-## 17:47  Ascot                                   -     On time
-## 18:02  Ascot                                   -     On time
+## 18:13  Ealing Broadway                         -     On time
+## 18:13  Port Talbot Parkway                     -     Delayed
+## 18:15  Manchester Piccadilly                   -     On time
+##        via Coventry & Stoke-on-Trent           
+## 18:19  London Paddington                       -     On time
+## 18:19  Worcester Foregate Street               -     On time
+## 18:22  Ealing Broadway                         -     On time
+## 18:28  Penzance                                -     On time
+## 18:30  London Paddington                       -     On time
+## 18:34  Bedwyn                                  -     On time
+## 18:35  London Paddington                       -     On time
+## 18:36  Redhill                                 -     On time
+## 18:42  London Paddington                       -     On time
+## 18:49  Bournemouth                             -     On time
+## 18:50  London Paddington                       -     Cancelled
+## 18:52  Basingstoke                             -     On time
+## 18:52  Ealing Broadway                         -     On time
+## 18:53  Didcot Parkway                          -     On time
+## 18:55  Taunton                                 -     On time
+## 18:56  London Paddington                       -     On time
+## 18:58  Cheltenham Spa                          -     Cancelled
+## 19:10  Newbury                                 -     On time
+## 19:13  Port Talbot Parkway                     -     On time
+## 19:15  Ealing Broadway                         -     On time
+## 19:15  Manchester Piccadilly                   -     On time
+##        via Coventry & Stoke-on-Trent           
+## 19:19  Hereford                                -     On time
+## 19:19  London Paddington                       -     On time
+## 19:20  Gatwick Airport                         -     On time
+##        via Guildford                           
+## 19:22  Ealing Broadway                         -     On time
+## 19:30  London Paddington                       -     On time
+## 19:40  Bedwyn                                  -     On time
+## 19:41  London Paddington                       -     On time
+## 19:48  London Paddington                       -     Delayed
+## 19:52  Basingstoke                             -     On time
+## 19:52  Ealing Broadway                         -     On time
+## 19:53  Didcot Parkway                          -     On time
+## 19:55  Weston-super-Mare                       -     On time
+## 19:56  London Paddington                       -     On time
+## 19:58  Cheltenham Spa                          -     On time
+## 18:17  Ascot                                   -     On time
+## 18:32  Ascot                                   -     On time
+## 18:47  Ascot                                   -     On time
+## 19:02  Ascot                                   -     On time
+## 19:17  Ascot                                   -     On time
+## 19:32  Ascot                                   -     On time
+## 19:47  Ascot                                   -     On time
+## 20:02  Ascot                                   -     On time
 ```
