@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-03-06 06:10)
+## Example (Last rendered on 2021-03-06 08:09)
 
 Load `trainR` to your working environment:
 
@@ -78,18 +78,59 @@ library(trainR)
 
 ```r
 rdg_arr <- trainR::GetArrBoardRequest("RDG")
-```
-
-```
-## Error: [soap:Receiver] Unexpected server error
-```
-
-```r
 print(rdg_arr)
 ```
 
 ```
-## Error in print(rdg_arr): object 'rdg_arr' not found
+## Reading (RDG) Station Board on 2021-03-06 08:09:25
+## Time   From                                    Plat  Expected
+## 08:04  Didcot Parkway                          15    08:01
+## 08:11  London Paddington                       9     On time
+## 08:13  London Paddington                       14    08:06
+## 08:16  Bedwyn                                  11    On time
+## 08:16  London Paddington                       9     On time
+## 08:26  London Paddington                       7     On time
+## 08:30  Cheltenham Spa                          10    On time
+## 08:32  London Paddington                       7B    On time
+## 08:33  Redhill                                 5     On time
+## 08:37  Manchester Piccadilly                   8     On time
+## 08:41  Bristol Temple Meads                    11    On time
+## 08:42  Newbury                                 1     On time
+## 08:43  London Paddington                       14    On time
+## 08:44  London Paddington                       12    On time
+## 08:46  Port Talbot Parkway                     10    On time
+## 08:53  London Paddington                       9     On time
+## 08:54  Hereford                                10    On time
+## 08:57  Basingstoke                             2     On time
+## 08:59  London Paddington                       7     On time
+## 09:01  Didcot Parkway                          15    On time
+## 09:03  Plymouth                                11    On time
+## 09:10  Bournemouth                             13    On time
+## 09:11  London Paddington                       8     On time
+## 09:13  London Paddington                       14    On time
+## 09:16  London Paddington                       9     On time
+## 09:21  Bedwyn                                  11    On time
+## 09:31  London Paddington                       7B    On time
+## 09:33  Cheltenham Spa                          -     On time
+## 09:33  Redhill                                 -     On time
+## 09:38  Newbury                                 1     On time
+## 09:40  Bristol Temple Meads                    -     On time
+## 09:40  Nottingham                              -     On time
+## 09:43  London Paddington                       -     On time
+## 09:44  London Paddington                       -     On time
+## 09:46  Port Talbot Parkway                     -     On time
+## 09:53  London Paddington                       -     On time
+## 09:54  Hereford                                -     On time
+## 09:57  Basingstoke                             -     On time
+## 10:02  Exeter St Davids                        -     On time
+## 08:12  Ascot                                   BUS   On time
+## 08:27  Ascot                                   BUS   On time
+## 08:42  Ascot                                   BUS   On time
+## 08:57  Ascot                                   BUS   On time
+## 09:12  Ascot                                   BUS   On time
+## 09:27  Ascot                                   BUS   On time
+## 09:42  Ascot                                   -     On time
+## 09:57  Ascot                                   -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -97,16 +138,58 @@ print(rdg_arr)
 
 ```r
 rdg_dep <- trainR::GetDepBoardRequest("RDG")
-```
-
-```
-## Error: [soap:Receiver] Unexpected server error
-```
-
-```r
 print(rdg_dep)
 ```
 
 ```
-## Error in print(rdg_dep): object 'rdg_dep' not found
+## Reading (RDG) Station Board on 2021-03-06 08:09:27
+## Time   To                                      Plat  Expected
+## 08:13  Port Talbot Parkway                     9     On time
+## 08:15  Ealing Broadway                         15    On time
+## 08:15  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent           
+## 08:20  Great Malvern                           9     On time
+## 08:20  London Paddington                       11    On time
+## 08:22  Ealing Broadway                         14    On time
+## 08:29  Penzance                                7     On time
+## 08:34  Bedwyn                                  7B    On time
+## 08:35  London Paddington                       10    On time
+## 08:36  Redhill                                 14A   On time
+## 08:43  London Paddington                       11    On time
+## 08:48  London Paddington                       10    On time
+## 08:49  Bournemouth                             8     On time
+## 08:52  Basingstoke                             2     On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:53  Didcot Parkway                          12    On time
+## 08:55  Weston-super-Mare                       9     On time
+## 08:57  London Paddington                       10    On time
+## 09:01  Exeter St Davids                        7     On time
+## 09:06  London Paddington                       11    On time
+## 09:08  Newbury                                 1     On time
+## 09:13  Port Talbot Parkway                     8     On time
+## 09:15  Ealing Broadway                         15    On time
+## 09:15  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent           
+## 09:20  Great Malvern                           9     On time
+## 09:20  Redhill                                 5     On time
+## 09:22  Ealing Broadway                         14    On time
+## 09:25  London Paddington                       11    On time
+## 09:33  Bedwyn                                  7B    On time
+## 09:35  London Paddington                       -     On time
+## 09:41  London Paddington                       -     On time
+## 09:48  London Paddington                       -     On time
+## 09:52  Basingstoke                             -     On time
+## 09:52  Ealing Broadway                         -     On time
+## 09:53  Didcot Parkway                          -     On time
+## 09:55  Bristol Temple Meads                    -     On time
+## 09:56  London Paddington                       -     On time
+## 10:05  London Paddington                       -     On time
+## 08:17  Ascot                                   BUS   On time
+## 08:32  Ascot                                   BUS   On time
+## 08:47  Ascot                                   BUS   On time
+## 09:02  Ascot                                   BUS   On time
+## 09:17  Ascot                                   BUS   On time
+## 09:32  Ascot                                   BUS   On time
+## 09:47  Ascot                                   -     On time
+## 10:02  Ascot                                   -     On time
 ```
