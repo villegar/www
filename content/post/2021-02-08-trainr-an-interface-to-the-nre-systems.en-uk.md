@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-03-07 12:13)
+## Example (Last rendered on 2021-03-07 18:07)
 
 Load `trainR` to your working environment:
 
@@ -82,42 +82,43 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-03-07 12:13:19
+## Reading (RDG) Station Board on 2021-03-07 18:07:58
 ## Time   From                                    Plat  Expected
-## 12:14  Bristol Temple Meads                    9     On time
-## 12:15  Ealing Broadway                         14    12:08
-## 12:16  Ash                                     4     On time
-## 12:20  Ealing Broadway                         12    On time
-## 12:20  Newbury                                 3     On time
-## 12:25  Didcot Parkway                          15    On time
-## 12:33  Basingstoke                             2     On time
-## 12:39  Manchester Piccadilly                   13    On time
-## 12:45  Ealing Broadway                         14    On time
-## 12:48  Ealing Broadway                         10    On time
-## 12:50  Port Talbot Parkway                     8     On time
-## 12:55  Penzance                                11    On time
-## 13:00  Oxford                                  9     On time
-## 13:06  Bournemouth                             7B    On time
-## 13:14  Weston-super-Mare                       8     On time
-## 13:15  Ealing Broadway                         14    On time
-## 13:16  Ash                                     4     On time
-## 13:20  Ealing Broadway                         12    On time
-## 13:21  Bedwyn                                  3     On time
-## 13:25  Didcot Parkway                          15    On time
-## 13:33  Basingstoke                             2     On time
-## 13:39  Manchester Piccadilly                   7B    On time
-## 13:43  Ealing Broadway                         14    On time
-## 13:48  Ealing Broadway                         10    On time
-## 13:50  Port Talbot Parkway                     9     On time
-## 14:00  Great Malvern                           8     On time
-## 12:15  Virginia Water                          BUS   On time
-## 12:25  Virginia Water                          BUS   On time
-## 12:45  Virginia Water                          BUS   On time
-## 12:55  Virginia Water                          BUS   On time
-## 13:15  Virginia Water                          BUS   On time
-## 13:25  Virginia Water                          BUS   On time
-## 13:45  Virginia Water                          BUS   On time
-## 13:55  Virginia Water                          BUS   On time
+## 18:14  Bristol Temple Meads                    9     On time
+## 18:14  Plymouth                                12    On time
+## 18:15  Ealing Broadway                         14    On time
+## 18:16  Ash                                     4     On time
+## 18:20  Ealing Broadway                         13    On time
+## 18:28  Didcot Parkway                          15    On time
+## 18:32  Basingstoke                             2     On time
+## 18:35  Newbury                                 1     On time
+## 18:39  Manchester Piccadilly                   13    On time
+## 18:45  Ealing Broadway                         14    On time
+## 18:48  Ealing Broadway                         10    On time
+## 18:50  Port Talbot Parkway                     8     On time
+## 19:00  Worcester Foregate Street               9B    On time
+## 19:01  Penzance                                11    On time
+## 19:09  Bournemouth                             7B    On time
+## 19:14  Bristol Temple Meads                    8     On time
+## 19:15  Ealing Broadway                         14    On time
+## 19:16  Ash                                     4     On time
+## 19:20  Ealing Broadway                         7     On time
+## 19:22  Bedwyn                                  3     On time
+## 19:28  Didcot Parkway                          15    On time
+## 19:33  Basingstoke                             2     On time
+## 19:39  Manchester Piccadilly                   7B    On time
+## 19:45  Ealing Broadway                         14    On time
+## 19:48  Ealing Broadway                         10    On time
+## 19:53  Port Talbot Parkway                     7     On time
+## 20:00  Hereford                                8B    On time
+## 18:15  Virginia Water                          BUS   On time
+## 18:25  Virginia Water                          BUS   On time
+## 18:45  Virginia Water                          BUS   On time
+## 18:55  Virginia Water                          BUS   On time
+## 19:15  Virginia Water                          BUS   On time
+## 19:25  Virginia Water                          BUS   On time
+## 19:45  Virginia Water                          BUS   On time
+## 19:55  Virginia Water                          BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -129,43 +130,43 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-03-07 12:13:21
+## Reading (RDG) Station Board on 2021-03-07 18:08:00
 ## Time   To                                      Plat  Expected
-## 12:15  Manchester Piccadilly                   7B    On time
+## 18:07  Ealing Broadway                         12    On time
+## 18:09  Cardiff Central                         9     On time
+## 18:15  Manchester Piccadilly                   13B   On time
 ##        via Coventry & Stoke-on-Trent           
-## 12:18  Hereford                                8A    On time
-## 12:24  Ealing Broadway                         14    On time
-## 12:27  Ealing Broadway                         15    On time
-## 12:27  Penzance                                11    On time
-## 12:30  Didcot Parkway                          12    On time
-## 12:35  Newbury                                 3     On time
-## 12:38  Basingstoke                             2     On time
-## 12:41  Ash                                     4     On time
-## 12:52  Ealing Broadway                         14    On time
-## 12:55  Bristol Temple Meads                    9     On time
-## 13:07  Ealing Broadway                         10    On time
-## 13:09  Port Talbot Parkway                     8     On time
-## 13:15  Manchester Piccadilly                   7B    On time
+## 18:18  Great Malvern                           8B    On time
+## 18:22  Ealing Broadway                         14    On time
+## 18:29  Penzance                                10    On time
+## 18:30  Didcot Parkway                          13    On time
+## 18:30  Ealing Broadway                         15    On time
+## 18:38  Basingstoke                             2     On time
+## 18:41  Ash                                     4     On time
+## 18:50  Newbury                                 1     On time
+## 18:52  Ealing Broadway                         14    On time
+## 18:55  Weston-super-Mare                       9     On time
+## 19:08  Ealing Broadway                         10    On time
+## 19:09  Port Talbot Parkway                     8     On time
+## 19:15  Manchester Piccadilly                   7B    On time
 ##        via Coventry & Stoke-on-Trent           
-## 13:18  Worcester Foregate Street               9     On time
-## 13:22  Ealing Broadway                         14    On time
-## 13:27  Ealing Broadway                         15    On time
-## 13:27  Plymouth                                11    On time
-## 13:30  Didcot Parkway                          12    On time
-## 13:35  Bedwyn                                  3     On time
-## 13:38  Basingstoke                             2     On time
-## 13:41  Ash                                     4     On time
-## 13:52  Bournemouth                             7B    On time
-## 13:52  Ealing Broadway                         14    On time
-## 13:55  Bristol Temple Meads                    8     On time
-## 14:07  Ealing Broadway                         10    On time
-## 14:09  Port Talbot Parkway                     9     On time
-## 12:26  Virginia Water                          BUS   On time
-## 12:36  Virginia Water                          BUS   On time
-## 12:56  Virginia Water                          BUS   On time
-## 13:06  Virginia Water                          BUS   On time
-## 13:26  Virginia Water                          BUS   On time
-## 13:36  Virginia Water                          BUS   On time
-## 13:56  Virginia Water                          BUS   On time
-## 14:06  Virginia Water                          BUS   On time
+## 19:20  Hereford                                9B    On time
+## 19:22  Ealing Broadway                         14    On time
+## 19:30  Didcot Parkway                          7     On time
+## 19:30  Ealing Broadway                         15    On time
+## 19:35  Bedwyn                                  3     On time
+## 19:38  Basingstoke                             2     On time
+## 19:41  Ash                                     4     On time
+## 19:52  Bournemouth                             7B    On time
+## 19:52  Ealing Broadway                         14    On time
+## 19:55  Bristol Temple Meads                    8     On time
+## 19:55  Oxford                                  12    On time
+## 18:06  Virginia Water                          BUS   On time
+## 18:26  Virginia Water                          BUS   On time
+## 18:36  Virginia Water                          BUS   On time
+## 18:56  Virginia Water                          BUS   On time
+## 19:06  Virginia Water                          BUS   On time
+## 19:26  Virginia Water                          BUS   On time
+## 19:36  Virginia Water                          BUS   On time
+## 19:56  Virginia Water                          BUS   On time
 ```
