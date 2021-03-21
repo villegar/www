@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-03-20 22:08)
+## Example (Last rendered on 2021-03-21 00:17)
 
 Load `trainR` to your working environment:
 
@@ -82,40 +82,19 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-03-20 22:08:20
+## Reading (RDG) Station Board on 2021-03-21 00:17:46
 ## Time   From                                    Plat  Expected
-## 22:05  Didcot Parkway                          15    On time
-## 22:08  Weston-super-Mare                       10    22:05
-## 22:15  London Paddington                       14    On time
-## 22:16  London Paddington                       8B    On time
-## 22:22  Newbury                                 1     On time
-## 22:28  London Paddington                       9     On time
-## 22:36  Cheltenham Spa                          10A   On time
-## 22:41  Manchester Piccadilly                   8B    On time
-## 22:45  London Paddington                       14    On time
-## 22:46  London Paddington                       12    On time
-## 22:50  London Paddington                       10    On time
-## 22:57  Basingstoke                             2     On time
-## 22:58  London Paddington                       9     On time
-## 23:01  Didcot Parkway                          15    On time
-## 23:04  Hereford                                13A   On time
-## 23:10  Newbury                                 7B    On time
-## 23:15  London Paddington                       10    On time
-## 23:38  London Paddington                       8     On time
-## 23:45  London Paddington                       9     On time
-## 23:46  London Paddington                       7     On time
-## 23:51  Taunton                                 11    On time
-## 00:01  London Paddington                       8     On time
-## 00:06  Basingstoke                             8     On time
-## 22:16  Wokingham                               BUS   On time
-## 22:23  Wokingham                               BUS   On time
-## 22:29  Wokingham                               BUS   On time
-## 23:00  Wokingham                               BUS   On time
-## 23:03  Wokingham                               BUS   On time
-## 23:13  Wokingham                               BUS   On time
-## 23:23  Wokingham                               BUS   On time
-## 23:29  Wokingham                               BUS   On time
-## 00:03  Wokingham                               BUS   On time
+## 00:09  Didcot Parkway                          11    00:05
+## 00:22  London Paddington                       7     On time
+## 00:29  London Paddington                       7     00:43
+## 00:22  Wokingham                               BUS   On time
+## 00:29  Wokingham                               BUS   On time
+## 01:03  Wokingham                               BUS   On time
+## 01:15  Wokingham                               BUS   On time
+## 01:40  Ascot                                   BUS   On time
+## 01:40  Guildford                               BUS   On time
+## 01:46  Ascot                                   BUS   On time
+## 02:12  Ascot                                   BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -127,31 +106,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-03-20 22:08:22
+## Reading (RDG) Station Board on 2021-03-21 00:17:47
 ## Time   To                                      Plat  Expected
-## 22:09  London Paddington                       10    On time
-## 22:10  Newbury                                 1     On time
-## 22:15  Ealing Broadway                         15    On time
-## 22:18  Worcester Shrub Hill                    8B    On time
-## 22:30  Bristol Parkway                         9     On time
-## 22:33  Ealing Broadway                         14    On time
-## 22:39  London Paddington                       10A   On time
-## 22:52  Southampton Central                     8B    On time
-## 23:00  Bristol Parkway                         9     On time
-## 23:01  Ealing Broadway                         14    On time
-## 23:05  Basingstoke                             2     On time
-## 23:05  Didcot Parkway                          12    On time
-## 23:06  London Paddington                       13A   On time
-## 23:10  Newbury                                 1     On time
-## 23:48  Didcot Parkway                          7     On time
-## 23:54  London Paddington                       11    On time
-## 00:02  Bristol Parkway                         8     On time
-## 22:14  Wokingham                               BUS   On time
-## 22:20  Wokingham                               BUS   On time
-## 22:39  Wokingham                               BUS   On time
-## 22:45  Wokingham                               BUS   On time
-## 23:15  Wokingham                               BUS   On time
-## 23:20  Wokingham                               BUS   On time
-## 23:34  Wokingham                               BUS   On time
-## 23:52  Wokingham                               BUS   On time
+## 00:17  Slough                                  11    On time
 ```
