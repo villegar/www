@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-02 00:22)
+## Example (Last rendered on 2021-04-02 03:14)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-02 00:22:45
+## Reading (RDG) Station Board on 2021-04-02 03:14:01
 ## Time   From                                    Plat  Expected
-## 01:31  London Paddington                       13A   On time
-## 01:35  Guildford                               14    On time
-## 02:21  London Paddington                       14    On time
+## 04:21  London Paddington                       13    On time
+## 04:37  Oxford                                  7B    On time
+## 05:35  Didcot Parkway                          14    On time
+## 05:57  Oxford                                  8B    On time
+## 05:59  Newbury                                 1     On time
+## 06:11  Staines                                 6     On time
+## 06:13  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,7 +102,17 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-02 00:22:47
+## Reading (RDG) Station Board on 2021-04-02 03:14:04
 ## Time   To                                      Plat  Expected
-## 02:24  London Paddington                       15A   On time
+## 04:34  London Paddington                       13    On time
+## 05:08  London Paddington                       15A   On time
+## 05:15  Bedwyn                                  7B    On time
+## 05:31  North Camp                              15    On time
+## 05:37  Ealing Broadway                         14    On time
+## 05:42  Staines                                 6     On time
+## 05:49  Didcot Parkway                          13    On time
+## 05:50  Bedwyn                                  12    On time
+## 05:51  Ealing Broadway                         14    On time
+## 06:00  Basingstoke                             8B    On time
+## 06:11  Staines                                 4     On time
 ```
