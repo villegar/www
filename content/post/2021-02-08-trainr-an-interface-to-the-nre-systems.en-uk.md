@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-01 22:30)
+## Example (Last rendered on 2021-04-02 00:22)
 
 Load `trainR` to your working environment:
 
@@ -82,19 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-01 22:30:27
+## Reading (RDG) Station Board on 2021-04-02 00:22:45
 ## Time   From                                    Plat  Expected
-## 23:33  London Paddington                       7     23:29
-## 23:34  Oxford                                  15    On time
-## 23:43  London Paddington                       14    On time
-## 23:46  Didcot Parkway                          8     On time
-## 23:50  Manchester Piccadilly                   7     On time
-## 23:58  London Paddington                       9B    On time
-## 00:11  London Waterloo                         6     On time
-## 00:14  Gatwick Airport                         15B   On time
-## 00:23  London Paddington                       8     On time
-## 00:40  Henley-on-Thames                        13    On time
-## 00:48  London Paddington                       13    On time
+## 01:31  London Paddington                       13A   On time
+## 01:35  Guildford                               14    On time
+## 02:21  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -106,13 +98,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-01 22:30:29
+## Reading (RDG) Station Board on 2021-04-02 00:22:47
 ## Time   To                                      Plat  Expected
-## 23:34  Guildford                               6     On time
-## 23:35  Didcot Parkway                          7     On time
-## 00:08  Oxford                                  9B    On time
-## 00:18  London Paddington                       14A   On time
-## 00:27  Didcot Parkway                          8     On time
-## 00:47  Penzance                                7     On time
-## 01:15  London Paddington                       13A   On time
+## 02:24  London Paddington                       15A   On time
 ```
