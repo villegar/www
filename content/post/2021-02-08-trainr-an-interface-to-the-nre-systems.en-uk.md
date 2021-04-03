@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-03 02:22)
+## Example (Last rendered on 2021-04-03 04:04)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,22 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-03 02:22:41
+## Reading (RDG) Station Board on 2021-04-03 04:04:45
 ## Time   From                                    Plat  Expected
-## 04:00  Penzance                                7     On time
-## 04:23  London Paddington                       12    On time
-## 04:30  Oxford                                  7     On time
+## 06:08  Didcot Parkway                          15    On time
+## 06:11  Staines                                 5     On time
+## 06:13  London Paddington                       14    On time
+## 06:16  London Paddington                       8     On time
+## 06:41  Bristol Temple Meads                    10    On time
+## 06:41  Staines                                 -     Cancelled
+## 06:43  London Paddington                       13    On time
+## 06:49  Swansea                                 11    On time
+## 06:51  London Paddington                       12    On time
+## 06:53  London Paddington                       8     On time
+## 06:54  Bedwyn                                  11    On time
+## 06:55  Oxford                                  10    On time
+## 06:57  Ash                                     5     On time
+## 07:01  Basingstoke                             2     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,9 +109,31 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-03 02:22:43
+## Reading (RDG) Station Board on 2021-04-03 04:04:47
 ## Time   To                                      Plat  Expected
-## 04:13  London Paddington                       12A   On time
-## 04:54  London Paddington                       13    On time
-## 05:08  Bedwyn                                  7B    On time
+## 05:08  Bedwyn                                  15A   On time
+## 05:32  Bedwyn                                  7B    On time
+## 05:37  Ash                                     15    On time
+## 05:42  Staines                                 6     On time
+## 05:52  Basingstoke                             15B   On time
+## 05:54  London Paddington                       14    On time
+## 05:55  Didcot Parkway                          13    On time
+## 06:07  Newbury                                 1     On time
+## 06:12  Staines                                 4     On time
+## 06:14  London Paddington                       15    On time
+## 06:15  Manchester Piccadilly                   12    On time
+##        via Coventry & Stoke-on-Trent           
+## 06:19  Great Malvern                           8     On time
+## 06:22  Ealing Broadway                         14    On time
+## 06:34  Bedwyn                                  7B    On time
+## 06:35  Ash                                     13A   On time
+## 06:42  London Paddington                       10    On time
+## 06:42  London Waterloo                         5     On time
+## 06:50  London Paddington                       11    On time
+## 06:52  Basingstoke                             14B   On time
+## 06:52  Ealing Broadway                         13    On time
+## 06:55  Bristol Temple Meads                    8     On time
+## 06:56  Didcot Parkway                          12    On time
+## 06:56  London Paddington                       10    On time
+## 06:59  London Paddington                       11    On time
 ```
