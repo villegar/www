@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-04 04:07)
+## Example (Last rendered on 2021-04-04 06:09)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,19 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-04 04:07:57
+## Reading (RDG) Station Board on 2021-04-04 06:09:34
+## Time   From                                    Plat  Expected
+## 07:52  London Paddington                       14    On time
+## 07:53  North Camp                              15A   On time
+## 08:02  Staines                                 4     On time
+## 08:30  London Paddington                       14    On time
+## 08:33  Basingstoke                             3     On time
+## 08:34  Staines                                 6     On time
+## 08:45  Basingstoke                             1     On time
+## 08:53  Ash                                     5     On time
+## 09:00  London Paddington                       7     On time
+## 09:02  Staines                                 4     On time
+## 09:03  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,8 +106,22 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-04 04:07:58
+## Reading (RDG) Station Board on 2021-04-04 06:09:36
 ## Time   To                                      Plat  Expected
-## 06:35  Ash                                     5     On time
-## 06:49  London Paddington                       14    On time
+## 07:35  Ash                                     5     On time
+## 07:38  Basingstoke                             13B   On time
+## 07:54  London Waterloo                         6     On time
+## 07:55  London Paddington                       13    On time
+## 08:10  London Paddington                       15    On time
+## 08:10  Newbury                                 12B   On time
+## 08:24  London Waterloo                         4     On time
+## 08:25  London Paddington                       14    On time
+## 08:32  Plymouth                                14    On time
+## 08:33  Bedwyn                                  12    On time
+## 08:38  Basingstoke                             3     On time
+## 08:38  Didcot Parkway                          15    On time
+## 08:42  Ash                                     5     On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:54  London Waterloo                         6     On time
+## 09:02  Swansea                                 7     On time
 ```
