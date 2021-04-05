@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-05 02:25)
+## Example (Last rendered on 2021-04-05 04:04)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,26 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-05 02:25:59
+## Reading (RDG) Station Board on 2021-04-05 04:04:53
 ## Time   From                                    Plat  Expected
-## 04:05  Penzance                                14    On time
-## 04:21  London Paddington                       13    On time
-## 04:37  Didcot Parkway                          13B   On time
+## 05:35  Didcot Parkway                          15    On time
+## 05:57  Oxford                                  8B    On time
+## 05:59  Newbury                                 1     On time
+## 06:05  Southampton Central                     8B    Delayed
+## 06:11  Staines                                 6     On time
+## 06:12  Didcot Parkway                          15    On time
+## 06:13  London Paddington                       14    On time
+## 06:20  London Paddington                       9     On time
+## 06:31  Oxford                                  11    On time
+## 06:41  Staines                                 4     On time
+## 06:42  Bristol Temple Meads                    10    On time
+## 06:43  London Paddington                       13    On time
+## 06:46  Didcot Parkway                          15    On time
+## 06:47  London Paddington                       12    On time
+## 06:51  Bedwyn                                  15    On time
+## 06:51  London Paddington                       8     On time
+## 06:53  Worcester Shrub Hill                    10A   On time
+## 06:55  London Paddington                       9     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,10 +113,35 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-05 02:26:01
+## Reading (RDG) Station Board on 2021-04-05 04:04:55
 ## Time   To                                      Plat  Expected
-## 03:54  London Paddington                       15A   On time
-## 04:34  London Paddington                       13    On time
 ## 05:08  London Paddington                       15    On time
 ## 05:15  Bedwyn                                  13B   On time
+## 05:31  North Camp                              15    On time
+## 05:36  Ealing Broadway                         15    On time
+## 05:42  Staines                                 6     On time
+## 05:49  Didcot Parkway                          13    On time
+## 05:51  Ealing Broadway                         14    On time
+## 05:52  Bedwyn                                  12    On time
+## 06:00  Basingstoke                             8B    On time
+## 06:11  Staines                                 4     On time
+## 06:13  Newbury                                 1     On time
+## 06:15  Manchester Piccadilly                   8B    Delayed
+##        via Coventry & Stoke-on-Trent           
+## 06:18  Ealing Broadway                         15    On time
+## 06:21  Great Malvern                           9     On time
+## 06:22  Ealing Broadway                         14    On time
+## 06:22  Oxford                                  13B   On time
+## 06:30  Ash                                     14    On time
+## 06:36  London Paddington                       11    On time
+## 06:37  Newbury                                 12    On time
+## 06:40  Basingstoke                             14B   On time
+## 06:42  London Waterloo                         6     On time
+## 06:45  London Paddington                       10    On time
+## 06:48  Ealing Broadway                         15    On time
+## 06:52  Ealing Broadway                         13    On time
+## 06:53  Cheltenham Spa                          8     On time
+## 06:54  Didcot Parkway                          12    On time
+## 06:57  Bristol Temple Meads                    9     On time
+## 06:58  London Paddington                       10A   On time
 ```
