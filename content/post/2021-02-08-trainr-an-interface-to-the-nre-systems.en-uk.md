@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-11 04:05)
+## Example (Last rendered on 2021-04-11 06:03)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,16 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-11 04:05:04
+## Reading (RDG) Station Board on 2021-04-11 06:03:33
+## Time   From                                    Plat  Expected
+## 07:34  North Camp                              15    On time
+## 08:02  Ascot                                   4     On time
+## 08:05  North Camp                              5     On time
+## 08:32  Ascot                                   6     On time
+## 08:33  Basingstoke                             2     On time
+## 08:45  Salisbury                               1     On time
+## 08:58  London Paddington                       12    On time
+## 09:02  Ascot                                   4     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,9 +103,22 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-11 04:05:06
+## Reading (RDG) Station Board on 2021-04-11 06:03:35
 ## Time   To                                      Plat  Expected
-## 06:03  North Camp                              4     On time
-## 06:49  London Paddington                       14    On time
-## 06:57  North Camp                              4     On time
+## 07:24  Ascot                                   5     On time
+## 07:38  Basingstoke                             14B   On time
+## 07:41  Ash                                     14    On time
+## 07:51  Ascot                                   6     On time
+## 07:55  London Paddington                       13    On time
+## 08:10  London Paddington                       15    On time
+## 08:10  Newbury                                 12B   On time
+## 08:24  Ascot                                   4     On time
+## 08:25  London Paddington                       14    On time
+## 08:33  Bedwyn                                  12    On time
+## 08:38  Basingstoke                             2     On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:41  Ash                                     5     On time
+## 08:51  Ascot                                   6     On time
+## 08:52  Ealing Broadway                         14    On time
+## 09:00  Swansea                                 12    On time
 ```
