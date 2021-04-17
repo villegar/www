@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-17 04:04)
+## Example (Last rendered on 2021-04-17 06:04)
 
 Load `trainR` to your working environment:
 
@@ -82,21 +82,51 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-17 04:04:13
+## Reading (RDG) Station Board on 2021-04-17 06:04:12
 ## Time   From                                    Plat  Expected
-## 06:08  Didcot Parkway                          15    On time
-## 06:12  London Paddington                       14    On time
-## 06:16  London Paddington                       8     On time
-## 06:41  Bristol Temple Meads                    10    On time
-## 06:43  London Paddington                       13    On time
-## 06:49  Swansea                                 11    On time
-## 06:51  London Paddington                       12    On time
-## 06:53  London Paddington                       8     On time
-## 06:54  Bedwyn                                  11    On time
-## 06:55  Oxford                                  10    On time
-## 07:01  Basingstoke                             2     On time
-## 06:29  Wokingham                               BUS   On time
-## 06:52  Wokingham                               BUS   On time
+## 07:01  Didcot Parkway                          15A   On time
+## 07:08  Southampton Central                     13    On time
+## 07:11  London Paddington                       8     On time
+## 07:13  London Paddington                       14    On time
+## 07:16  Bedwyn                                  11A   On time
+## 07:16  London Paddington                       9B    On time
+## 07:30  London Paddington                       7B    On time
+## 07:38  Newbury                                 1     On time
+## 07:39  Bristol Temple Meads                    10    On time
+## 07:40  Birmingham New Street                   13    On time
+## 07:43  London Paddington                       14    On time
+## 07:44  London Paddington                       12B   On time
+## 07:45  Swansea                                 11    On time
+## 07:53  London Paddington                       8     On time
+## 07:54  Great Malvern                           10    On time
+## 07:56  London Paddington                       9B    On time
+## 07:58  Basingstoke                             2     On time
+## 08:04  Didcot Parkway                          15A   On time
+## 08:11  London Paddington                       9     On time
+## 08:13  London Paddington                       14    On time
+## 08:16  Bedwyn                                  11A   On time
+## 08:16  London Paddington                       9B    On time
+## 08:26  London Paddington                       7     On time
+## 08:30  Cheltenham Spa                          10    On time
+## 08:32  London Paddington                       7B    On time
+## 08:37  Manchester Piccadilly                   8     On time
+## 08:41  Bristol Temple Meads                    11    On time
+## 08:42  Newbury                                 1     On time
+## 08:43  London Paddington                       14    On time
+## 08:44  London Paddington                       12    On time
+## 08:46  Swansea                                 10    On time
+## 08:53  London Paddington                       9     On time
+## 08:54  Hereford                                10    On time
+## 08:57  Basingstoke                             2     On time
+## 08:59  London Paddington                       7     On time
+## 07:09  Wokingham                               BUS   On time
+## 07:29  Wokingham                               BUS   On time
+## 08:02  Wokingham                               BUS   On time
+## 08:09  Wokingham                               BUS   On time
+## 08:25  Wokingham                               BUS   On time
+## 08:31  Wokingham                               BUS   On time
+## 09:02  Wokingham                               BUS   On time
+## 09:03  Wokingham                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -108,32 +138,51 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-17 04:04:15
+## Reading (RDG) Station Board on 2021-04-17 06:04:15
 ## Time   To                                      Plat  Expected
-## 05:08  Bedwyn                                  13B   On time
-## 05:32  Bedwyn                                  7B    On time
-## 05:52  Basingstoke                             12B   On time
-## 05:54  London Paddington                       14    On time
-## 05:55  Didcot Parkway                          13    On time
-## 06:07  Newbury                                 1     On time
-## 06:14  London Paddington                       15    On time
-## 06:15  Manchester Piccadilly                   12    On time
+## 07:10  Newbury                                 7B    On time
+## 07:13  Swansea                                 8     On time
+## 07:14  Ealing Broadway                         15A   On time
+## 07:15  Manchester Piccadilly                   13    On time
 ##        via Coventry & Stoke-on-Trent           
-## 06:19  Great Malvern                           8     On time
-## 06:22  Ealing Broadway                         14    On time
-## 06:34  Bedwyn                                  7B    On time
-## 06:42  London Paddington                       10    On time
-## 06:50  London Paddington                       11    On time
-## 06:52  Basingstoke                             14B   On time
-## 06:52  Ealing Broadway                         13    On time
-## 06:55  Bristol Temple Meads                    8     On time
-## 06:56  Didcot Parkway                          12    On time
-## 06:56  London Paddington                       10    On time
-## 06:59  London Paddington                       11    On time
-## 05:14  Wokingham                               BUS   On time
-## 05:39  Wokingham                               BUS   On time
-## 05:59  Wokingham                               BUS   On time
-## 06:14  Wokingham                               BUS   On time
-## 06:39  Wokingham                               BUS   On time
-## 06:59  Wokingham                               BUS   On time
+## 07:17  London Paddington                       11A   On time
+## 07:20  Great Malvern                           9B    On time
+## 07:22  Ealing Broadway                         14    On time
+## 07:33  Bedwyn                                  7B    On time
+## 07:41  London Paddington                       10    On time
+## 07:47  London Paddington                       11    On time
+## 07:52  Basingstoke                             2     On time
+## 07:52  Ealing Broadway                         14    On time
+## 07:53  Didcot Parkway                          12B   On time
+## 07:55  Bristol Temple Meads                    8     On time
+## 07:56  London Paddington                       10    On time
+## 07:58  Cheltenham Spa                          9B    On time
+## 08:06  Newbury                                 1     On time
+## 08:13  Swansea                                 9     On time
+## 08:15  Ealing Broadway                         15A   On time
+## 08:15  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent           
+## 08:20  Great Malvern                           9B    On time
+## 08:20  London Paddington                       11A   On time
+## 08:22  Ealing Broadway                         14    On time
+## 08:29  Penzance                                7     On time
+## 08:34  Bedwyn                                  7B    On time
+## 08:35  London Paddington                       10    On time
+## 08:43  London Paddington                       11    On time
+## 08:48  London Paddington                       10    On time
+## 08:49  Bournemouth                             8     On time
+## 08:52  Basingstoke                             2     On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:53  Didcot Parkway                          12    On time
+## 08:55  Weston-super-Mare                       9     On time
+## 08:57  London Paddington                       10    On time
+## 09:01  Exeter St Davids                        7     On time
+## 07:14  Wokingham                               BUS   On time
+## 07:39  Wokingham                               BUS   On time
+## 07:49  Wokingham                               BUS   On time
+## 08:14  Wokingham                               BUS   On time
+## 08:20  Wokingham                               BUS   On time
+## 08:39  Wokingham                               BUS   On time
+## 08:45  Wokingham                               BUS   On time
+## 08:49  Wokingham                               BUS   On time
 ```
