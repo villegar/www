@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-18 04:04)
+## Example (Last rendered on 2021-04-18 06:03)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,19 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-18 04:04:46
+## Reading (RDG) Station Board on 2021-04-18 06:04:00
+## Time   From                                    Plat  Expected
+## 07:52  London Paddington                       9     On time
+## 08:47  Salisbury                               1     On time
+## 08:58  London Paddington                       9B    On time
+## 08:59  London Paddington                       14    On time
+## 07:40  Wokingham                               BUS   On time
+## 08:16  Staines                                 BUS   On time
+## 08:22  Staines                                 BUS   On time
+## 08:40  Wokingham                               BUS   On time
+## 08:49  Wokingham                               BUS   On time
+## 08:55  Wokingham                               BUS   On time
+## 09:00  Basingstoke                             BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,9 +106,25 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-18 04:04:48
+## Reading (RDG) Station Board on 2021-04-18 06:04:02
 ## Time   To                                      Plat  Expected
-## 06:49  London Paddington                       10    On time
-## 05:15  Guildford                               BUS   On time
-## 06:48  Wokingham                               BUS   On time
+## 08:00  London Paddington                       10    On time
+## 08:10  Newbury                                 1     On time
+## 08:10  Slough                                  15    On time
+## 08:30  London Paddington                       9     On time
+## 08:33  Bedwyn                                  12B   On time
+## 08:38  Basingstoke                             12B   On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:57  Ealing Broadway                         13    On time
+## 09:00  Swansea                                 9B    On time
+## 07:20  Basingstoke                             BUS   On time
+## 07:20  Wokingham                               BUS   On time
+## 07:25  Wokingham                               BUS   On time
+## 07:48  Wokingham                               BUS   On time
+## 08:00  Wokingham                               BUS   On time
+## 08:05  Wokingham                               BUS   On time
+## 08:20  Wokingham                               BUS   On time
+## 08:25  Wokingham                               BUS   On time
+## 08:48  Wokingham                               BUS   On time
+## 09:00  Wokingham                               BUS   On time
 ```
