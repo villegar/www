@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-17 22:03)
+## Example (Last rendered on 2021-04-18 00:07)
 
 Load `trainR` to your working environment:
 
@@ -82,28 +82,14 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-17 22:03:56
+## Reading (RDG) Station Board on 2021-04-18 00:07:55
 ## Time   From                                    Plat  Expected
-## 22:44  London Paddington                       12B   On time
-## 23:04  Hereford                                13A   On time
-## 23:10  Newbury                                 8     On time
-## 23:15  London Paddington                       10    On time
-## 23:38  London Paddington                       7     On time
-## 23:45  London Paddington                       10    On time
-## 23:46  London Paddington                       8B    On time
-## 23:54  Taunton                                 10    On time
-## 23:55  London Paddington                       9     On time
-## 00:06  Basingstoke                             7     On time
-## 00:08  Didcot Parkway                          8A    On time
-## 00:10  Newbury                                 1     On time
-## 00:23  London Paddington                       8     On time
-## 00:29  London Paddington                       7     On time
-## 23:09  Wokingham                               BUS   On time
-## 23:29  Wokingham                               BUS   On time
-## 00:09  Wokingham                               BUS   On time
-## 00:22  Wokingham                               BUS   On time
-## 00:34  Wokingham                               BUS   On time
-## 00:40  Wokingham                               BUS   On time
+## 01:09  Ascot                                   BUS   On time
+## 01:17  Ascot                                   BUS   On time
+## 01:36  Ascot                                   BUS   On time
+## 01:44  Ascot                                   BUS   On time
+## 02:05  Ascot                                   BUS   On time
+## 02:13  Ascot                                   BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -115,17 +101,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-17 22:03:58
-## Time   To                                      Plat  Expected
-## 23:05  Basingstoke                             2     On time
-## 23:05  Didcot Parkway                          12B   On time
-## 23:06  London Paddington                       13A   On time
-## 23:10  Newbury                                 1     On time
-## 23:48  Didcot Parkway                          8B    On time
-## 23:57  London Paddington                       10    On time
-## 00:02  Bristol Parkway                         9     On time
-## 00:17  London Paddington                       8A    On time
-## 23:11  Wokingham                               BUS   On time
-## 23:34  Wokingham                               BUS   On time
-## 23:39  Wokingham                               BUS   On time
+## Reading (RDG) Station Board on 2021-04-18 00:07:57
 ```
