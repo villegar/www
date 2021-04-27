@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-27 20:03)
+## Example (Last rendered on 2021-04-27 22:06)
 
 Load `trainR` to your working environment:
 
@@ -82,47 +82,25 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-27 20:03:24
+## Reading (RDG) Station Board on 2021-04-27 22:06:03
 ## Time   From                                    Plat  Expected
-## 20:58  Penzance                                11    21:00
-## 21:02  Basingstoke                             1     On time
-## 21:03  Didcot Parkway                          15    21:00
-## 21:07  Bournemouth                             7     On time
-## 21:10  London Waterloo                         4     On time
-## 21:11  London Paddington                       8     On time
-## 21:13  London Paddington                       14    On time
-## 21:14  London Paddington                       12    On time
-## 21:16  London Paddington                       8B    On time
-## 21:21  Bedwyn                                  11A   On time
-## 21:25  London Paddington                       9     On time
-## 21:27  London Paddington                       7     On time
-## 21:30  Guildford                               15    On time
-## 21:33  Cheltenham Spa                          10A   On time
-## 21:38  Newbury                                 2     On time
-## 21:40  London Waterloo                         6     On time
-## 21:41  Manchester Piccadilly                   7     On time
-## 21:43  London Paddington                       13    On time
-## 21:44  Swansea                                 10    On time
-## 21:53  Great Malvern                           10A   On time
-## 21:56  Basingstoke                             8B    On time
-## 22:07  Didcot Parkway                          15    On time
-## 22:08  Bristol Temple Meads                    10    On time
-## 22:10  London Waterloo                         4     On time
-## 22:11  London Paddington                       9     On time
-## 22:13  London Paddington                       14    On time
-## 22:13  Newbury                                 1     On time
-## 22:14  London Paddington                       13    On time
-## 22:16  London Paddington                       9     On time
-## 22:20  Bedwyn                                  11    On time
-## 22:24  London Paddington                       9     On time
-## 22:30  Cheltenham Spa                          11    On time
-## 22:40  London Waterloo                         6     On time
-## 22:41  Manchester Piccadilly                   7B    On time
-## 22:43  London Paddington                       14    On time
-## 22:44  London Paddington                       8     On time
-## 22:48  Banbury                                 8     On time
-## 22:50  Salisbury                               3     On time
-## 22:57  Worcester Foregate Street               7     On time
+## 23:06  Basingstoke                             7     23:03
+## 23:10  Penzance                                10    23:12
+## 23:13  London Paddington                       13    On time
+## 23:15  Gatwick Airport                         -     Cancelled
+## 23:15  London Paddington                       14    On time
+## 23:15  London Waterloo                         6     On time
+## 23:20  Newbury                                 15A   On time
+## 23:31  London Paddington                       8     On time
+## 23:37  Oxford                                  3     On time
+## 23:43  London Paddington                       14    On time
+## 23:46  Didcot Parkway                          8     On time
+## 23:50  Manchester Piccadilly                   7     On time
+## 00:01  London Paddington                       8B    On time
+## 00:11  London Waterloo                         6     On time
+## 00:14  Gatwick Airport                         15B   On time
+## 00:23  London Paddington                       8     On time
+## 00:48  London Paddington                       13    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -134,45 +112,15 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-27 20:03:26
+## Reading (RDG) Station Board on 2021-04-27 22:06:05
 ## Time   To                                      Plat  Expected
-## 21:01  Gatwick Airport                         6     On time
-##        via Guildford                           
-## 21:05  London Paddington                       11    On time
-## 21:08  Ealing Broadway                         15    On time
-## 21:10  Newbury                                 2     On time
-## 21:12  London Waterloo                         5     On time
-## 21:13  Birmingham New Street                   7     On time
-##        via Coventry                            
-## 21:13  Swansea                                 8     On time
-## 21:18  Great Malvern                           8B    On time
-## 21:22  Ealing Broadway                         14    On time
-## 21:23  Didcot Parkway                          12    On time
-## 21:23  London Paddington                       11A   On time
-## 21:27  Bristol Temple Meads                    9     On time
-## 21:29  Plymouth                                7     On time
-## 21:40  London Paddington                       10A   On time
-## 21:42  London Waterloo                         4     On time
-## 21:46  London Paddington                       10    On time
-## 21:52  Bournemouth                             7     On time
-## 21:52  Ealing Broadway                         13    On time
-## 21:56  London Paddington                       10A   On time
-## 21:59  Oxford                                  8B    On time
-## 22:05  Basingstoke                             1     On time
-## 22:10  London Paddington                       10    On time
-## 22:10  Newbury                                 2     On time
-## 22:12  London Waterloo                         6     On time
-## 22:13  Swansea                                 9     On time
-## 22:15  Ealing Broadway                         15    On time
-## 22:18  Worcester Shrub Hill                    9     On time
-## 22:21  London Paddington                       11    On time
-## 22:22  Ealing Broadway                         14    On time
-## 22:25  Exeter St Davids                        9     On time
-##        via Bristol                             
-## 22:35  London Paddington                       11    On time
-## 22:46  Didcot Parkway                          8     On time
-## 22:48  Ealing Broadway                         13    On time
-## 22:49  Southampton Central                     7B    On time
-## 22:52  Ealing Broadway                         14    On time
-## 22:59  London Paddington                       7     On time
+## 23:12  Ascot                                   6     On time
+## 23:19  London Paddington                       10    On time
+## 23:22  Ealing Broadway                         15A   On time
+## 23:32  Didcot Parkway                          8     On time
+## 23:34  Redhill                                 14A   On time
+## 00:10  Oxford                                  8B    On time
+## 00:18  London Paddington                       14    On time
+## 00:27  Didcot Parkway                          8     On time
+## 00:48  Penzance                                7     On time
 ```
