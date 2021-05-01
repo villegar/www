@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-04-30 22:12)
+## Example (Last rendered on 2021-05-01 00:31)
 
 Load `trainR` to your working environment:
 
@@ -82,25 +82,9 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-30 22:12:33
+## Reading (RDG) Station Board on 2021-05-01 00:31:01
 ## Time   From                                    Plat  Expected
-## 23:10  Penzance                                10    On time
-## 23:13  London Paddington                       13    23:05
-## 23:15  Gatwick Airport                         15    On time
-## 23:15  London Paddington                       14    On time
-## 23:15  London Waterloo                         5     On time
-## 23:20  Newbury                                 15A   23:33
-## 23:31  London Paddington                       13B   On time
-## 23:34  Oxford                                  15    On time
-## 23:43  London Paddington                       10    On time
-## 23:46  Didcot Parkway                          15    On time
-## 23:50  Manchester Piccadilly                   7     On time
-## 00:01  London Paddington                       12B   On time
-## 00:11  London Waterloo                         6     On time
-## 00:14  Gatwick Airport                         15B   On time
-## 00:25  London Paddington                       13B   On time
-## 00:41  Henley-on-Thames                        8     On time
-## 00:48  London Paddington                       9     On time
+## 02:22  London Paddington                       8     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -112,15 +96,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-04-30 22:12:34
-## Time   To                                      Plat  Expected
-## 23:12  Ascot                                   6     On time
-## 23:19  London Paddington                       10    On time
-## 23:22  Ealing Broadway                         15A   23:34
-## 23:32  Didcot Parkway                          13B   On time
-## 23:34  Redhill                                 14A   On time
-## 00:08  Oxford                                  12B   On time
-## 00:18  London Paddington                       14A   On time
-## 00:27  Didcot Parkway                          13B   On time
-## 00:49  Penzance                                7     On time
+## Reading (RDG) Station Board on 2021-05-01 00:31:03
 ```
