@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-05-09 04:09)
+## Example (Last rendered on 2021-05-09 06:09)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,19 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-09 04:09:55
+## Reading (RDG) Station Board on 2021-05-09 06:09:20
+## Time   From                                    Plat  Expected
+## 07:33  Gatwick Airport                         5     On time
+## 08:02  Staines                                 4     On time
+## 08:08  London Paddington                       14    On time
+## 08:22  London Paddington                       9     On time
+## 08:23  London Paddington                       -     Cancelled
+## 08:33  Basingstoke                             2     On time
+## 08:35  London Waterloo                         6     On time
+## 08:45  Salisbury                               1     On time
+## 08:58  London Paddington                       7     On time
+## 09:01  London Paddington                       -     Cancelled
+## 09:05  London Waterloo                         4     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,11 +106,27 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-09 04:09:56
+## Reading (RDG) Station Board on 2021-05-09 06:09:22
 ## Time   To                                      Plat  Expected
-## 06:03  Gatwick Airport                         5     On time
+## 07:38  Basingstoke                             13B   On time
+## 07:39  Redhill                                 15    On time
+## 07:54  London Waterloo                         6     On time
+## 07:55  London Paddington                       12    On time
+## 08:10  London Paddington                       10    On time
+## 08:10  Slough                                  15A   On time
+## 08:21  Gatwick Airport                         5     On time
 ##        via Guildford                           
-## 06:57  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 06:58  London Paddington                       14    On time
+## 08:23  Didcot Parkway                          9     On time
+## 08:24  London Waterloo                         4     On time
+## 08:24  Plymouth                                -     Cancelled
+## 08:25  London Paddington                       14    On time
+## 08:38  Basingstoke                             2     On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:39  Redhill                                 15    On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:54  London Waterloo                         6     On time
+## 09:00  Penzance                                7     On time
+## 09:04  Swansea                                 -     Cancelled
+## 07:45  Newbury                                 BUS   On time
+## 08:33  Bedwyn                                  BUS   On time
 ```
