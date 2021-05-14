@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-05-13 22:11)
+## Example (Last rendered on 2021-05-14 00:32)
 
 Load `trainR` to your working environment:
 
@@ -82,24 +82,9 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-13 22:11:38
+## Reading (RDG) Station Board on 2021-05-14 00:32:29
 ## Time   From                                    Plat  Expected
-## 23:10  Penzance                                -     Cancelled
-## 23:13  London Paddington                       13    23:06
-## 23:15  Gatwick Airport                         15B   On time
-## 23:15  London Waterloo                         6     23:21
-## 23:17  London Paddington                       15A   On time
-## 23:20  Newbury                                 7A    On time
-## 23:31  London Paddington                       13    On time
-## 23:33  Oxford                                  15    On time
-## 23:46  Didcot Parkway                          15    On time
-## 23:50  Manchester Piccadilly                   7     On time
-## 23:58  London Paddington                       8B    On time
-## 00:11  London Waterloo                         6     On time
-## 00:14  Gatwick Airport                         -     Cancelled
-## 00:23  London Paddington                       13    On time
-## 00:40  Worcester Foregate Street               -     On time
-## 00:49  London Paddington                       13    On time
+## 02:21  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -111,15 +96,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-13 22:11:39
+## Reading (RDG) Station Board on 2021-05-14 00:32:31
 ## Time   To                                      Plat  Expected
-## 23:12  Ascot                                   6     On time
-## 23:19  London Paddington                       -     Cancelled
-## 23:22  Ealing Broadway                         7A    On time
-## 23:32  Didcot Parkway                          13    On time
-## 23:34  Redhill                                 5     On time
-## 00:08  Oxford                                  8B    On time
-## 00:18  London Paddington                       14    On time
-## 00:27  Didcot Parkway                          13    On time
-## 00:49  Penzance                                7     On time
+## 02:24  London Paddington                       15    On time
 ```
