@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-05-16 04:21)
+## Example (Last rendered on 2021-05-16 06:11)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,21 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-16 04:21:24
+## Reading (RDG) Station Board on 2021-05-16 06:11:40
+## Time   From                                    Plat  Expected
+## 07:42  Ash                                     4     On time
+## 07:51  Southall                                14    On time
+## 08:30  London Paddington                       12    On time
+## 08:33  Basingstoke                             2     On time
+## 08:45  Salisbury                               1     On time
+## 08:58  London Paddington                       12    On time
+## 09:06  Ash                                     6     On time
+## 09:10  Didcot Parkway                          15    On time
+## 08:02  Staines                                 BUS   On time
+## 08:40  Staines                                 BUS   On time
+## 08:54  Staines                                 BUS   On time
+## 08:55  Staines                                 BUS   On time
+## 09:09  Staines                                 BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,10 +108,29 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-16 04:21:25
+## Reading (RDG) Station Board on 2021-05-16 06:11:42
 ## Time   To                                      Plat  Expected
-## 06:03  Ash                                     5     On time
 ## 07:12  London Paddington                       14    On time
-## 06:55  Staines                                 BUS   On time
+## 07:38  Basingstoke                             12B   On time
+## 07:39  Ash                                     5     On time
+## 07:55  London Paddington                       13    On time
+## 08:10  London Paddington                       15    On time
+## 08:10  Newbury                                 12B   On time
+## 08:25  London Paddington                       14    On time
+## 08:31  Exeter St Davids                        12    On time
+## 08:34  Bedwyn                                  13    On time
+## 08:38  Basingstoke                             2     On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:40  Ash                                     15    On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:59  Swansea                                 12    On time
+## 09:10  Ealing Broadway                         15    On time
 ## 07:15  Staines                                 BUS   On time
+## 07:30  Staines                                 BUS   On time
+## 07:50  Staines                                 BUS   On time
+## 07:55  Staines                                 BUS   On time
+## 08:15  Staines                                 BUS   On time
+## 08:30  Staines                                 BUS   On time
+## 08:50  Staines                                 BUS   On time
+## 08:55  Staines                                 BUS   On time
 ```
