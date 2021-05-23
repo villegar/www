@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-05-23 04:26)
+## Example (Last rendered on 2021-05-23 06:12)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,20 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-23 04:26:11
+## Reading (RDG) Station Board on 2021-05-23 06:12:33
+## Time   From                                    Plat  Expected
+## 08:14  Ealing Broadway                         14    On time
+## 08:30  London Paddington                       9     On time
+## 08:59  London Paddington                       9B    On time
+## 09:10  Didcot Parkway                          15    On time
+## 07:27  Guildford                               BUS   On time
+## 08:07  Ascot                                   BUS   On time
+## 08:21  Ascot                                   BUS   On time
+## 08:27  Guildford                               BUS   On time
+## 08:37  Ascot                                   BUS   On time
+## 08:51  Ascot                                   BUS   On time
+## 09:00  Basingstoke                             BUS   On time
+## 09:07  Ascot                                   BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,11 +107,30 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-23 04:26:12
+## Reading (RDG) Station Board on 2021-05-23 06:12:34
 ## Time   To                                      Plat  Expected
 ## 07:12  London Paddington                       -     Cancelled
-## 05:51  Guildford                               BUS   On time
-## 07:08  Guildford                               BUS   On time
+## 07:59  London Paddington                       9     On time
+## 08:10  London Paddington                       15    On time
+## 08:10  Newbury                                 12B   On time
+## 08:30  London Paddington                       14    On time
+## 08:31  Exeter St Davids                        9     On time
+## 08:34  Bedwyn                                  15B   On time
+## 08:38  Basingstoke                             12B   On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:55  Ealing Broadway                         13    On time
+## 09:00  Swansea                                 9B    On time
+## 09:10  Ealing Broadway                         15    On time
 ## 07:15  Ascot                                   BUS   On time
 ## 07:20  Basingstoke                             BUS   On time
+## 07:30  Ascot                                   BUS   On time
+## 07:45  Ascot                                   BUS   On time
+## 07:46  Guildford                               BUS   On time
+## 08:00  Ascot                                   BUS   On time
+## 08:15  Ascot                                   BUS   On time
+## 08:30  Ascot                                   BUS   On time
+## 08:35  Guildford                               BUS   On time
+## 08:45  Ascot                                   BUS   On time
+## 09:00  Ascot                                   BUS   On time
+## 09:08  Guildford                               BUS   On time
 ```
