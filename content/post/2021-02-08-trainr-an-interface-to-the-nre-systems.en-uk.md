@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-05-23 12:13)
+## Example (Last rendered on 2021-05-23 14:09)
 
 Load `trainR` to your working environment:
 
@@ -82,53 +82,53 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-23 12:13:17
+## Reading (RDG) Station Board on 2021-05-23 14:09:09
 ## Time   From                                    Plat  Expected
-## 13:06  Bournemouth                             8     On time
-## 13:09  Weston-super-Mare                       10    On time
-## 13:10  Didcot Parkway                          15    On time
-## 13:12  London Paddington                       7B    13:08
-## 13:15  London Paddington                       13    13:12
-## 13:16  London Paddington                       14    13:08
-## 13:17  Bedwyn                                  1     13:20
-## 13:25  Paignton                                10    13:28
-## 13:26  London Paddington                       7     On time
-## 13:33  Basingstoke                             2     On time
-## 13:39  Manchester Piccadilly                   7     On time
-## 13:40  Bristol Temple Meads                    11    13:46
-## 13:45  London Paddington                       14    On time
-## 13:45  Port Talbot Parkway                     10    On time
-## 13:53  London Paddington                       9     On time
-## 13:55  Worcester Shrub Hill                    10    On time
-## 13:58  Penzance                                11    On time
-## 14:01  London Paddington                       9     On time
-## 14:06  London Paddington                       8     On time
-## 14:09  Bristol Temple Meads                    10    On time
-## 14:10  Didcot Parkway                          13    On time
-## 14:16  London Paddington                       14    On time
-## 14:17  London Paddington                       13    On time
-## 14:19  Newbury                                 1     On time
-## 14:26  London Paddington                       7     On time
-## 14:33  Basingstoke                             2     On time
-## 14:41  Manchester Piccadilly                   13    On time
-## 14:45  Swansea                                 10    On time
-## 14:46  London Paddington                       14    On time
-## 14:53  London Paddington                       9     On time
-## 14:57  Penzance                                11    On time
-## 14:58  Worcester Foregate Street               10A   On time
-## 14:59  London Paddington                       7     On time
-## 15:01  London Paddington                       9     On time
-## 13:18  Guildford                               BUS   On time
-## 13:21  Ascot                                   BUS   On time
-## 13:37  Ascot                                   BUS   On time
-## 13:51  Ascot                                   BUS   On time
-## 14:02  Guildford                               BUS   On time
-## 14:07  Ascot                                   BUS   On time
-## 14:21  Ascot                                   BUS   On time
-## 14:37  Ascot                                   BUS   On time
-## 14:45  Guildford                               BUS   On time
-## 14:51  Ascot                                   BUS   On time
-## 15:07  Ascot                                   BUS   On time
+## 15:01  London Paddington                       9     15:07
+## 15:07  Bournemouth                             8     On time
+## 15:09  Weston-super-Mare                       11A   On time
+## 15:12  London Paddington                       9     On time
+## 15:13  Didcot Parkway                          15    On time
+## 15:15  London Paddington                       12    On time
+## 15:16  London Paddington                       14    On time
+## 15:19  Bedwyn                                  3     On time
+## 15:25  London Paddington                       7     On time
+## 15:33  Basingstoke                             2     On time
+## 15:39  Manchester Piccadilly                   7     On time
+## 15:40  Bristol Temple Meads                    10    On time
+## 15:46  London Paddington                       14    On time
+## 15:46  Swansea                                 11    On time
+## 15:53  London Paddington                       9     On time
+## 15:55  Worcester Shrub Hill                    10    On time
+## 15:58  Exeter St Davids                        11    On time
+## 16:01  London Paddington                       9     On time
+## 16:07  London Paddington                       8     On time
+## 16:09  Bristol Temple Meads                    10    On time
+## 16:12  Newbury                                 3     On time
+## 16:13  Didcot Parkway                          15    On time
+## 16:15  London Paddington                       12    On time
+## 16:16  London Paddington                       14    On time
+## 16:23  London Paddington                       9     On time
+## 16:26  London Paddington                       7     On time
+## 16:33  Basingstoke                             2     On time
+## 16:39  Manchester Piccadilly                   13    On time
+## 16:46  London Paddington                       14    On time
+## 16:47  Swansea                                 10    On time
+## 16:52  London Paddington                       9     On time
+## 16:58  London Paddington                       7     On time
+## 16:58  Penzance                                11    On time
+## 16:58  Worcester Foregate Street               10    On time
+## 15:18  Guildford                               BUS   On time
+## 15:21  Ascot                                   BUS   On time
+## 15:37  Ascot                                   BUS   On time
+## 15:51  Ascot                                   BUS   On time
+## 16:02  Guildford                               BUS   On time
+## 16:07  Ascot                                   BUS   On time
+## 16:21  Ascot                                   BUS   On time
+## 16:37  Ascot                                   BUS   On time
+## 16:45  Guildford                               BUS   On time
+## 16:51  Ascot                                   BUS   On time
+## 17:07  Ascot                                   BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -140,53 +140,55 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-05-23 12:13:21
+## Reading (RDG) Station Board on 2021-05-23 14:09:12
 ## Time   To                                      Plat  Expected
-## 13:12  Ealing Broadway                         15    On time
-## 13:13  London Paddington                       10    On time
-## 13:14  Worcester Foregate Street               7B    On time
-## 13:15  Manchester Piccadilly                   8     On time
-##        via Coventry & Stoke-on-Trent           
-## 13:26  Didcot Parkway                          13    On time
-## 13:27  Plymouth                                7     On time
-## 13:30  Ealing Broadway                         14    On time
-## 13:38  Basingstoke                             2     On time
-## 13:38  London Paddington                       10    On time
-## 13:42  London Paddington                       11    13:47
-## 13:44  Bedwyn                                  1     On time
-## 13:48  London Paddington                       10    On time
-## 13:52  Bournemouth                             7     On time
-## 13:54  Bristol Temple Meads                    9     On time
-## 13:58  London Paddington                       11    On time
-## 14:00  Ealing Broadway                         14    On time
-## 14:00  London Paddington                       10    On time
-## 14:09  Carmarthen                              9     On time
-## 14:12  Ealing Broadway                         13    On time
-## 14:13  Worcester Foregate Street               8     On time
-## 14:15  London Paddington                       10    On time
-## 14:15  Manchester Piccadilly                   12    On time
-##        via Coventry & Stoke-on-Trent           
-## 14:25  Didcot Parkway                          13    On time
-## 14:27  Penzance                                7     On time
-## 14:30  Ealing Broadway                         14    On time
-## 14:38  Basingstoke                             2     On time
-## 14:44  Newbury                                 1     On time
-## 14:48  London Paddington                       10    On time
-## 14:54  Bristol Temple Meads                    9     On time
-## 14:57  London Paddington                       11    On time
-## 15:00  Ealing Broadway                         14    On time
-## 15:00  London Paddington                       10A   On time
-## 15:03  Exeter St Davids                        7     On time
 ## 15:09  Swansea                                 9     On time
-## 13:15  Ascot                                   BUS   On time
-## 13:30  Ascot                                   BUS   On time
-## 13:45  Ascot                                   BUS   On time
-## 13:46  Guildford                               BUS   On time
-## 14:00  Ascot                                   BUS   On time
-## 14:15  Ascot                                   BUS   On time
-## 14:30  Ascot                                   BUS   On time
-## 14:35  Guildford                               BUS   On time
-## 14:45  Ascot                                   BUS   On time
-## 15:00  Ascot                                   BUS   On time
+## 15:14  Ealing Broadway                         15    On time
+## 15:14  Worcester Foregate Street               9     On time
+## 15:15  London Paddington                       11A   On time
+## 15:15  Manchester Piccadilly                   8     On time
+##        via Coventry & Stoke-on-Trent           
+## 15:25  Didcot Parkway                          12    On time
+## 15:28  Plymouth                                7     On time
+## 15:30  Ealing Broadway                         14    On time
+## 15:38  Basingstoke                             2     On time
+## 15:43  London Paddington                       10    On time
+## 15:44  Bedwyn                                  3     On time
+## 15:48  London Paddington                       11    On time
+## 15:52  Bournemouth                             7     On time
+## 15:55  Taunton                                 9     On time
+## 15:58  London Paddington                       11    On time
+## 15:59  London Paddington                       10    On time
+## 16:00  Ealing Broadway                         14    On time
+## 16:09  Swansea                                 9     On time
+## 16:14  Ealing Broadway                         15    On time
+## 16:14  London Paddington                       10    On time
+## 16:15  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent           
+## 16:15  Worcester Foregate Street               8     On time
+## 16:24  Bristol Temple Meads                    9     On time
+## 16:25  Didcot Parkway                          12    On time
+## 16:27  Penzance                                7     On time
+## 16:30  Ealing Broadway                         14    On time
+## 16:38  Basingstoke                             2     On time
+## 16:44  Newbury                                 3     On time
+## 16:48  London Paddington                       10    On time
+## 16:53  Plymouth                                9     On time
+##        via Bristol                             
+## 16:59  London Paddington                       11    On time
+## 17:00  Ealing Broadway                         14    On time
+## 17:00  London Paddington                       10    On time
+## 17:02  Plymouth                                7     On time
 ## 15:08  Guildford                               BUS   On time
+## 15:15  Ascot                                   BUS   On time
+## 15:30  Ascot                                   BUS   On time
+## 15:45  Ascot                                   BUS   On time
+## 15:46  Guildford                               BUS   On time
+## 16:00  Ascot                                   BUS   On time
+## 16:15  Ascot                                   BUS   On time
+## 16:30  Ascot                                   BUS   On time
+## 16:35  Guildford                               BUS   On time
+## 16:45  Ascot                                   BUS   On time
+## 17:00  Ascot                                   BUS   On time
+## 17:08  Guildford                               BUS   On time
 ```
