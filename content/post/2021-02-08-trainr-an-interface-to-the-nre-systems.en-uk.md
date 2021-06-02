@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-06-01 22:51)
+## Example (Last rendered on 2021-06-02 01:37)
 
 Load `trainR` to your working environment:
 
@@ -82,27 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-01 22:51:44
+## Reading (RDG) Station Board on 2021-06-02 01:38:00
 ## Time   From                                    Plat  Expected
-## 23:19  Penzance                                14    23:53
-## 23:57  London Paddington                       12    On time
-## 00:03  London Paddington                       13    On time
-## 00:11  London Waterloo                         5     On time
-## 00:16  Gatwick Airport                         15B   On time
-## 00:26  London Paddington                       13    On time
-## 00:31  Basingstoke                             13B   On time
-## 00:40  Henley-on-Thames                        14    On time
-## 00:41  London Waterloo                         6     On time
-## 00:41  Moreton-in-Marsh                        13    On time
-## 00:44  Gatwick Airport                         15    On time
-## 00:48  London Paddington                       13    On time
-## 01:11  London Paddington                       12B   On time
-## 01:31  London Paddington                       13    On time
-## 00:03  Heathrow Central Bus Stn                BUS   On time
-## 00:05  Bedwyn                                  BUS   On time
-## 00:28  Newbury                                 BUS   On time
-## 01:03  Bedwyn                                  BUS   On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 03:54  Penzance                                14    On time
+## 04:21  London Paddington                       -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -114,17 +97,11 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-01 22:51:47
+## Reading (RDG) Station Board on 2021-06-02 01:38:03
 ## Time   To                                      Plat  Expected
-## 23:22  London Paddington                       14    23:54
-## 23:52  Ascot                                   5     On time
-## 00:05  Bristol Temple Meads                    13    On time
-## 00:08  Oxford                                  12    On time
-## 00:18  London Paddington                       14    On time
-## 00:29  Didcot Parkway                          13    On time
-## 00:43  London Paddington                       13    On time
-## 00:49  Penzance                                12    On time
-## 01:14  Oxford                                  12B   On time
-## 01:15  London Paddington                       13    On time
-## 00:20  Newbury                                 BUS   On time
+## 03:54  London Paddington                       -     On time
+## 04:31  Gatwick Airport                         -     On time
+##        via Guildford                           
+## 04:34  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
