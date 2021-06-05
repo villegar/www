@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-06-05 00:52)
+## Example (Last rendered on 2021-06-05 03:32)
 
 Load `trainR` to your working environment:
 
@@ -82,10 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-05 00:52:20
+## Reading (RDG) Station Board on 2021-06-05 03:32:16
 ## Time   From                                    Plat  Expected
-## 02:21  London Paddington                       14    On time
-## 02:25  Virginia Water                          BUS   On time
+## 05:48  London Paddington                       9     On time
+## 06:11  Didcot Parkway                          15    On time
+## 06:13  London Paddington                       14    On time
+## 06:17  London Paddington                       8     On time
+## 06:17  Oxford                                  10    On time
+## 06:03  Heathrow Central Bus Stn                -     On time
+## 06:24  Staines                                 BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -97,5 +102,29 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-05 00:52:22
+## Reading (RDG) Station Board on 2021-06-05 03:32:18
+## Time   To                                      Plat  Expected
+## 04:54  London Paddington                       12    On time
+## 05:08  Bedwyn                                  13B   On time
+## 05:21  Redhill                                 14A   On time
+## 05:32  Newbury                                 7     On time
+## 05:43  Basingstoke                             2     On time
+## 05:50  Oxford                                  9     On time
+## 05:52  London Paddington                       14    On time
+## 05:59  Gatwick Airport                         15    On time
+##        via Guildford                           
+## 06:12  Newbury                                 7     On time
+## 06:14  London Paddington                       15    On time
+## 06:15  Manchester Piccadilly                   12    On time
+##        via Coventry & Stoke-on-Trent           
+## 06:19  Great Malvern                           8     On time
+## 06:19  Redhill                                 15A   On time
+## 06:20  London Paddington                       10    On time
+## 06:22  Ealing Broadway                         14    On time
+## 04:51  Virginia Water                          BUS   On time
+## 05:00  Heathrow Central Bus Stn                BUS   On time
+## 05:21  Virginia Water                          BUS   On time
+## 05:51  Virginia Water                          BUS   On time
+## 06:00  Heathrow Central Bus Stn                BUS   On time
+## 06:21  Virginia Water                          BUS   On time
 ```
