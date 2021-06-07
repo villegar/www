@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-06-06 22:18)
+## Example (Last rendered on 2021-06-07 00:44)
 
 Load `trainR` to your working environment:
 
@@ -82,26 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-06 22:18:21
+## Reading (RDG) Station Board on 2021-06-07 00:44:44
 ## Time   From                                    Plat  Expected
-## 23:13  London Paddington                       12    23:22
-## 23:17  Bedwyn                                  14    23:23
-## 23:26  London Paddington                       9     On time
-## 23:34  Plymouth                                10    On time
-## 23:46  Newbury                                 1     On time
-## 23:47  London Paddington                       12    On time
-## 00:13  London Paddington                       8B    On time
-## 00:17  London Paddington                       9     On time
-## 00:19  Didcot Parkway                          15    On time
-## 00:50  Didcot Parkway                          11A   On time
-## 00:52  London Paddington                       13    On time
-## 00:54  Guildford                               15    On time
-## 23:46  Virginia Water                          BUS   On time
-## 00:03  Heathrow Central Bus Stn                BUS   On time
-## 00:17  Virginia Water                          BUS   On time
-## 00:46  Virginia Water                          BUS   On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
-## 01:16  Virginia Water                          BUS   On time
+## 02:22  London Paddington                       13    On time
+## 01:46  Virginia Water                          BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -113,14 +97,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-06 22:18:22
+## Reading (RDG) Station Board on 2021-06-07 00:44:46
 ## Time   To                                      Plat  Expected
-## 23:20  Didcot Parkway                          12    23:23
-## 23:35  Bristol Temple Meads                    9     On time
-## 23:37  London Paddington                       10    On time
-## 00:19  Bristol Temple Meads                    9     On time
-## 00:24  Didcot Parkway                          8B    On time
-## 00:24  Ealing Broadway                         15    On time
-## 00:51  Penzance                                7     On time
-## 00:54  London Paddington                       11A   On time
+## 02:24  London Paddington                       11A   On time
 ```
