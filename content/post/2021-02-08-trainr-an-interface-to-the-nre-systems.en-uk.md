@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-06-07 22:34)
+## Example (Last rendered on 2021-06-08 00:45)
 
 Load `trainR` to your working environment:
 
@@ -82,28 +82,9 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-07 22:34:32
+## Reading (RDG) Station Board on 2021-06-08 00:45:54
 ## Time   From                                    Plat  Expected
-## 23:31  London Paddington                       8     23:33
-## 23:37  Oxford                                  15A   23:32
-## 23:41  London Waterloo                         5     On time
-## 23:49  Basingstoke                             13B   On time
-## 23:50  Manchester Piccadilly                   3     On time
-## 23:57  London Paddington                       8B    On time
-## 00:03  London Paddington                       9B    On time
-## 00:06  Bedwyn                                  2     On time
-## 00:11  London Waterloo                         5     On time
-## 00:16  Gatwick Airport                         15B   On time
-## 00:26  London Paddington                       9     On time
-## 00:31  Basingstoke                             8     On time
-## 00:41  Hereford                                15A   On time
-## 00:41  London Waterloo                         6     On time
-## 00:44  Gatwick Airport                         4     On time
-## 00:49  London Paddington                       13    On time
-## 01:10  London Paddington                       8B    On time
-## 01:31  London Paddington                       13    On time
-## 00:03  Heathrow Central Bus Stn                BUS   On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 02:21  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -115,20 +96,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-07 22:34:35
+## Reading (RDG) Station Board on 2021-06-08 00:45:55
 ## Time   To                                      Plat  Expected
-## 23:32  Didcot Parkway                          8     23:34
-## 23:34  Basingstoke                             2     On time
-## 23:34  Redhill                                 4     On time
-## 23:39  London Paddington                       15A   On time
-## 23:52  Ascot                                   5     On time
-## 00:05  Bristol Temple Meads                    9B    On time
-## 00:08  Oxford                                  8B    On time
-## 00:17  Newbury                                 2     On time
-## 00:18  London Paddington                       14    On time
-## 00:29  Didcot Parkway                          9     On time
-## 00:43  London Paddington                       15A   On time
-## 00:49  Penzance                                7     On time
-## 01:14  Oxford                                  8B    On time
-## 01:15  London Paddington                       13    On time
+## 02:24  London Paddington                       15A   On time
 ```
