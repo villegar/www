@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-06-12 22:08)
+## Example (Last rendered on 2021-06-13 00:28)
 
 Load `trainR` to your working environment:
 
@@ -82,33 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-12 22:08:19
+## Reading (RDG) Station Board on 2021-06-13 00:29:00
 ## Time   From                                    Plat  Expected
-## 22:44  London Paddington                       14B   On time
-## 23:01  Didcot Parkway                          15    23:07
-## 23:04  Hereford                                13    23:08
-## 23:11  Penzance                                13A   23:19
-## 23:13  London Paddington                       14    On time
-## 23:16  Newbury                                 13B   On time
-## 23:30  London Paddington                       13    On time
-## 23:43  London Paddington                       13    On time
-## 23:46  London Paddington                       12B   On time
-## 23:52  Basingstoke                             12B   On time
-## 23:52  Taunton                                 15    On time
-## 00:02  London Paddington                       12    On time
-## 00:03  Gatwick Airport                         6     On time
-## 00:08  Basingstoke                             12A   On time
-## 00:08  Didcot Parkway                          15    On time
-## 00:11  Newbury                                 12B   On time
-## 00:22  London Paddington                       15    On time
-## 00:31  London Paddington                       15    On time
-## 00:44  Gatwick Airport                         6     On time
-## 23:24  Virginia Water                          BUS   On time
-## 23:54  Virginia Water                          BUS   On time
-## 00:03  Heathrow Central Bus Stn                BUS   On time
-## 00:24  Virginia Water                          BUS   On time
-## 00:55  Virginia Water                          BUS   On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 01:49  Virginia Water                          BUS   On time
+## 02:24  Virginia Water                          BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -120,18 +97,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-06-12 22:08:22
-## Time   To                                      Plat  Expected
-## 23:05  Didcot Parkway                          14B   23:07
-## 23:06  London Paddington                       13    23:09
-## 23:10  Newbury                                 12B   On time
-## 23:13  London Paddington                       13A   23:20
-## 23:35  Redhill                                 6     On time
-## 23:48  Didcot Parkway                          12B   On time
-## 23:54  London Paddington                       15    On time
-## 00:03  Bristol Parkway                         12    On time
-## 00:19  Ealing Broadway                         15    On time
-## 00:20  Newbury                                 12B   On time
-## 23:15  Virginia Water                          BUS   On time
-## 23:52  Staines                                 BUS   On time
+## Reading (RDG) Station Board on 2021-06-13 00:29:01
 ```
