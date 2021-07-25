@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-07-25 04:11)
+## Example (Last rendered on 2021-07-25 06:10)
 
 Load `trainR` to your working environment:
 
@@ -82,10 +82,21 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-07-25 04:11:57
+## Reading (RDG) Station Board on 2021-07-25 06:10:09
 ## Time   From                                    Plat  Expected
-## 06:03  Heathrow Central Bus Stn                -     On time
+## 07:41  Redhill                                 5     On time
+## 07:51  London Paddington                       14    On time
+## 08:30  London Paddington                       12    On time
+## 08:33  Basingstoke                             2     On time
+## 08:45  Salisbury                               1     On time
+## 08:58  London Paddington                       12    On time
+## 09:03  London Paddington                       14    On time
 ## 07:11  Heathrow Central Bus Stn                -     On time
+## 07:56  Staines                                 BUS   On time
+## 08:21  Heathrow Central Bus Stn                BUS   On time
+## 08:26  Staines                                 BUS   On time
+## 08:56  Staines                                 BUS   On time
+## 08:57  Staines                                 BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -97,15 +108,30 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-07-25 04:11:58
+## Reading (RDG) Station Board on 2021-07-25 06:10:11
 ## Time   To                                      Plat  Expected
-## 06:03  Gatwick Airport                         5     On time
+## 07:38  Basingstoke                             14B   On time
+## 07:39  Redhill                                 15A   On time
+## 07:55  London Paddington                       13    On time
+## 08:10  London Paddington                       15A   On time
+## 08:10  Newbury                                 12B   On time
+## 08:21  Gatwick Airport                         5     On time
 ##        via Guildford                           
-## 06:49  London Paddington                       14    On time
-## 06:57  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 06:00  Heathrow Central Bus Stn                BUS   On time
-## 06:27  Staines                                 BUS   On time
-## 06:57  Staines                                 BUS   On time
-## 07:00  Heathrow Central Bus Stn                BUS   On time
+## 08:25  London Paddington                       14    On time
+## 08:31  Exeter St Davids                        12    On time
+## 08:34  Bedwyn                                  13B   On time
+## 08:38  Basingstoke                             2     On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:40  Redhill                                 15A   On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:59  Swansea                                 12    On time
+## 07:27  Staines                                 BUS   On time
+## 07:55  Staines                                 BUS   On time
+## 07:57  Staines                                 BUS   On time
+## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 08:25  Staines                                 BUS   On time
+## 08:27  Staines                                 BUS   On time
+## 08:55  Staines                                 BUS   On time
+## 08:57  Staines                                 BUS   On time
+## 09:00  Heathrow Central Bus Stn                BUS   On time
 ```
