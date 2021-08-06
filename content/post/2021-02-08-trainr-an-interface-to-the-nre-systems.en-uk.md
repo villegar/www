@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-08-05 22:09)
+## Example (Last rendered on 2021-08-06 00:29)
 
 Load `trainR` to your working environment:
 
@@ -82,38 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-08-05 22:09:45
+## Reading (RDG) Station Board on 2021-08-06 00:29:08
 ## Time   From                                    Plat  Expected
-## 22:55  London Paddington                       9     23:19
-## 22:59  Worcester Foregate Street               15    23:16
-## 23:12  London Waterloo                         5     On time
-## 23:13  London Paddington                       -     Cancelled
-## 23:16  Gatwick Airport                         15    On time
-## 23:17  London Paddington                       8     On time
-## 23:18  London Paddington                       -     Cancelled
-## 23:21  Penzance                                15    On time
-## 23:26  Basingstoke                             3     On time
-## 23:26  Didcot Parkway                          15    23:32
-## 23:26  London Paddington                       9     23:40
-## 23:32  London Paddington                       8     00:02
-## 23:36  Oxford                                  15A   On time
-## 23:41  London Waterloo                         5     On time
-## 23:50  Manchester Piccadilly                   3     On time
-## 23:53  Basingstoke                             7     On time
-## 23:56  London Paddington                       8B    On time
-## 00:02  London Paddington                       9B    On time
-## 00:11  London Waterloo                         5     On time
-## 00:16  Gatwick Airport                         15B   00:31
-## 00:26  London Paddington                       8     On time
-## 00:31  Basingstoke                             3     On time
-## 00:41  Hereford                                15    On time
-## 00:41  London Waterloo                         6     On time
-## 00:44  Gatwick Airport                         4     On time
-## 00:48  London Paddington                       8     On time
-## 23:58  Newbury                                 BUS   On time
-## 00:03  Heathrow Central Bus Stn                BUS   On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
-## 01:08  Bedwyn                                  BUS   On time
+## 01:32  London Paddington                       -     Cancelled
+## 02:21  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -125,26 +97,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-08-05 22:09:49
+## Reading (RDG) Station Board on 2021-08-06 00:29:09
 ## Time   To                                      Plat  Expected
-## 22:59  Bristol Temple Meads                    9     23:20
-## 23:01  London Paddington                       15    23:17
-## 23:18  Swansea                                 8     On time
-## 23:23  London Paddington                       15    On time
-## 23:27  Ealing Broadway                         15    23:33
-## 23:28  Worcestershire Parkway                  9     23:41
-## 23:33  Didcot Parkway                          8     00:03
-## 23:34  Basingstoke                             2     On time
-## 23:34  Gatwick Airport                         4     On time
-##        via Guildford                           
-## 23:38  London Paddington                       15A   On time
-## 23:52  Ascot                                   5     On time
-## 00:05  Bristol Temple Meads                    9B    On time
-## 00:08  Oxford                                  8B    On time
-## 00:18  London Paddington                       14    On time
-## 00:29  Didcot Parkway                          8     On time
-## 00:44  London Paddington                       15    On time
-## 00:48  Penzance                                7     On time
-## 23:15  Bedwyn                                  BUS   On time
-## 00:17  Newbury                                 BUS   On time
+## 02:24  London Paddington                       15    On time
 ```
