@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-08-15 06:03)
+## Example (Last rendered on 2021-08-15 08:03)
 
 Load `trainR` to your working environment:
 
@@ -82,20 +82,50 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-08-15 06:03:31
+## Reading (RDG) Station Board on 2021-08-15 08:03:05
 ## Time   From                                    Plat  Expected
-## 07:41  Gatwick Airport                         5     On time
-## 07:51  London Paddington                       10    On time
-## 08:28  London Paddington                       8B    On time
-## 08:33  Basingstoke                             2     On time
-## 08:59  London Paddington                       9B    On time
-## 09:00  Salisbury                               -     On time
-## 07:11  Heathrow Central Bus Stn                -     On time
-## 07:56  Staines                                 BUS   On time
-## 08:21  Heathrow Central Bus Stn                BUS   On time
-## 08:26  Staines                                 BUS   On time
-## 08:56  Staines                                 BUS   On time
-## 08:57  Staines                                 BUS   On time
+## 09:00  Salisbury                               1     On time
+## 09:11  Didcot Parkway                          15A   On time
+## 09:12  London Paddington                       12B   On time
+## 09:16  London Paddington                       7     On time
+## 09:23  London Paddington                       9     On time
+## 09:26  Newbury                                 3     On time
+## 09:28  Bristol Parkway                         10    09:39
+## 09:33  Basingstoke                             2     On time
+## 09:34  London Paddington                       14    On time
+## 09:38  Gatwick Airport                         13    On time
+## 09:54  Salisbury                               -     On time
+## 09:58  Didcot Parkway                          15A   On time
+## 10:00  London Paddington                       9     On time
+## 10:07  Redhill                                 6     On time
+## 10:08  Southampton Central                     12    On time
+## 10:10  London Paddington                       9B    On time
+## 10:10  Swindon                                 10A   On time
+## 10:13  London Paddington                       14    On time
+## 10:14  Bedwyn                                  15    On time
+## 10:16  London Paddington                       13B   On time
+## 10:26  London Paddington                       7     On time
+## 10:26  Swansea                                 10    On time
+## 10:33  Basingstoke                             2     On time
+## 10:38  Gatwick Airport                         5     On time
+## 10:39  Birmingham New Street                   -     Cancelled
+## 10:39  Oxford                                  13    On time
+## 10:41  Exeter St Davids                        11    On time
+## 10:43  London Paddington                       14    On time
+## 10:45  Salisbury                               1     On time
+## 10:50  London Paddington                       9     On time
+## 10:53  Bristol Parkway                         10    On time
+## 10:57  Great Malvern                           11    On time
+## 09:21  Heathrow Central Bus Stn                BUS   On time
+## 09:26  Staines                                 BUS   On time
+## 09:27  Staines                                 BUS   On time
+## 09:56  Staines                                 BUS   On time
+## 09:57  Staines                                 BUS   On time
+## 10:21  Heathrow Central Bus Stn                BUS   On time
+## 10:26  Staines                                 BUS   On time
+## 10:27  Staines                                 BUS   On time
+## 10:56  Staines                                 BUS   On time
+## 10:57  Staines                                 BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -107,30 +137,55 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-08-15 06:03:33
+## Reading (RDG) Station Board on 2021-08-15 08:03:07
 ## Time   To                                      Plat  Expected
-## 07:38  Basingstoke                             7B    On time
-## 07:39  Redhill                                 8A    On time
-## 07:55  London Paddington                       9A    On time
-## 08:10  London Paddington                       15A   On time
-## 08:10  Newbury                                 12B   On time
-## 08:21  Gatwick Airport                         5     On time
+## 09:03  Twyford                                 15A   On time
+## 09:12  Ealing Broadway                         15A   On time
+## 09:12  Salisbury                               1     On time
+## 09:15  Manchester Piccadilly                   -     Cancelled
+##        via Coventry & Stoke-on-Trent           
+## 09:15  Oxford                                  8     On time
+## 09:17  Penzance                                7     On time
+## 09:18  Didcot Parkway                          12B   On time
+## 09:21  Gatwick Airport                         13A   On time
 ##        via Guildford                           
-## 08:25  London Paddington                       10    On time
-## 08:30  Exeter St Davids                        8B    On time
-## 08:34  Bedwyn                                  13B   On time
-## 08:38  Basingstoke                             2     On time
-## 08:38  Didcot Parkway                          14    On time
-## 08:40  Redhill                                 -     Cancelled
-## 08:52  Ealing Broadway                         14    On time
-## 09:01  Swansea                                 9B    On time
-## 07:27  Staines                                 BUS   On time
-## 07:55  Staines                                 BUS   On time
-## 07:57  Staines                                 BUS   On time
-## 08:00  Heathrow Central Bus Stn                BUS   On time
-## 08:25  Staines                                 BUS   On time
-## 08:27  Staines                                 BUS   On time
-## 08:55  Staines                                 BUS   On time
-## 08:57  Staines                                 BUS   On time
-## 09:00  Heathrow Central Bus Stn                BUS   On time
+## 09:22  Ealing Broadway                         14    On time
+## 09:29  Bath Spa                                9     On time
+## 09:29  London Paddington                       10    09:40
+## 09:38  Basingstoke                             2     On time
+## 09:41  Redhill                                 6     On time
+## 09:44  Bedwyn                                  3     On time
+## 09:52  Bournemouth                             8     On time
+## 09:52  Ealing Broadway                         14    On time
+## 10:03  Carmarthen                              9     On time
+## 10:06  Ealing Broadway                         15A   On time
+## 10:11  Hereford                                9B    On time
+## 10:11  London Paddington                       10A   On time
+## 10:12  Salisbury                               1     On time
+## 10:15  Manchester Piccadilly                   12    On time
+##        via Coventry & Stoke-on-Trent           
+## 10:21  Gatwick Airport                         5     On time
+##        via Guildford                           
+## 10:22  Ealing Broadway                         14    On time
+## 10:26  Didcot Parkway                          13B   On time
+## 10:27  Penzance                                7     On time
+## 10:29  London Paddington                       10    On time
+## 10:38  Basingstoke                             2     On time
+## 10:41  London Paddington                       11    On time
+## 10:41  Redhill                                 6     On time
+## 10:44  Newbury                                 15B   On time
+## 10:51  Bath Spa                                9     On time
+## 10:52  Ealing Broadway                         14    On time
+## 10:54  London Paddington                       10    On time
+## 11:00  London Paddington                       11    On time
+## 09:25  Staines                                 BUS   On time
+## 09:27  Staines                                 BUS   On time
+## 09:55  Staines                                 BUS   On time
+## 09:57  Staines                                 BUS   On time
+## 10:00  Heathrow Central Bus Stn                BUS   On time
+## 10:25  Staines                                 BUS   On time
+## 10:27  Staines                                 BUS   On time
+## 10:55  Staines                                 BUS   On time
+## 10:57  Staines                                 BUS   On time
+## 11:00  Heathrow Central Bus Stn                BUS   On time
 ```
