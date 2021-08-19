@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-08-19 00:07)
+## Example (Last rendered on 2021-08-19 02:15)
 
 Load `trainR` to your working environment:
 
@@ -78,18 +78,15 @@ library(trainR)
 
 ```r
 rdg_arr <- trainR::GetArrBoardRequest("RDG")
-```
-
-```
-## Error: [soap:Receiver] Unexpected server error
-```
-
-```r
 print(rdg_arr)
 ```
 
 ```
-## Error in print(rdg_arr): object 'rdg_arr' not found
+## Reading (RDG) Station Board on 2021-08-19 02:15:26
+## Time   From                                    Plat  Expected
+## 03:58  Penzance                                14    Delayed
+## 04:21  London Paddington                       -     On time
+## 04:37  Oxford                                  -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -101,9 +98,16 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-08-19 00:07:57
+## Reading (RDG) Station Board on 2021-08-19 02:15:29
 ## Time   To                                      Plat  Expected
-## 01:10  Oxford                                  9B    01:15
-## 01:15  London Paddington                       15A   On time
-## 02:24  London Paddington                       15A   On time
+## 03:54  London Paddington                       -     On time
+## 04:31  Gatwick Airport                         -     On time
+##        via Guildford                           
+## 04:34  London Paddington                       -     On time
+## 04:57  Redhill                                 -     On time
+## 05:08  London Paddington                       -     On time
+## 05:12  Bedwyn                                  -     On time
+## 05:14  Newbury                                 -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
+## 05:00  Heathrow Central Bus Stn                -     On time
 ```
