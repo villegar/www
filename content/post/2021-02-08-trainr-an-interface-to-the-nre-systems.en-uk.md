@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-08-20 22:03)
+## Example (Last rendered on 2021-08-21 00:04)
 
 Load `trainR` to your working environment:
 
@@ -82,40 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-08-20 22:03:43
+## Reading (RDG) Station Board on 2021-08-21 00:04:20
 ## Time   From                                    Plat  Expected
-## 22:59  Worcester Foregate Street               15A   On time
-## 23:03  Basingstoke                             2     On time
-## 23:12  London Waterloo                         5     On time
-## 23:13  London Paddington                       13    On time
-## 23:14  Newbury                                 3     On time
-## 23:14  Penzance                                10    On time
-## 23:15  London Paddington                       14    On time
-## 23:16  Gatwick Airport                         15    On time
-## 23:17  London Paddington                       8     On time
-## 23:21  Didcot Parkway                          15    On time
-## 23:26  Basingstoke                             15B   On time
-## 23:27  London Paddington                       12    On time
-## 23:31  London Paddington                       13    On time
-## 23:36  Oxford                                  15A   On time
-## 23:41  London Waterloo                         5     On time
-## 23:43  London Paddington                       10    On time
-## 23:49  Basingstoke                             13B   On time
-## 23:50  Manchester Piccadilly                   3     On time
-## 23:56  London Paddington                       8     On time
-## 23:59  London Paddington                       9     On time
-## 00:06  Bedwyn                                  2     On time
-## 00:11  London Waterloo                         6     On time
-## 00:16  Gatwick Airport                         15B   On time
-## 00:24  London Paddington                       9     On time
-## 00:31  Basingstoke                             3     On time
-## 00:36  Hereford                                11    On time
-## 00:40  Henley-on-Thames                        8     On time
-## 00:41  London Waterloo                         5     On time
-## 00:44  Gatwick Airport                         4     On time
-## 00:45  London Paddington                       9     On time
-## 23:03  Heathrow Central Bus Stn                BUS   On time
-## 00:03  Heathrow Central Bus Stn                BUS   On time
+## 01:12  London Paddington                       8B    On time
+## 01:31  London Paddington                       8A    On time
+## 01:40  London Waterloo                         5     On time
+## 02:21  London Paddington                       8     On time
+## 01:03  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -123,16 +96,12 @@ print(rdg_arr)
 
 ```r
 rdg_dep <- trainR::GetDepBoardRequest("RDG")
-```
-
-```
-## Error: [soap:Receiver] Unexpected server error
-```
-
-```r
 print(rdg_dep)
 ```
 
 ```
-## Error in print(rdg_dep): object 'rdg_dep' not found
+## Reading (RDG) Station Board on 2021-08-21 00:04:22
+## Time   To                                      Plat  Expected
+## 01:15  London Paddington                       9     On time
+## 01:17  Oxford                                  8B    On time
 ```
