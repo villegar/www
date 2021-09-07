@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-09-07 00:04)
+## Example (Last rendered on 2021-09-07 02:13)
 
 Load `trainR` to your working environment:
 
@@ -82,13 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-09-07 00:04:22
+## Reading (RDG) Station Board on 2021-09-07 02:13:34
 ## Time   From                                    Plat  Expected
-## 01:11  London Paddington                       12B   01:14
-## 01:27  Oxford                                  15    On time
-## 01:31  London Paddington                       13    On time
-## 02:21  London Paddington                       -     Cancelled
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 03:22  Penzance                                14    On time
+## 04:21  London Paddington                       -     On time
+## 04:37  Oxford                                  -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -100,10 +98,15 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-09-07 00:04:25
+## Reading (RDG) Station Board on 2021-09-07 02:13:36
 ## Time   To                                      Plat  Expected
-## 01:14  Oxford                                  12B   01:15
-## 01:15  London Paddington                       13A   On time
-## 01:30  London Paddington                       15    On time
-## 02:24  London Paddington                       15A   On time
+## 03:54  London Paddington                       -     On time
+## 04:31  Gatwick Airport                         -     On time
+##        via Guildford                           
+## 04:34  London Paddington                       -     On time
+## 04:57  Redhill                                 -     On time
+## 05:08  London Paddington                       -     On time
+## 05:12  Bedwyn                                  -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
+## 05:00  Heathrow Central Bus Stn                -     On time
 ```
