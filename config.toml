@@ -38,6 +38,11 @@ post = "/:year/:month/:day/:slug/"
   icon = "fa-github"
   title = "GitHub"
   url = "https://github.com/villegar/"
+  
+  [[params.socialIcons]]
+  icon = "fa-researchgate"
+  title = "ResearchGate"
+  url = "https://www.researchgate.net/profile/Roberto-Villegas-Diaz"
 
   [[params.socialIcons]]
   icon = "fa-twitter"
