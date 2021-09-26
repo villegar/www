@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-09-26 06:03)
+## Example (Last rendered on 2021-09-26 08:03)
 
 Load `trainR` to your working environment:
 
@@ -82,15 +82,37 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-09-26 06:03:43
+## Reading (RDG) Station Board on 2021-09-26 08:03:37
 ## Time   From                                    Plat  Expected
-## 07:41  Reigate                                 5     On time
-## 07:51  Slough                                  14    On time
-## 08:05  Staines                                 4     On time
-## 08:22  Slough                                  12    On time
-## 08:35  London Waterloo                         6     On time
-## 07:11  Heathrow Central Bus Stn                -     On time
-## 08:21  Heathrow Central Bus Stn                BUS   On time
+## 09:05  London Waterloo                         4     09:02
+## 09:12  Slough                                  12    On time
+## 09:17  Didcot Parkway                          13    On time
+## 09:26  Newbury                                 3     On time
+## 09:29  Bristol Parkway                         8     09:41
+## 09:33  Slough                                  14    On time
+## 09:35  London Waterloo                         4     On time
+## 09:41  Gatwick Airport                         5     On time
+## 09:58  Didcot Parkway                          15    On time
+## 10:03  Southampton Central                     7     On time
+## 10:04  Slough                                  14    On time
+## 10:05  London Waterloo                         4     On time
+## 10:11  Redhill                                 5     On time
+## 10:14  Bedwyn                                  15    On time
+## 10:16  Slough                                  13    On time
+## 10:31  Swansea                                 8     On time
+## 10:34  Slough                                  14    On time
+## 10:35  London Waterloo                         4     On time
+## 10:37  Gatwick Airport                         6     On time
+## 10:39  Birmingham New Street                   13    On time
+## 10:42  Exeter St Davids                        11    On time
+## 10:57  Bristol Parkway                         9     On time
+## 10:58  Great Malvern                           8     On time
+## 09:18  Basingstoke                             BUS   On time
+## 09:21  Heathrow Central Bus Stn                BUS   On time
+## 10:00  Basingstoke                             BUS   On time
+## 10:21  Heathrow Central Bus Stn                BUS   On time
+## 10:48  Basingstoke                             BUS   On time
+## 11:00  Winchester                              BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -102,27 +124,41 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-09-26 06:03:45
+## Reading (RDG) Station Board on 2021-09-26 08:03:40
 ## Time   To                                      Plat  Expected
-## 06:57  Gatwick Airport                         5     Delayed
+## 09:15  Manchester Piccadilly                   8     On time
+##        via Coventry & Stoke-on-Trent           
+## 09:18  Didcot Parkway                          12    On time
+## 09:18  Gatwick Airport                         15    On time
 ##        via Guildford                           
-## 07:39  Redhill                                 15    On time
-## 07:51  London Waterloo                         6     On time
-## 07:59  Slough                                  13    On time
-## 08:10  Newbury                                 12B   On time
-## 08:10  Slough                                  15    On time
-## 08:18  Gatwick Airport                         5     On time
+## 09:18  Slough                                  13    On time
+## 09:21  London Waterloo                         4     On time
+## 09:22  Slough                                  14    On time
+## 09:30  Bath Spa                                -     Cancelled
+## 09:38  Redhill                                 6     On time
+## 09:44  Bedwyn                                  3     On time
+## 09:52  Slough                                  14    On time
+## 09:54  London Waterloo                         4     On time
+## 10:03  Carmarthen                              -     On time
+## 10:06  Slough                                  15    On time
+## 10:12  Hereford                                8     On time
+## 10:15  Manchester Piccadilly                   7     On time
+##        via Coventry & Stoke-on-Trent           
+## 10:18  Gatwick Airport                         6     On time
 ##        via Guildford                           
-## 08:21  London Waterloo                         4     On time
-## 08:25  Slough                                  14    On time
-## 08:34  Bedwyn                                  13    On time
-## 08:38  Didcot Parkway                          14    On time
-## 08:40  Redhill                                 15    On time
-## 08:51  London Waterloo                         6     On time
-## 08:52  Slough                                  12    On time
-## 08:56  Penzance                                7     On time
-## 09:02  Swansea                                 9B    On time
-## 07:38  Basingstoke                             BUS   On time
-## 08:00  Heathrow Central Bus Stn                BUS   On time
-## 09:00  Heathrow Central Bus Stn                BUS   On time
+## 10:21  London Waterloo                         4     On time
+## 10:22  Slough                                  14    On time
+## 10:26  Didcot Parkway                          13    On time
+## 10:27  Penzance                                11    On time
+## 10:44  Newbury                                 15    On time
+## 10:46  Bournemouth                             13    On time
+## 10:51  Bath Spa                                8     On time
+## 10:51  London Waterloo                         4     On time
+## 10:52  Slough                                  14    On time
+## 10:58  Redhill                                 5     On time
+## 09:08  Basingstoke                             BUS   On time
+## 09:52  Winchester                              BUS   On time
+## 10:00  Heathrow Central Bus Stn                BUS   On time
+## 10:38  Basingstoke                             BUS   On time
+## 11:00  Heathrow Central Bus Stn                BUS   On time
 ```
