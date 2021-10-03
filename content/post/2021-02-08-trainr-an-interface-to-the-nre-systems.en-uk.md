@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-10-03 08:03)
+## Example (Last rendered on 2021-10-03 10:03)
 
 Load `trainR` to your working environment:
 
@@ -82,45 +82,55 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-03 08:03:27
+## Reading (RDG) Station Board on 2021-10-03 10:03:32
 ## Time   From                                    Plat  Expected
-## 09:10  Didcot Parkway                          15    On time
-## 09:12  London Paddington                       12    On time
-## 09:23  London Paddington                       9     On time
-## 09:26  Newbury                                 1     On time
-## 09:28  Bristol Parkway                         10    On time
-## 09:33  Basingstoke                             2     On time
-## 09:33  London Paddington                       14    On time
-## 09:38  Gatwick Airport                         13A   On time
-## 09:58  Didcot Parkway                          15    On time
-## 10:00  London Paddington                       9     On time
-## 10:03  Southampton Central                     7     On time
-## 10:07  London Paddington                       8     On time
-## 10:12  London Paddington                       9     On time
-## 10:12  Redhill                                 6     On time
-## 10:13  London Paddington                       14    On time
-## 10:16  London Paddington                       13    On time
-## 10:17  Bedwyn                                  15    On time
-## 10:26  Cardiff Central                         10    On time
-## 10:33  Basingstoke                             2     On time
-## 10:38  Gatwick Airport                         5     On time
-## 10:39  Birmingham New Street                   13    On time
-## 10:43  London Paddington                       14    On time
-## 10:50  London Paddington                       9     On time
-## 10:53  Bristol Parkway                         10    On time
-## 10:57  Great Malvern                           11    On time
-## 09:15  Virginia Water                          BUS   On time
-## 09:21  Heathrow Central Bus Stn                BUS   On time
-## 09:26  Virginia Water                          BUS   On time
-## 09:45  Virginia Water                          BUS   On time
-## 09:56  Virginia Water                          BUS   On time
-## 10:00  Basingstoke                             BUS   On time
-## 10:15  Virginia Water                          BUS   On time
-## 10:21  Heathrow Central Bus Stn                BUS   On time
-## 10:26  Virginia Water                          BUS   On time
-## 10:45  Virginia Water                          BUS   On time
-## 10:56  Virginia Water                          BUS   On time
-## 11:00  Winchester                              BUS   On time
+## 10:53  Southampton Central                     7     10:59
+## 11:07  London Paddington                       9     11:10
+## 11:10  Didcot Parkway                          15    On time
+## 11:10  Exeter St Davids                        11    11:22
+## 11:12  London Paddington                       9B    11:15
+## 11:12  Redhill                                 6     11:14
+## 11:13  London Paddington                       14    On time
+## 11:14  Bristol Parkway                         10A   On time
+## 11:15  London Paddington                       12    On time
+## 11:15  London Paddington                       8B    On time
+## 11:25  Bedwyn                                  1     11:36
+## 11:33  Basingstoke                             2     On time
+## 11:38  Gatwick Airport                         5     On time
+## 11:39  Manchester Piccadilly                   13    11:42
+## 11:43  London Paddington                       14    On time
+## 11:44  Swansea                                 11    On time
+## 11:53  London Paddington                       9     On time
+## 11:56  Great Malvern                           10    On time
+## 12:07  London Paddington                       9     On time
+## 12:09  Bristol Temple Meads                    10    On time
+## 12:10  Didcot Parkway                          15    On time
+## 12:12  London Paddington                       8B    On time
+## 12:12  Redhill                                 6     On time
+## 12:13  London Paddington                       14    On time
+## 12:13  Plymouth                                11    On time
+## 12:15  London Paddington                       12    On time
+## 12:15  London Paddington                       9     On time
+## 12:19  Newbury                                 1     On time
+## 12:31  Cheltenham Spa                          10A   On time
+## 12:33  Basingstoke                             2     On time
+## 12:38  Gatwick Airport                         5     On time
+## 12:39  Manchester Piccadilly                   15    On time
+## 12:43  London Paddington                       14    On time
+## 12:45  Swansea                                 10    On time
+## 12:53  London Paddington                       9     On time
+## 12:56  Oxford                                  10A   On time
+## 11:15  Virginia Water                          BUS   On time
+## 11:21  Heathrow Central Bus Stn                BUS   On time
+## 11:26  Virginia Water                          BUS   On time
+## 11:45  Virginia Water                          BUS   On time
+## 11:56  Virginia Water                          BUS   On time
+## 12:15  Virginia Water                          BUS   On time
+## 12:21  Heathrow Central Bus Stn                BUS   On time
+## 12:26  Virginia Water                          BUS   On time
+## 12:45  Virginia Water                          BUS   On time
+## 12:56  Virginia Water                          BUS   On time
+## 13:00  Winchester                              BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -132,49 +142,58 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-03 08:03:30
+## Reading (RDG) Station Board on 2021-10-03 10:03:35
 ## Time   To                                      Plat  Expected
-## 09:10  Ealing Broadway                         15    On time
-## 09:15  Manchester Piccadilly                   8B    On time
+## 11:09  Swansea                                 9     11:11
+## 11:12  Ealing Broadway                         15    On time
+## 11:12  London Paddington                       11    11:21
+## 11:14  Great Malvern                           9B    11:16
+## 11:15  Manchester Piccadilly                   7     On time
 ##        via Coventry & Wilmslow                 
-## 09:18  Didcot Parkway                          12    On time
-## 09:18  Gatwick Airport                         13A   On time
+## 11:16  London Paddington                       10A   On time
+## 11:16  Plymouth                                8B    On time
+## 11:18  Gatwick Airport                         4     On time
 ##        via Guildford                           
-## 09:22  Ealing Broadway                         14    On time
-## 09:29  Weston-super-Mare                       9     On time
-## 09:30  London Paddington                       10    On time
-## 09:38  Basingstoke                             2     On time
-## 09:41  Redhill                                 6     On time
-## 09:44  Bedwyn                                  3     On time
-## 09:52  Ealing Broadway                         14    On time
-## 10:03  Carmarthen                              9     On time
-## 10:06  Ealing Broadway                         15    On time
-## 10:11  Plymouth                                8     On time
-## 10:14  Hereford                                9     On time
-## 10:15  Manchester Piccadilly                   7     On time
+## 11:22  Ealing Broadway                         14    On time
+## 11:26  Didcot Parkway                          12    On time
+## 11:38  Basingstoke                             2     On time
+## 11:41  Redhill                                 6     On time
+## 11:44  Bedwyn                                  1     On time
+## 11:50  London Paddington                       11    On time
+## 11:52  Ealing Broadway                         14    On time
+## 11:54  Paignton                                9     On time
+##        via Bristol                             
+## 12:00  London Paddington                       10    On time
+## 12:09  Carmarthen                              9     On time
+## 12:11  London Paddington                       10    On time
+## 12:12  Ealing Broadway                         15    On time
+## 12:15  Manchester Piccadilly                   13    On time
 ##        via Coventry & Wilmslow                 
-## 10:18  Gatwick Airport                         5     On time
+## 12:16  London Paddington                       11    On time
+## 12:17  Penzance                                9     On time
+## 12:18  Gatwick Airport                         5     On time
 ##        via Guildford                           
-## 10:22  Ealing Broadway                         14    On time
-## 10:26  Didcot Parkway                          13    On time
-## 10:29  London Paddington                       10    On time
-## 10:38  Basingstoke                             2     On time
-## 10:41  Redhill                                 6     On time
-## 10:44  Newbury                                 1     On time
-## 10:46  Bournemouth                             13    On time
-## 10:51  Weston-super-Mare                       9     On time
-## 10:52  Ealing Broadway                         14    On time
-## 10:54  London Paddington                       10    On time
-## 11:00  London Paddington                       11    On time
-## 09:05  Virginia Water                          BUS   On time
-## 09:25  Virginia Water                          BUS   On time
-## 09:35  Virginia Water                          BUS   On time
-## 09:52  Winchester                              BUS   On time
-## 09:55  Virginia Water                          BUS   On time
-## 10:00  Heathrow Central Bus Stn                BUS   On time
-## 10:05  Virginia Water                          BUS   On time
-## 10:25  Virginia Water                          BUS   On time
-## 10:35  Virginia Water                          BUS   On time
-## 10:55  Virginia Water                          BUS   On time
-## 11:00  Heathrow Central Bus Stn                BUS   On time
+## 12:20  Hereford                                8B    On time
+## 12:22  Ealing Broadway                         14    On time
+## 12:26  Didcot Parkway                          12    On time
+## 12:33  London Paddington                       10A   On time
+## 12:38  Basingstoke                             2     On time
+## 12:41  Redhill                                 6     On time
+## 12:44  Newbury                                 1     On time
+## 12:46  Bournemouth                             15    On time
+## 12:46  London Paddington                       10    On time
+## 12:52  Ealing Broadway                         14    On time
+## 12:54  Weston-super-Mare                       9     On time
+## 13:00  London Paddington                       10A   On time
+## 11:05  Virginia Water                          BUS   On time
+## 11:25  Virginia Water                          BUS   On time
+## 11:35  Virginia Water                          BUS   On time
+## 11:52  Winchester                              BUS   On time
+## 11:55  Virginia Water                          BUS   On time
+## 12:00  Heathrow Central Bus Stn                BUS   On time
+## 12:05  Virginia Water                          BUS   On time
+## 12:25  Virginia Water                          BUS   On time
+## 12:35  Virginia Water                          BUS   On time
+## 12:55  Virginia Water                          BUS   On time
+## 13:00  Heathrow Central Bus Stn                BUS   On time
 ```
