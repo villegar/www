@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-10-16 02:18)
+## Example (Last rendered on 2021-10-16 04:03)
 
 Load `trainR` to your working environment:
 
@@ -82,10 +82,24 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-16 02:18:09
+## Reading (RDG) Station Board on 2021-10-16 04:03:33
 ## Time   From                                    Plat  Expected
-## 03:58  Penzance                                10    On time
-## 04:21  London Paddington                       -     On time
+## 05:48  London Paddington                       9B    On time
+## 06:11  Didcot Parkway                          15    On time
+## 06:13  London Paddington                       14    On time
+## 06:17  London Paddington                       8B    On time
+## 06:17  Oxford                                  10    On time
+## 06:38  London Paddington                       9B    On time
+## 06:41  Bristol Temple Meads                    10    On time
+## 06:43  London Paddington                       13    On time
+## 06:46  London Paddington                       12B   On time
+## 06:47  Basingstoke                             2     On time
+## 06:47  London Paddington                       9     On time
+## 06:53  London Paddington                       9B    On time
+## 06:54  Newbury                                 11A   On time
+## 06:55  Oxford                                  10A   On time
+## 06:03  Heathrow Central Bus Stn                -     On time
+## 06:36  Bracknell                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -97,13 +111,38 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-16 02:18:11
+## Reading (RDG) Station Board on 2021-10-16 04:03:35
 ## Time   To                                      Plat  Expected
-## 04:13  London Paddington                       -     On time
-## 04:54  London Paddington                       -     On time
-## 05:08  Bedwyn                                  -     On time
-## 03:55  North Camp                              -     On time
-## 04:00  Heathrow Central Bus Stn                -     On time
-## 05:00  Heathrow Central Bus Stn                -     On time
-## 05:06  Bracknell                               -     On time
+## 05:08  Bedwyn                                  13B   On time
+## 05:32  Newbury                                 7B    On time
+## 05:43  Basingstoke                             12B   On time
+## 05:50  Oxford                                  9B    On time
+## 05:52  London Paddington                       14    On time
+## 06:12  Newbury                                 1     On time
+## 06:14  London Paddington                       15    On time
+## 06:15  Manchester Piccadilly                   12    On time
+##        via Coventry & Stoke-on-Trent           
+## 06:19  Great Malvern                           8B    On time
+## 06:20  London Paddington                       10    On time
+## 06:22  Ealing Broadway                         14    On time
+## 06:34  Newbury                                 7     On time
+## 06:37  Basingstoke                             13A   On time
+## 06:40  Swansea                                 9B    On time
+## 06:42  London Paddington                       10    On time
+## 06:49  Oxford                                  9     On time
+## 06:52  Ealing Broadway                         13    On time
+## 06:55  Bristol Temple Meads                    9B    On time
+## 06:56  Didcot Parkway                          12B   On time
+## 06:56  London Paddington                       10A   On time
+## 06:59  London Paddington                       11A   On time
+## 05:06  Bracknell                               BUS   On time
+## 05:25  North Camp                              BUS   On time
+## 05:36  Bracknell                               BUS   On time
+## 06:00  Heathrow Central Bus Stn                BUS   On time
+## 06:06  Bracknell                               BUS   On time
+## 06:15  North Camp                              BUS   On time
+## 06:21  Bracknell                               BUS   On time
+## 06:36  Bracknell                               BUS   On time
+## 06:51  Bracknell                               BUS   On time
+## 07:00  Heathrow Central Bus Stn                BUS   On time
 ```
