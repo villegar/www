@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-10-16 22:03)
+## Example (Last rendered on 2021-10-17 00:05)
 
 Load `trainR` to your working environment:
 
@@ -82,35 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-16 22:03:14
+## Reading (RDG) Station Board on 2021-10-17 00:05:11
 ## Time   From                                    Plat  Expected
-## 22:44  London Paddington                       7     On time
-## 23:04  Hereford                                11A   23:01
-## 23:10  Newbury                                 12B   On time
-## 23:11  Penzance                                10    On time
-## 23:13  London Paddington                       14    On time
-## 23:29  London Paddington                       13    On time
-## 23:43  London Paddington                       13    On time
-## 23:46  London Paddington                       7     On time
-## 23:52  Basingstoke                             13B   On time
-## 23:52  Taunton                                 10    On time
-## 23:56  London Paddington                       7     On time
-## 00:08  Basingstoke                             1     On time
-## 00:08  Didcot Parkway                          15    On time
-## 00:11  Newbury                                 12B   On time
-## 00:22  London Paddington                       14    On time
-## 00:29  London Paddington                       15    On time
-## 23:03  Heathrow Central Bus Stn                BUS   On time
-## 23:06  Bracknell                               BUS   On time
-## 23:22  Bracknell                               BUS   On time
-## 23:36  Bracknell                               BUS   On time
-## 23:37  North Camp                              BUS   On time
-## 23:52  Bracknell                               BUS   On time
-## 00:03  Heathrow Central Bus Stn                BUS   On time
-## 00:06  Bracknell                               BUS   On time
-## 00:22  Bracknell                               BUS   On time
-## 00:36  Bracknell                               BUS   On time
-## 00:37  North Camp                              BUS   On time
+## 01:06  Bracknell                               BUS   On time
+## 01:20  North Camp                              BUS   On time
+## 01:36  Bracknell                               BUS   On time
+## 02:06  Bracknell                               BUS   On time
+## 02:23  Virginia Water                          BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -122,17 +100,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-16 22:03:16
-## Time   To                                      Plat  Expected
-## 23:05  Basingstoke                             2     On time
-## 23:05  Didcot Parkway                          7     On time
-## 23:06  London Paddington                       11A   On time
-## 23:10  Newbury                                 1     On time
-## 23:13  London Paddington                       10    On time
-## 23:50  Didcot Parkway                          7     On time
-## 23:54  London Paddington                       10    On time
-## 00:03  Bristol Parkway                         7     On time
-## 00:19  Ealing Broadway                         15    On time
-## 00:20  Newbury                                 1     On time
-## 23:40  Blackwater                              BUS   On time
+## Reading (RDG) Station Board on 2021-10-17 00:05:14
 ```
