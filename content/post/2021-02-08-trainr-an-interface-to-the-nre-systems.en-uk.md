@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-10-31 06:03)
+## Example (Last rendered on 2021-10-31 08:03)
 
 Load `trainR` to your working environment:
 
@@ -82,12 +82,28 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-31 06:03:34
+## Reading (RDG) Station Board on 2021-10-31 08:03:54
 ## Time   From                                    Plat  Expected
-## 07:41  Gatwick Airport                         5     Delayed
-## 07:51  London Paddington                       14    On time
-## 06:03  Heathrow Central Bus Stn                -     On time
-## 07:11  Heathrow Central Bus Stn                -     On time
+## 08:05  Ascot                                   4     08:10
+## 08:25  London Paddington                       12    On time
+## 08:35  Ascot                                   6     On time
+## 08:58  London Paddington                       12    On time
+## 09:03  London Paddington                       14    On time
+## 09:05  Ascot                                   4     On time
+## 09:10  Didcot Parkway                          15    On time
+## 09:13  London Paddington                       12    On time
+## 09:21  Ash                                     -     On time
+## 09:22  London Paddington                       12    On time
+## 09:23  London Paddington                       7     On time
+## 09:26  Newbury                                 3     On time
+## 09:30  Bristol Parkway                         10    On time
+## 09:35  Ascot                                   4     On time
+## 09:38  Redhill                                 13    On time
+## 09:45  London Paddington                       14    On time
+## 08:21  Heathrow Central Bus Stn                BUS   On time
+## 09:18  Basingstoke                             BUS   On time
+## 09:21  Heathrow Central Bus Stn                BUS   On time
+## 10:00  Basingstoke                             BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -99,17 +115,39 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-10-31 06:03:35
+## Reading (RDG) Station Board on 2021-10-31 08:03:55
 ## Time   To                                      Plat  Expected
-## 06:03  Redhill                                 5     On time
-## 06:49  London Paddington                       14    On time
-## 06:57  Redhill                                 5     On time
-## 07:00  Ascot                                   4     On time
-## 07:21  Ascot                                   4     On time
-## 07:39  Redhill                                 15    On time
-## 07:51  Ascot                                   6     On time
-## 07:55  London Paddington                       13    On time
-## 07:00  Heathrow Central Bus Stn                BUS   On time
-## 07:38  Basingstoke                             BUS   On time
-## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 07:39  Redhill                                 -     Delayed
+## 08:00  Ash                                     -     08:03
+## 08:10  London Paddington                       15    On time
+## 08:10  Newbury                                 12B   On time
+## 08:18  Redhill                                 5     On time
+## 08:21  Ascot                                   4     On time
+## 08:31  Ealing Broadway                         14    On time
+## 08:32  Exeter St Davids                        12    On time
+## 08:34  Bedwyn                                  13    On time
+## 08:38  Didcot Parkway                          14    On time
+## 08:40  Redhill                                 15    On time
+## 08:51  Ascot                                   6     On time
+## 08:57  Ealing Broadway                         13    On time
+## 09:00  Swansea                                 12    On time
+## 09:10  Ealing Broadway                         15    On time
+## 09:15  Manchester Piccadilly                   -     Cancelled
+##        via Coventry & Stoke-on-Trent           
+## 09:16  Penzance                                12    On time
+## 09:18  Redhill                                 13A   On time
+## 09:21  Ascot                                   4     On time
+## 09:30  Weston-super-Mare                       7     On time
+## 09:31  Ealing Broadway                         14    On time
+## 09:33  Didcot Parkway                          12    On time
+## 09:40  London Paddington                       10    On time
+## 09:41  Redhill                                 6     On time
+## 09:44  Bedwyn                                  3     On time
+## 09:55  Ascot                                   4     On time
+## 10:00  Ash                                     -     On time
+## 10:01  Ealing Broadway                         14    On time
+## 09:00  Heathrow Central Bus Stn                BUS   On time
+## 09:08  Basingstoke                             BUS   On time
+## 09:52  Basingstoke                             BUS   On time
+## 10:00  Heathrow Central Bus Stn                BUS   On time
 ```
