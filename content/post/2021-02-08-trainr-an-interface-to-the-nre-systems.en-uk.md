@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-11-05 00:05)
+## Example (Last rendered on 2021-11-05 02:16)
 
 Load `trainR` to your working environment:
 
@@ -78,18 +78,14 @@ library(trainR)
 
 ```r
 rdg_arr <- trainR::GetArrBoardRequest("RDG")
-```
-
-```
-## Error: '' does not exist in current working directory ('/Users/runner/work/www/www/content/post').
-```
-
-```r
 print(rdg_arr)
 ```
 
 ```
-## Error in print(rdg_arr): object 'rdg_arr' not found
+## Reading (RDG) Station Board on 2021-11-05 02:16:11
+## Time   From                                    Plat  Expected
+## 02:21  London Paddington                       14    On time
+## 04:08  Penzance                                14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -97,16 +93,13 @@ print(rdg_arr)
 
 ```r
 rdg_dep <- trainR::GetDepBoardRequest("RDG")
-```
-
-```
-## Error: '' does not exist in current working directory ('/Users/runner/work/www/www/content/post').
-```
-
-```r
 print(rdg_dep)
 ```
 
 ```
-## Error in print(rdg_dep): object 'rdg_dep' not found
+## Reading (RDG) Station Board on 2021-11-05 02:16:12
+## Time   To                                      Plat  Expected
+## 02:24  London Paddington                       15    On time
+## 03:54  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
