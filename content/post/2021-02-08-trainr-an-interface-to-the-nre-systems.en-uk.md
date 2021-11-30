@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-11-30 00:14)
+## Example (Last rendered on 2021-11-30 02:20)
 
 Load `trainR` to your working environment:
 
@@ -82,20 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-11-30 00:14:21
+## Reading (RDG) Station Board on 2021-11-30 02:20:47
 ## Time   From                                    Plat  Expected
-## 00:14  London Waterloo                         5     On time
-## 00:16  Gatwick Airport                         15B   00:20
-## 00:26  London Paddington                       13    On time
-## 00:31  Basingstoke                             13B   On time
-## 00:40  Henley-on-Thames                        14    On time
-## 00:44  Gatwick Airport                         4     On time
-## 00:44  London Waterloo                         6     On time
-## 00:48  London Paddington                       13    On time
-## 00:49  Oxford                                  15A   On time
-## 01:11  London Paddington                       12B   On time
-## 01:31  London Paddington                       13    On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 02:21  London Paddington                       14    On time
+## 03:58  Penzance                                14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -107,14 +97,9 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-11-30 00:14:24
+## Reading (RDG) Station Board on 2021-11-30 02:20:50
 ## Time   To                                      Plat  Expected
-## 00:17  Newbury                                 2     On time
-## 00:18  London Paddington                       14    On time
-## 00:32  Didcot Parkway                          13    On time
-## 00:49  Penzance                                7     On time
-## 00:50  London Paddington                       15A   On time
-## 01:14  Oxford                                  12B   On time
-## 01:15  London Paddington                       13A   On time
-## 00:16  Chippenham                              BUS   On time
+## 02:24  London Paddington                       15    On time
+## 03:54  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
