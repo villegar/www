@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-12-01 00:18)
+## Example (Last rendered on 2021-12-01 02:27)
 
 Load `trainR` to your working environment:
 
@@ -82,18 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-12-01 00:18:32
+## Reading (RDG) Station Board on 2021-12-01 02:27:02
 ## Time   From                                    Plat  Expected
-## 00:26  London Paddington                       13    On time
-## 00:31  Basingstoke                             13B   On time
-## 00:40  Henley-on-Thames                        14    On time
-## 00:44  Gatwick Airport                         4     On time
-## 00:44  London Waterloo                         6     On time
-## 00:48  London Paddington                       13    On time
-## 00:49  Oxford                                  15A   On time
-## 01:11  London Paddington                       12B   On time
-## 01:31  London Paddington                       13    On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 03:58  Penzance                                14    On time
+## 04:21  London Paddington                       -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -105,13 +97,8 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-12-01 00:18:35
+## Reading (RDG) Station Board on 2021-12-01 02:27:04
 ## Time   To                                      Plat  Expected
-## 00:17  Newbury                                 2     On time
-## 00:18  London Paddington                       14    On time
-## 00:32  Didcot Parkway                          13    On time
-## 00:49  Penzance                                12    On time
-## 00:50  London Paddington                       15A   On time
-## 01:14  Oxford                                  12B   On time
-## 01:15  London Paddington                       13    On time
+## 03:54  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
