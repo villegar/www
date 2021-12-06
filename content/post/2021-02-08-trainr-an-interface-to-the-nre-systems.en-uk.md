@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-12-06 00:05)
+## Example (Last rendered on 2021-12-06 02:16)
 
 Load `trainR` to your working environment:
 
@@ -82,19 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-12-06 00:05:47
+## Reading (RDG) Station Board on 2021-12-06 02:16:23
 ## Time   From                                    Plat  Expected
-## 00:12  London Paddington                       7B    00:26
-## 00:16  London Paddington                       9     00:18
-## 00:17  Didcot Parkway                          8A    On time
-## 00:22  London Waterloo                         5     On time
-## 00:49  Gatwick Airport                         4     On time
-## 00:51  Didcot Parkway                          9A    On time
-## 00:53  London Paddington                       8     On time
-## 00:57  London Waterloo                         5     On time
-## 01:23  London Paddington                       7     On time
-## 01:27  London Waterloo                         6     On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 02:21  London Paddington                       7     On time
+## 04:05  Penzance                                7     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -106,11 +97,9 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-12-06 00:05:49
+## Reading (RDG) Station Board on 2021-12-06 02:16:26
 ## Time   To                                      Plat  Expected
-## 00:19  Bristol Temple Meads                    9     On time
-## 00:24  Didcot Parkway                          7B    00:27
-## 00:24  London Paddington                       8A    On time
-## 00:51  Penzance                                7     On time
-## 00:54  London Paddington                       9A    On time
+## 02:24  London Paddington                       9A    On time
+## 03:54  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
