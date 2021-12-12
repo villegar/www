@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2021-12-12 06:03)
+## Example (Last rendered on 2021-12-12 08:03)
 
 Load `trainR` to your working environment:
 
@@ -82,14 +82,41 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-12-12 06:03:35
+## Reading (RDG) Station Board on 2021-12-12 08:03:57
 ## Time   From                                    Plat  Expected
-## 07:35  London Paddington                       13    On time
-## 07:42  Guildford                               5     On time
-## 07:51  London Paddington                       14    On time
-## 06:03  Heathrow Central Bus Stn                -     On time
-## 07:11  Heathrow Central Bus Stn                -     On time
-## 07:56  Staines                                 BUS   On time
+## 08:15  London Paddington                       12B   Delayed
+## 08:23  London Paddington                       13    On time
+## 08:30  London Paddington                       -     Cancelled
+## 08:33  Basingstoke                             2     On time
+## 08:36  Guildford                               5     On time
+## 08:44  Salisbury                               1     On time
+## 08:58  London Paddington                       9     On time
+## 08:59  Swindon                                 -     Cancelled
+## 09:01  London Paddington                       8     On time
+## 09:03  London Paddington                       14    On time
+## 09:10  Didcot Parkway                          15    On time
+## 09:10  London Paddington                       9B    On time
+## 09:12  London Paddington                       12    On time
+## 09:23  London Paddington                       9     On time
+## 09:24  Oxford                                  11A   On time
+## 09:26  Newbury                                 3     On time
+## 09:33  Basingstoke                             2     On time
+## 09:33  London Paddington                       14    On time
+## 09:39  Bristol Parkway                         10    On time
+## 09:43  Bristol Temple Meads                    11    On time
+## 09:45  London Paddington                       7     On time
+## 09:47  Salisbury                               2     On time
+## 09:59  Worcester Foregate Street               10A   On time
+## 08:15  Staines                                 BUS   On time
+## 08:21  Heathrow Central Bus Stn                BUS   On time
+## 08:26  Virginia Water                          BUS   On time
+## 08:45  Virginia Water                          BUS   On time
+## 08:56  Virginia Water                          BUS   On time
+## 09:15  Virginia Water                          BUS   On time
+## 09:21  Heathrow Central Bus Stn                BUS   On time
+## 09:26  Virginia Water                          BUS   On time
+## 09:45  Virginia Water                          BUS   On time
+## 09:56  Virginia Water                          BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -101,20 +128,49 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2021-12-12 06:03:37
+## Reading (RDG) Station Board on 2021-12-12 08:04:00
 ## Time   To                                      Plat  Expected
-## 06:03  Guildford                               5     On time
-## 06:20  London Paddington                       14    On time
-## 06:49  London Paddington                       14    On time
-## 06:57  Guildford                               5     On time
-## 07:10  London Paddington                       14    On time
-## 07:37  Basingstoke                             14B   On time
-## 07:40  Guildford                               15    On time
-## 07:55  London Paddington                       13    On time
-## 07:00  Heathrow Central Bus Stn                BUS   On time
-## 07:05  Virginia Water                          BUS   On time
-## 07:25  Virginia Water                          BUS   On time
-## 07:35  Virginia Water                          BUS   On time
-## 07:55  Virginia Water                          BUS   On time
-## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 08:07  Newbury                                 12B   On time
+## 08:10  London Paddington                       10    On time
+## 08:17  Penzance                                12B   Delayed
+## 08:25  London Paddington                       9     On time
+## 08:32  Exeter St Davids                        -     Cancelled
+##        via Bristol                             
+## 08:35  Newbury                                 14A   On time
+## 08:38  Basingstoke                             2     On time
+## 08:38  Didcot Parkway                          13    On time
+## 08:40  Guildford                               6     On time
+## 08:52  Ealing Broadway                         14    On time
+## 09:00  Penzance                                9     On time
+## 09:01  London Paddington                       -     Cancelled
+## 09:03  Swansea                                 8     On time
+## 09:10  Ealing Broadway                         15    On time
+## 09:12  Great Malvern                           9B    On time
+## 09:12  Salisbury                               1     On time
+## 09:15  Manchester Piccadilly                   7     On time
+##        via Coventry & Stoke-on-Trent           
+## 09:18  Didcot Parkway                          12    On time
+## 09:22  Ealing Broadway                         14    On time
+## 09:25  London Paddington                       11A   On time
+## 09:35  Weston-super-Mare                       9     On time
+## 09:38  Basingstoke                             2     On time
+## 09:40  London Paddington                       10    On time
+## 09:41  Guildford                               5     On time
+## 09:44  London Paddington                       11    On time
+## 09:44  Newbury                                 3     On time
+## 09:48  Oxford                                  7     On time
+## 09:52  Bournemouth                             8     On time
+## 09:52  Ealing Broadway                         14    On time
+## 10:00  London Paddington                       10A   On time
+## 10:03  Carmarthen                              9     On time
+## 08:05  Virginia Water                          BUS   On time
+## 08:25  Virginia Water                          BUS   On time
+## 08:35  Virginia Water                          BUS   On time
+## 08:55  Virginia Water                          BUS   On time
+## 09:00  Heathrow Central Bus Stn                BUS   On time
+## 09:05  Virginia Water                          BUS   On time
+## 09:25  Virginia Water                          BUS   On time
+## 09:35  Virginia Water                          BUS   On time
+## 09:55  Virginia Water                          BUS   On time
+## 10:00  Heathrow Central Bus Stn                BUS   On time
 ```
