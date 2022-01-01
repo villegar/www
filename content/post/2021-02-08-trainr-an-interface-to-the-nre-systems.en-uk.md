@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-01-01 00:05)
+## Example (Last rendered on 2022-01-01 02:18)
 
 Load `trainR` to your working environment:
 
@@ -82,19 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-01 00:05:35
+## Reading (RDG) Station Board on 2022-01-01 02:18:40
 ## Time   From                                    Plat  Expected
-## 00:11  London Waterloo                         6     On time
-## 00:20  London Paddington                       14    On time
-## 00:23  London Paddington                       13    On time
-## 00:41  London Waterloo                         5     On time
-## 00:43  London Paddington                       14    On time
-## 00:48  London Paddington                       13    On time
-## 01:16  London Paddington                       14    On time
-## 01:31  London Paddington                       13    On time
-## 01:47  London Paddington                       14    On time
-## 01:59  London Waterloo                         4     On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 01:59  London Waterloo                         4     02:19
+## 02:17  London Paddington                       13    02:27
+## 02:22  London Paddington                       14    02:25
+## 02:47  London Paddington                       14    On time
+## 03:17  London Paddington                       13    On time
+## 03:44  London Paddington                       13    On time
+## 04:17  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -106,13 +102,12 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-01 00:05:37
+## Reading (RDG) Station Board on 2022-01-01 02:18:43
 ## Time   To                                      Plat  Expected
-## 00:18  London Paddington                       15    On time
-## 00:25  London Paddington                       14    On time
-## 00:26  Didcot Parkway                          13    On time
-## 00:49  London Paddington                       14    On time
-## 01:15  London Paddington                       13    On time
-## 01:25  London Paddington                       14    On time
-## 01:52  London Paddington                       14    On time
+## 02:25  London Paddington                       13    02:30
+## 02:52  London Paddington                       14    On time
+## 03:25  London Paddington                       -     On time
+## 03:50  London Paddington                       -     On time
+## 04:13  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
