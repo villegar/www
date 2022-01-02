@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-01-02 04:03)
+## Example (Last rendered on 2022-01-02 06:03)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-02 04:03:16
+## Reading (RDG) Station Board on 2022-01-02 06:03:38
+## Time   From                                    Plat  Expected
+## 07:33  London Paddington                       13    On time
+## 07:41  Redhill                                 5     On time
+## 07:51  London Paddington                       14    On time
+## 06:03  Heathrow Central Bus Stn                -     On time
+## 07:11  Heathrow Central Bus Stn                -     On time
+## 08:01  Staines                                 BUS   On time
+## 08:02  Staines                                 BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,8 +102,21 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-02 04:03:17
+## Reading (RDG) Station Board on 2022-01-02 06:03:39
 ## Time   To                                      Plat  Expected
-## 05:00  Heathrow Central Bus Stn                BUS   On time
-## 06:00  Heathrow Central Bus Stn                BUS   On time
+## 06:03  Redhill                                 5     On time
+## 06:24  London Paddington                       14    On time
+## 06:49  London Paddington                       9A    On time
+## 06:57  Redhill                                 5     On time
+## 07:10  London Paddington                       14    On time
+## 07:40  Redhill                                 14    On time
+## 07:55  London Paddington                       10    On time
+## 07:00  Heathrow Central Bus Stn                BUS   On time
+## 07:05  Virginia Water                          BUS   On time
+## 07:24  Virginia Water                          BUS   On time
+## 07:35  Virginia Water                          BUS   On time
+## 07:38  Basingstoke                             BUS   On time
+## 07:40  Newbury                                 BUS   On time
+## 07:54  Virginia Water                          BUS   On time
+## 08:00  Heathrow Central Bus Stn                BUS   On time
 ```
