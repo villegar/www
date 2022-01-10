@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-01-10 00:06)
+## Example (Last rendered on 2022-01-10 02:18)
 
 Load `trainR` to your working environment:
 
@@ -82,25 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-10 00:06:07
+## Reading (RDG) Station Board on 2022-01-10 02:18:46
 ## Time   From                                    Plat  Expected
-## 23:59  Plymouth                                14A   00:23
-## 00:12  London Paddington                       13B   On time
-## 00:17  London Paddington                       12B   On time
-## 00:23  Didcot Parkway                          15    On time
-## 00:51  Didcot Parkway                          15A   On time
-## 00:52  London Paddington                       14    On time
-## 01:22  London Paddington                       13    On time
-## 00:19  Bracknell                               BUS   On time
-## 00:20  Swindon                                 BUS   On time
-## 00:33  Bracknell                               BUS   On time
-## 00:39  Guildford                               BUS   On time
-## 00:49  Bracknell                               BUS   On time
-## 01:03  Bracknell                               BUS   On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
-## 01:19  Bracknell                               BUS   On time
-## 01:33  Bracknell                               BUS   On time
-## 01:52  Guildford                               BUS   On time
+## 02:21  London Paddington                       13    02:18
+## 03:51  Penzance                                14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -112,13 +97,9 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-10 00:06:10
+## Reading (RDG) Station Board on 2022-01-10 02:18:50
 ## Time   To                                      Plat  Expected
-## 00:01  London Paddington                       14A   00:24
-## 00:20  Bristol Temple Meads                    12B   On time
-## 00:24  Didcot Parkway                          13B   On time
-## 00:28  Ealing Broadway                         15    On time
-## 00:49  Penzance                                12    On time
-## 00:55  London Paddington                       15A   On time
-## 00:30  Chippenham                              BUS   On time
+## 02:24  London Paddington                       15A   On time
+## 03:55  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
