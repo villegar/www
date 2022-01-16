@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-01-16 04:03)
+## Example (Last rendered on 2022-01-16 06:03)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,14 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-16 04:03:47
+## Reading (RDG) Station Board on 2022-01-16 06:03:56
+## Time   From                                    Plat  Expected
+## 07:35  London Paddington                       13    On time
+## 07:52  London Paddington                       14    On time
+## 06:03  Heathrow Central Bus Stn                -     On time
+## 07:11  Heathrow Central Bus Stn                -     On time
+## 07:27  Guildford                               BUS   On time
+## 08:00  Bracknell                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,10 +101,19 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-16 04:03:49
+## Reading (RDG) Station Board on 2022-01-16 06:03:58
 ## Time   To                                      Plat  Expected
-## 05:00  Heathrow Central Bus Stn                BUS   On time
-## 05:03  Guildford                               BUS   On time
-## 05:40  Guildford                               BUS   On time
-## 06:00  Heathrow Central Bus Stn                BUS   On time
+## 06:20  London Paddington                       14    On time
+## 06:49  London Paddington                       14    On time
+## 07:10  London Paddington                       14    On time
+## 07:37  Basingstoke                             14B   On time
+## 07:55  London Paddington                       13    On time
+## 07:00  Heathrow Central Bus Stn                BUS   On time
+## 07:08  Guildford                               BUS   On time
+## 07:21  Bracknell                               BUS   On time
+## 07:36  Bracknell                               BUS   On time
+## 07:46  Guildford                               BUS   On time
+## 07:51  Bracknell                               BUS   On time
+## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 08:00  Swindon                                 BUS   On time
 ```
