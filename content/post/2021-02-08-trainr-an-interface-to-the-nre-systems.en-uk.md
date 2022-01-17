@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-01-16 22:03)
+## Example (Last rendered on 2022-01-17 00:05)
 
 Load `trainR` to your working environment:
 
@@ -82,44 +82,24 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-16 22:03:52
+## Reading (RDG) Station Board on 2022-01-17 00:05:45
 ## Time   From                                    Plat  Expected
-## 22:05  Plymouth                                11A   22:09
-## 22:06  London Paddington                       7     22:09
-## 22:08  Great Malvern                           10    22:15
-## 22:13  London Paddington                       9     On time
-## 22:13  London Paddington                       14    On time
-## 22:15  London Paddington                       12    Delayed
-## 22:23  Didcot Parkway                          15    22:25
-## 22:24  Newbury                                 1     On time
-## 22:27  Swansea                                 11    22:30
-## 22:28  London Paddington                       -     Cancelled
-## 22:34  Basingstoke                             12    On time
-## 22:34  London Paddington                       9     On time
-## 22:36  Bristol Temple Meads                    11    On time
-## 22:47  Manchester Piccadilly                   8     On time
-## 22:51  Penzance                                10    On time
-## 23:04  London Paddington                       10    On time
-## 23:08  Didcot Parkway                          8     On time
-## 23:08  Great Malvern                           11    On time
-## 23:14  Bedwyn                                  3     On time
-## 23:19  Carmarthen                              8B    On time
-## 23:26  London Paddington                       -     Cancelled
-## 23:33  London Paddington                       10    On time
-## 23:46  Newbury                                 1     On time
-## 22:02  Guildford                               BUS   On time
-## 22:03  Heathrow Central Bus Stn                BUS   On time
-## 22:05  Swindon                                 BUS   On time
-## 22:14  Bracknell                               BUS   On time
-## 22:35  Swindon                                 BUS   On time
-## 22:44  Bracknell                               BUS   On time
-## 22:45  Guildford                               BUS   On time
-## 23:03  Heathrow Central Bus Stn                BUS   On time
-## 23:08  Guildford                               BUS   On time
-## 23:13  Swindon                                 BUS   On time
-## 23:14  Bracknell                               BUS   On time
-## 23:44  Bracknell                               BUS   On time
-## 23:52  Guildford                               BUS   On time
+## 23:59  Plymouth                                7     23:51
+## 00:12  London Paddington                       8     On time
+## 00:17  London Paddington                       7     On time
+## 00:24  Didcot Parkway                          7     On time
+## 00:50  Didcot Parkway                          10    On time
+## 00:52  London Paddington                       7     On time
+## 01:22  London Paddington                       7     On time
+## 00:14  Bracknell                               BUS   On time
+## 00:20  Swindon                                 BUS   On time
+## 00:31  Bracknell                               BUS   On time
+## 00:39  Guildford                               BUS   On time
+## 00:44  Bracknell                               BUS   On time
+## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 01:10  Bracknell                               BUS   On time
+## 01:40  Bracknell                               BUS   On time
+## 01:52  Guildford                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -131,32 +111,13 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-16 22:03:56
+## Reading (RDG) Station Board on 2022-01-17 00:05:47
 ## Time   To                                      Plat  Expected
-## 22:07  London Paddington                       11A   22:10
-## 22:10  London Paddington                       10    22:16
-## 22:12  Swansea                                 7     On time
-## 22:14  Worcester Shrub Hill                    9     On time
-## 22:15  Didcot Parkway                          12    Delayed
-## 22:25  Ealing Broadway                         14    On time
-## 22:30  Bristol Temple Meads                    -     Cancelled
-## 22:30  London Paddington                       11    22:30
-## 22:44  Newbury                                 1     On time
-## 22:45  London Paddington                       11    On time
-## 22:55  London Paddington                       10    On time
-## 23:00  Ealing Broadway                         9     On time
-## 23:10  London Paddington                       11    On time
-## 23:12  Ealing Broadway                         8     On time
-## 23:20  Didcot Parkway                          7     On time
-## 23:20  London Paddington                       8B    On time
-## 23:36  Bristol Parkway                         -     Cancelled
-## 22:14  Guildford                               BUS   On time
-## 22:20  Swindon                                 BUS   On time
-## 22:21  Bracknell                               BUS   On time
-## 22:37  Chippenham                              BUS   On time
-## 22:54  Bracknell                               BUS   On time
-## 23:00  Heathrow Central Bus Stn                BUS   On time
-## 23:03  Gatwick Airport                         BUS   On time
-##        via Guildford                           
-## 23:37  Chippenham                              BUS   On time
+## 00:05  London Paddington                       7     On time
+## 00:20  Bristol Temple Meads                    7     On time
+## 00:24  Didcot Parkway                          8     On time
+## 00:28  Ealing Broadway                         7     On time
+## 00:49  Penzance                                8     On time
+## 00:55  London Paddington                       10    On time
+## 00:30  Chippenham                              BUS   On time
 ```
