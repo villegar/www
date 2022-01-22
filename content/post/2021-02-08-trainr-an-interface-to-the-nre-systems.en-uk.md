@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-01-22 00:05)
+## Example (Last rendered on 2022-01-22 02:17)
 
 Load `trainR` to your working environment:
 
@@ -82,24 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-22 00:05:35
+## Reading (RDG) Station Board on 2022-01-22 02:17:00
 ## Time   From                                    Plat  Expected
-## 23:56  London Paddington                       9B    On time
-## 00:03  London Paddington                       13    On time
-## 00:06  Bedwyn                                  2     On time
-## 00:11  London Waterloo                         6     On time
-## 00:17  Gatwick Airport                         15B   On time
-## 00:23  London Paddington                       13B   On time
-## 00:31  Basingstoke                             3     On time
-## 00:40  Henley-on-Thames                        8     On time
-## 00:41  Oxford                                  11    On time
-## 00:44  Gatwick Airport                         4     On time
-## 00:48  London Paddington                       10    On time
-## 01:11  London Paddington                       9     On time
-## 01:29  Oxford                                  7     On time
-## 01:31  London Paddington                       8     On time
-## 01:40  London Waterloo                         -     Cancelled
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 02:21  London Paddington                       8     On time
+## 03:40  Penzance                                7     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -111,15 +97,8 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-01-22 00:05:38
+## Reading (RDG) Station Board on 2022-01-22 02:17:02
 ## Time   To                                      Plat  Expected
-## 00:05  Bristol Temple Meads                    13    On time
-## 00:08  Oxford                                  9B    On time
-## 00:17  Newbury                                 2     On time
-## 00:18  London Paddington                       14    On time
-## 00:26  Didcot Parkway                          13B   On time
-## 00:43  London Paddington                       11    On time
-## 00:48  Penzance                                7     On time
-## 01:13  Oxford                                  9     On time
-## 01:15  London Paddington                       10    On time
+## 04:13  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
