@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-02-18 22:03)
+## Example (Last rendered on 2022-02-19 02:15)
 
 Load `trainR` to your working environment:
 
@@ -82,50 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-18 22:03:49
+## Reading (RDG) Station Board on 2022-02-19 02:15:37
 ## Time   From                                    Plat  Expected
-## 22:00  Paignton                                -     Cancelled
-## 22:04  Didcot Parkway                          -     Cancelled
-## 22:07  London Paddington                       -     Cancelled
-## 22:08  Exeter St Davids                        -     Cancelled
-## 22:10  London Waterloo                         -     Cancelled
-## 22:11  London Paddington                       -     Cancelled
-## 22:13  London Paddington                       -     Cancelled
-## 22:14  Newbury                                 -     Delayed
-## 22:16  London Paddington                       -     Cancelled
-## 22:20  Newbury                                 -     Cancelled
-## 22:25  Oxford                                  -     Cancelled
-## 22:26  London Paddington                       -     Cancelled
-## 22:32  Cheltenham Spa                          -     Cancelled
-## 22:33  Bedwyn                                  -     Cancelled
-## 22:34  Shalford                                -     Cancelled
-## 22:40  Basingstoke                             -     Cancelled
-## 22:40  London Waterloo                         -     Cancelled
-## 22:43  London Paddington                       -     Cancelled
-## 22:43  London Paddington                       -     Cancelled
-## 22:43  Swansea                                 -     Cancelled
-## 22:45  Didcot Parkway                          -     Cancelled
-## 22:52  Salisbury                               -     Cancelled
-## 22:59  Worcester Foregate Street               -     Cancelled
-## 23:03  Basingstoke                             -     Cancelled
-## 23:10  Penzance                                -     Cancelled
-## 23:13  London Paddington                       13    On time
-## 23:14  Newbury                                 -     On time
-## 23:15  London Paddington                       -     Cancelled
-## 23:15  London Waterloo                         -     Cancelled
-## 23:16  Gatwick Airport                         -     Cancelled
-## 23:17  London Paddington                       -     Cancelled
-## 23:21  Didcot Parkway                          -     Cancelled
-## 23:27  Basingstoke                             -     Cancelled
-## 23:27  London Paddington                       -     Cancelled
-## 23:32  Bedwyn                                  -     Cancelled
-## 23:35  Oxford                                  -     Cancelled
-## 23:43  London Paddington                       -     Cancelled
-## 23:46  Didcot Parkway                          -     Cancelled
-## 23:49  Basingstoke                             -     Cancelled
-## 23:50  Birmingham New Street                   -     Cancelled
-## 22:03  Heathrow Central Bus Stn                BUS   On time
-## 23:03  Heathrow Central Bus Stn                BUS   On time
+## 02:21  London Paddington                       -     Delayed
+## 03:57  Penzance                                -     Cancelled
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -137,40 +97,8 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-18 22:03:52
+## Reading (RDG) Station Board on 2022-02-19 02:15:39
 ## Time   To                                      Plat  Expected
-## 22:05  Basingstoke                             -     Cancelled
-## 22:05  London Paddington                       -     Cancelled
-## 22:10  London Paddington                       -     Cancelled
-## 22:10  Newbury                                 -     Cancelled
-## 22:12  Bedwyn                                  -     Cancelled
-## 22:12  London Waterloo                         -     Cancelled
-## 22:13  Swansea                                 -     Cancelled
-## 22:18  Didcot Parkway                          -     Cancelled
-## 22:18  Worcester Shrub Hill                    -     Cancelled
-## 22:20  London Paddington                       -     Cancelled
-## 22:22  Ealing Broadway                         -     Cancelled
-## 22:26  London Paddington                       -     Cancelled
-## 22:27  Plymouth                                -     Cancelled
-##        via Bristol                             
-## 22:29  Basingstoke                             -     Cancelled
-## 22:35  London Paddington                       -     Cancelled
-## 22:45  Oxford                                  -     Cancelled
-## 22:46  Didcot Parkway                          -     Cancelled
-## 22:46  London Paddington                       -     Cancelled
-## 22:52  Basingstoke                             -     Cancelled
-## 22:52  Ealing Broadway                         -     Cancelled
-## 23:01  Bedwyn                                  -     Cancelled
-## 23:01  London Paddington                       -     Cancelled
-## 23:12  Ascot                                   -     Cancelled
-## 23:12  Bedwyn                                  -     Cancelled
-## 23:18  Swansea                                 -     Cancelled
-## 23:19  London Paddington                       -     Cancelled
-## 23:28  Oxford                                  -     Cancelled
-## 23:32  Didcot Parkway                          -     Cancelled
-## 23:33  Gatwick Airport                         -     Cancelled
-##        via Guildford                           
-## 23:34  Basingstoke                             -     Cancelled
-## 23:38  London Paddington                       -     Cancelled
-## 23:00  Heathrow Central Bus Stn                BUS   On time
+## 04:13  London Paddington                       -     On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
