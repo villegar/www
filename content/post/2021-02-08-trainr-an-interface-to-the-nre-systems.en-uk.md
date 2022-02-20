@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-02-20 06:03)
+## Example (Last rendered on 2022-02-20 08:03)
 
 Load `trainR` to your working environment:
 
@@ -82,13 +82,37 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-20 06:03:52
+## Reading (RDG) Station Board on 2022-02-20 08:03:53
 ## Time   From                                    Plat  Expected
-## 07:40  Slough                                  10    On time
-## 07:51  Ealing Broadway                         7     On time
+## 07:51  Ealing Broadway                         7     08:10
 ## 08:02  Staines                                 -     Cancelled
-## 06:03  Heathrow Central Bus Stn                -     On time
-## 07:11  Heathrow Central Bus Stn                -     On time
+## 08:07  Guildford                               -     Cancelled
+## 08:20  London Paddington                       8     On time
+## 08:25  London Paddington                       8     On time
+## 08:33  Basingstoke                             2     On time
+## 08:44  Salisbury                               1     On time
+## 08:49  Clapham Junction                        -     Cancelled
+## 08:59  London Paddington                       -     Cancelled
+## 09:00  Swindon                                 10    On time
+## 09:02  Richmond                                4     On time
+## 09:03  London Paddington                       14    On time
+## 09:07  London Paddington                       7     On time
+## 09:10  Didcot Parkway                          15    On time
+## 09:16  London Paddington                       -     Cancelled
+## 09:23  London Paddington                       7     On time
+## 09:24  Oxford                                  11    On time
+## 09:26  Newbury                                 -     Cancelled
+## 09:29  Bristol Parkway                         -     Cancelled
+## 09:33  Basingstoke                             1     On time
+## 09:39  Bristol Temple Meads                    11    On time
+## 09:39  Guildford                               -     Cancelled
+## 09:44  London Paddington                       14    On time
+## 09:47  Salisbury                               1     On time
+## 09:51  London Waterloo                         4     On time
+## 09:58  Didcot Parkway                          15    On time
+## 09:59  Worcester Foregate Street               -     Cancelled
+## 08:21  Heathrow Central Bus Stn                BUS   On time
+## 09:21  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -100,17 +124,41 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-20 06:03:53
+## Reading (RDG) Station Board on 2022-02-20 08:03:55
 ## Time   To                                      Plat  Expected
-## 06:03  Guildford                               -     Cancelled
-## 06:20  Slough                                  7A    On time
-## 06:49  London Paddington                       10    On time
-## 06:57  Guildford                               -     Cancelled
-## 07:12  London Paddington                       7     On time
-## 07:37  Basingstoke                             7     On time
-## 07:45  Guildford                               -     Cancelled
-## 07:55  London Paddington                       9     On time
-## 07:56  London Waterloo                         -     Cancelled
-## 07:00  Heathrow Central Bus Stn                BUS   On time
-## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 08:06  Newbury                                 -     Cancelled
+## 08:10  London Paddington                       13    On time
+## 08:22  Exeter St Davids                        8     On time
+## 08:25  London Waterloo                         -     Cancelled
+## 08:26  London Paddington                       7     On time
+## 08:33  Bristol Temple Meads                    8     On time
+## 08:34  Bedwyn                                  14B   On time
+## 08:38  Basingstoke                             2     On time
+## 08:38  Didcot Parkway                          14A   On time
+## 08:45  Guildford                               -     Cancelled
+## 08:50  Ealing Broadway                         14    On time
+## 08:56  London Waterloo                         -     Cancelled
+## 09:00  Swansea                                 -     Cancelled
+## 09:01  London Paddington                       10    On time
+## 09:09  Worcester Shrub Hill                    7     On time
+## 09:12  Salisbury                               1     On time
+## 09:15  Manchester Piccadilly                   8     On time
+##        via Coventry & Wilmslow                 
+## 09:18  Didcot Parkway                          12    On time
+## 09:18  Exeter St Davids                        -     Cancelled
+## 09:25  London Waterloo                         4     On time
+## 09:26  London Paddington                       11    On time
+## 09:31  Ealing Broadway                         14    On time
+## 09:34  Bristol Temple Meads                    7     On time
+## 09:35  London Paddington                       -     Cancelled
+## 09:38  Basingstoke                             1     On time
+## 09:44  Bedwyn                                  12A   On time
+## 09:45  Guildford                               6     On time
+## 09:45  London Paddington                       11    On time
+## 09:52  Southampton Central                     8     On time
+## 09:56  London Waterloo                         4     On time
+## 10:01  Ealing Broadway                         14    On time
+## 10:02  London Paddington                       -     Cancelled
+## 09:00  Heathrow Central Bus Stn                BUS   On time
+## 10:00  Heathrow Central Bus Stn                BUS   On time
 ```
