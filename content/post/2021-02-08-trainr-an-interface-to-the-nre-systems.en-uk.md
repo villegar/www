@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-02-20 16:04)
+## Example (Last rendered on 2022-02-20 20:03)
 
 Load `trainR` to your working environment:
 
@@ -82,67 +82,53 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-20 16:04:06
+## Reading (RDG) Station Board on 2022-02-20 20:03:47
 ## Time   From                                    Plat  Expected
-## 14:57  Exeter St Davids                        11    16:21
-## 15:11  Bristol Temple Meads                    11    16:02
-## 15:17  London Waterloo                         4     16:16
-## 15:39  Manchester Piccadilly                   7     15:57
-## 15:53  London Paddington                       9     16:10
-## 15:57  Hereford                                -     Cancelled
-## 15:58  Exeter St Davids                        -     16:43
-## 16:07  London Paddington                       -     Cancelled
-## 16:09  Bristol Temple Meads                    10    16:36
-## 16:10  Guildford                               6     On time
-## 16:13  Didcot Parkway                          15    16:16
-## 16:13  London Paddington                       -     Cancelled
-## 16:13  London Paddington                       14    On time
-## 16:13  Newbury                                 7     16:16
-## 16:17  London Waterloo                         -     Cancelled
-## 16:23  London Paddington                       -     Cancelled
-## 16:25  Oxford                                  -     Cancelled
-## 16:26  London Paddington                       7     On time
-## 16:32  Cheltenham Spa                          -     Cancelled
-## 16:33  Basingstoke                             2     On time
-## 16:39  Manchester Piccadilly                   13    17:04
-## 16:43  London Paddington                       14    On time
-## 16:46  London Paddington                       -     Cancelled
-## 16:47  Salisbury                               1     On time
-## 16:47  Swansea                                 -     Cancelled
-## 16:49  London Waterloo                         -     Cancelled
-## 16:53  London Paddington                       9     On time
-## 16:57  Great Malvern                           -     Cancelled
-## 16:58  Exeter St Davids                        11    17:14
-## 17:00  London Paddington                       -     Cancelled
-## 17:07  London Paddington                       -     Cancelled
-## 17:07  Southampton Central                     8     On time
-## 17:10  Bristol Temple Meads                    10    On time
-## 17:10  Guildford                               6     On time
-## 17:13  Didcot Parkway                          15    On time
-## 17:13  London Paddington                       14    On time
-## 17:13  London Paddington                       -     Cancelled
-## 17:17  Staines                                 4     On time
-## 17:20  Bedwyn                                  1     On time
-## 17:23  London Paddington                       9     On time
-## 17:25  Oxford                                  -     On time
-## 17:25  Oxford                                  10    On time
-## 17:26  London Paddington                       -     Cancelled
-## 17:26  Newbury Racecourse                      8     On time
-## 17:33  Basingstoke                             2     On time
-## 17:37  Exeter St Davids                        -     Cancelled
-## 17:39  Manchester Piccadilly                   8B    On time
-## 17:40  Bristol Temple Meads                    -     Cancelled
-## 17:43  London Paddington                       14    On time
-## 17:45  Carmarthen                              -     Cancelled
-## 17:45  London Paddington                       -     Cancelled
-## 17:49  London Waterloo                         -     Cancelled
-## 17:53  London Paddington                       9     On time
-## 17:53  Newbury                                 12    On time
-## 17:56  London Paddington                       -     Cancelled
-## 17:57  Exeter St Davids                        -     Cancelled
-## 17:57  Hereford                                -     Cancelled
-## 16:21  Heathrow Central Bus Stn                BUS   On time
-## 17:21  Heathrow Central Bus Stn                BUS   On time
+## 18:58  Exeter St Davids                        11    20:11
+## 19:17  London Waterloo                         4     Delayed
+## 19:39  Manchester Piccadilly                   7     20:03
+## 19:53  London Paddington                       9     20:11
+## 19:55  Hereford                                -     Cancelled
+## 20:07  London Paddington                       -     Cancelled
+## 20:10  Guildford                               5     On time
+## 20:12  Bristol Temple Meads                    10    20:47
+## 20:12  London Paddington                       -     Cancelled
+## 20:13  Didcot Parkway                          13    On time
+## 20:13  London Paddington                       14    On time
+## 20:17  London Waterloo                         -     Cancelled
+## 20:21  Newbury                                 15    20:23
+## 20:24  Oxford                                  -     Cancelled
+## 20:27  London Paddington                       7     On time
+## 20:33  Basingstoke                             2     On time
+## 20:39  Manchester Piccadilly                   8     20:51
+## 20:42  Exeter St Davids                        -     Cancelled
+## 20:43  London Paddington                       14    On time
+## 20:46  London Paddington                       -     Cancelled
+## 20:49  London Waterloo                         -     Cancelled
+## 20:49  Swansea                                 -     Cancelled
+## 20:53  London Paddington                       9     On time
+## 20:58  Exeter St Davids                        11    21:12
+## 20:59  Great Malvern                           -     Cancelled
+## 21:07  London Paddington                       -     Cancelled
+## 21:07  Southampton Central                     8     On time
+## 21:10  Guildford                               15    On time
+## 21:11  Bristol Temple Meads                    10    On time
+## 21:12  London Paddington                       -     Cancelled
+## 21:13  Didcot Parkway                          13    On time
+## 21:13  London Paddington                       14    On time
+## 21:18  London Waterloo                         4     Delayed
+## 21:19  Bedwyn                                  1     On time
+## 21:29  London Paddington                       7     On time
+## 21:33  Basingstoke                             2     On time
+## 21:39  Manchester Piccadilly                   8     On time
+## 21:43  London Paddington                       14    On time
+## 21:48  London Paddington                       -     Cancelled
+## 21:48  Swansea                                 -     Cancelled
+## 21:49  London Waterloo                         6     On time
+## 21:53  London Paddington                       9     On time
+## 21:57  Great Malvern                           -     Cancelled
+## 20:13  Heathrow Central Bus Stn                BUS   On time
+## 21:03  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -154,64 +140,54 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-20 16:04:10
+## Reading (RDG) Station Board on 2022-02-20 20:03:50
 ## Time   To                                      Plat  Expected
-## 14:59  London Paddington                       11    16:22
-## 15:11  London Paddington                       11    16:04
-## 15:52  Southampton Central                     7     16:02
-## 15:55  Bristol Temple Meads                    9     16:11
-## 16:02  London Paddington                       -     Cancelled
-## 16:09  Swansea                                 -     Cancelled
-## 16:11  London Paddington                       10    16:37
-## 16:12  Salisbury                               -     Cancelled
-## 16:15  Hereford                                -     Cancelled
-## 16:15  Manchester Piccadilly                   -     Cancelled
+## 18:59  London Paddington                       11    20:12
+## 19:25  London Waterloo                         4     Delayed
+## 19:52  Southampton Central                     7     20:04
+## 19:55  Bristol Temple Meads                    9     20:12
+## 20:01  London Paddington                       -     Cancelled
+## 20:09  Swansea                                 -     Cancelled
+## 20:14  Great Malvern                           -     Cancelled
+## 20:14  London Paddington                       10    20:48
+## 20:15  Guildford                               6     On time
+## 20:15  Manchester Piccadilly                   8     On time
 ##        via Coventry & Wilmslow                 
-## 16:22  London Paddington                       14    On time
-## 16:24  Bristol Temple Meads                    -     Cancelled
-## 16:25  Didcot Parkway                          12    On time
-## 16:25  London Paddington                       -     Cancelled
-## 16:25  London Waterloo                         -     Cancelled
-## 16:28  Exeter St Davids                        7     On time
-## 16:34  London Paddington                       -     Cancelled
-## 16:38  Basingstoke                             2     On time
-## 16:44  Newbury                                 15    On time
-## 16:45  Guildford                               6     On time
-## 16:47  Oxford                                  -     Cancelled
-## 16:50  London Paddington                       -     Cancelled
-## 16:52  Ealing Broadway                         14    On time
-## 16:55  Bristol Temple Meads                    9     On time
-## 16:56  London Waterloo                         -     Cancelled
-## 16:59  London Paddington                       11    17:15
-## 17:01  London Paddington                       -     Cancelled
-## 17:03  Exeter St Davids                        -     Cancelled
-## 17:09  Swansea                                 -     Cancelled
-## 17:12  London Paddington                       10    On time
-## 17:12  Salisbury                               1     On time
-## 17:14  Great Malvern                           -     Cancelled
-## 17:15  Manchester Piccadilly                   8     On time
-##        via Coventry & Wilmslow                 
-## 17:22  Ealing Broadway                         14    On time
-## 17:25  Bristol Temple Meads                    9     On time
-## 17:25  Didcot Parkway                          12    On time
-## 17:25  London Paddington                       10    On time
-## 17:25  London Paddington                       -     On time
-## 17:25  London Waterloo                         -     Cancelled
-## 17:28  Exeter St Davids                        -     Cancelled
-## 17:38  Basingstoke                             2     On time
-## 17:40  London Paddington                       -     Cancelled
-## 17:44  Bedwyn                                  1     On time
-## 17:45  Guildford                               6     On time
-## 17:45  London Paddington                       -     Cancelled
-## 17:48  Oxford                                  -     Cancelled
-## 17:50  London Paddington                       -     Cancelled
-## 17:52  Ealing Broadway                         14    On time
-## 17:52  Southampton Central                     8B    On time
-## 17:55  Bristol Temple Meads                    9     On time
-## 17:56  London Waterloo                         -     Cancelled
-## 17:58  Cheltenham Spa                          -     Cancelled
-## 17:59  London Paddington                       -     Cancelled
-## 18:01  London Paddington                       -     Cancelled
-## 17:00  Heathrow Central Bus Stn                BUS   On time
-## 18:00  Heathrow Central Bus Stn                BUS   On time
+## 20:25  Didcot Parkway                          13    On time
+## 20:25  London Paddington                       -     Cancelled
+## 20:25  London Waterloo                         -     Cancelled
+## 20:27  Ealing Broadway                         14    On time
+## 20:29  Exeter St Davids                        7     On time
+## 20:38  Basingstoke                             2     On time
+## 20:44  London Paddington                       -     Cancelled
+## 20:47  Newbury                                 15B   On time
+## 20:49  Oxford                                  -     Cancelled
+## 20:50  London Paddington                       -     Cancelled
+## 20:52  Southampton Central                     8     On time
+## 20:55  Bristol Temple Meads                    9     On time
+## 20:56  London Waterloo                         -     Cancelled
+## 20:57  Ealing Broadway                         14    On time
+## 20:59  London Paddington                       11    21:13
+## 21:01  London Paddington                       -     Cancelled
+## 21:09  Swansea                                 -     Cancelled
+## 21:12  Birmingham New Street                   8     On time
+##        via Coventry                            
+## 21:14  Didcot Parkway                          12    On time
+## 21:14  London Paddington                       10    On time
+## 21:15  Guildford                               5     On time
+## 21:15  Worcester Shrub Hill                    -     Cancelled
+## 21:25  London Waterloo                         -     Cancelled
+## 21:30  Ealing Broadway                         14    On time
+## 21:31  Exeter St Davids                        7     On time
+## 21:38  Basingstoke                             2     On time
+## 21:44  Bedwyn                                  1     On time
+## 21:49  Oxford                                  -     Cancelled
+## 21:50  London Paddington                       -     Cancelled
+## 21:52  Southampton Central                     8     On time
+## 21:55  Bristol Temple Meads                    9     On time
+## 21:56  London Waterloo                         -     Cancelled
+## 21:57  Ealing Broadway                         14    On time
+## 22:00  London Paddington                       -     Cancelled
+## 21:00  Heathrow Central Bus Stn                BUS   On time
+## 22:00  Heathrow Central Bus Stn                BUS   On time
 ```
