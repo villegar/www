@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-02-20 00:06)
+## Example (Last rendered on 2022-02-20 02:16)
 
 Load `trainR` to your working environment:
 
@@ -82,24 +82,7 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-20 00:06:55
-## Time   From                                    Plat  Expected
-## 23:44  London Paddington                       -     Delayed
-## 23:44  London Paddington                       -     Delayed
-## 23:52  Taunton                                 11    00:37
-## 23:59  London Paddington                       7     00:19
-## 00:06  Gatwick Airport                         -     Cancelled
-## 00:08  Basingstoke                             1     00:05
-## 00:08  Didcot Parkway                          15    On time
-## 00:10  Newbury                                 8     On time
-## 00:11  London Waterloo                         -     Cancelled
-## 00:25  London Paddington                       -     Cancelled
-## 00:31  London Paddington                       7     Delayed
-## 00:41  London Waterloo                         -     Cancelled
-## 00:44  Gatwick Airport                         -     Cancelled
-## 01:04  London Waterloo                         -     Cancelled
-## 02:05  London Waterloo                         -     Cancelled
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## Reading (RDG) Station Board on 2022-02-20 02:16:49
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -111,10 +94,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-20 00:06:57
+## Reading (RDG) Station Board on 2022-02-20 02:16:50
 ## Time   To                                      Plat  Expected
-## 23:53  London Paddington                       11    00:38
-## 00:02  Bristol Temple Meads                    7     00:20
-## 00:18  Newbury                                 1     On time
-## 00:19  Slough                                  15    On time
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
