@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-02-21 02:17)
+## Example (Last rendered on 2022-02-21 04:07)
 
 Load `trainR` to your working environment:
 
@@ -82,9 +82,19 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-21 02:17:48
+## Reading (RDG) Station Board on 2022-02-21 04:07:09
 ## Time   From                                    Plat  Expected
-## 02:21  London Paddington                       -     Cancelled
+## 04:21  London Paddington                       13    04:30
+## 04:38  Didcot Parkway                          13A   On time
+## 04:52  Penzance                                -     Cancelled
+## 05:35  Didcot Parkway                          -     Cancelled
+## 05:36  London Paddington                       9     On time
+## 05:46  Oxford                                  -     Cancelled
+## 05:47  London Paddington                       9     On time
+## 05:58  Bristol Temple Meads                    11    On time
+## 05:58  London Paddington                       -     Cancelled
+## 05:59  Newbury                                 -     Cancelled
+## 06:03  Heathrow Central Bus Stn                -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -96,10 +106,35 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-02-21 02:17:50
+## Reading (RDG) Station Board on 2022-02-21 04:07:11
 ## Time   To                                      Plat  Expected
-## 02:24  London Paddington                       9A    On time
-## 03:55  London Paddington                       -     On time
-## 04:00  Heathrow Central Bus Stn                -     On time
-## 04:12  Guildford                               -     On time
+## 04:32  Gatwick Airport                         -     Cancelled
+##        via Guildford                           
+## 04:34  London Paddington                       -     Cancelled
+## 04:58  Redhill                                 -     Cancelled
+## 05:08  London Paddington                       -     Cancelled
+## 05:12  Bedwyn                                  -     Cancelled
+## 05:12  Bedwyn                                  -     On time
+## 05:16  Newbury                                 -     Cancelled
+## 05:19  Basingstoke                             12B   On time
+## 05:31  Gatwick Airport                         -     Cancelled
+##        via Guildford                           
+## 05:36  Ealing Broadway                         -     Cancelled
+## 05:38  Oxford                                  9     On time
+## 05:40  Basingstoke                             14B   On time
+## 05:42  London Waterloo                         4     On time
+## 05:48  London Paddington                       -     Cancelled
+## 05:49  Didcot Parkway                          14    On time
+## 05:49  Swansea                                 9     On time
+## 05:50  Newbury                                 -     Cancelled
+## 05:51  Ealing Broadway                         13    On time
+## 05:54  Redhill                                 15A   On time
+## 06:00  London Paddington                       11    On time
+## 06:00  Worcester Shrub Hill                    -     Cancelled
+##        via Gloucester                          
+## 06:03  Ealing Broadway                         14    On time
+## 04:12  Guildford                               BUS   On time
+## 04:31  Guildford                               BUS   On time
+## 05:00  Heathrow Central Bus Stn                BUS   On time
+## 06:00  Heathrow Central Bus Stn                BUS   On time
 ```
