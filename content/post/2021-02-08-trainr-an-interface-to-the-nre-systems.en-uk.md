@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-03-06 00:07)
+## Example (Last rendered on 2022-03-06 02:19)
 
 Load `trainR` to your working environment:
 
@@ -82,24 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-03-06 00:07:32
+## Reading (RDG) Station Board on 2022-03-06 02:20:03
 ## Time   From                                    Plat  Expected
-## 23:46  London Paddington                       12    00:17
-## 23:52  Basingstoke                             13B   00:09
-## 23:52  Taunton                                 15    00:16
-## 00:01  London Paddington                       12    00:15
-## 00:03  Gatwick Airport                         13    Delayed
-## 00:08  Basingstoke                             14B   00:15
-## 00:08  Didcot Parkway                          15    00:26
-## 00:18  Newbury                                 12B   00:36
-## 00:22  London Paddington                       13    Delayed
-## 00:29  London Paddington                       15    On time
-## 00:30  London Waterloo                         6     On time
-## 00:44  Gatwick Airport                         5     On time
-## 01:03  London Waterloo                         6     On time
-## 01:33  London Waterloo                         4     On time
-## 02:05  London Waterloo                         4     On time
-## 01:03  Heathrow Central Bus Stn                BUS   On time
+## 02:23  Hounslow                                BUS   On time
+## 02:56  Hounslow                                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -111,12 +97,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-03-06 00:07:34
+## Reading (RDG) Station Board on 2022-03-06 02:20:05
 ## Time   To                                      Plat  Expected
-## 23:48  Didcot Parkway                          12    00:18
-## 23:52  Virginia Water                          4     Delayed
-## 23:54  London Paddington                       15    00:17
-## 00:02  Bristol Temple Meads                    12    00:17
-## 00:18  Newbury                                 14B   On time
-## 00:19  Slough                                  15    00:27
+## 04:00  Heathrow Central Bus Stn                -     On time
 ```
