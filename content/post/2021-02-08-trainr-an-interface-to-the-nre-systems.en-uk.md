@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-04-16 00:08)
+## Example (Last rendered on 2022-04-16 02:31)
 
 Load `trainR` to your working environment:
 
@@ -82,19 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-04-16 00:08:51
+## Reading (RDG) Station Board on 2022-04-16 02:31:05
 ## Time   From                                    Plat  Expected
-## 00:44  Gatwick Airport                         4     Delayed
-## 01:12  London Paddington                       9B    On time
-## 01:30  Oxford                                  7     On time
-## 01:31  London Paddington                       8     On time
-## 02:21  London Paddington                       8     On time
-## 01:07  Staines                                 BUS   On time
-## 01:15  Heathrow Central Bus Stn                BUS   On time
-## 01:35  Heathrow Central Bus Stn                BUS   On time
-## 01:36  Staines                                 BUS   On time
-## 02:07  Staines                                 BUS   On time
-## 02:38  Staines                                 BUS   On time
+## 04:00  Penzance                                11    04:02
+## 04:21  London Paddington                       10    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -106,8 +97,17 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-04-16 00:08:53
+## Reading (RDG) Station Board on 2022-04-16 02:31:07
 ## Time   To                                      Plat  Expected
-## 01:14  Oxford                                  9B    On time
-## 01:15  London Paddington                       10    On time
+## 04:13  London Paddington                       7     On time
+## 04:26  Gatwick Airport                         7     On time
+##        via Guildford                           
+## 04:54  London Paddington                       8     On time
+## 05:08  Bedwyn                                  13B   On time
+## 05:22  Redhill                                 14A   On time
+## 04:00  Heathrow Central Bus Stn                BUS   On time
+## 04:43  Staines                                 BUS   On time
+## 05:00  Heathrow Central Bus Stn                BUS   On time
+## 05:13  Staines                                 BUS   On time
+## 05:13  Staines                                 BUS   On time
 ```
