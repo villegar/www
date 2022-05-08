@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-05-08 04:07)
+## Example (Last rendered on 2022-05-08 06:04)
 
 Load `trainR` to your working environment:
 
@@ -82,9 +82,24 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-08 04:07:07
+## Reading (RDG) Station Board on 2022-05-08 06:04:15
 ## Time   From                                    Plat  Expected
-## 06:20  Heathrow Central Bus Stn                -     On time
+## 07:35  Ealing Broadway                         8     On time
+## 07:41  Ash                                     5     Delayed
+## 07:51  Ealing Broadway                         10    On time
+## 08:02  Staines                                 4     On time
+## 08:11  North Camp                              5     On time
+## 08:20  London Paddington                       7     On time
+## 08:28  London Paddington                       7     On time
+## 08:33  Basingstoke                             2     On time
+## 08:34  Ealing Broadway                         13    On time
+## 08:44  Salisbury                               1     On time
+## 08:49  London Waterloo                         5     On time
+## 08:58  London Paddington                       7     On time
+## 09:00  Swindon                                 10    On time
+## 09:03  London Paddington                       14    On time
+## 07:33  Heathrow Central Bus Stn                BUS   On time
+## 08:35  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -96,12 +111,28 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-08 04:07:09
+## Reading (RDG) Station Board on 2022-05-08 06:04:18
 ## Time   To                                      Plat  Expected
-## 06:03  North Camp                              5     On time
-## 06:21  Ealing Broadway                         7A    On time
-## 06:49  London Paddington                       10    On time
-## 06:57  North Camp                              5     On time
-## 06:00  Heathrow Central Bus Stn                BUS   On time
-## 07:00  Heathrow Central Bus Stn                BUS   On time
+## 07:15  London Paddington                       7     On time
+## 07:37  Basingstoke                             7B    On time
+## 07:40  Ash                                     7A    On time
+## 07:54  London Waterloo                         6     On time
+## 07:55  London Paddington                       9     On time
+## 08:06  Newbury                                 12B   On time
+## 08:10  London Paddington                       13    On time
+## 08:22  Penzance                                7     On time
+## 08:24  London Waterloo                         4     On time
+## 08:25  London Paddington                       10    On time
+## 08:33  Exeter St Davids                        7     On time
+##        via Bristol                             
+## 08:34  Bedwyn                                  14    On time
+## 08:38  Basingstoke                             2     On time
+## 08:40  Didcot Parkway                          13    On time
+## 08:41  Ash                                     5     On time
+## 08:52  Ealing Broadway                         14    On time
+## 08:54  London Waterloo                         4     On time
+## 09:00  Swansea                                 7     On time
+## 09:01  London Paddington                       10    On time
+## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 09:00  Heathrow Central Bus Stn                BUS   On time
 ```
