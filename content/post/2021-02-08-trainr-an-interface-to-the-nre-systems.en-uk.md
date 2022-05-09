@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-05-08 22:08)
+## Example (Last rendered on 2022-05-09 02:42)
 
 Load `trainR` to your working environment:
 
@@ -82,30 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-08 22:08:05
+## Reading (RDG) Station Board on 2022-05-09 02:42:36
 ## Time   From                                    Plat  Expected
-## 22:56  Penzance                                11    23:20
-## 23:08  Didcot Parkway                          8     On time
-## 23:10  Ash                                     5     On time
-## 23:12  London Paddington                       7     On time
-## 23:14  Bedwyn                                  3     23:18
-## 23:18  Carmarthen                              11A   On time
-## 23:26  London Waterloo                         6     On time
-## 23:32  London Paddington                       7     On time
-## 23:33  London Paddington                       10    On time
-## 23:35  Plymouth                                11    23:51
-## 23:46  Newbury                                 1     On time
-## 23:49  London Waterloo                         6     On time
-## 00:12  Ash                                     4     On time
-## 00:12  London Paddington                       7B    On time
-## 00:17  Didcot Parkway                          8     On time
-## 00:17  London Paddington                       9     On time
-## 00:21  London Waterloo                         5     On time
-## 00:49  London Waterloo                         5     On time
-## 00:50  London Paddington                       7     On time
-## 00:51  Didcot Parkway                          9A    On time
-## 23:15  Heathrow Central Bus Stn                BUS   On time
-## 00:15  Heathrow Central Bus Stn                BUS   On time
+## 04:05  Penzance                                7     On time
+## 04:21  London Paddington                       13    On time
+## 04:38  Didcot Parkway                          13A   On time
+## 05:35  Didcot Parkway                          15    On time
+## 05:36  London Paddington                       9     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -117,18 +100,22 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-08 22:08:08
+## Reading (RDG) Station Board on 2022-05-09 02:42:39
 ## Time   To                                      Plat  Expected
-## 22:57  London Paddington                       11    23:21
-## 23:10  Ealing Broadway                         8     On time
-## 23:15  Bristol Parkway                         7     On time
-## 23:19  London Paddington                       11A   On time
-## 23:20  Didcot Parkway                          13    On time
-## 23:35  Bristol Temple Meads                    7     On time
-## 23:40  London Paddington                       11    23:52
-## 00:19  Bristol Temple Meads                    9     On time
-## 00:24  Didcot Parkway                          7B    On time
-## 00:24  Ealing Broadway                         8     On time
-## 00:49  Penzance                                8     On time
-## 00:55  London Paddington                       9A    On time
+## 03:55  London Paddington                       8     On time
+## 04:32  Gatwick Airport                         15    On time
+##        via Guildford                           
+## 04:34  London Paddington                       13    On time
+## 04:58  Redhill                                 15    On time
+## 05:08  London Paddington                       15    On time
+## 05:12  Bedwyn                                  8     On time
+## 05:16  Newbury                                 12B   On time
+## 05:19  Basingstoke                             12B   On time
+## 05:31  Gatwick Airport                         15    On time
+##        via Guildford                           
+## 05:36  Ealing Broadway                         15    On time
+## 05:38  Oxford                                  9     On time
+## 05:40  Basingstoke                             14B   On time
+## 04:00  Heathrow Central Bus Stn                BUS   On time
+## 05:00  Heathrow Central Bus Stn                BUS   On time
 ```
