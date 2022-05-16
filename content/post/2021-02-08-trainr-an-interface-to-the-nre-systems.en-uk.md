@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-05-16 00:09)
+## Example (Last rendered on 2022-05-16 02:33)
 
 Load `trainR` to your working environment:
 
@@ -82,12 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-16 00:09:20
+## Reading (RDG) Station Board on 2022-05-16 02:33:21
 ## Time   From                                    Plat  Expected
-## 01:23  London Waterloo                         6     On time
-## 01:24  London Paddington                       13    On time
-## 02:21  London Paddington                       13    On time
-## 01:15  Heathrow Central Bus Stn                BUS   On time
+## 04:05  Penzance                                14    On time
+## 04:21  London Paddington                       -     On time
+## 04:38  Didcot Parkway                          -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -99,7 +98,19 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-16 00:09:22
+## Reading (RDG) Station Board on 2022-05-16 02:33:23
 ## Time   To                                      Plat  Expected
-## 02:24  London Paddington                       14A   On time
+## 03:55  London Paddington                       -     On time
+## 04:32  Gatwick Airport                         -     On time
+##        via Guildford                           
+## 04:34  London Paddington                       -     On time
+## 04:58  Redhill                                 -     On time
+## 05:08  London Paddington                       -     On time
+## 05:12  Bedwyn                                  -     On time
+## 05:16  Newbury                                 -     On time
+## 05:19  Basingstoke                             -     On time
+## 05:31  Gatwick Airport                         -     On time
+##        via Guildford                           
+## 04:00  Heathrow Central Bus Stn                -     On time
+## 05:00  Heathrow Central Bus Stn                -     On time
 ```
