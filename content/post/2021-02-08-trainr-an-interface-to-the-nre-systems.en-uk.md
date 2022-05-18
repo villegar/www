@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-05-18 00:11)
+## Example (Last rendered on 2022-05-18 02:38)
 
 Load `trainR` to your working environment:
 
@@ -82,13 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-18 00:11:43
+## Reading (RDG) Station Board on 2022-05-18 02:38:44
 ## Time   From                                    Plat  Expected
-## 01:13  London Paddington                       12B   On time
-## 01:28  Oxford                                  14B   On time
-## 01:33  London Paddington                       13    On time
-## 02:27  London Paddington                       14    On time
-## 01:35  Heathrow Central Bus Stn                BUS   On time
+## 04:21  London Paddington                       13    On time
+## 04:38  Oxford                                  13A   On time
+## 05:35  Didcot Parkway                          15    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -100,9 +98,20 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-05-18 00:11:55
+## Reading (RDG) Station Board on 2022-05-18 02:38:46
 ## Time   To                                      Plat  Expected
-## 01:15  London Paddington                       13A   On time
-## 01:15  Oxford                                  12B   On time
-## 02:24  London Paddington                       15A   On time
+## 03:55  London Paddington                       15A   On time
+## 04:32  Gatwick Airport                         15    On time
+##        via Guildford                           
+## 04:34  London Paddington                       13    On time
+## 04:58  Redhill                                 15    On time
+## 05:08  London Paddington                       15    On time
+## 05:12  Bedwyn                                  8     On time
+## 05:16  Newbury                                 12B   On time
+## 05:19  Basingstoke                             12B   On time
+## 05:31  Gatwick Airport                         15    On time
+##        via Guildford                           
+## 05:36  Ealing Broadway                         15    On time
+## 04:00  Heathrow Central Bus Stn                BUS   On time
+## 05:00  Heathrow Central Bus Stn                BUS   On time
 ```
