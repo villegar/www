@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-06-04 22:03)
+## Example (Last rendered on 2022-06-05 00:08)
 
 Load `trainR` to your working environment:
 
@@ -82,39 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-06-04 22:03:42
+## Reading (RDG) Station Board on 2022-06-05 00:08:46
 ## Time   From                                    Plat  Expected
-## 23:04  Hereford                                13A   On time
-## 23:04  Redhill                                 15    23:00
-## 23:05  London Paddington                       10    On time
-## 23:10  Newbury                                 8     On time
-## 23:10  Penzance                                11    23:23
-## 23:11  London Waterloo                         4     23:16
-## 23:16  London Paddington                       8     On time
-## 23:24  Basingstoke                             3     On time
-## 23:26  Didcot Parkway                          7     On time
-## 23:27  London Paddington                       9B    On time
-## 23:34  Oxford                                  10    On time
-## 23:38  London Paddington                       9     On time
-## 23:41  London Waterloo                         6     23:43
-## 23:46  London Paddington                       8     On time
-## 23:52  Taunton                                 11    On time
-## 23:55  Basingstoke                             3     On time
-## 23:59  London Paddington                       9     On time
-## 00:02  Gatwick Airport                         7     On time
-## 00:06  London Paddington                       10    On time
-## 00:08  Basingstoke                             1     On time
-## 00:10  London Paddington                       9B    On time
-## 00:11  London Waterloo                         6     On time
-## 00:13  Newbury                                 3     On time
-## 00:17  Didcot Parkway                          8     On time
-## 00:25  London Paddington                       8     On time
-## 00:28  London Paddington                       7     On time
-## 00:41  London Waterloo                         4     On time
-## 00:44  Gatwick Airport                         5     On time
-## 00:55  London Paddington                       8     On time
-## 23:15  Heathrow Central Bus Stn                BUS   On time
-## 00:15  Heathrow Central Bus Stn                BUS   On time
+## 01:04  London Waterloo                         4     01:44
+## 01:10  London Paddington                       7     01:14
+## 01:28  London Paddington                       7     01:36
+## 01:42  London Waterloo                         6     02:15
+## 01:15  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -126,24 +100,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-06-04 22:03:45
-## Time   To                                      Plat  Expected
-## 23:05  Basingstoke                             2     On time
-## 23:06  London Paddington                       13A   On time
-## 23:10  Newbury                                 1     On time
-## 23:13  London Paddington                       11    23:24
-## 23:15  London Waterloo                         6     On time
-## 23:17  Ealing Broadway                         7     On time
-## 23:21  Ealing Broadway                         10    On time
-## 23:32  Oxford                                  9B    On time
-## 23:34  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 23:38  London Paddington                       10    On time
-## 23:48  Didcot Parkway                          8     On time
-## 23:52  Staines                                 6     On time
-## 23:56  London Paddington                       11    On time
-## 00:04  Bristol Temple Meads                    9     On time
-## 00:12  Oxford                                  9B    On time
-## 00:18  Newbury                                 1     On time
-## 00:19  Ealing Broadway                         8     On time
+## Reading (RDG) Station Board on 2022-06-05 00:08:48
 ```
