@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-06-26 04:15)
+## Example (Last rendered on 2022-06-26 06:03)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,17 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-06-26 04:15:55
+## Reading (RDG) Station Board on 2022-06-26 06:03:48
+## Time   From                                    Plat  Expected
+## 08:06  London Paddington                       14    On time
+## 08:19  London Paddington                       9     On time
+## 08:32  Staines                                 6     On time
+## 08:37  London Paddington                       9     On time
+## 08:40  London Paddington                       14    On time
+## 08:49  Oxford                                  11    On time
+## 09:02  London Waterloo                         4     On time
+## 08:35  Heathrow Central Bus Stn                BUS   On time
+## 09:00  Basingstoke                             BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,5 +104,27 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-06-26 04:15:58
+## Reading (RDG) Station Board on 2022-06-26 06:03:51
+## Time   To                                      Plat  Expected
+## 07:39  Guildford                               15A   On time
+## 07:54  London Paddington                       15    On time
+## 07:54  London Waterloo                         6     On time
+## 08:06  Newbury                                 1     On time
+## 08:11  London Paddington                       13    On time
+## 08:20  Great Malvern                           9     On time
+## 08:22  Penzance                                8     On time
+## 08:24  Didcot Parkway                          12    On time
+## 08:24  London Paddington                       14    On time
+## 08:24  London Waterloo                         4     On time
+## 08:34  Bedwyn                                  15    On time
+## 08:38  Basingstoke                             2     On time
+## 08:39  Exeter St Davids                        9     On time
+##        via Bristol                             
+## 08:41  Guildford                               15    On time
+## 08:51  London Paddington                       11    On time
+## 08:54  Ealing Broadway                         14    On time
+## 08:54  London Waterloo                         6     On time
+## 07:20  Basingstoke                             BUS   On time
+## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 09:00  Heathrow Central Bus Stn                BUS   On time
 ```
