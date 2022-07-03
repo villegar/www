@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-07-03 04:10)
+## Example (Last rendered on 2022-07-03 06:03)
 
 Load `trainR` to your working environment:
 
@@ -82,9 +82,28 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-03 04:10:57
+## Reading (RDG) Station Board on 2022-07-03 06:03:45
 ## Time   From                                    Plat  Expected
-## 06:20  Heathrow Central Bus Stn                -     On time
+## 07:23  London Paddington                       9     On time
+## 07:36  London Paddington                       10    On time
+## 08:02  Ascot                                   4     On time
+## 08:09  London Paddington                       14    On time
+## 08:17  London Paddington                       12    On time
+## 08:17  Oxford                                  15    On time
+## 08:20  London Paddington                       7     On time
+## 08:23  London Paddington                       12    On time
+## 08:32  Ascot                                   6     On time
+## 08:33  Basingstoke                             2     On time
+## 08:37  London Paddington                       12    On time
+## 08:40  London Paddington                       14    On time
+## 08:44  Salisbury                               1     On time
+## 08:49  Oxford                                  15    On time
+## 08:58  London Paddington                       7     On time
+## 09:02  Ascot                                   4     On time
+## 07:33  Heathrow Central Bus Stn                BUS   On time
+## 07:40  Guildford                               -     On time
+## 08:22  Guildford                               BUS   On time
+## 08:35  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -96,12 +115,31 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-03 04:10:59
+## Reading (RDG) Station Board on 2022-07-03 06:03:47
 ## Time   To                                      Plat  Expected
-## 06:20  London Paddington                       7     On time
-## 06:52  London Paddington                       10    On time
-## 05:15  Guildford                               BUS   On time
-## 05:50  Guildford                               -     On time
-## 06:00  Heathrow Central Bus Stn                BUS   On time
-## 07:00  Heathrow Central Bus Stn                BUS   On time
+## 07:10  London Paddington                       7     On time
+## 07:38  Basingstoke                             7B    On time
+## 07:54  Ascot                                   6     On time
+## 07:54  London Paddington                       10    On time
+## 08:06  Newbury                                 12    On time
+## 08:11  London Paddington                       13    On time
+## 08:20  Worcestershire Parkway                  12    On time
+## 08:21  London Paddington                       15    On time
+## 08:22  Plymouth                                7     On time
+## 08:24  Ascot                                   4     On time
+## 08:24  Didcot Parkway                          12    On time
+## 08:24  London Paddington                       14    On time
+## 08:34  Bedwyn                                  15    On time
+## 08:37  Exeter St Davids                        12    On time
+##        via Bristol                             
+## 08:38  Basingstoke                             2     On time
+## 08:51  London Paddington                       15    On time
+## 08:54  Ascot                                   6     On time
+## 08:54  Ealing Broadway                         14    On time
+## 08:59  Swansea                                 7     On time
+## 07:25  Guildford                               -     On time
+## 07:56  Guildford                               -     On time
+## 08:00  Heathrow Central Bus Stn                BUS   On time
+## 08:45  Guildford                               -     On time
+## 09:00  Heathrow Central Bus Stn                BUS   On time
 ```
