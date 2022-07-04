@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-07-03 20:04)
+## Example (Last rendered on 2022-07-04 00:09)
 
 Load `trainR` to your working environment:
 
@@ -82,48 +82,14 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-03 20:04:03
+## Reading (RDG) Station Board on 2022-07-04 00:09:06
 ## Time   From                                    Plat  Expected
-## 20:57  Worcestershire Parkway                  10A   20:59
-## 21:02  Ascot                                   4     21:05
-## 21:05  Bournemouth                             8     On time
-## 21:07  London Paddington                       9     21:26
-## 21:11  Taunton                                 -     Cancelled
-## 21:12  London Paddington                       9     On time
-## 21:12  London Paddington                       12    On time
-## 21:13  Didcot Parkway                          13    On time
-## 21:19  Bedwyn                                  1     On time
-## 21:22  Swansea                                 -     Cancelled
-## 21:26  London Paddington                       7B    On time
-## 21:32  Ascot                                   6     On time
-## 21:33  Basingstoke                             2     On time
-## 21:33  London Paddington                       14    On time
-## 21:39  Manchester Piccadilly                   8     On time
-## 21:42  London Paddington                       9B    On time
-## 21:53  London Paddington                       9     On time
-## 21:56  Worcestershire Parkway                  10    On time
-## 22:02  Ascot                                   6     On time
-## 22:03  London Paddington                       14    On time
-## 22:05  Plymouth                                11    On time
-## 22:06  London Paddington                       9     On time
-## 22:09  Weston-super-Mare                       10    On time
-## 22:10  London Paddington                       12    On time
-## 22:12  London Paddington                       9     On time
-## 22:13  Didcot Parkway                          13    On time
-## 22:21  Swansea                                 10    On time
-## 22:23  London Paddington                       9     On time
-## 22:24  Newbury                                 1     On time
-## 22:33  Basingstoke                             13    On time
-## 22:33  London Paddington                       10    On time
-## 22:39  Manchester Piccadilly                   7     On time
-## 22:50  Penzance                                11    On time
-## 22:54  Worcestershire Parkway                  15    On time
-## 23:02  Ascot                                   6     On time
-## 21:18  Guildford                               -     On time
-## 21:25  Heathrow Central Bus Stn                BUS   On time
-## 22:00  Guildford                               -     On time
-## 22:15  Heathrow Central Bus Stn                BUS   On time
-## 22:38  Guildford                               -     On time
+## 01:27  London Paddington                       7     On time
+## 02:21  London Paddington                       7     On time
+## 01:15  Heathrow Central Bus Stn                BUS   On time
+## 01:40  Guildford                               -     On time
+## 01:42  Hounslow                                BUS   On time
+## 02:32  Hounslow                                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -135,45 +101,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-03 20:04:06
+## Reading (RDG) Station Board on 2022-07-04 00:09:08
 ## Time   To                                      Plat  Expected
-## 21:02  London Paddington                       10A   On time
-## 21:09  Swansea                                 9     21:27
-## 21:12  Birmingham New Street                   8     On time
-##        via Coventry                            
-## 21:13  London Paddington                       -     Cancelled
-## 21:14  Didcot Parkway                          12    On time
-## 21:14  Ealing Broadway                         13    On time
-## 21:15  Oxford                                  9     On time
-## 21:24  Ealing Broadway                         14    On time
-## 21:25  London Paddington                       -     Cancelled
-## 21:28  Exeter St Davids                        7B    On time
-## 21:38  Basingstoke                             2     On time
-## 21:43  Bedwyn                                  1     On time
-## 21:48  Oxford                                  9B    On time
-## 21:52  Southampton Central                     8     On time
-## 21:54  Ascot                                   4     On time
-## 21:54  Ealing Broadway                         14    On time
-## 21:55  Bristol Temple Meads                    9     On time
-## 21:58  London Paddington                       10    On time
-## 22:09  Swansea                                 9     On time
-## 22:10  London Paddington                       10    On time
-## 22:12  Didcot Parkway                          12    On time
-## 22:12  London Paddington                       11    On time
-## 22:13  Worcestershire Parkway                  9     On time
-## 22:24  Bristol Temple Meads                    9     On time
-## 22:25  London Paddington                       10    On time
-## 22:28  Ealing Broadway                         14    On time
-## 22:43  Newbury                                 1     On time
-## 22:54  Ascot                                   6     On time
-## 22:54  London Paddington                       15    On time
-## 22:55  London Paddington                       11    On time
-## 22:59  Ealing Broadway                         10    On time
-## 21:30  Guildford                               BUS   On time
-## 21:58  Guildford                               -     On time
-## 22:00  Heathrow Central Bus Stn                BUS   On time
-## 22:25  Guildford                               -     On time
-## 23:00  Heathrow Central Bus Stn                BUS   On time
-## 23:03  Gatwick Airport                         -     On time
-##        via Guildford
+## 02:24  London Paddington                       10A   On time
 ```
