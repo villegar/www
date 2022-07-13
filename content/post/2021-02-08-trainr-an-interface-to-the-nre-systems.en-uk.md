@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-07-13 00:20)
+## Example (Last rendered on 2022-07-13 02:59)
 
 Load `trainR` to your working environment:
 
@@ -78,18 +78,18 @@ library(trainR)
 
 ```r
 rdg_arr <- trainR::GetArrBoardRequest("RDG")
-```
-
-```
-## Error: [soap:Receiver] Unexpected server error
-```
-
-```r
 print(rdg_arr)
 ```
 
 ```
-## Error in print(rdg_arr): object 'rdg_arr' not found
+## Reading (RDG) Station Board on 2022-07-13 02:59:33
+## Time   From                                    Plat  Expected
+## 04:21  London Paddington                       13    On time
+## 04:38  Oxford                                  13A   On time
+## 05:35  Didcot Parkway                          15    On time
+## 05:38  London Paddington                       9     On time
+## 05:46  Oxford                                  11A   On time
+## 05:47  London Paddington                       9     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -97,16 +97,31 @@ print(rdg_arr)
 
 ```r
 rdg_dep <- trainR::GetDepBoardRequest("RDG")
-```
-
-```
-## Error: [soap:Receiver] Unexpected server error
-```
-
-```r
 print(rdg_dep)
 ```
 
 ```
-## Error in print(rdg_dep): object 'rdg_dep' not found
+## Reading (RDG) Station Board on 2022-07-13 02:59:35
+## Time   To                                      Plat  Expected
+## 04:32  Gatwick Airport                         15A   On time
+##        via Guildford                           
+## 04:34  London Paddington                       13    On time
+## 04:58  Redhill                                 15A   On time
+## 05:08  London Paddington                       15    On time
+## 05:12  Bedwyn                                  8B    On time
+## 05:16  Newbury                                 12B   On time
+## 05:19  Basingstoke                             12B   On time
+## 05:31  Gatwick Airport                         15A   On time
+##        via Guildford                           
+## 05:36  Ealing Broadway                         15    On time
+## 05:39  Oxford                                  9     On time
+## 05:40  Basingstoke                             14B   On time
+## 05:42  London Waterloo                         5     On time
+## 05:48  London Paddington                       11A   On time
+## 05:49  Didcot Parkway                          13    On time
+## 05:49  Swansea                                 9     On time
+## 05:50  Newbury                                 1     On time
+## 05:54  Redhill                                 15A   On time
+## 04:00  Heathrow Central Bus Stn                BUS   On time
+## 05:00  Heathrow Central Bus Stn                BUS   On time
 ```
