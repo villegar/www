@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-07-30 02:48)
+## Example (Last rendered on 2022-07-30 04:17)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,16 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 02:48:22
+## Reading (RDG) Station Board on 2022-07-30 04:17:41
+## Time   From                                    Plat  Expected
+## 06:07  London Paddington                       14    On time
+## 06:39  London Paddington                       14    On time
+## 07:05  Southampton Central                     13B   On time
+## 07:08  London Paddington                       14    On time
+## 06:10  Staines                                 BUS   On time
+## 06:33  Virginia Water                          BUS   On time
+## 06:54  Virginia Water                          BUS   On time
+## 07:03  Virginia Water                          -     Cancelled
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,10 +103,22 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 02:48:25
+## Reading (RDG) Station Board on 2022-07-30 04:17:43
 ## Time   To                                      Plat  Expected
-## 04:50  Virginia Water                          BUS   On time
-## 05:11  Virginia Water                          BUS   On time
+## 05:54  London Paddington                       14    On time
+## 06:15  Manchester Piccadilly                   12    On time
+##        via Coventry & Stoke-on-Trent           
+## 06:24  London Paddington                       14    On time
+## 06:54  London Paddington                       14    On time
+## 07:07  Basingstoke                             2     On time
+## 07:15  Manchester Piccadilly                   13B   On time
+##        via Coventry & Stoke-on-Trent           
 ## 05:20  Virginia Water                          BUS   On time
 ## 05:41  Virginia Water                          -     Cancelled
+## 05:50  Virginia Water                          BUS   On time
+## 06:11  Virginia Water                          BUS   On time
+## 06:20  Virginia Water                          BUS   On time
+## 06:41  Virginia Water                          BUS   On time
+## 06:50  Virginia Water                          BUS   On time
+## 07:11  Virginia Water                          -     Cancelled
 ```
