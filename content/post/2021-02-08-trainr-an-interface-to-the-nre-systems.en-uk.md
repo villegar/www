@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-07-30 08:04)
+## Example (Last rendered on 2022-07-30 10:07)
 
 Load `trainR` to your working environment:
 
@@ -82,32 +82,32 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 08:04:01
+## Reading (RDG) Station Board on 2022-07-30 10:07:19
 ## Time   From                                    Plat  Expected
-## 09:03  London Paddington                       14    On time
-## 09:07  Bournemouth                             13B   09:09
-## 09:20  Basingstoke                             2     09:22
-## 09:24  Oxford                                  15    On time
-## 09:33  London Paddington                       14    On time
-## 09:40  Bristol Temple Meads                    10    On time
-## 09:40  Nottingham                              13    09:47
-## 09:56  London Paddington                       9     On time
-## 10:03  London Paddington                       14    On time
-## 10:20  Basingstoke                             2     On time
-## 10:22  Oxford                                  15    On time
-## 10:33  London Paddington                       14    On time
-## 10:40  Bristol Temple Meads                    10    On time
-## 10:41  Manchester Piccadilly                   7     On time
-## 10:55  London Paddington                       8     On time
-## 09:03  Virginia Water                          BUS   On time
-## 09:24  Virginia Water                          BUS   On time
-## 09:33  Virginia Water                          -     Cancelled
-## 09:54  Virginia Water                          BUS   On time
-## 10:03  Virginia Water                          -     Cancelled
-## 10:24  Virginia Water                          BUS   On time
-## 10:37  Virginia Water                          BUS   On time
-## 10:58  Virginia Water                          BUS   On time
+## 11:05  Bournemouth                             13B   11:08
+## 11:22  Oxford                                  15    On time
+## 11:28  Basingstoke                             2     On time
+## 11:34  London Paddington                       14    On time
+## 11:39  Manchester Piccadilly                   13    On time
+## 11:41  Bristol Temple Meads                    10    On time
+## 11:55  London Paddington                       9     On time
+## 12:03  London Paddington                       14    On time
+## 12:20  Basingstoke                             2     On time
+## 12:21  Oxford                                  15    On time
+## 12:33  London Paddington                       14    On time
+## 12:39  Manchester Piccadilly                   7     On time
+## 12:40  Bristol Temple Meads                    10    On time
+## 12:54  London Paddington                       9     On time
+## 13:03  London Paddington                       14    On time
 ## 11:03  Virginia Water                          -     Cancelled
+## 11:24  Virginia Water                          BUS   On time
+## 11:33  Virginia Water                          BUS   On time
+## 11:54  Virginia Water                          BUS   On time
+## 12:03  Virginia Water                          BUS   On time
+## 12:24  Virginia Water                          BUS   On time
+## 12:33  Virginia Water                          -     Cancelled
+## 12:54  Virginia Water                          BUS   On time
+## 13:03  Virginia Water                          -     Cancelled
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -119,31 +119,31 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 08:04:04
+## Reading (RDG) Station Board on 2022-07-30 10:07:21
 ## Time   To                                      Plat  Expected
-## 09:09  Basingstoke                             2     On time
-## 09:15  Manchester Piccadilly                   13B   On time
+## 11:15  Manchester Piccadilly                   13B   On time
 ##        via Coventry & Stoke-on-Trent           
-## 09:24  London Paddington                       14    On time
-## 09:42  Oxford                                  15B   On time
-## 09:43  London Paddington                       10    On time
-## 09:54  London Paddington                       14    On time
-## 09:58  Bristol Temple Meads                    9     On time
-## 10:07  Basingstoke                             2     On time
-## 10:15  Manchester Piccadilly                   13    On time
+## 11:24  London Paddington                       14    On time
+## 11:42  Oxford                                  15B   On time
+## 11:43  London Paddington                       10    On time
+## 11:54  London Paddington                       14    On time
+## 11:57  Bristol Temple Meads                    9     On time
+## 12:08  Basingstoke                             2     On time
+## 12:15  Manchester Piccadilly                   13    On time
 ##        via Coventry & Stoke-on-Trent           
-## 10:24  London Paddington                       14    On time
-## 10:42  London Paddington                       10    On time
-## 10:42  Oxford                                  15B   On time
-## 10:51  Bournemouth                             7     On time
-## 10:54  London Paddington                       14    On time
-## 10:58  Bristol Temple Meads                    8     On time
-## 09:11  Virginia Water                          BUS   On time
-## 09:20  Virginia Water                          BUS   On time
-## 09:41  Virginia Water                          -     Cancelled
-## 09:50  Virginia Water                          BUS   On time
-## 10:11  Virginia Water                          -     Cancelled
-## 10:20  Virginia Water                          BUS   On time
-## 10:41  Virginia Water                          BUS   On time
-## 10:50  Virginia Water                          BUS   On time
+## 12:24  London Paddington                       14    On time
+## 12:42  London Paddington                       10    On time
+## 12:42  Oxford                                  15B   On time
+## 12:52  Bournemouth                             7     On time
+## 12:54  London Paddington                       14    On time
+## 12:57  Bristol Temple Meads                    9     On time
+## 13:05  Basingstoke                             2     On time
+## 11:11  Virginia Water                          -     Cancelled
+## 11:20  Virginia Water                          BUS   On time
+## 11:41  Virginia Water                          BUS   On time
+## 11:50  Virginia Water                          BUS   On time
+## 12:11  Virginia Water                          BUS   On time
+## 12:20  Virginia Water                          BUS   On time
+## 12:41  Virginia Water                          -     Cancelled
+## 12:50  Virginia Water                          BUS   On time
 ```
