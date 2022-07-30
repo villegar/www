@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-07-30 20:04)
+## Example (Last rendered on 2022-07-30 22:04)
 
 Load `trainR` to your working environment:
 
@@ -82,26 +82,19 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 20:04:18
+## Reading (RDG) Station Board on 2022-07-30 22:04:20
 ## Time   From                                    Plat  Expected
-## 20:39  Manchester Piccadilly                   12    21:12
-## 21:03  London Paddington                       14    21:06
-## 21:05  Bournemouth                             13B   21:07
-## 21:33  London Paddington                       14    On time
-## 21:39  Manchester Piccadilly                   7B    On time
-## 22:04  London Paddington                       14    On time
-## 22:33  London Paddington                       14    On time
-## 22:41  Manchester Piccadilly                   7     On time
-## 23:03  London Paddington                       10    On time
-## 21:03  Virginia Water                          BUS   On time
-## 21:24  Virginia Water                          BUS   On time
-## 21:33  Virginia Water                          -     Cancelled
-## 21:54  Virginia Water                          BUS   On time
-## 22:03  Virginia Water                          -     Cancelled
-## 22:24  Virginia Water                          BUS   On time
-## 22:33  Virginia Water                          -     Cancelled
-## 22:54  Virginia Water                          BUS   On time
+## 23:03  London Paddington                       10    23:05
+## 23:36  London Paddington                       9     On time
 ## 23:03  Virginia Water                          -     Cancelled
+## 23:24  Virginia Water                          BUS   On time
+## 23:33  Virginia Water                          BUS   On time
+## 23:54  Virginia Water                          BUS   On time
+## 00:03  Virginia Water                          -     Cancelled
+## 00:24  Virginia Water                          BUS   On time
+## 00:33  Virginia Water                          -     Cancelled
+## 00:54  Virginia Water                          BUS   On time
+## 01:03  Virginia Water                          -     Cancelled
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -113,23 +106,10 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 20:04:21
+## Reading (RDG) Station Board on 2022-07-30 22:04:22
 ## Time   To                                      Plat  Expected
-## 20:52  Bournemouth                             12    21:13
-## 21:15  Birmingham New Street                   13B   On time
-##        via Coventry                            
-## 21:24  London Paddington                       14    On time
-## 21:52  Bournemouth                             7B    On time
-## 21:52  London Paddington                       14    On time
-## 22:22  London Paddington                       14    On time
-## 22:52  London Paddington                       14    On time
-## 22:52  Southampton Central                     7     On time
-## 21:11  Virginia Water                          BUS   On time
-## 21:20  Virginia Water                          BUS   On time
-## 21:41  Virginia Water                          -     Cancelled
-## 21:50  Virginia Water                          BUS   On time
-## 22:11  Virginia Water                          -     Cancelled
-## 22:20  Virginia Water                          BUS   On time
-## 22:41  Virginia Water                          -     Cancelled
-## 22:50  Virginia Water                          BUS   On time
+## 23:21  London Paddington                       10    On time
+## 23:11  Virginia Water                          -     Cancelled
+## 23:20  Virginia Water                          BUS   On time
+## 23:52  Virginia Water                          BUS   On time
 ```
