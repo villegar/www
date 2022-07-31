@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-07-30 22:04)
+## Example (Last rendered on 2022-07-31 00:09)
 
 Load `trainR` to your working environment:
 
@@ -82,19 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 22:04:20
+## Reading (RDG) Station Board on 2022-07-31 00:09:34
 ## Time   From                                    Plat  Expected
-## 23:03  London Paddington                       10    23:05
-## 23:36  London Paddington                       9     On time
-## 23:03  Virginia Water                          -     Cancelled
-## 23:24  Virginia Water                          BUS   On time
-## 23:33  Virginia Water                          BUS   On time
-## 23:54  Virginia Water                          BUS   On time
-## 00:03  Virginia Water                          -     Cancelled
-## 00:24  Virginia Water                          BUS   On time
-## 00:33  Virginia Water                          -     Cancelled
-## 00:54  Virginia Water                          BUS   On time
-## 01:03  Virginia Water                          -     Cancelled
+## 01:24  Virginia Water                          BUS   On time
+## 01:33  Virginia Water                          -     Cancelled
+## 01:54  Virginia Water                          BUS   On time
+## 02:03  Virginia Water                          BUS   On time
+## 02:24  Virginia Water                          BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -106,10 +100,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-07-30 22:04:22
-## Time   To                                      Plat  Expected
-## 23:21  London Paddington                       10    On time
-## 23:11  Virginia Water                          -     Cancelled
-## 23:20  Virginia Water                          BUS   On time
-## 23:52  Virginia Water                          BUS   On time
+## Reading (RDG) Station Board on 2022-07-31 00:09:36
 ```
