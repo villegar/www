@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-08-13 20:03)
+## Example (Last rendered on 2022-08-13 22:04)
 
 Load `trainR` to your working environment:
 
@@ -82,16 +82,14 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-08-13 20:03:49
+## Reading (RDG) Station Board on 2022-08-13 22:04:07
 ## Time   From                                    Plat  Expected
-## 21:03  London Paddington                       14    21:06
-## 21:11  London Waterloo                         6     21:27
-## 21:33  London Paddington                       14    21:39
-## 21:41  London Waterloo                         5     21:43
-## 22:04  London Paddington                       14    On time
-## 22:11  London Waterloo                         4     On time
-## 22:33  London Paddington                       14    On time
-## 22:41  London Waterloo                         6     On time
+## 23:03  London Paddington                       14    On time
+## 23:11  London Waterloo                         4     On time
+## 23:35  London Paddington                       14    On time
+## 23:41  London Waterloo                         6     On time
+## 00:11  London Waterloo                         6     On time
+## 00:41  London Waterloo                         4     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -103,14 +101,9 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-08-13 20:03:51
+## Reading (RDG) Station Board on 2022-08-13 22:04:10
 ## Time   To                                      Plat  Expected
-## 21:07  London Waterloo                         5     On time
-## 21:24  London Paddington                       14    On time
-## 21:37  London Waterloo                         6     On time
-## 21:52  London Paddington                       14    On time
-## 22:07  London Waterloo                         5     On time
-## 22:22  London Paddington                       14    On time
-## 22:37  London Waterloo                         5     On time
-## 22:52  London Paddington                       14    On time
+## 23:11  London Waterloo                         6     On time
+## 23:21  London Paddington                       14    On time
+## 23:48  Staines                                 6     On time
 ```
