@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-08-14 22:04)
+## Example (Last rendered on 2022-08-15 00:08)
 
 Load `trainR` to your working environment:
 
@@ -82,26 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-08-14 22:04:04
+## Reading (RDG) Station Board on 2022-08-15 00:08:27
 ## Time   From                                    Plat  Expected
-## 23:02  London Waterloo                         6     23:04
-## 23:04  London Paddington                       14    On time
-## 23:08  Didcot Parkway                          10    On time
-## 23:14  Bedwyn                                  15    On time
-## 23:32  London Waterloo                         6     On time
-## 23:33  London Paddington                       13    On time
-## 23:44  Gatwick Airport                         15    On time
-## 00:02  London Waterloo                         5     On time
-## 00:12  London Paddington                       8B    On time
-## 00:20  Didcot Parkway                          11    On time
-## 00:32  London Waterloo                         5     On time
-## 00:49  Gatwick Airport                         15    On time
-## 00:50  Didcot Parkway                          11    On time
-## 00:52  London Paddington                       13    On time
-## 01:02  London Waterloo                         6     On time
-## 23:15  Heathrow Central Bus Stn                BUS   On time
-## 00:08  Newbury                                 BUS   On time
-## 00:15  Heathrow Central Bus Stn                BUS   On time
+## 01:24  London Paddington                       13    On time
+## 02:21  London Paddington                       13    On time
+## 01:15  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -113,14 +98,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-08-14 22:04:07
+## Reading (RDG) Station Board on 2022-08-15 00:08:29
 ## Time   To                                      Plat  Expected
-## 23:03  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 23:10  Ealing Broadway                         10    On time
-## 23:24  Didcot Parkway                          13    On time
-## 23:43  Ealing Broadway                         14    On time
-## 00:24  Didcot Parkway                          8B    On time
-## 00:24  Ealing Broadway                         11    On time
-## 00:54  London Paddington                       11    On time
+## 02:24  London Paddington                       11A   On time
 ```
