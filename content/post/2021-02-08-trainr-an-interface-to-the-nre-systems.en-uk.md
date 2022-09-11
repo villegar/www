@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-09-10 22:04)
+## Example (Last rendered on 2022-09-11 00:09)
 
 Load `trainR` to your working environment:
 
@@ -82,35 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-09-10 22:04:15
+## Reading (RDG) Station Board on 2022-09-11 00:09:32
 ## Time   From                                    Plat  Expected
-## 23:04  Didcot Parkway                          11    23:01
-## 23:04  Redhill                                 15    On time
-## 23:10  Newbury                                 12B   On time
-## 23:11  London Waterloo                         4     23:13
-## 23:11  Penzance                                10    23:14
-## 23:17  London Paddington                       13    On time
-## 23:24  Basingstoke                             13    On time
-## 23:28  London Paddington                       7B    On time
-## 23:29  Didcot Parkway                          15    On time
-## 23:35  London Paddington                       14    On time
-## 23:41  London Waterloo                         6     On time
-## 23:46  London Paddington                       12    On time
-## 23:52  Taunton                                 11    On time
-## 23:55  Basingstoke                             14B   On time
-## 23:56  London Paddington                       7     On time
-## 00:03  Gatwick Airport                         13B   On time
-## 00:08  Basingstoke                             1     On time
-## 00:10  London Paddington                       7     On time
-## 00:10  Newbury                                 13B   On time
-## 00:11  London Waterloo                         6     On time
-## 00:12  Didcot Parkway                          15    On time
-## 00:22  London Paddington                       13    On time
-## 00:24  Didcot Parkway                          14    On time
-## 00:41  London Waterloo                         4     On time
-## 00:44  Gatwick Airport                         5     On time
-## 23:15  Heathrow Central Bus Stn                BUS   On time
-## 00:15  Heathrow Central Bus Stn                BUS   On time
+## 01:28  London Paddington                       14    On time
+## 01:42  London Waterloo                         6     On time
+## 01:15  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -122,22 +98,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-09-10 22:04:19
-## Time   To                                      Plat  Expected
-## 23:05  Basingstoke                             2     On time
-## 23:06  London Paddington                       11    On time
-## 23:10  Newbury                                 1     On time
-## 23:13  London Paddington                       10    23:15
-## 23:15  London Waterloo                         6     On time
-## 23:17  Ealing Broadway                         15    On time
-## 23:21  Ealing Broadway                         14    On time
-## 23:32  Didcot Parkway                          7B    On time
-## 23:36  Redhill                                 5     On time
-## 23:48  Didcot Parkway                          12    On time
-## 23:52  Staines                                 6     On time
-## 23:56  London Paddington                       11    On time
-## 00:05  Bristol Temple Meads                    7     On time
-## 00:12  Didcot Parkway                          7     On time
-## 00:18  Newbury                                 1     On time
-## 00:21  Ealing Broadway                         15    On time
+## Reading (RDG) Station Board on 2022-09-11 00:09:34
 ```
