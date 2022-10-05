@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-10-05 14:30)
+## Example (Last rendered on 2022-10-05 18:13)
 
 Load `trainR` to your working environment:
 
@@ -82,26 +82,22 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-05 14:30:49
+## Reading (RDG) Station Board on 2022-10-05 18:13:43
 ## Time   From                                    Plat  Expected
-## 15:39  Bristol Temple Meads                    11    15:44
-## 15:39  London Paddington                       14    On time
-## 15:41  London Waterloo                         6     On time
-## 15:56  London Paddington                       9     On time
-## 16:11  London Paddington                       14    On time
-## 16:11  London Waterloo                         4     On time
-## 16:20  Basingstoke                             2     On time
-## 16:20  Oxford                                  15    On time
-## 16:39  Bristol Temple Meads                    10    On time
-## 16:39  London Paddington                       14    On time
-## 16:41  London Waterloo                         6     On time
-## 16:56  London Paddington                       -     Cancelled
-## 16:56  London Paddington                       13    On time
-## 17:14  London Paddington                       14    On time
-## 17:16  London Waterloo                         6     On time
-## 17:20  Oxford                                  15    On time
-## 17:27  Basingstoke                             2     On time
-## 17:27  London Paddington                       13    On time
+## 19:14  London Waterloo                         5     On time
+## 19:15  London Paddington                       14    On time
+## 19:19  Basingstoke                             2     On time
+## 19:27  Oxford                                  15    On time
+## 19:41  London Paddington                       13    On time
+## 19:43  London Waterloo                         6     On time
+## 19:45  London Paddington                       14    On time
+## 19:55  London Paddington                       8     On time
+## 20:13  London Waterloo                         6     On time
+## 20:14  London Paddington                       14    On time
+## 20:31  Oxford                                  3     On time
+## 20:41  London Waterloo                         4     On time
+## 20:43  London Paddington                       14    On time
+## 21:12  London Waterloo                         6     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -113,25 +109,16 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-05 14:30:52
+## Reading (RDG) Station Board on 2022-10-05 18:13:46
 ## Time   To                                      Plat  Expected
-## 15:42  London Waterloo                         4     On time
-## 15:42  Oxford                                  15B   On time
-## 15:43  London Paddington                       11    15:45
-## 15:58  London Paddington                       14    On time
-## 15:58  Swindon                                 9     On time
-## 16:07  Basingstoke                             2     On time
-## 16:12  London Waterloo                         6     On time
-## 16:18  London Paddington                       13    On time
-## 16:28  London Paddington                       14    On time
-## 16:41  London Waterloo                         4     On time
-## 16:42  London Paddington                       10    On time
-## 16:42  Oxford                                  15B   On time
-## 16:48  London Paddington                       13    On time
-## 16:58  Bristol Temple Meads                    -     Cancelled
-## 16:58  London Paddington                       14    On time
-## 17:07  Basingstoke                             2     On time
-## 17:12  London Waterloo                         6     On time
-## 17:18  London Paddington                       13    On time
-## 17:28  London Paddington                       14    On time
+## 19:27  London Paddington                       14    On time
+## 19:42  London Waterloo                         5     On time
+## 19:42  Oxford                                  15B   On time
+## 19:57  Bristol Temple Meads                    8     On time
+## 19:57  London Paddington                       13    On time
+## 20:09  London Waterloo                         6     On time
+## 20:27  London Paddington                       14    On time
+## 20:42  London Waterloo                         6     On time
+## 20:57  London Paddington                       14    On time
+## 21:12  London Waterloo                         4     On time
 ```
