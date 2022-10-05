@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-10-05 04:21)
+## Example (Last rendered on 2022-10-05 08:05)
 
 Load `trainR` to your working environment:
 
@@ -82,15 +82,25 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-05 04:21:51
+## Reading (RDG) Station Board on 2022-10-05 08:05:23
 ## Time   From                                    Plat  Expected
-## 06:11  Staines                                 5     On time
-## 06:16  London Paddington                       13    On time
-## 06:41  London Paddington                       14    On time
-## 06:41  London Waterloo                         6     On time
-## 07:06  London Paddington                       14    On time
-## 07:11  London Paddington                       12    On time
-## 07:11  London Waterloo                         4     On time
+## 09:13  Basingstoke                             2     On time
+## 09:13  London Paddington                       14    On time
+## 09:16  London Waterloo                         4     On time
+## 09:24  Oxford                                  15    On time
+## 09:26  London Paddington                       13    On time
+## 09:38  London Paddington                       14    On time
+## 09:40  Swindon                                 10    On time
+## 09:41  London Waterloo                         6     On time
+## 09:56  London Paddington                       9     On time
+## 10:07  London Paddington                       14    On time
+## 10:11  London Waterloo                         5     On time
+## 10:20  Basingstoke                             2     On time
+## 10:22  Oxford                                  13    On time
+## 10:39  London Paddington                       14    On time
+## 10:40  Bristol Temple Meads                    10    On time
+## 10:41  London Waterloo                         6     On time
+## 10:55  London Paddington                       8     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -102,14 +112,22 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-05 04:21:53
+## Reading (RDG) Station Board on 2022-10-05 08:05:26
 ## Time   To                                      Plat  Expected
-## 05:42  London Waterloo                         5     On time
-## 06:00  Ealing Broadway                         14    On time
-## 06:11  London Waterloo                         6     On time
-## 06:30  Ealing Broadway                         13    On time
-## 06:41  London Waterloo                         5     On time
-## 06:56  Ealing Broadway                         14    On time
-## 07:11  London Waterloo                         6     On time
-## 07:13  Ealing Broadway                         14    On time
+## 09:07  Basingstoke                             2     On time
+## 09:12  London Waterloo                         6     On time
+## 09:27  Ealing Broadway                         14    On time
+## 09:42  London Waterloo                         4     On time
+## 09:42  Oxford                                  15B   On time
+## 09:43  London Paddington                       10    On time
+## 09:57  Ealing Broadway                         14    On time
+## 09:58  Bristol Temple Meads                    9     On time
+## 10:07  Basingstoke                             2     On time
+## 10:12  London Waterloo                         6     On time
+## 10:27  Ealing Broadway                         14    On time
+## 10:42  London Paddington                       10    On time
+## 10:42  London Waterloo                         5     On time
+## 10:42  Oxford                                  13B   On time
+## 10:57  Ealing Broadway                         14    On time
+## 10:58  Swindon                                 8     On time
 ```
