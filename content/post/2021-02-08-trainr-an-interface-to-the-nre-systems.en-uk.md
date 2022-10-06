@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-10-06 02:47)
+## Example (Last rendered on 2022-10-06 04:18)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,22 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-06 02:47:21
+## Reading (RDG) Station Board on 2022-10-06 04:18:12
+## Time   From                                    Plat  Expected
+## 06:05  Southampton Central                     8     On time
+## 06:11  Staines                                 5     On time
+## 06:12  Didcot Parkway                          12    On time
+## 06:16  London Paddington                       13    On time
+## 06:23  London Paddington                       7     On time
+## 06:41  London Paddington                       14    On time
+## 06:41  London Waterloo                         6     On time
+## 06:47  London Paddington                       9     On time
+## 06:52  Basingstoke                             2     On time
+## 06:55  London Paddington                       9     On time
+## 07:06  London Paddington                       14    On time
+## 07:11  London Paddington                       12    On time
+## 07:11  London Waterloo                         4     On time
+## 07:12  Didcot Parkway                          15    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,8 +109,28 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-06 02:47:23
+## Reading (RDG) Station Board on 2022-10-06 04:18:15
 ## Time   To                                      Plat  Expected
 ## 05:40  Basingstoke                             3     On time
 ## 05:42  London Waterloo                         5     On time
+## 05:49  Didcot Parkway                          13    On time
+## 06:00  Ealing Broadway                         14    On time
+## 06:11  London Waterloo                         6     On time
+## 06:15  Manchester Piccadilly                   8     On time
+##        via Coventry & Stoke-on-Trent           
+## 06:24  Oxford                                  14B   On time
+## 06:25  Plymouth                                7     On time
+##        via Bristol                             
+## 06:30  Ealing Broadway                         13    On time
+## 06:40  Basingstoke                             2     On time
+## 06:41  London Waterloo                         5     On time
+## 06:49  Oxford                                  9     On time
+## 06:55  Didcot Parkway                          12    On time
+## 06:56  Ealing Broadway                         14    On time
+## 06:57  Bristol Temple Meads                    9     On time
+## 07:02  London Paddington                       15    On time
+## 07:11  London Waterloo                         6     On time
+## 07:13  Ealing Broadway                         14    On time
+## 07:14  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent
 ```
