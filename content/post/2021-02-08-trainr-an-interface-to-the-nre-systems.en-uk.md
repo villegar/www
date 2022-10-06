@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-10-06 20:04)
+## Example (Last rendered on 2022-10-06 22:07)
 
 Load `trainR` to your working environment:
 
@@ -82,19 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-06 20:04:25
+## Reading (RDG) Station Board on 2022-10-06 22:07:11
 ## Time   From                                    Plat  Expected
-## 21:07  Bournemouth                             7B    On time
-## 21:12  London Waterloo                         6     On time
-## 21:13  London Paddington                       13    On time
-## 21:41  London Waterloo                         4     On time
-## 21:41  Manchester Piccadilly                   7     On time
-## 21:42  London Paddington                       14    On time
-## 22:11  London Paddington                       14    On time
-## 22:41  London Waterloo                         6     On time
-## 22:41  Manchester Piccadilly                   7     On time
-## 22:42  London Paddington                       14    On time
-## 22:50  Salisbury                               11    On time
+## 23:09  London Paddington                       10    On time
+## 23:12  London Waterloo                         5     On time
+## 23:39  London Paddington                       14    On time
+## 23:41  London Waterloo                         5     On time
+## 23:50  Manchester Piccadilly                   3     On time
+## 00:11  London Waterloo                         6     On time
+## 00:41  London Waterloo                         5     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -106,18 +102,8 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-06 20:04:28
+## Reading (RDG) Station Board on 2022-10-06 22:07:13
 ## Time   To                                      Plat  Expected
-## 21:12  London Waterloo                         4     On time
-## 21:13  Birmingham New Street                   7B    On time
-##        via Coventry                            
-## 21:27  London Paddington                       13    On time
-## 21:42  London Waterloo                         6     On time
-## 21:52  Bournemouth                             7     On time
-## 21:57  London Paddington                       14    On time
-## 22:12  London Waterloo                         4     On time
-## 22:27  London Paddington                       14    On time
-## 22:49  Southampton Central                     7     On time
-## 22:57  London Paddington                       14    On time
-## 23:02  London Waterloo                         6     On time
+## 23:16  London Paddington                       10    On time
+## 23:52  Ascot                                   5     On time
 ```
