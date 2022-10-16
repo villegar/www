@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-10-16 20:04)
+## Example (Last rendered on 2022-10-16 22:03)
 
 Load `trainR` to your working environment:
 
@@ -82,51 +82,30 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-16 20:04:41
+## Reading (RDG) Station Board on 2022-10-16 22:03:48
 ## Time   From                                    Plat  Expected
-## 20:57  Great Malvern                           10A   21:03
-## 21:03  London Paddington                       9     21:06
-## 21:05  Southampton Airport Parkway             8     On time
-## 21:07  London Paddington                       14    21:09
-## 21:08  Redhill                                 -     Cancelled
-## 21:11  Taunton                                 10    21:30
-## 21:12  London Paddington                       9     On time
-## 21:13  Didcot Parkway                          13    21:16
-## 21:13  London Paddington                       12    On time
-## 21:19  Bedwyn                                  1     21:34
-## 21:27  London Paddington                       7B    On time
-## 21:33  Basingstoke                             2     21:42
-## 21:38  London Paddington                       14    On time
-## 21:39  Manchester Piccadilly                   8     21:44
-## 21:41  Gatwick Airport                         15    On time
-## 21:45  Swansea                                 10    On time
-## 21:55  Great Malvern                           10    On time
-## 21:55  London Paddington                       9     On time
-## 21:57  London Paddington                       8     On time
-## 22:05  Plymouth                                11    22:09
-## 22:08  London Paddington                       14    On time
-## 22:09  Weston-super-Mare                       10    22:12
-## 22:11  London Paddington                       12    On time
-## 22:13  Didcot Parkway                          13    On time
-## 22:24  Newbury                                 1     On time
-## 22:25  London Paddington                       9     On time
-## 22:30  London Paddington                       8     On time
-## 22:33  Basingstoke                             13    On time
-## 22:33  London Paddington                       9     On time
-## 22:39  London Paddington                       14    On time
-## 22:39  Manchester Piccadilly                   8     On time
-## 22:45  Gatwick Airport                         15B   On time
-## 22:49  Carmarthen                              10A   On time
 ## 22:50  Penzance                                13    On time
-## 22:52  Great Malvern                           15A   On time
-## 21:25  Heathrow Central Bus Stn                BUS   On time
-## 21:26  Staines                                 BUS   On time
-## 21:27  Staines                                 BUS   On time
-## 21:56  Staines                                 BUS   On time
-## 22:18  Heathrow Central Bus Stn                BUS   On time
-## 22:26  Staines                                 -     Cancelled
-## 22:48  Heathrow Central Bus Stn                BUS   On time
-## 22:56  Staines                                 BUS   On time
+## 23:08  Didcot Parkway                          15    On time
+## 23:09  London Paddington                       14    On time
+## 23:12  London Paddington                       12    On time
+## 23:14  Bedwyn                                  15    On time
+## 23:32  London Paddington                       12    On time
+## 23:35  Plymouth                                15A   23:43
+## 23:38  London Paddington                       13    On time
+## 23:44  Gatwick Airport                         15    On time
+## 23:46  Newbury                                 14    On time
+## 00:12  London Paddington                       13B   On time
+## 00:17  London Paddington                       12    On time
+## 00:23  Didcot Parkway                          15    On time
+## 00:49  Gatwick Airport                         15    On time
+## 00:50  Didcot Parkway                          14A   On time
+## 00:52  London Paddington                       13    On time
+## 23:18  Heathrow Central Bus Stn                BUS   On time
+## 23:26  Staines                                 BUS   On time
+## 23:56  Staines                                 BUS   On time
+## 00:18  Heathrow Central Bus Stn                BUS   On time
+## 00:26  Staines                                 -     Cancelled
+## 00:56  Staines                                 BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -138,46 +117,20 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-16 20:04:45
+## Reading (RDG) Station Board on 2022-10-16 22:03:53
 ## Time   To                                      Plat  Expected
-## 21:04  Ealing Broadway                         14    On time
-## 21:05  London Paddington                       10A   On time
-## 21:09  Swansea                                 9     On time
-## 21:12  Birmingham New Street                   8     On time
-##        via Coventry                            
-## 21:13  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 21:14  Didcot Parkway                          12    On time
-## 21:14  Ealing Broadway                         13    21:17
-## 21:14  London Paddington                       10    21:31
-## 21:15  Worcester Shrub Hill                    9     On time
-## 21:28  Exeter St Davids                        7B    On time
-## 21:34  Ealing Broadway                         14    On time
-## 21:38  Basingstoke                             2     On time
-## 21:43  Bedwyn                                  1     On time
-## 21:47  London Paddington                       10    On time
-## 21:52  Southampton Airport Parkway             8     On time
-## 21:56  Bristol Temple Meads                    9     On time
-## 22:00  Oxford                                  8     On time
-## 22:04  Ealing Broadway                         14    On time
-## 22:05  London Paddington                       10    On time
-## 22:12  Didcot Parkway                          12    On time
-## 22:12  London Paddington                       10    22:12
-## 22:14  London Paddington                       11    On time
-## 22:26  Swansea                                 9     On time
-## 22:31  Worcester Shrub Hill                    8     On time
-## 22:34  Ealing Broadway                         14    On time
-## 22:35  Bristol Temple Meads                    9     On time
-## 22:43  Newbury                                 1     On time
-## 22:54  London Paddington                       15A   On time
-## 22:59  London Paddington                       10A   On time
-## 23:02  London Paddington                       13    On time
 ## 23:03  Gatwick Airport                         5     On time
 ##        via Guildford                           
-## 21:27  Staines                                 -     Cancelled
-## 21:57  Staines                                 BUS   On time
-## 22:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 22:27  Staines                                 BUS   On time
-## 22:54  Staines                                 -     Cancelled
-## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 23:04  Ealing Broadway                         14    On time
+## 23:10  Ealing Broadway                         15    On time
+## 23:15  Bristol Parkway                         12    On time
+## 23:20  Didcot Parkway                          13    On time
+## 23:37  Bristol Temple Meads                    12    On time
+## 23:38  London Paddington                       15A   23:44
+## 23:40  Ealing Broadway                         14    On time
+## 00:19  Bristol Temple Meads                    12    On time
+## 00:24  Didcot Parkway                          13B   On time
+## 00:24  Ealing Broadway                         15    On time
+## 00:51  Penzance                                12    On time
+## 00:54  London Paddington                       14A   On time
 ```
