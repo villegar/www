@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-10-16 04:32)
+## Example (Last rendered on 2022-10-16 06:09)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,29 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-16 04:32:43
+## Reading (RDG) Station Board on 2022-10-16 06:09:27
 ## Time   From                                    Plat  Expected
-## 07:28  Ealing Broadway                         13    On time
-## 06:13  Heathrow Central Bus Stn                -     On time
+## 07:28  Southall                                13    07:39
+## 07:43  Southall                                14    Delayed
+## 07:49  Redhill                                 5     08:17
+## 08:06  Ealing Broadway                         14    On time
+## 08:20  London Paddington                       12    On time
+## 08:27  Ealing Broadway                         13    On time
+## 08:33  Basingstoke                             2     On time
+## 08:37  London Paddington                       7     On time
+## 08:44  Salisbury                               1     On time
+## 08:47  London Paddington                       14    On time
+## 08:58  London Paddington                       9B    On time
+## 09:03  London Paddington                       14    On time
+## 09:04  Didcot Parkway                          15    On time
 ## 07:25  Heathrow Central Bus Stn                BUS   On time
+## 07:56  Staines                                 BUS   On time
+## 07:57  Heathrow Central Bus Stn                BUS   On time
+## 08:26  Staines                                 BUS   On time
+## 08:27  Heathrow Central Bus Stn                BUS   On time
+## 08:45  Staines                                 BUS   On time
+## 08:56  Staines                                 BUS   On time
+## 09:04  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,19 +116,36 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-16 04:32:46
+## Reading (RDG) Station Board on 2022-10-16 06:09:32
 ## Time   To                                      Plat  Expected
-## 06:03  Gatwick Airport                         5     06:13
+## 07:10  London Paddington                       14A   On time
+## 07:38  Basingstoke                             12B   On time
+## 07:39  Redhill                                 15A   On time
+## 07:54  London Paddington                       14    On time
+## 08:06  Newbury                                 12B   On time
+## 08:11  London Paddington                       13    On time
+## 08:18  Gatwick Airport                         5     On time
 ##        via Guildford                           
-## 06:20  Ealing Broadway                         14    On time
-## 06:52  London Paddington                       14    On time
-## 06:57  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 07:10  London Paddington                       14    On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:57  Staines                                 BUS   On time
-## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:22  Penzance                                12    On time
+## 08:24  London Paddington                       14    On time
+## 08:29  Didcot Parkway                          13    On time
+## 08:34  Bedwyn                                  15    On time
+## 08:38  Basingstoke                             2     On time
+## 08:39  Exeter St Davids                        7     On time
+##        via Bristol                             
+## 08:40  Redhill                                 15    On time
+## 08:54  Ealing Broadway                         14    On time
+## 09:01  Swansea                                 9B    On time
+## 09:06  Ealing Broadway                         15    On time
 ## 07:26  Staines                                 BUS   On time
 ## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:50  Staines                                 BUS   On time
+## 07:57  Staines                                 BUS   On time
+## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:25  Staines                                 BUS   On time
+## 08:27  Staines                                 BUS   On time
+## 08:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:55  Staines                                 BUS   On time
+## 08:57  Staines                                 BUS   On time
+## 09:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
