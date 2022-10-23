@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-10-23 04:33)
+## Example (Last rendered on 2022-10-23 06:11)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,29 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-23 04:33:22
+## Reading (RDG) Station Board on 2022-10-23 06:11:03
 ## Time   From                                    Plat  Expected
-## 07:28  Ealing Broadway                         9     On time
-## 06:13  Heathrow Central Bus Stn                -     On time
+## 07:28  Ealing Broadway                         9     07:31
+## 07:41  Gatwick Airport                         5     07:48
+## 07:44  Ealing Broadway                         10    On time
+## 08:05  Ascot                                   4     On time
+## 08:07  Ealing Broadway                         14    On time
+## 08:18  London Paddington                       7     On time
+## 08:23  Ealing Broadway                         13    On time
+## 08:33  Basingstoke                             2     On time
+## 08:35  Ascot                                   6     On time
+## 08:37  London Paddington                       7     On time
+## 08:44  Salisbury                               1     On time
+## 08:49  London Paddington                       14    On time
+## 08:58  London Paddington                       7     On time
+## 09:03  London Paddington                       7     On time
+## 09:03  London Paddington                       14    On time
+## 09:04  Didcot Parkway                          15    On time
+## 09:05  Ascot                                   4     On time
 ## 07:25  Heathrow Central Bus Stn                BUS   On time
+## 07:57  Heathrow Central Bus Stn                BUS   On time
+## 08:27  Heathrow Central Bus Stn                BUS   On time
+## 09:04  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,18 +116,33 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-10-23 04:33:24
+## Reading (RDG) Station Board on 2022-10-23 06:11:05
 ## Time   To                                      Plat  Expected
-## 06:03  Gatwick Airport                         5     On time
+## 07:10  London Paddington                       7A    On time
+## 07:39  Redhill                                 8A    On time
+## 07:51  Ascot                                   4     On time
+## 07:54  London Paddington                       10    On time
+## 08:06  Newbury                                 12B   On time
+## 08:11  London Paddington                       13    On time
+## 08:18  Gatwick Airport                         5     On time
 ##        via Guildford                           
-## 06:20  Ealing Broadway                         7     On time
-## 06:54  London Paddington                       10    On time
-## 06:57  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 07:10  London Paddington                       7     On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:21  Ascot                                   4     On time
+## 08:22  Penzance                                7     On time
+## 08:24  Didcot Parkway                          13    On time
+## 08:24  London Paddington                       14    On time
+## 08:34  Bedwyn                                  15    On time
+## 08:38  Basingstoke                             2     On time
+## 08:39  Exeter St Davids                        7     On time
+##        via Bristol                             
+## 08:40  Redhill                                 15    On time
+## 08:51  Ascot                                   6     On time
+## 08:56  Ealing Broadway                         14    On time
+## 09:00  Swansea                                 7     On time
+## 09:06  Ealing Broadway                         15    On time
+## 09:10  Great Malvern                           7     On time
 ## 07:20  Basingstoke                             BUS   On time
 ## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 09:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
