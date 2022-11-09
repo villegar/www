@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-09 02:46)
+## Example (Last rendered on 2022-11-09 04:19)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,25 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-09 02:46:39
+## Reading (RDG) Station Board on 2022-11-09 04:19:02
 ## Time   From                                    Plat  Expected
-## 01:28  Oxford                                  14B   02:47
-## 04:21  London Paddington                       -     On time
-## 04:38  Oxford                                  -     On time
+## 04:21  London Paddington                       13    04:29
+## 04:38  Oxford                                  13A   04:48
+## 05:35  Didcot Parkway                          15    On time
+## 05:38  London Paddington                       9     On time
+## 05:46  Oxford                                  11    On time
+## 05:47  London Paddington                       9     On time
+## 05:58  Bristol Temple Meads                    11    On time
+## 05:58  London Paddington                       9     On time
+## 05:59  Newbury                                 1     On time
+## 06:05  Southampton Central                     8     On time
+## 06:08  London Paddington                       9     On time
+## 06:14  Bedwyn                                  11    On time
+## 06:14  Staines                                 5     On time
+## 06:16  London Paddington                       9     On time
+## 06:16  London Paddington                       13    On time
+## 05:13  Heathrow Central Bus Stn                -     On time
+## 06:13  Heathrow Central Bus Stn                -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,12 +112,38 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-09 02:46:43
+## Reading (RDG) Station Board on 2022-11-09 04:19:05
 ## Time   To                                      Plat  Expected
-## 02:23  London Paddington                       -     02:46
-## 03:55  London Paddington                       -     On time
-## 04:32  Redhill                                 -     On time
-## 04:34  London Paddington                       -     On time
-## 02:46  Heathrow Airport T3 (Bus)               -     On time
-## 03:55  Heathrow Airport T3 (Bus)               -     On time
+## 04:32  Redhill                                 15A   On time
+## 04:34  London Paddington                       13    On time
+## 04:58  Redhill                                 15A   On time
+## 05:11  London Paddington                       15    On time
+## 05:12  Bedwyn                                  8     On time
+## 05:16  Newbury                                 12B   On time
+## 05:19  Basingstoke                             12B   On time
+## 05:31  Gatwick Airport                         15    On time
+##        via Guildford                           
+## 05:36  Ealing Broadway                         15    On time
+## 05:39  Oxford                                  9     On time
+## 05:40  Basingstoke                             14B   On time
+## 05:42  London Waterloo                         5     On time
+## 05:48  London Paddington                       11    On time
+## 05:49  Didcot Parkway                          13    On time
+## 05:49  Swansea                                 9     On time
+## 05:50  Newbury                                 1     On time
+## 05:54  Redhill                                 15A   On time
+## 06:00  Abbey Wood                              10    On time
+## 06:00  Worcester Shrub Hill                    9     On time
+##        via Gloucester                          
+## 06:02  London Paddington                       11    On time
+## 06:08  London Waterloo                         6     On time
+## 06:10  Bristol Temple Meads                    9     On time
+## 06:13  Newbury                                 13    On time
+## 06:15  London Paddington                       11    On time
+## 06:15  Manchester Piccadilly                   8     On time
+##        via Coventry & Stoke-on-Trent           
+## 06:18  Great Malvern                           9     On time
+## 05:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 05:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
