@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-19 04:05)
+## Example (Last rendered on 2022-11-19 06:04)
 
 Load `trainR` to your working environment:
 
@@ -82,9 +82,16 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-19 04:05:04
+## Reading (RDG) Station Board on 2022-11-19 06:04:14
 ## Time   From                                    Plat  Expected
-## 05:13  Heathrow Central Bus Stn                -     On time
+## 07:05  Southampton Central                     13    On time
+## 07:42  Birmingham New Street                   13    On time
+## 07:47  London Waterloo                         5     On time
+## 07:54  Great Malvern                           10    On time
+## 07:55  London Paddington                       9     On time
+## 06:13  Heathrow Central Bus Stn                -     On time
+## 07:25  Heathrow Central Bus Stn                BUS   On time
+## 07:57  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -96,9 +103,24 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-19 04:05:07
+## Reading (RDG) Station Board on 2022-11-19 06:04:18
 ## Time   To                                      Plat  Expected
-## 05:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 05:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 06:15  Manchester Piccadilly                   12    On time
+##        via Coventry & Stoke-on-Trent           
+## 07:13  Swansea                                 8     On time
+## 07:15  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent           
+## 07:30  Great Malvern                           9     On time
+## 07:30  Redhill                                 15    On time
+## 07:32  Basingstoke                             7     On time
+## 07:34  London Paddington                       13    On time
+## 07:41  London Waterloo                         4     On time
+## 07:52  Didcot Parkway                          14    On time
+## 07:54  Ealing Broadway                         14    On time
+## 07:56  London Paddington                       10    On time
+## 07:57  Bristol Temple Meads                    9     On time
+## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
