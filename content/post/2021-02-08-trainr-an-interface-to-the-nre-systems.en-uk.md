@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-19 20:04)
+## Example (Last rendered on 2022-11-20 00:12)
 
 Load `trainR` to your working environment:
 
@@ -82,16 +82,12 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-19 20:04:24
+## Reading (RDG) Station Board on 2022-11-20 00:12:03
 ## Time   From                                    Plat  Expected
-## 20:39  Manchester Piccadilly                   -     Cancelled
-## 21:05  Bournemouth                             -     Cancelled
-## 21:39  Manchester Piccadilly                   -     Cancelled
-## 20:25  Heathrow Central Bus Stn                BUS   On time
-## 20:40  Banbury                                 BUS   On time
-## 20:55  Heathrow Central Bus Stn                BUS   On time
-## 21:25  Heathrow Central Bus Stn                BUS   On time
-## 21:40  Banbury                                 BUS   On time
+## 00:18  Heathrow Central Bus Stn                BUS   On time
+## 00:25  Banbury                                 BUS   On time
+## 01:18  Heathrow Central Bus Stn                BUS   On time
+## 02:11  Ascot                                   BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -103,16 +99,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-19 20:04:27
-## Time   To                                      Plat  Expected
-## 20:15  Manchester Piccadilly                   -     Cancelled
-##        via Coventry & Stoke-on-Trent           
-## 20:52  Bournemouth                             -     Cancelled
-## 21:15  Birmingham New Street                   -     Cancelled
-##        via Coventry                            
-## 21:52  Bournemouth                             -     Cancelled
-## 20:15  Banbury                                 BUS   On time
-## 21:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 21:15  Banbury                                 BUS   On time
-## 22:00  Heathrow Airport T3 (Bus)               BUS   On time
+## Reading (RDG) Station Board on 2022-11-20 00:12:06
 ```
