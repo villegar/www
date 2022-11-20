@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-20 04:12)
+## Example (Last rendered on 2022-11-20 06:07)
 
 Load `trainR` to your working environment:
 
@@ -82,9 +82,12 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-20 04:12:42
+## Reading (RDG) Station Board on 2022-11-20 06:07:15
 ## Time   From                                    Plat  Expected
-## 05:13  Heathrow Central Bus Stn                -     On time
+## 07:41  Gatwick Airport                         5     On time
+## 06:13  Heathrow Central Bus Stn                -     On time
+## 07:25  Heathrow Central Bus Stn                BUS   On time
+## 07:57  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -96,10 +99,18 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-20 04:12:44
+## Reading (RDG) Station Board on 2022-11-20 06:07:18
 ## Time   To                                      Plat  Expected
-## 05:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 05:15  Guildford                               BUS   On time
-## 05:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:00  Gatwick Airport                         4     On time
+##        via Guildford                           
+## 07:10  London Paddington                       9     On time
+## 07:39  Redhill                                 7     On time
+## 07:51  Clapham Junction                        4     On time
+## 08:00  London Paddington                       10    On time
+## 08:06  Newbury                                 12B   On time
+## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:38  Basingstoke                             BUS   On time
+## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
