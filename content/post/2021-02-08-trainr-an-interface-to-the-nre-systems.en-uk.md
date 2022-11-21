@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-21 20:05)
+## Example (Last rendered on 2022-11-21 22:04)
 
 Load `trainR` to your working environment:
 
@@ -82,17 +82,14 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-21 20:05:23
+## Reading (RDG) Station Board on 2022-11-21 22:04:07
 ## Time   From                                    Plat  Expected
-## 20:07  Bournemouth                             -     Cancelled
-## 20:43  Manchester Piccadilly                   -     Cancelled
-## 21:07  Bournemouth                             -     Cancelled
-## 21:41  Manchester Piccadilly                   -     Cancelled
-## 20:25  Heathrow Central Bus Stn                BUS   On time
-## 20:40  Banbury                                 BUS   On time
-## 20:55  Heathrow Central Bus Stn                BUS   On time
-## 21:25  Heathrow Central Bus Stn                BUS   On time
-## 21:40  Banbury                                 BUS   On time
+## 22:41  Manchester Piccadilly                   -     Cancelled
+## 23:50  Manchester Piccadilly                   -     Cancelled
+## 22:18  Heathrow Central Bus Stn                BUS   On time
+## 22:35  Banbury                                 BUS   On time
+## 22:48  Heathrow Central Bus Stn                BUS   On time
+## 23:18  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -104,15 +101,8 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-21 20:05:26
+## Reading (RDG) Station Board on 2022-11-21 22:04:10
 ## Time   To                                      Plat  Expected
-## 20:15  Manchester Piccadilly                   -     Cancelled
-##        via Coventry & Stoke-on-Trent           
-## 21:13  Birmingham New Street                   -     Cancelled
-##        via Coventry                            
-## 21:52  Bournemouth                             -     Cancelled
-## 20:15  Banbury                                 BUS   On time
-## 21:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 21:15  Banbury                                 BUS   On time
-## 22:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 22:49  Southampton Central                     -     Cancelled
+## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
