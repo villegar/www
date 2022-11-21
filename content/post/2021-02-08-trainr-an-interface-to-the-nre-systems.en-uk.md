@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-21 18:06)
+## Example (Last rendered on 2022-11-21 20:05)
 
 Load `trainR` to your working environment:
 
@@ -82,26 +82,17 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-21 18:06:30
+## Reading (RDG) Station Board on 2022-11-21 20:05:23
 ## Time   From                                    Plat  Expected
-## 17:58  London Paddington                       9B    18:10
-## 18:03  Didcot Parkway                          15    18:07
-## 18:05  Bournemouth                             -     Cancelled
-## 18:09  Bristol Temple Meads                    11    18:11
-## 18:09  London Paddington                       14    18:06
-## 18:09  Plymouth                                10    18:15
-## 18:15  London Waterloo                         4     18:21
-## 18:28  Didcot Parkway                          15    On time
-## 18:33  Basingstoke                             3     On time
-## 18:33  Redhill                                 4     On time
-## 18:43  Manchester Piccadilly                   -     Cancelled
-## 18:44  London Paddington                       12    On time
-## 19:41  Manchester Piccadilly                   -     Cancelled
-## 18:34  Heathrow Central Bus Stn                BUS   On time
-## 19:04  Heathrow Central Bus Stn                BUS   On time
-## 19:32  Heathrow Central Bus Stn                BUS   On time
-## 19:40  Banbury                                 BUS   On time
-## 19:58  Heathrow Central Bus Stn                BUS   On time
+## 20:07  Bournemouth                             -     Cancelled
+## 20:43  Manchester Piccadilly                   -     Cancelled
+## 21:07  Bournemouth                             -     Cancelled
+## 21:41  Manchester Piccadilly                   -     Cancelled
+## 20:25  Heathrow Central Bus Stn                BUS   On time
+## 20:40  Banbury                                 BUS   On time
+## 20:55  Heathrow Central Bus Stn                BUS   On time
+## 21:25  Heathrow Central Bus Stn                BUS   On time
+## 21:40  Banbury                                 BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -113,22 +104,15 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-21 18:06:36
+## Reading (RDG) Station Board on 2022-11-21 20:05:26
 ## Time   To                                      Plat  Expected
-## 18:00  Oxford                                  9B    18:12
-## 18:10  London Paddington                       10    18:16
-## 18:10  London Waterloo                         4     On time
-## 18:12  London Paddington                       11    On time
-## 18:15  Manchester Piccadilly                   -     Cancelled
+## 20:15  Manchester Piccadilly                   -     Cancelled
 ##        via Coventry & Stoke-on-Trent           
-## 18:20  Redhill                                 5     On time
-## 19:15  Manchester Piccadilly                   -     Cancelled
-##        via Coventry & Stoke-on-Trent           
-## 19:50  Bournemouth                             -     Cancelled
-## 18:15  Banbury                                 BUS   On time
-## 18:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 19:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 19:15  Banbury                                 BUS   On time
-## 19:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 20:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 21:13  Birmingham New Street                   -     Cancelled
+##        via Coventry                            
+## 21:52  Bournemouth                             -     Cancelled
+## 20:15  Banbury                                 BUS   On time
+## 21:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 21:15  Banbury                                 BUS   On time
+## 22:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
