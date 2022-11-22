@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-22 02:36)
+## Example (Last rendered on 2022-11-22 06:04)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,22 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-22 02:36:57
+## Reading (RDG) Station Board on 2022-11-22 06:04:29
+## Time   From                                    Plat  Expected
+## 06:05  Southampton Central                     -     Cancelled
+## 07:25  London Paddington                       9     On time
+## 07:33  Oxford                                  10A   On time
+## 07:42  Didcot Parkway                          15    On time
+## 07:43  Birmingham New Street                   -     Cancelled
+## 07:46  London Paddington                       8B    On time
+## 07:46  London Waterloo                         6     On time
+## 07:51  London Paddington                       9B    On time
+## 07:54  Hereford                                11    On time
+## 07:56  London Paddington                       9     On time
+## 08:00  Bristol Parkway                         10    On time
+## 06:13  Heathrow Central Bus Stn                -     On time
+## 07:25  Heathrow Central Bus Stn                -     On time
+## 07:57  Heathrow Central Bus Stn                -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,8 +109,42 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-22 02:37:00
+## Reading (RDG) Station Board on 2022-11-22 06:04:32
 ## Time   To                                      Plat  Expected
-## 02:46  Heathrow Airport T3 (Bus)               BUS   On time
-## 03:55  Heathrow Airport T3 (Bus)               -     On time
+## 06:15  Manchester Piccadilly                   -     Cancelled
+##        via Coventry & Stoke-on-Trent           
+## 07:00  Gatwick Airport                         6     On time
+##        via Guildford                           
+## 07:03  Bedwyn                                  2     On time
+## 07:06  Basingstoke                             3     On time
+## 07:10  Newbury                                 1     On time
+## 07:14  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent           
+## 07:17  London Paddington                       14A   On time
+## 07:20  Redhill                                 15A   On time
+## 07:27  Bristol Temple Meads                    9     On time
+## 07:29  Abbey Wood                              14    On time
+## 07:30  Paignton                                8     On time
+## 07:37  Basingstoke                             7     On time
+## 07:37  London Paddington                       10A   On time
+## 07:39  Cardiff Central                         13    On time
+## 07:39  London Waterloo                         4     On time
+## 07:40  Abbey Wood                              14    On time
+## 07:45  London Paddington                       15    On time
+## 07:49  Oxford                                  8B    On time
+## 07:50  Gatwick Airport                         15    On time
+##        via Guildford                           
+## 07:51  Didcot Parkway                          12    On time
+## 07:52  Bournemouth                             -     Cancelled
+## 07:53  Cheltenham Spa                          9B    On time
+## 07:56  Abbey Wood                              14    On time
+## 07:56  London Paddington                       11    On time
+## 08:00  Basingstoke                             2     On time
+## 08:00  Bristol Temple Meads                    9     On time
+## 08:01  London Paddington                       10    On time
+## 08:03  Newbury                                 15    On time
+## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
