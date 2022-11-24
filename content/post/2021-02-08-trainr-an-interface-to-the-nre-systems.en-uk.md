@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-24 00:07)
+## Example (Last rendered on 2022-11-24 02:30)
 
 Load `trainR` to your working environment:
 
@@ -82,20 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-24 00:07:59
+## Reading (RDG) Station Board on 2022-11-24 02:30:57
 ## Time   From                                    Plat  Expected
-## 22:59  Worcester Foregate Street               -     23:41
-## 00:03  London Paddington                       8     00:17
-## 00:14  London Waterloo                         6     On time
-## 00:17  Gatwick Airport                         15B   On time
-## 00:31  Basingstoke                             3     On time
-## 00:41  Hereford                                -     Cancelled
-## 00:44  Gatwick Airport                         4     On time
-## 00:44  London Waterloo                         5     On time
-## 00:48  London Paddington                       13    On time
-## 01:35  London Paddington                       13    On time
-## 00:18  Heathrow Central Bus Stn                BUS   On time
-## 01:18  Heathrow Central Bus Stn                BUS   On time
+## 02:29  London Paddington                       -     Cancelled
+## 03:55  Penzance                                8     On time
+## 04:21  London Paddington                       -     Cancelled
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -107,14 +98,9 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-24 00:08:02
+## Reading (RDG) Station Board on 2022-11-24 02:30:59
 ## Time   To                                      Plat  Expected
-## 00:05  Bristol Temple Meads                    8     00:19
-## 00:08  Oxford                                  -     Cancelled
-## 00:17  Newbury                                 2     On time
-## 00:18  London Paddington                       14    On time
-## 00:26  Didcot Parkway                          8     On time
-## 00:49  Penzance                                8     On time
-## 01:15  London Paddington                       13    On time
-## 01:15  Oxford                                  9     On time
+## 03:55  London Paddington                       -     Cancelled
+## 02:46  Heathrow Airport T3 (Bus)               BUS   On time
+## 03:55  Heathrow Airport T3 (Bus)               -     On time
 ```
