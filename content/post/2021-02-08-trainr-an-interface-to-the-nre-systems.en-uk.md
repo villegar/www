@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-26 04:09)
+## Example (Last rendered on 2022-11-26 06:07)
 
 Load `trainR` to your working environment:
 
@@ -82,9 +82,18 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-26 04:09:03
+## Reading (RDG) Station Board on 2022-11-26 06:07:35
 ## Time   From                                    Plat  Expected
 ## 06:07  London Paddington                       14    On time
+## 06:14  Staines                                 4     On time
+## 06:39  London Paddington                       14    On time
+## 06:44  London Waterloo                         6     On time
+## 07:08  Abbey Wood                              14    On time
+## 07:14  London Waterloo                         4     On time
+## 07:33  Abbey Wood                              14    On time
+## 07:43  London Waterloo                         5     On time
+## 07:55  London Paddington                       9     On time
+## 08:03  Abbey Wood                              14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -96,8 +105,17 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-26 04:09:07
+## Reading (RDG) Station Board on 2022-11-26 06:07:37
 ## Time   To                                      Plat  Expected
-## 05:39  London Waterloo                         6     On time
-## 05:54  Abbey Wood                              14    On time
+## 06:09  London Waterloo                         5     On time
+## 06:24  Abbey Wood                              14    On time
+## 06:42  London Waterloo                         4     On time
+## 06:54  Abbey Wood                              14    On time
+## 07:07  Basingstoke                             2     On time
+## 07:09  London Waterloo                         6     On time
+## 07:24  Abbey Wood                              14    On time
+## 07:41  London Waterloo                         4     On time
+## 07:42  Oxford                                  3     On time
+## 07:54  Abbey Wood                              14    On time
+## 07:57  Bristol Temple Meads                    9     On time
 ```
