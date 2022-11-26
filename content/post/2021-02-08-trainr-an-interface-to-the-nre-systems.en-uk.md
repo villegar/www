@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-26 00:11)
+## Example (Last rendered on 2022-11-26 02:33)
 
 Load `trainR` to your working environment:
 
@@ -82,23 +82,7 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-26 00:11:25
-## Time   From                                    Plat  Expected
-## 00:14  London Waterloo                         6     On time
-## 00:17  Gatwick Airport                         13B   On time
-## 00:23  London Paddington                       8B    On time
-## 00:31  Basingstoke                             8B    On time
-## 00:40  Henley-on-Thames                        8B    On time
-## 00:40  Hereford                                11A   On time
-## 00:44  Gatwick Airport                         4     On time
-## 00:44  London Waterloo                         5     On time
-## 00:48  London Paddington                       9     On time
-## 01:13  London Paddington                       7     On time
-## 01:29  Oxford                                  8     On time
-## 01:35  London Paddington                       7     On time
-## 01:43  London Waterloo                         5     On time
-## 00:18  Heathrow Central Bus Stn                BUS   On time
-## 01:18  Heathrow Central Bus Stn                BUS   On time
+## Reading (RDG) Station Board on 2022-11-26 02:33:55
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -110,12 +94,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-26 00:11:27
-## Time   To                                      Plat  Expected
-## 00:17  Newbury                                 1     On time
-## 00:18  London Paddington                       14    On time
-## 00:26  Didcot Parkway                          8B    On time
-## 00:43  London Paddington                       11A   On time
-## 01:15  London Paddington                       9     On time
-## 01:15  Oxford                                  7     On time
+## Reading (RDG) Station Board on 2022-11-26 02:33:58
 ```
