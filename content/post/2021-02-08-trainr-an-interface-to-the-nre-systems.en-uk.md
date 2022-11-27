@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-11-27 20:04)
+## Example (Last rendered on 2022-11-27 22:03)
 
 Load `trainR` to your working environment:
 
@@ -82,54 +82,43 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-27 20:04:49
+## Reading (RDG) Station Board on 2022-11-27 22:03:57
 ## Time   From                                    Plat  Expected
-## 19:57  Plymouth                                11    20:24
-## 20:04  Abbey Wood                              12    On time
-## 20:06  London Paddington                       8     On time
-## 20:10  Didcot Parkway                          15A   20:12
-## 20:10  London Paddington                       7B    On time
-## 20:14  Exeter St Davids                        14    20:18
-## 20:15  London Paddington                       8B    On time
-## 20:20  Newbury                                 1     On time
-## 20:24  Oxford                                  15A   On time
-## 20:27  London Paddington                       7     On time
-## 20:30  London Waterloo                         4     On time
-## 20:33  Abbey Wood                              14    On time
-## 20:33  Basingstoke                             2     On time
-## 20:39  Manchester Piccadilly                   7     On time
-## 20:42  Plymouth                                11    On time
-## 20:47  London Paddington                       8B    On time
-## 20:49  Carmarthen                              13    20:57
-## 20:56  Great Malvern                           15A   On time
-## 20:58  London Waterloo                         6     On time
-## 20:58  Plymouth                                11    21:02
-## 21:03  Abbey Wood                              14    On time
-## 21:05  Southampton Central                     7     On time
-## 21:06  London Paddington                       8     On time
-## 21:10  Didcot Parkway                          13A   On time
-## 21:12  London Paddington                       12B   On time
-## 21:12  London Paddington                       8     On time
-## 21:14  Bristol Temple Meads                    15    On time
-## 21:22  Bedwyn                                  1     On time
-## 21:25  London Waterloo                         4     On time
-## 21:26  London Paddington                       7B    On time
-## 21:33  Abbey Wood                              14    On time
-## 21:33  Basingstoke                             2     On time
-## 21:39  Manchester Piccadilly                   7     On time
-## 21:42  London Paddington                       8B    On time
-## 21:49  Swansea                                 15    On time
-## 21:53  London Paddington                       8     On time
-## 21:55  Great Malvern                           15    On time
-## 21:58  London Waterloo                         6     On time
+## 21:49  Swansea                                 15    22:02
+## 21:55  Great Malvern                           13    22:06
 ## 22:03  Abbey Wood                              14    On time
-## 20:04  Guildford                               BUS   On time
-## 20:25  Heathrow Central Bus Stn                BUS   On time
-## 20:38  Guildford                               BUS   On time
-## 20:55  Heathrow Central Bus Stn                BUS   On time
-## 21:18  Guildford                               BUS   On time
-## 21:25  Heathrow Central Bus Stn                BUS   On time
-## 22:00  Guildford                               BUS   On time
+## 22:05  Plymouth                                11    22:25
+## 22:06  London Paddington                       7     22:13
+## 22:10  London Paddington                       12B   On time
+## 22:12  London Paddington                       7     On time
+## 22:13  Didcot Parkway                          13    On time
+## 22:17  Weston-super-Mare                       15    On time
+## 22:24  Newbury                                 1     On time
+## 22:25  London Waterloo                         4     On time
+## 22:27  London Paddington                       7     On time
+## 22:33  Abbey Wood                              14    On time
+## 22:33  Basingstoke                             13    On time
+## 22:39  Manchester Piccadilly                   7     23:01
+## 22:50  Plymouth                                13    22:52
+## 22:52  Great Malvern                           15A   On time
+## 22:58  London Waterloo                         6     On time
+## 23:04  Abbey Wood                              14    On time
+## 23:08  Didcot Parkway                          15A   On time
+## 23:10  London Paddington                       7     On time
+## 23:16  Bedwyn                                  15    On time
+## 23:18  Carmarthen                              12A   On time
+## 23:25  London Waterloo                         6     On time
+## 23:33  London Paddington                       13    On time
+## 23:35  London Paddington                       7     On time
+## 23:35  Plymouth                                15    23:38
+## 23:46  Newbury                                 1     On time
+## 23:58  London Waterloo                         6     On time
+## 22:18  Heathrow Central Bus Stn                BUS   On time
+## 22:38  Guildford                               BUS   On time
+## 22:48  Heathrow Central Bus Stn                BUS   On time
+## 23:08  Guildford                               BUS   On time
+## 23:18  Heathrow Central Bus Stn                BUS   On time
+## 23:50  Guildford                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -141,54 +130,33 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-11-27 20:04:52
+## Reading (RDG) Station Board on 2022-11-27 22:04:02
 ## Time   To                                      Plat  Expected
-## 19:58  London Paddington                       11    20:25
-## 20:08  Swansea                                 8     On time
-## 20:12  Great Malvern                           7B    On time
-## 20:14  Ealing Broadway                         15A   On time
-## 20:15  Manchester Piccadilly                   13    On time
-##        via Coventry & Stoke-on-Trent           
-## 20:16  London Paddington                       14    20:19
-## 20:21  London Waterloo                         6     On time
-## 20:24  Abbey Wood                              12    On time
-## 20:26  London Paddington                       15A   On time
-## 20:28  Didcot Parkway                          8B    On time
-## 20:28  Plymouth                                7     On time
-## 20:38  Basingstoke                             2     On time
-## 20:43  Newbury                                 1     On time
-## 20:44  London Paddington                       11    On time
-## 20:49  Oxford                                  8B    On time
-## 20:50  London Paddington                       13    20:58
-## 20:51  London Waterloo                         4     On time
-## 20:52  Bournemouth                             7     On time
-## 20:54  Abbey Wood                              14    On time
-## 20:55  Weston-super-Mare                       8     On time
-## 20:59  London Paddington                       11    21:03
-## 21:02  London Paddington                       15A   On time
-## 21:09  Swansea                                 8     On time
-## 21:12  Birmingham New Street                   7     On time
-##        via Coventry                            
-## 21:14  Ealing Broadway                         13A   On time
-## 21:15  Worcester Shrub Hill                    8     On time
-## 21:17  London Paddington                       15    On time
-## 21:20  Didcot Parkway                          12B   On time
-## 21:21  London Waterloo                         6     On time
-## 21:24  Ealing Broadway                         14    On time
-## 21:28  Exeter St Davids                        7B    On time
-## 21:38  Basingstoke                             2     On time
-## 21:43  Bedwyn                                  1     On time
-## 21:48  Oxford                                  8B    On time
-## 21:50  London Paddington                       15    On time
-## 21:51  London Waterloo                         4     On time
-## 21:52  Southampton Central                     7     On time
-## 21:54  Ealing Broadway                         14    On time
-## 21:55  Bristol Temple Meads                    8     On time
-## 21:57  London Paddington                       15    On time
-## 20:12  Guildford                               BUS   On time
-## 20:35  Guildford                               BUS   On time
-## 21:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 21:30  Guildford                               BUS   On time
-## 21:58  Guildford                               BUS   On time
-## 22:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 21:50  London Paddington                       15    22:04
+## 21:57  London Paddington                       13    22:07
+## 22:09  Swansea                                 7     22:14
+## 22:12  London Paddington                       11    22:26
+## 22:14  Worcester Shrub Hill                    7     On time
+## 22:18  Didcot Parkway                          12B   On time
+## 22:20  London Paddington                       15    On time
+## 22:21  London Waterloo                         6     On time
+## 22:28  Ealing Broadway                         14    On time
+## 22:30  Bristol Temple Meads                    7     On time
+## 22:43  Newbury                                 1     On time
+## 22:53  London Paddington                       13    22:53
+## 22:54  London Paddington                       15A   On time
+## 22:56  London Waterloo                         4     On time
+## 22:58  Ealing Broadway                         14    On time
+## 23:10  Ealing Broadway                         15A   On time
+## 23:15  Bristol Parkway                         7     On time
+## 23:20  Didcot Parkway                          13A   On time
+## 23:20  London Paddington                       12A   On time
+## 23:37  Bristol Temple Meads                    7     On time
+## 23:37  London Paddington                       15    23:39
+## 23:40  Ealing Broadway                         14    Delayed
+## 22:25  Guildford                               BUS   On time
+## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 23:03  Gatwick Airport                         BUS   On time
+##        via Guildford                           
+## 23:48  Chippenham                              BUS   On time
 ```
