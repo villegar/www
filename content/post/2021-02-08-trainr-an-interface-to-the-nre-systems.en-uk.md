@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-14 10:04)
+## Example (Last rendered on 2022-12-14 12:04)
 
 Load `trainR` to your working environment:
 
@@ -82,38 +82,35 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-14 10:04:29
+## Reading (RDG) Station Board on 2022-12-14 12:04:30
 ## Time   From                                    Plat  Expected
-## 09:50  Bristol Temple Meads                    10    10:05
-## 09:56  London Paddington                       9     10:03
-## 09:58  Bristol Parkway                         10A   10:12
-## 10:09  Cardiff Central                         10    10:15
-## 10:09  London Paddington                       14    On time
-## 10:14  London Paddington                       9B    On time
-## 10:23  Oxford                                  11    On time
-## 10:39  London Paddington                       14    On time
-## 10:40  Plymouth                                10    10:44
-## 10:41  London Paddington                       9     On time
-## 10:44  Birmingham New Street                   7     On time
-## 10:46  London Paddington                       9     On time
-## 10:53  Bristol Parkway                         11A   On time
-## 10:56  Basingstoke                             2     On time
-## 11:03  Didcot Parkway                          15    On time
-## 11:05  Southampton Central                     8     On time
-## 11:09  London Paddington                       14    On time
-## 11:14  London Paddington                       9B    On time
-## 11:16  London Paddington                       9     On time
-## 11:18  Cardiff Central                         11    On time
-## 11:24  Oxford                                  10    On time
-## 11:37  London Paddington                       9     On time
-## 11:39  London Paddington                       14    On time
-## 11:41  Plymouth                                10    On time
-## 11:46  London Paddington                       9     On time
-## 11:47  Manchester Piccadilly                   8     On time
-## 11:50  Basingstoke                             2     On time
-## 11:51  Bristol Parkway                         10A   On time
-## 11:55  London Paddington                       9     On time
-## 11:59  Didcot Parkway                          15    On time
+## 12:09  London Paddington                       14    On time
+## 12:14  London Paddington                       9B    12:20
+## 12:15  Cardiff Central                         11    On time
+## 12:24  Oxford                                  10    On time
+## 12:37  London Paddington                       9     On time
+## 12:39  London Paddington                       14    On time
+## 12:40  Bristol Temple Meads                    10    On time
+## 12:42  Manchester Piccadilly                   7     12:45
+## 12:46  London Paddington                       9     On time
+## 12:50  Bristol Parkway                         10A   On time
+## 12:51  Basingstoke                             2     On time
+## 12:54  London Paddington                       9     On time
+## 13:01  Didcot Parkway                          15    On time
+## 13:05  Southampton Central                     8     On time
+## 13:09  London Paddington                       14    On time
+## 13:14  London Paddington                       9B    On time
+## 13:17  Cardiff Central                         11    On time
+## 13:24  Oxford                                  10    On time
+## 13:37  London Paddington                       9     On time
+## 13:39  London Paddington                       14    On time
+## 13:39  Plymouth                                10    On time
+## 13:44  Manchester Piccadilly                   8     On time
+## 13:46  London Paddington                       9     On time
+## 13:50  Bristol Parkway                         10A   On time
+## 13:56  London Paddington                       9     On time
+## 13:58  Basingstoke                             2     On time
+## 14:03  Didcot Parkway                          15    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -125,38 +122,34 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-14 10:04:34
+## Reading (RDG) Station Board on 2022-12-14 12:04:32
 ## Time   To                                      Plat  Expected
-## 09:55  London Paddington                       10    10:11
-## 09:58  Plymouth                                9     10:04
-##        via Bristol                             
-## 09:59  London Paddington                       10A   10:13
-## 10:11  London Paddington                       10    10:16
-## 10:12  Manchester Piccadilly                   7     On time
-## 10:14  Bristol Parkway                         9B    On time
-## 10:26  London Paddington                       11    On time
-## 10:27  Ealing Broadway                         14    On time
-## 10:32  Basingstoke                             2     On time
-## 10:42  Cardiff Central                         9     On time
-## 10:42  London Paddington                       10    10:45
-## 10:48  Oxford                                  9     On time
-## 10:50  Didcot Parkway                          15A   On time
-## 10:52  Southampton Central                     7     On time
-## 10:55  London Paddington                       11A   On time
-## 10:57  Ealing Broadway                         14    On time
-## 11:14  Bristol Parkway                         9B    On time
-## 11:16  Manchester Piccadilly                   8     On time
-## 11:19  Bristol Temple Meads                    9     On time
-## 11:20  London Paddington                       11    On time
-## 11:26  London Paddington                       10    On time
-## 11:27  Ealing Broadway                         14    On time
-## 11:32  Basingstoke                             2     On time
-## 11:39  Cardiff Central                         9     On time
-## 11:43  London Paddington                       10    On time
-## 11:49  Oxford                                  9     On time
-## 11:53  Didcot Parkway                          15A   On time
-## 11:55  London Paddington                       10A   On time
-## 11:57  Ealing Broadway                         14    On time
-## 11:57  Plymouth                                9     On time
+## 12:07  Manchester Piccadilly                   8     On time
+## 12:14  Bristol Parkway                         9B    12:20
+## 12:17  London Paddington                       11    On time
+## 12:26  London Paddington                       10    On time
+## 12:27  Ealing Broadway                         14    On time
+## 12:32  Basingstoke                             2     On time
+## 12:39  Cardiff Central                         9     On time
+## 12:42  London Paddington                       10    On time
+## 12:49  Oxford                                  9     On time
+## 12:52  London Paddington                       10A   On time
+## 12:52  Southampton Central                     7     On time
+## 12:57  Bristol Temple Meads                    9     On time
+## 12:57  Didcot Parkway                          15A   On time
+## 12:57  Ealing Broadway                         14    On time
+## 13:14  Bristol Parkway                         9B    On time
+## 13:15  Manchester Piccadilly                   8     On time
+## 13:20  London Paddington                       11    On time
+## 13:26  London Paddington                       10    On time
+## 13:27  Basingstoke                             2     On time
+## 13:27  Ealing Broadway                         14    On time
+## 13:39  Cardiff Central                         9     On time
+## 13:42  London Paddington                       10    On time
+## 13:48  Oxford                                  9     On time
+## 13:55  Didcot Parkway                          15A   On time
+## 13:55  London Paddington                       10A   On time
+## 13:57  Ealing Broadway                         14    On time
+## 13:58  Plymouth                                9     On time
 ##        via Bristol
 ```
