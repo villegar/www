@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-15 04:07)
+## Example (Last rendered on 2022-12-15 06:10)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-15 04:07:34
+## Reading (RDG) Station Board on 2022-12-15 06:10:20
+## Time   From                                    Plat  Expected
+## 07:38  London Paddington                       9     On time
+## 07:43  Didcot Parkway                          15    On time
+## 07:46  London Paddington                       8     On time
+## 07:54  Oxford                                  11    On time
+## 07:56  London Paddington                       9     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,5 +100,24 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-15 04:07:36
+## Reading (RDG) Station Board on 2022-12-15 06:10:23
+## Time   To                                      Plat  Expected
+## 07:00  Bristol Temple Meads                    8     On time
+## 07:02  London Paddington                       9     On time
+## 07:10  Newbury                                 1     On time
+## 07:17  London Paddington                       13    On time
+## 07:25  Didcot Parkway                          12    On time
+## 07:25  Redhill                                 15A   On time
+## 07:29  Abbey Wood                              14    On time
+## 07:37  Basingstoke                             2     On time
+## 07:39  Cardiff Central                         9     On time
+## 07:40  Abbey Wood                              14    On time
+## 07:46  London Paddington                       15    On time
+## 07:49  Oxford                                  8     On time
+## 07:51  Didcot Parkway                          13    On time
+## 07:54  Bedwyn                                  15B   On time
+## 07:56  Abbey Wood                              -     Cancelled
+## 07:56  London Paddington                       11    On time
+## 08:00  Bristol Temple Meads                    9     On time
+## 08:03  Newbury                                 15B   On time
 ```
