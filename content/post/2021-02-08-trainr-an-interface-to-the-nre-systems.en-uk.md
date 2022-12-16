@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-16 18:04)
+## Example (Last rendered on 2022-12-16 20:11)
 
 Load `trainR` to your working environment:
 
@@ -82,16 +82,7 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-16 18:04:05
-## Time   From                                    Plat  Expected
-## 17:57  Oxford                                  10A   18:13
-## 18:03  Didcot Parkway                          15    On time
-## 18:09  London Paddington                       14    On time
-## 18:14  London Paddington                       12    18:18
-## 18:23  Cardiff Central                         9     Delayed
-## 18:25  Oxford                                  13    18:27
-## 18:29  Bristol Temple Meads                    8     18:35
-## 18:30  Basingstoke                             13B   On time
+## Reading (RDG) Station Board on 2022-12-16 20:11:58
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -103,7 +94,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-16 18:04:07
-## Time   To                                      Plat  Expected
-## 18:00  London Paddington                       10A   18:14
+## Reading (RDG) Station Board on 2022-12-16 20:12:00
 ```
