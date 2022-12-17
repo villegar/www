@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-17 06:04)
+## Example (Last rendered on 2022-12-17 08:04)
 
 Load `trainR` to your working environment:
 
@@ -82,9 +82,33 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-17 06:04:32
+## Reading (RDG) Station Board on 2022-12-17 08:04:34
 ## Time   From                                    Plat  Expected
-## 07:56  London Paddington                       9     On time
+## 07:56  London Paddington                       9     08:09
+## 08:07  Didcot Parkway                          15    08:09
+## 08:09  Oxford                                  10    On time
+## 08:14  London Paddington                       9     08:16
+## 08:25  London Paddington                       9     On time
+## 08:39  Bristol Temple Meads                    11    On time
+## 08:39  London Paddington                       14    On time
+## 08:42  Basingstoke                             2     On time
+## 08:43  London Paddington                       9     On time
+## 08:48  Swindon                                 10    Delayed
+## 08:55  London Paddington                       8     On time
+## 09:01  Didcot Parkway                          15    On time
+## 09:05  Southampton Central                     8     On time
+## 09:09  London Paddington                       14    On time
+## 09:10  Bristol Temple Meads                    10    On time
+## 09:18  London Paddington                       9     On time
+## 09:24  Oxford                                  10    On time
+## 09:25  London Paddington                       9     On time
+## 09:39  London Paddington                       14    On time
+## 09:40  Bristol Temple Meads                    10    Delayed
+## 09:46  Basingstoke                             2     On time
+## 09:46  London Paddington                       9     On time
+## 09:56  London Paddington                       9     On time
+## 09:58  Bristol Parkway                         10    10:12
+## 10:01  Didcot Parkway                          15    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -96,14 +120,35 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-17 06:04:34
+## Reading (RDG) Station Board on 2022-12-17 08:04:38
 ## Time   To                                      Plat  Expected
-## 07:30  Bristol Temple Meads                    9     On time
-## 07:37  Basingstoke                             7     On time
-## 07:49  Oxford                                  8     On time
-## 07:51  London Paddington                       13    On time
-## 07:52  Didcot Parkway                          15    On time
-## 07:57  Ealing Broadway                         14    On time
-## 08:00  Plymouth                                9     On time
-##        via Bristol
+## 07:51  London Paddington                       13    Delayed
+## 08:00  Plymouth                                9     08:10
+##        via Bristol                             
+## 08:14  Bristol Parkway                         9     08:16
+## 08:14  London Paddington                       10    On time
+## 08:23  Basingstoke                             12B   On time
+## 08:27  Bristol Temple Meads                    9     On time
+## 08:27  Ealing Broadway                         14    On time
+## 08:41  London Paddington                       11    On time
+## 08:46  Oxford                                  9     On time
+## 08:49  London Paddington                       10    Delayed
+## 08:53  Didcot Parkway                          15    On time
+## 08:57  Ealing Broadway                         14    On time
+## 08:57  Plymouth                                8     On time
+##        via Bristol                             
+## 09:10  Manchester Piccadilly                   8     On time
+## 09:12  London Paddington                       10    On time
+## 09:19  Bristol Parkway                         9     On time
+## 09:26  London Paddington                       10    On time
+## 09:27  Bristol Temple Meads                    9     On time
+## 09:27  Ealing Broadway                         14    On time
+## 09:32  Basingstoke                             2     On time
+## 09:43  London Paddington                       10    Delayed
+## 09:48  Oxford                                  9     On time
+## 09:55  Didcot Parkway                          15    On time
+## 09:57  Ealing Broadway                         14    On time
+## 09:58  Plymouth                                9     On time
+##        via Bristol                             
+## 09:59  London Paddington                       10    10:13
 ```
