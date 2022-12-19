@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-18 22:07)
+## Example (Last rendered on 2022-12-19 00:07)
 
 Load `trainR` to your working environment:
 
@@ -82,37 +82,19 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-18 22:07:10
+## Reading (RDG) Station Board on 2022-12-19 00:07:54
 ## Time   From                                    Plat  Expected
-## 21:48  Swansea                                 10    22:12
-## 21:53  London Paddington                       9     Delayed
-## 22:04  Plymouth                                11    22:19
-## 22:07  London Paddington                       9     22:20
-## 22:10  London Paddington                       12    On time
-## 22:10  Weston-super-Mare                       10    22:16
-## 22:12  London Paddington                       9     On time
-## 22:13  Didcot Parkway                          13    On time
-## 22:24  Newbury                                 13B   Delayed
-## 22:32  Basingstoke                             1     On time
-## 22:33  Abbey Wood                              14    On time
-## 22:37  Henley-on-Thames                        12    On time
-## 22:38  London Paddington                       9     On time
-## 22:39  Manchester Piccadilly                   8     On time
-## 22:45  Gatwick Airport                         -     Cancelled
-## 22:49  Swansea                                 10A   On time
-## 22:50  Penzance                                13    22:54
-## 22:52  Great Malvern                           15A   On time
-## 23:04  Abbey Wood                              14    On time
-## 23:08  Didcot Parkway                          15    On time
-## 23:12  London Paddington                       12    On time
-## 23:16  Bedwyn                                  15    On time
-## 23:33  London Paddington                       13    On time
-## 23:34  London Paddington                       12    On time
-## 23:39  Plymouth                                14    23:46
-## 23:45  Gatwick Airport                         -     Cancelled
-## 22:18  Heathrow Central Bus Stn                BUS   On time
-## 22:48  Heathrow Central Bus Stn                BUS   On time
-## 23:18  Heathrow Central Bus Stn                BUS   On time
+## 23:39  Plymouth                                14A   00:21
+## 00:12  London Paddington                       13B   On time
+## 00:17  London Paddington                       12    On time
+## 00:23  Didcot Parkway                          15    On time
+## 00:49  Gatwick Airport                         15    On time
+## 00:50  Didcot Parkway                          14    On time
+## 00:52  London Paddington                       13    On time
+## 01:24  London Paddington                       13    On time
+## 00:10  Newbury                                 BUS   On time
+## 00:18  Heathrow Central Bus Stn                BUS   On time
+## 01:18  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -124,29 +106,11 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-18 22:07:13
+## Reading (RDG) Station Board on 2022-12-19 00:07:58
 ## Time   To                                      Plat  Expected
-## 21:50  London Paddington                       10    22:15
-## 21:55  Bristol Temple Meads                    9     Delayed
-## 22:05  London Paddington                       11    22:20
-## 22:09  Swansea                                 9     22:24
-## 22:11  London Paddington                       10    22:17
-## 22:12  Didcot Parkway                          12    On time
-## 22:13  Worcester Shrub Hill                    9     On time
-## 22:28  Ealing Broadway                         14    On time
-## 22:39  Bristol Temple Meads                    9     On time
-## 22:43  Newbury                                 1     On time
-## 22:50  London Paddington                       10A   On time
-## 22:53  London Paddington                       13    22:55
-## 22:54  London Paddington                       15A   On time
-## 22:58  Ealing Broadway                         14    On time
-## 23:03  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 23:10  Ealing Broadway                         15    On time
-## 23:15  Bristol Parkway                         12    On time
-## 23:16  Ealing Broadway                         14    On time
-## 23:20  Didcot Parkway                          13    On time
-## 23:37  Bristol Temple Meads                    12    On time
-## 23:41  London Paddington                       14    23:47
-## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 23:41  London Paddington                       14A   00:22
+## 00:19  Bristol Temple Meads                    12    On time
+## 00:24  Didcot Parkway                          13B   On time
+## 00:24  Ealing Broadway                         15    On time
+## 00:54  London Paddington                       14    On time
 ```
