@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-24 16:04)
+## Example (Last rendered on 2022-12-24 18:05)
 
 Load `trainR` to your working environment:
 
@@ -82,19 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-24 16:04:54
+## Reading (RDG) Station Board on 2022-12-24 18:05:07
 ## Time   From                                    Plat  Expected
-## 15:54  Worcester Shrub Hill                    10    On time
-## 16:00  Plymouth                                11    16:04
-## 16:15  London Paddington                       13    On time
-## 16:17  Cardiff Central                         10    16:22
-## 16:40  London Paddington                       12    16:43
-## 16:44  Newbury                                 13B   On time
-## 16:04  Heathrow Central Bus Stn                BUS   On time
-## 16:34  Heathrow Central Bus Stn                BUS   On time
-## 17:04  Heathrow Central Bus Stn                BUS   On time
-## 17:34  Heathrow Central Bus Stn                BUS   On time
 ## 18:04  Heathrow Central Bus Stn                BUS   On time
+## 18:34  Heathrow Central Bus Stn                BUS   On time
+## 19:04  Heathrow Central Bus Stn                BUS   On time
+## 19:32  Heathrow Central Bus Stn                BUS   On time
+## 19:58  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -106,13 +100,10 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-24 16:04:58
+## Reading (RDG) Station Board on 2022-12-24 18:05:09
 ## Time   To                                      Plat  Expected
-## 15:55  London Paddington                       10    Delayed
-## 16:05  London Paddington                       11    On time
-## 16:18  London Paddington                       10    16:23
-## 16:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 17:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 17:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 18:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 18:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 19:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 19:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 20:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
