@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-27 06:04)
+## Example (Last rendered on 2022-12-27 08:03)
 
 Load `trainR` to your working environment:
 
@@ -82,11 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-27 06:04:45
+## Reading (RDG) Station Board on 2022-12-27 08:04:00
 ## Time   From                                    Plat  Expected
-## 06:13  Heathrow Central Bus Stn                -     On time
-## 07:25  Heathrow Central Bus Stn                BUS   On time
-## 07:57  Heathrow Central Bus Stn                BUS   On time
+## 09:44  London Paddington                       8B    On time
+## 09:50  London Paddington                       9B    On time
+## 09:58  London Paddington                       9     On time
+## 10:00  London Paddington                       8     On time
+## 08:27  Heathrow Central Bus Stn                BUS   On time
+## 09:04  Heathrow Central Bus Stn                BUS   On time
+## 09:34  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -98,10 +102,18 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-27 06:04:47
+## Reading (RDG) Station Board on 2022-12-27 08:04:03
 ## Time   To                                      Plat  Expected
-## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 09:07  Bedwyn                                  14B   On time
+## 09:19  London Paddington                       13A   On time
+## 09:33  London Paddington                       15A   On time
+## 09:43  Didcot Parkway                          14A   On time
+## 09:47  Swansea                                 8B    On time
+## 09:52  Oxford                                  9B    On time
+## 09:59  Bristol Temple Meads                    9     On time
+## 10:01  Paignton                                8     On time
+## 08:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 09:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 09:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 10:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
