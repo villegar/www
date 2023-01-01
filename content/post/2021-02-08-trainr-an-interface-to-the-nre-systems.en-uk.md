@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-01-01 04:04)
+## Example (Last rendered on 2023-01-01 06:04)
 
 Load `trainR` to your working environment:
 
@@ -82,13 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-01 04:04:24
+## Reading (RDG) Station Board on 2023-01-01 06:04:06
 ## Time   From                                    Plat  Expected
-## 04:19  Abbey Wood                              14    04:21
-## 04:49  Abbey Wood                              14    On time
-## 05:19  Abbey Wood                              14    On time
-## 05:51  Abbey Wood                              14    On time
-## 05:13  Heathrow Central Bus Stn                -     On time
+## 07:23  London Paddington                       13    On time
+## 07:37  London Paddington                       14    On time
+## 07:50  Staines                                 5     On time
+## 07:50  Staines                                 -     On time
+## 06:13  Heathrow Central Bus Stn                -     On time
+## 07:25  Heathrow Central Bus Stn                BUS   On time
+## 07:57  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -100,12 +102,22 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-01 04:04:27
+## Reading (RDG) Station Board on 2023-01-01 06:04:09
 ## Time   To                                      Plat  Expected
-## 03:56  Abbey Wood                              14    04:02
-## 04:26  Abbey Wood                              14    On time
-## 06:03  Redhill                                 5     On time
-## 05:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 05:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 06:03  Redhill                                 7B    On time
+## 06:20  London Paddington                       14A   On time
+## 06:53  London Paddington                       14    On time
+## 06:57  Redhill                                 7B    On time
+## 07:10  London Paddington                       14A   On time
+## 07:26  London Waterloo                         -     On time
+## 07:26  London Waterloo                         4     On time
+## 07:37  Basingstoke                             15B   On time
+## 07:39  Redhill                                 14    On time
+## 07:54  London Paddington                       14    On time
+## 07:57  London Waterloo                         6     On time
+## 07:57  London Waterloo                         -     On time
+## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
