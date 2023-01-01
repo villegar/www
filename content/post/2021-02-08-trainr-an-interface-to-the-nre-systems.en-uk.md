@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-01-01 02:30)
+## Example (Last rendered on 2023-01-01 04:04)
 
 Load `trainR` to your working environment:
 
@@ -82,12 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-01 02:30:53
+## Reading (RDG) Station Board on 2023-01-01 04:04:24
 ## Time   From                                    Plat  Expected
-## 02:50  Abbey Wood                              14    02:54
-## 03:19  Abbey Wood                              14    On time
-## 03:49  Abbey Wood                              14    On time
-## 04:19  Abbey Wood                              14    On time
+## 04:19  Abbey Wood                              14    04:21
+## 04:49  Abbey Wood                              14    On time
+## 05:19  Abbey Wood                              14    On time
+## 05:51  Abbey Wood                              14    On time
+## 05:13  Heathrow Central Bus Stn                -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -99,13 +100,12 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-01 02:30:56
+## Reading (RDG) Station Board on 2023-01-01 04:04:27
 ## Time   To                                      Plat  Expected
-## 02:26  Abbey Wood                              14    Delayed
-## 02:57  Abbey Wood                              14    On time
-## 03:26  Abbey Wood                              -     On time
-## 03:56  Abbey Wood                              -     On time
-## 04:26  Abbey Wood                              -     On time
-## 02:46  Heathrow Airport T3 (Bus)               BUS   On time
-## 03:55  Heathrow Airport T3 (Bus)               -     On time
+## 03:56  Abbey Wood                              14    04:02
+## 04:26  Abbey Wood                              14    On time
+## 06:03  Redhill                                 5     On time
+## 05:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 05:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
