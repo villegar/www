@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2022-12-31 22:03)
+## Example (Last rendered on 2023-01-01 00:08)
 
 Load `trainR` to your working environment:
 
@@ -82,34 +82,18 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-31 22:03:49
+## Reading (RDG) Station Board on 2023-01-01 00:08:30
 ## Time   From                                    Plat  Expected
-## 21:56  London Paddington                       9     On time
-## 22:02  London Waterloo                         4     On time
-## 22:03  Abbey Wood                              14    On time
-## 22:09  Taunton                                 10    22:14
-## 22:10  London Paddington                       12B   On time
-## 22:13  Swansea                                 11    22:16
-## 22:22  Basingstoke                             13    On time
-## 22:22  Newbury                                 8     On time
-## 22:26  Gatwick Airport                         13    On time
-## 22:27  Didcot Parkway                          15    On time
-## 22:33  Abbey Wood                              14    On time
-## 22:40  London Paddington                       13    On time
-## 22:51  London Paddington                       10    On time
-## 23:03  Abbey Wood                              14    On time
-## 23:04  Redhill                                 -     Cancelled
-## 23:10  London Paddington                       13    On time
-## 23:21  Newbury Racecourse                      13B   On time
-## 23:26  Didcot Parkway                          14    On time
-## 23:26  Gatwick Airport                         13B   On time
-## 23:28  London Paddington                       15    On time
-## 23:34  Abbey Wood                              14    On time
-## 23:47  London Paddington                       15    On time
-## 00:03  Abbey Wood                              12    On time
-## 22:18  Heathrow Central Bus Stn                BUS   On time
-## 22:48  Heathrow Central Bus Stn                BUS   On time
-## 23:18  Heathrow Central Bus Stn                BUS   On time
+## 23:47  London Paddington                       15    00:10
+## 00:20  London Paddington                       13    On time
+## 00:27  London Paddington                       15    On time
+## 00:49  Abbey Wood                              14    On time
+## 01:19  Abbey Wood                              14    On time
+## 01:29  London Paddington                       13    On time
+## 01:49  Abbey Wood                              14    On time
+## 01:53  London Waterloo                         6     On time
+## 00:18  Heathrow Central Bus Stn                BUS   On time
+## 01:18  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -121,17 +105,11 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2022-12-31 22:03:53
+## Reading (RDG) Station Board on 2023-01-01 00:08:33
 ## Time   To                                      Plat  Expected
-## 21:57  Bristol Temple Meads                    9     Delayed
-## 22:15  London Paddington                       10    On time
-## 22:16  Ealing Broadway                         13A   On time
-## 22:18  London Paddington                       11    On time
-## 22:22  Abbey Wood                              14    On time
-## 22:30  Didcot Parkway                          12B   On time
-## 22:52  Abbey Wood                              14    On time
-## 23:17  Ealing Broadway                         15    On time
-## 23:22  Abbey Wood                              14    On time
-## 23:49  Abbey Wood                              14    On time
-## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 00:19  London Paddington                       15B   On time
+## 00:25  Abbey Wood                              12    On time
+## 00:56  Abbey Wood                              14    On time
+## 01:26  Abbey Wood                              14    On time
+## 01:56  Abbey Wood                              14    On time
 ```
