@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-01-03 12:03)
+## Example (Last rendered on 2023-01-03 14:03)
 
 Load `trainR` to your working environment:
 
@@ -82,37 +82,36 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-03 12:03:57
+## Reading (RDG) Station Board on 2023-01-03 14:03:48
 ## Time   From                                    Plat  Expected
-## 12:09  London Paddington                       14    On time
-## 12:14  London Paddington                       9     On time
-## 12:15  Cardiff Central                         11    On time
-## 12:24  Oxford                                  10    On time
-## 12:37  London Paddington                       9     On time
-## 12:39  London Paddington                       14    On time
-## 12:40  Bristol Temple Meads                    10    On time
-## 12:41  Newbury                                 -     Cancelled
-## 12:42  Manchester Piccadilly                   7     12:47
-## 12:46  London Paddington                       9     On time
-## 12:50  Bristol Parkway                         10    On time
-## 12:51  Basingstoke                             2     On time
-## 12:54  London Paddington                       9     On time
-## 13:01  Didcot Parkway                          15    On time
-## 13:05  Southampton Central                     8     On time
-## 13:09  London Paddington                       14    On time
-## 13:14  London Paddington                       9     On time
-## 13:17  Cardiff Central                         11    On time
-## 13:24  Oxford                                  10    On time
-## 13:37  London Paddington                       9     On time
-## 13:39  London Paddington                       14    On time
-## 13:39  Plymouth                                10    On time
-## 13:40  Newbury                                 -     Cancelled
-## 13:44  Manchester Piccadilly                   8     On time
-## 13:46  London Paddington                       9     On time
-## 13:50  Bristol Parkway                         10    On time
-## 13:56  London Paddington                       9     On time
-## 13:58  Basingstoke                             2     On time
-## 14:03  Didcot Parkway                          15    On time
+## 14:09  London Paddington                       14    On time
+## 14:14  London Paddington                       9     On time
+## 14:20  Cardiff Central                         11    On time
+## 14:24  Oxford                                  10    On time
+## 14:37  London Paddington                       9     On time
+## 14:39  London Paddington                       14    On time
+## 14:40  Bristol Temple Meads                    10    14:42
+## 14:40  Newbury                                 -     Cancelled
+## 14:41  Manchester Piccadilly                   7     On time
+## 14:46  London Paddington                       9     On time
+## 14:50  Bristol Parkway                         10    On time
+## 14:51  Basingstoke                             2     On time
+## 14:55  London Paddington                       9     On time
+## 14:59  Didcot Parkway                          15    On time
+## 15:05  Southampton Central                     8     On time
+## 15:09  London Paddington                       14    On time
+## 15:14  London Paddington                       9     On time
+## 15:19  Cardiff Central                         11    On time
+## 15:25  Oxford                                  10    On time
+## 15:37  London Paddington                       9     On time
+## 15:37  Newbury                                 -     Cancelled
+## 15:39  London Paddington                       14    On time
+## 15:39  Plymouth                                11    On time
+## 15:41  Manchester Piccadilly                   8B    On time
+## 15:46  London Paddington                       9     On time
+## 15:50  Bristol Parkway                         10    On time
+## 15:56  London Paddington                       9     On time
+## 15:57  Basingstoke                             2     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -124,36 +123,38 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-03 12:04:00
+## Reading (RDG) Station Board on 2023-01-03 14:03:53
 ## Time   To                                      Plat  Expected
-## 12:07  Manchester Piccadilly                   8     On time
-## 12:12  Newbury                                 -     Cancelled
-## 12:14  Bristol Parkway                         9     On time
-## 12:17  London Paddington                       11    On time
-## 12:26  London Paddington                       10    On time
-## 12:27  Ealing Broadway                         14    On time
-## 12:32  Basingstoke                             2     On time
-## 12:39  Cardiff Central                         9     On time
-## 12:42  London Paddington                       10    On time
-## 12:49  Oxford                                  9     On time
-## 12:52  London Paddington                       10    On time
-## 12:52  Southampton Central                     7     On time
-## 12:57  Bristol Temple Meads                    9     On time
-## 12:57  Didcot Parkway                          15    On time
-## 12:57  Ealing Broadway                         14    On time
-## 13:12  Newbury                                 -     Cancelled
-## 13:14  Bristol Parkway                         9     On time
-## 13:15  Manchester Piccadilly                   8     On time
-## 13:20  London Paddington                       11    On time
-## 13:26  London Paddington                       10    On time
-## 13:27  Basingstoke                             2     On time
-## 13:27  Ealing Broadway                         14    On time
-## 13:39  Cardiff Central                         9     On time
-## 13:42  London Paddington                       10    On time
-## 13:48  Oxford                                  9     On time
-## 13:55  Didcot Parkway                          15    On time
-## 13:55  London Paddington                       10    On time
-## 13:57  Ealing Broadway                         14    On time
-## 13:58  Plymouth                                9     On time
-##        via Bristol
+## 14:12  Newbury                                 -     Cancelled
+## 14:14  Bristol Parkway                         9     On time
+## 14:15  Manchester Piccadilly                   8     On time
+## 14:23  Basingstoke                             12B   On time
+## 14:23  London Paddington                       11    On time
+## 14:27  Ealing Broadway                         14    On time
+## 14:27  London Paddington                       10    On time
+## 14:39  Cardiff Central                         9     On time
+## 14:43  London Paddington                       10    On time
+## 14:49  Oxford                                  9     On time
+## 14:52  London Paddington                       10    On time
+## 14:52  Southampton Central                     7     On time
+## 14:55  Didcot Parkway                          15    On time
+## 14:57  Ealing Broadway                         14    On time
+## 14:57  Plymouth                                9     On time
+##        via Bristol                             
+## 15:10  Newbury                                 -     Cancelled
+## 15:14  Bristol Parkway                         9     On time
+## 15:15  Birmingham New Street                   8     On time
+##        via Coventry                            
+## 15:22  London Paddington                       11    On time
+## 15:27  Ealing Broadway                         14    On time
+## 15:27  London Paddington                       10    On time
+## 15:35  Basingstoke                             2     On time
+## 15:39  Cardiff Central                         9     On time
+## 15:43  London Paddington                       11    On time
+## 15:48  Oxford                                  9     On time
+## 15:51  Didcot Parkway                          15    On time
+## 15:52  Southampton Central                     8B    On time
+## 15:55  London Paddington                       10    On time
+## 15:57  Ealing Broadway                         14    On time
+## 15:58  Bristol Temple Meads                    9     On time
 ```
