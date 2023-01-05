@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-01-05 12:04)
+## Example (Last rendered on 2023-01-05 14:03)
 
 Load `trainR` to your working environment:
 
@@ -82,20 +82,20 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-05 12:04:11
+## Reading (RDG) Station Board on 2023-01-05 14:03:52
 ## Time   From                                    Plat  Expected
-## 12:10  Abbey Wood                              14    On time
-## 12:20  Basingstoke                             2     On time
-## 12:20  Oxford                                  15    On time
-## 12:40  Abbey Wood                              14    On time
-## 12:40  Bristol Temple Meads                    10    On time
-## 12:54  London Paddington                       9     On time
-## 13:12  Abbey Wood                              14    On time
-## 13:22  Basingstoke                             2     On time
-## 13:27  Oxford                                  15    On time
-## 13:39  Bristol Temple Meads                    10    On time
-## 13:42  Abbey Wood                              14    On time
-## 13:55  London Paddington                       9     On time
+## 14:09  Abbey Wood                              14    On time
+## 14:20  Basingstoke                             2     On time
+## 14:22  Oxford                                  15    On time
+## 14:40  Abbey Wood                              14    On time
+## 14:40  Bristol Temple Meads                    10    On time
+## 14:55  London Paddington                       9     On time
+## 15:13  Abbey Wood                              14    On time
+## 15:20  Basingstoke                             2     On time
+## 15:25  Oxford                                  15    On time
+## 15:39  Abbey Wood                              14    On time
+## 15:39  Bristol Temple Meads                    -     Cancelled
+## 15:56  London Paddington                       9     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -107,18 +107,18 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-05 12:04:14
+## Reading (RDG) Station Board on 2023-01-05 14:03:55
 ## Time   To                                      Plat  Expected
-## 12:08  Basingstoke                             2     On time
-## 12:27  Abbey Wood                              14    On time
-## 12:42  London Paddington                       10    On time
-## 12:42  Oxford                                  15B   On time
-## 12:57  Abbey Wood                              14    On time
-## 12:57  Bristol Temple Meads                    9     On time
-## 13:05  Basingstoke                             2     On time
-## 13:27  Abbey Wood                              14    On time
-## 13:42  London Paddington                       10    On time
-## 13:42  Oxford                                  15B   On time
-## 13:56  Bristol Temple Meads                    9     On time
-## 13:57  Abbey Wood                              14    On time
+## 14:07  Basingstoke                             2     On time
+## 14:27  Abbey Wood                              14    On time
+## 14:42  Oxford                                  15B   On time
+## 14:43  London Paddington                       10    On time
+## 14:57  Abbey Wood                              14    On time
+## 14:57  Bristol Temple Meads                    9     On time
+## 15:07  Basingstoke                             2     On time
+## 15:27  Abbey Wood                              14    On time
+## 15:42  Oxford                                  15B   On time
+## 15:43  London Paddington                       -     Cancelled
+## 15:58  Abbey Wood                              14    On time
+## 15:58  Bristol Temple Meads                    9     On time
 ```
