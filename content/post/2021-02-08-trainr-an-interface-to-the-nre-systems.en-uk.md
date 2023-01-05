@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-01-05 08:03)
+## Example (Last rendered on 2023-01-05 10:03)
 
 Load `trainR` to your working environment:
 
@@ -82,23 +82,20 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-05 08:04:00
+## Reading (RDG) Station Board on 2023-01-05 10:03:58
 ## Time   From                                    Plat  Expected
-## 08:13  London Paddington                       14    On time
-## 08:24  Oxford                                  15    On time
-## 08:27  London Paddington                       13    On time
-## 08:39  Bristol Temple Meads                    11    On time
-## 08:42  Basingstoke                             2     On time
-## 08:45  Abbey Wood                              12    On time
-## 08:55  London Paddington                       8     On time
-## 08:56  Abbey Wood                              13    On time
-## 09:13  Abbey Wood                              14    On time
-## 09:13  Basingstoke                             2     On time
-## 09:24  Oxford                                  15    On time
-## 09:26  Abbey Wood                              13    On time
-## 09:38  Abbey Wood                              14    On time
-## 09:40  Bristol Temple Meads                    10    On time
-## 09:56  London Paddington                       9     On time
+## 10:07  Abbey Wood                              14    On time
+## 10:20  Basingstoke                             2     On time
+## 10:22  Oxford                                  15    10:31
+## 10:39  Abbey Wood                              14    On time
+## 10:40  Bristol Temple Meads                    10    On time
+## 10:55  London Paddington                       8     On time
+## 11:12  Abbey Wood                              14    On time
+## 11:22  Oxford                                  15    On time
+## 11:35  Basingstoke                             2     On time
+## 11:40  Abbey Wood                              14    On time
+## 11:41  Bristol Temple Meads                    10    On time
+## 11:55  London Paddington                       9     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -110,21 +107,18 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-05 08:04:03
+## Reading (RDG) Station Board on 2023-01-05 10:04:01
 ## Time   To                                      Plat  Expected
-## 08:07  Basingstoke                             15B   On time
-## 08:25  Abbey Wood                              14    On time
-## 08:41  London Paddington                       11    On time
-## 08:42  Abbey Wood                              13    On time
-## 08:42  Oxford                                  15B   On time
-## 08:57  Abbey Wood                              12    On time
-## 08:57  Bristol Temple Meads                    8     On time
-## 09:07  Basingstoke                             2     On time
-## 09:18  Abbey Wood                              13    On time
-## 09:27  Abbey Wood                              14    On time
-## 09:42  Oxford                                  15B   On time
-## 09:43  London Paddington                       10    On time
-## 09:48  Abbey Wood                              13    On time
-## 09:57  Abbey Wood                              14    On time
-## 09:58  Bristol Temple Meads                    9     On time
+## 10:07  Basingstoke                             2     On time
+## 10:27  Abbey Wood                              14    On time
+## 10:42  London Paddington                       10    On time
+## 10:42  Oxford                                  15B   On time
+## 10:57  Abbey Wood                              14    On time
+## 10:58  Bristol Temple Meads                    8     On time
+## 11:05  Basingstoke                             2     On time
+## 11:27  Abbey Wood                              14    On time
+## 11:42  Oxford                                  15B   On time
+## 11:43  London Paddington                       10    On time
+## 11:57  Abbey Wood                              14    On time
+## 11:57  Bristol Temple Meads                    9     On time
 ```
