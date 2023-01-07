@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-01-07 16:03)
+## Example (Last rendered on 2023-01-07 18:03)
 
 Load `trainR` to your working environment:
 
@@ -82,31 +82,14 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-07 16:03:44
+## Reading (RDG) Station Board on 2023-01-07 18:03:23
 ## Time   From                                    Plat  Expected
-## 16:07  Didcot Parkway                          15    15:59
-## 16:09  London Paddington                       14    On time
-## 16:14  London Paddington                       9     On time
-## 16:24  Oxford                                  11    On time
-## 16:33  London Paddington                       10    On time
-## 16:39  London Paddington                       14    On time
-## 16:39  Manchester Piccadilly                   7B    On time
-## 16:44  Basingstoke                             2     On time
-## 16:46  London Paddington                       9     On time
-## 16:53  Didcot Parkway                          11    On time
-## 17:00  London Paddington                       10    On time
-## 17:05  Southampton Central                     8     On time
-## 17:06  Didcot Parkway                          15    On time
-## 17:09  London Paddington                       14    On time
-## 17:14  London Paddington                       9     On time
-## 17:24  Oxford                                  10    On time
-## 17:33  London Paddington                       13    On time
-## 17:39  London Paddington                       14    On time
-## 17:47  London Paddington                       13    On time
-## 17:49  Basingstoke                             12    On time
-## 17:52  Didcot Parkway                          11    On time
-## 17:57  Oxford                                  10    On time
-## 17:58  London Paddington                       9     On time
+## 18:03  Didcot Parkway                          15    On time
+## 18:09  London Paddington                       14    On time
+## 18:24  London Paddington                       14    On time
+## 18:25  Oxford                                  13    On time
+## 18:30  Basingstoke                             13B   On time
+## 18:30  London Paddington                       12    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -118,26 +101,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-01-07 16:03:47
-## Time   To                                      Plat  Expected
-## 16:14  Didcot Parkway                          9     On time
-## 16:15  London Paddington                       10    On time
-## 16:27  Ealing Broadway                         14    On time
-## 16:27  London Paddington                       11    On time
-## 16:33  Basingstoke                             2     On time
-## 16:45  London Paddington                       10    On time
-## 16:48  Oxford                                  9     On time
-## 16:50  Didcot Parkway                          15A   On time
-## 16:52  Southampton Central                     7B    On time
-## 16:56  London Paddington                       11    On time
-## 16:57  Ealing Broadway                         14    On time
-## 17:14  Didcot Parkway                          9     On time
-## 17:15  London Paddington                       10    On time
-## 17:27  Ealing Broadway                         14    On time
-## 17:27  London Paddington                       10    On time
-## 17:31  Basingstoke                             2     On time
-## 17:54  London Paddington                       11    On time
-## 17:58  Didcot Parkway                          15A   On time
-## 18:00  London Paddington                       10    On time
-## 18:01  Oxford                                  9     On time
+## Reading (RDG) Station Board on 2023-01-07 18:03:26
 ```
