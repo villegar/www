@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-02-01 04:04)
+## Example (Last rendered on 2023-02-01 06:09)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,20 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-01 04:04:13
+## Reading (RDG) Station Board on 2023-02-01 06:09:51
+## Time   From                                    Plat  Expected
+## 06:14  Staines                                 5     On time
+## 06:16  London Paddington                       13    On time
+## 06:41  London Paddington                       14    On time
+## 06:48  London Waterloo                         -     Cancelled
+## 07:00  London Paddington                       14    On time
+## 07:10  Abbey Wood                              12    On time
+## 07:11  London Waterloo                         -     Cancelled
+## 07:27  Abbey Wood                              13    On time
+## 07:44  Abbey Wood                              14    On time
+## 07:46  London Waterloo                         6     On time
+## 07:56  London Paddington                       9     On time
+## 07:57  Abbey Wood                              13    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,9 +107,21 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-01 04:04:15
+## Reading (RDG) Station Board on 2023-02-01 06:09:56
 ## Time   To                                      Plat  Expected
-## 04:58  Redhill                                 4     On time
-## 05:42  London Waterloo                         5     On time
-## 06:00  Abbey Wood                              10    On time
+## 06:11  London Waterloo                         6     On time
+## 06:30  Abbey Wood                              13    On time
+## 06:41  London Waterloo                         5     On time
+## 06:56  Abbey Wood                              14    On time
+## 07:11  London Waterloo                         -     Cancelled
+## 07:14  Abbey Wood                              14    On time
+## 07:20  Redhill                                 15A   On time
+## 07:26  Abbey Wood                              14    On time
+## 07:37  Basingstoke                             2     On time
+## 07:40  Abbey Wood                              13    On time
+## 07:42  London Waterloo                         -     Cancelled
+## 07:42  Oxford                                  3     On time
+## 07:56  Abbey Wood                              14    On time
+## 08:00  Bristol Temple Meads                    9     On time
+## 08:07  Basingstoke                             15    On time
 ```
