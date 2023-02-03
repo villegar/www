@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-02-03 00:11)
+## Example (Last rendered on 2023-02-03 02:28)
 
 Load `trainR` to your working environment:
 
@@ -82,22 +82,10 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-03 00:11:50
+## Reading (RDG) Station Board on 2023-02-03 02:28:40
 ## Time   From                                    Plat  Expected
-## 00:17  Gatwick Airport                         4     On time
-## 00:23  London Paddington                       13B   On time
-## 00:31  Basingstoke                             13B   On time
-## 00:40  Henley-on-Thames                        14    On time
-## 00:41  Hereford                                15    On time
-## 00:41  London Waterloo                         6     On time
-## 00:46  London Paddington                       13    On time
-## 01:05  London Waterloo                         5     On time
-## 01:13  London Paddington                       12B   On time
-## 01:28  Oxford                                  14B   On time
-## 01:33  London Paddington                       13    On time
-## 01:34  Guildford                               14A   On time
-## 00:18  Heathrow Central Bus Stn                BUS   On time
-## 01:18  Heathrow Central Bus Stn                BUS   On time
+## 00:17  Gatwick Airport                         15    Delayed
+## 02:30  London Paddington                       14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -109,12 +97,5 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-03 00:11:54
-## Time   To                                      Plat  Expected
-## 00:17  Newbury                                 7B    On time
-## 00:18  London Paddington                       14A   On time
-## 00:26  Didcot Parkway                          13B   On time
-## 00:43  London Paddington                       15    On time
-## 01:15  London Paddington                       13B   On time
-## 01:15  Oxford                                  12B   On time
+## Reading (RDG) Station Board on 2023-02-03 02:28:44
 ```
