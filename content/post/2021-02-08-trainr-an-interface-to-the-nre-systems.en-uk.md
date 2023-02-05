@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-02-05 06:03)
+## Example (Last rendered on 2023-02-05 08:03)
 
 Load `trainR` to your working environment:
 
@@ -82,13 +82,46 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-05 06:03:37
+## Reading (RDG) Station Board on 2023-02-05 08:03:11
 ## Time   From                                    Plat  Expected
-## 07:23  London Paddington                       13    On time
-## 07:36  London Paddington                       13    On time
-## 06:13  Heathrow Central Bus Stn                -     On time
-## 07:25  Heathrow Central Bus Stn                BUS   On time
-## 07:57  Heathrow Central Bus Stn                BUS   On time
+## 08:06  London Paddington                       14    On time
+## 08:20  London Paddington                       7     08:26
+## 08:23  London Paddington                       13B   On time
+## 08:26  London Paddington                       7B    On time
+## 08:32  Basingstoke                             2     On time
+## 08:39  London Paddington                       7     On time
+## 08:40  London Paddington                       14    On time
+## 08:44  Salisbury                               1     On time
+## 08:58  London Paddington                       14    On time
+## 09:05  Bristol Temple Meads                    11    Delayed
+## 09:08  Didcot Parkway                          15    On time
+## 09:10  London Paddington                       9     On time
+## 09:15  London Paddington                       12    On time
+## 09:18  London Paddington                       7     On time
+## 09:24  Newbury                                 3     On time
+## 09:26  London Paddington                       7     On time
+## 09:28  London Paddington                       14    On time
+## 09:30  Oxford                                  10    On time
+## 09:32  Basingstoke                             2     On time
+## 09:38  London Paddington                       7     On time
+## 09:47  London Paddington                       9     On time
+## 09:47  Salisbury                               1     On time
+## 09:58  London Paddington                       14    On time
+## 08:03  Bracknell                               BUS   On time
+## 08:18  North Camp                              BUS   On time
+## 08:19  Bracknell                               BUS   On time
+## 08:27  Heathrow Central Bus Stn                BUS   On time
+## 08:33  Bracknell                               BUS   On time
+## 08:49  Bracknell                               BUS   On time
+## 08:58  Chippenham                              BUS   On time
+## 09:03  Bracknell                               BUS   On time
+## 09:04  Heathrow Central Bus Stn                BUS   On time
+## 09:15  North Camp                              BUS   On time
+## 09:19  Bracknell                               BUS   On time
+## 09:33  Bracknell                               BUS   On time
+## 09:34  Heathrow Central Bus Stn                BUS   On time
+## 09:49  Bracknell                               BUS   On time
+## 09:58  Chippenham                              BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -100,21 +133,53 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-05 06:03:40
+## Reading (RDG) Station Board on 2023-02-05 08:03:14
 ## Time   To                                      Plat  Expected
-## 06:20  London Paddington                       14    On time
-## 06:53  London Paddington                       14    On time
-## 07:10  London Paddington                       15    On time
-## 07:37  Basingstoke                             15B   On time
-## 07:54  London Paddington                       13    On time
-## 06:20  North Camp                              BUS   On time
-## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:21  Bracknell                               BUS   On time
-## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:35  Bracknell                               BUS   On time
-## 07:35  North Camp                              BUS   On time
-## 07:50  North Camp                              BUS   On time
-## 07:51  Bracknell                               BUS   On time
-## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:06  Newbury                                 12B   On time
+## 08:11  London Paddington                       13    On time
+## 08:21  Penzance                                7     08:27
+## 08:24  Didcot Parkway                          13B   On time
+## 08:24  London Paddington                       14    On time
+## 08:28  Swansea                                 7B    On time
+## 08:34  Bedwyn                                  12    On time
+## 08:37  Basingstoke                             2     On time
+## 08:48  Exeter St Davids                        7     On time
+##        via Bristol                             
+## 08:53  Ealing Broadway                         14    On time
+## 09:10  Ealing Broadway                         15    On time
+## 09:12  London Paddington                       11    Delayed
+## 09:12  Salisbury                               1     On time
+## 09:15  Manchester Piccadilly                   8     On time
+##        via Coventry & Wilmslow                 
+## 09:18  Didcot Parkway                          12    On time
+## 09:19  Penzance                                7     On time
+## 09:20  Great Malvern                           9     On time
+## 09:23  Ealing Broadway                         14    On time
+## 09:28  Carmarthen                              7     On time
+## 09:32  London Paddington                       10    On time
+## 09:37  Basingstoke                             2     On time
+## 09:42  Bristol Temple Meads                    7     On time
+## 09:45  Bedwyn                                  1     On time
+## 09:52  Bournemouth                             8     On time
+## 09:52  Oxford                                  9     On time
+## 09:53  Ealing Broadway                         14    On time
+## 08:05  Bracknell                               BUS   On time
+## 08:07  Swindon                                 BUS   On time
+## 08:20  Chippenham                              BUS   On time
+## 08:21  Bracknell                               BUS   On time
+## 08:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:35  Bracknell                               BUS   On time
+## 08:40  North Camp                              BUS   On time
+## 08:51  Bracknell                               BUS   On time
+## 09:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 09:05  Bracknell                               BUS   On time
+## 09:05  Swindon                                 BUS   On time
+## 09:18  Chippenham                              BUS   On time
+## 09:21  Bracknell                               BUS   On time
+## 09:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 09:30  North Camp                              BUS   On time
+## 09:35  Bracknell                               BUS   On time
+## 09:45  North Camp                              BUS   On time
+## 09:51  Bracknell                               BUS   On time
+## 10:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
