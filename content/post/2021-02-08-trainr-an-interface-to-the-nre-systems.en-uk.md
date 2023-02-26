@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-02-25 22:03)
+## Example (Last rendered on 2023-02-26 00:08)
 
 Load `trainR` to your working environment:
 
@@ -82,50 +82,21 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-25 22:03:23
+## Reading (RDG) Station Board on 2023-02-26 00:08:31
 ## Time   From                                    Plat  Expected
-## 21:49  Swansea                                 10    22:04
-## 21:54  Worcester Foregate Street               11A   22:01
-## 22:03  Abbey Wood                              14    22:05
-## 22:09  Taunton                                 10    22:17
-## 22:10  London Paddington                       12B   On time
-## 22:17  London Paddington                       8B    On time
-## 22:19  Basingstoke                             2     On time
-## 22:23  Theale                                  1     On time
-## 22:25  London Paddington                       9     On time
-## 22:27  Didcot Parkway                          15    On time
-## 22:29  Oxford                                  11A   On time
-## 22:33  Abbey Wood                              14    On time
-## 22:36  Cheltenham Spa                          10A   On time
-## 22:39  Manchester Piccadilly                   7     On time
-## 22:40  London Paddington                       12B   On time
-## 22:50  Basingstoke                             2     On time
-## 22:51  London Paddington                       10    On time
-## 22:54  London Paddington                       9     On time
-## 23:03  Abbey Wood                              14    On time
-## 23:04  Hereford                                10A   On time
-## 23:10  London Paddington                       13    On time
-## 23:10  Theale                                  12B   On time
-## 23:11  Penzance                                10    On time
-## 23:24  Basingstoke                             12    On time
-## 23:26  Didcot Parkway                          14    On time
-## 23:28  London Paddington                       13    On time
-## 23:34  London Paddington                       14    On time
-## 23:46  London Paddington                       12    On time
-## 23:52  Taunton                                 7     On time
-## 23:55  Basingstoke                             14B   On time
-## 22:06  Bracknell                               BUS   On time
-## 22:08  Guildford                               BUS   On time
-## 22:18  Heathrow Central Bus Stn                BUS   On time
-## 22:22  Bracknell                               BUS   On time
-## 22:35  Bracknell                               BUS   On time
-## 22:48  Guildford                               BUS   On time
-## 22:48  Heathrow Central Bus Stn                BUS   On time
-## 22:54  Bracknell                               BUS   On time
-## 23:07  Bracknell                               BUS   On time
-## 23:18  Heathrow Central Bus Stn                BUS   On time
-## 23:22  Bracknell                               BUS   On time
-## 23:35  Bracknell                               -     Cancelled
+## 00:02  London Paddington                       7     00:08
+## 00:10  Didcot Parkway                          8     On time
+## 00:20  London Paddington                       -     Cancelled
+## 00:27  London Paddington                       -     Cancelled
+## 00:44  Theale                                  14B   On time
+## 01:29  London Paddington                       14    On time
+## 00:18  Heathrow Central Bus Stn                BUS   On time
+## 00:37  Bracknell                               BUS   On time
+## 00:59  Guildford                               BUS   On time
+## 01:05  Bracknell                               BUS   On time
+## 01:18  Heathrow Central Bus Stn                BUS   On time
+## 01:30  Bracknell                               BUS   On time
+## 01:30  Guildford                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -137,40 +108,9 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-25 22:03:27
+## Reading (RDG) Station Board on 2023-02-26 00:08:35
 ## Time   To                                      Plat  Expected
-## 21:51  London Paddington                       10    22:05
-## 21:56  London Paddington                       11A   22:03
-## 22:05  Basingstoke                             2     On time
-## 22:10  Theale                                  1     On time
-## 22:15  London Paddington                       10    22:18
-## 22:16  Ealing Broadway                         -     Cancelled
-## 22:19  Worcester Shrub Hill                    8B    On time
-## 22:22  Abbey Wood                              14    On time
-## 22:27  Bristol Parkway                         9     On time
-## 22:30  Didcot Parkway                          12B   On time
-## 22:34  London Paddington                       11A   On time
-## 22:35  Basingstoke                             2     On time
-## 22:39  London Paddington                       10A   On time
-## 22:52  Abbey Wood                              14    On time
-## 22:52  Southampton Central                     7     On time
-## 22:56  Bristol Temple Meads                    9     On time
-## 23:01  Didcot Parkway                          12B   On time
-## 23:05  Basingstoke                             2     On time
-## 23:06  London Paddington                       10A   On time
-## 23:10  Theale                                  1     On time
-## 23:13  London Paddington                       10    On time
-## 23:17  Ealing Broadway                         15    On time
-## 23:22  Ealing Broadway                         14    On time
-## 23:48  Didcot Parkway                          12    On time
-## 23:56  London Paddington                       7     On time
-## 22:10  Bracknell                               -     Cancelled
-## 22:23  Bracknell                               BUS   On time
-## 22:32  Guildford                               BUS   On time
-## 22:40  Bracknell                               BUS   On time
-## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 23:18  Bracknell                               BUS   On time
-## 23:40  Gatwick Airport                         BUS   On time
-##        via Guildford                           
-## 23:52  Staines                                 BUS   On time
+## 00:05  Bristol Temple Meads                    7     00:09
+## 00:18  Theale                                  3     On time
+## 00:19  Ealing Broadway                         8     On time
 ```
