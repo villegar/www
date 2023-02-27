@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-02-26 22:03)
+## Example (Last rendered on 2023-02-27 00:08)
 
 Load `trainR` to your working environment:
 
@@ -82,44 +82,23 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-26 22:03:22
+## Reading (RDG) Station Board on 2023-02-27 00:08:23
 ## Time   From                                    Plat  Expected
-## 21:53  Great Malvern                           11    22:02
-## 22:09  London Paddington                       9     On time
-## 22:10  Weston-super-Mare                       10    On time
-## 22:11  London Paddington                       12B   On time
-## 22:13  Didcot Parkway                          13    On time
-## 22:15  London Paddington                       9     On time
-## 22:27  Abbey Wood                              14    On time
-## 22:29  Henley-on-Thames                        13A   On time
-## 22:33  Basingstoke                             13A   On time
-## 22:39  Manchester Piccadilly                   8     On time
-## 22:40  London Paddington                       9     On time
-## 22:49  Swansea                                 11A   On time
-## 22:52  Great Malvern                           10    On time
-## 22:58  Penzance                                11    On time
-## 23:00  Abbey Wood                              14    On time
-## 23:08  Didcot Parkway                          10    On time
-## 23:12  London Paddington                       9     On time
-## 23:25  London Paddington                       7     On time
-## 23:26  London Paddington                       13    On time
-## 23:39  Plymouth                                11A   On time
-## 22:03  Bracknell                               BUS   On time
-## 22:07  Bedwyn                                  BUS   On time
-## 22:18  Heathrow Central Bus Stn                BUS   On time
-## 22:19  Bracknell                               BUS   On time
-## 22:33  Bracknell                               BUS   On time
-## 22:38  Guildford                               BUS   On time
-## 22:48  Heathrow Central Bus Stn                BUS   On time
-## 22:49  Bracknell                               BUS   On time
-## 22:49  Newbury                                 BUS   On time
-## 23:03  Bracknell                               BUS   On time
-## 23:08  Guildford                               BUS   On time
-## 23:18  Heathrow Central Bus Stn                BUS   On time
-## 23:19  Bracknell                               BUS   On time
-## 23:33  Bracknell                               BUS   On time
-## 23:49  Bracknell                               BUS   On time
-## 23:50  Guildford                               BUS   On time
+## 00:12  London Paddington                       8B    On time
+## 00:16  Didcot Parkway                          11    On time
+## 00:17  London Paddington                       9     On time
+## 00:50  Didcot Parkway                          11    On time
+## 00:50  London Paddington                       13    On time
+## 01:25  London Paddington                       13    On time
+## 00:10  Bedwyn                                  BUS   On time
+## 00:18  Heathrow Central Bus Stn                BUS   On time
+## 00:19  Bracknell                               BUS   On time
+## 00:30  Guildford                               BUS   On time
+## 00:33  Bracknell                               BUS   On time
+## 01:03  Bracknell                               BUS   On time
+## 01:18  Heathrow Central Bus Stn                BUS   On time
+## 01:33  Bracknell                               BUS   On time
+## 01:40  Guildford                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -131,34 +110,11 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-02-26 22:03:26
+## Reading (RDG) Station Board on 2023-02-27 00:08:27
 ## Time   To                                      Plat  Expected
-## 21:55  London Paddington                       11    22:03
-## 22:10  Swansea                                 9     On time
-## 22:12  Didcot Parkway                          12B   On time
-## 22:13  London Paddington                       10    On time
-## 22:16  Worcester Shrub Hill                    9     On time
-## 22:22  Ealing Broadway                         12    On time
-## 22:41  Bristol Temple Meads                    9     On time
-## 22:50  London Paddington                       11A   On time
-## 22:55  Ealing Broadway                         14    On time
-## 23:00  London Paddington                       11    On time
-## 23:02  London Paddington                       10    On time
-## 23:10  Ealing Broadway                         10    On time
-## 23:15  Bristol Parkway                         9     On time
-## 23:16  Ealing Broadway                         14    On time
-## 23:20  Didcot Parkway                          8     On time
-## 23:37  Bristol Temple Meads                    7     On time
-## 23:44  London Paddington                       11A   On time
-## 22:05  Bracknell                               BUS   On time
-## 22:21  Bracknell                               BUS   On time
-## 22:25  Guildford                               BUS   On time
-## 22:35  Bracknell                               BUS   On time
-## 22:46  Newbury                                 BUS   On time
-## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 23:03  Gatwick Airport                         BUS   On time
-##        via Guildford                           
-## 23:18  Bracknell                               BUS   On time
-## 23:31  Bracknell                               BUS   On time
-## 23:52  Staines                                 BUS   On time
+## 00:20  Bristol Temple Meads                    9     On time
+## 00:24  Didcot Parkway                          8B    On time
+## 00:24  Ealing Broadway                         11    On time
+## 00:51  Penzance                                7     On time
+## 00:54  London Paddington                       11    On time
 ```
