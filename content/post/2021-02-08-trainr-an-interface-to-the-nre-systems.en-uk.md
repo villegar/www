@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-03-18 04:04)
+## Example (Last rendered on 2023-03-18 06:04)
 
 Load `trainR` to your working environment:
 
@@ -82,7 +82,16 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-03-18 04:04:11
+## Reading (RDG) Station Board on 2023-03-18 06:04:19
+## Time   From                                    Plat  Expected
+## 07:08  Abbey Wood                              14    On time
+## 07:23  Newbury                                 11    On time
+## 07:32  Didcot Parkway                          15    On time
+## 07:33  Abbey Wood                              14    On time
+## 07:33  London Paddington                       10B   On time
+## 07:47  London Paddington                       8     On time
+## 07:56  London Paddington                       9     On time
+## 08:03  Abbey Wood                              14    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -94,5 +103,21 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-03-18 04:04:13
+## Reading (RDG) Station Board on 2023-03-18 06:04:22
+## Time   To                                      Plat  Expected
+## 07:12  Newbury                                 1     On time
+## 07:15  Ealing Broadway                         15    On time
+## 07:24  Abbey Wood                              14    On time
+## 07:26  Didcot Parkway                          13    On time
+## 07:27  London Paddington                       11    On time
+## 07:32  Basingstoke                             7B    On time
+## 07:35  Newbury                                 10B   On time
+## 07:38  Cardiff Central                         9     On time
+## 07:41  London Paddington                       13    On time
+## 07:45  Ealing Broadway                         15    On time
+## 07:49  Oxford                                  8     On time
+## 07:54  Abbey Wood                              14    On time
+## 08:00  Exeter St Davids                        9     On time
+##        via Bristol                             
+## 08:02  Newbury                                 13B   On time
 ```
