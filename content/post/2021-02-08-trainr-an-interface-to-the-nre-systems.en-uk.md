@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-04-02 04:03)
+## Example (Last rendered on 2023-04-02 06:03)
 
 Load `trainR` to your working environment:
 
@@ -82,10 +82,25 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-02 04:03:43
+## Reading (RDG) Station Board on 2023-04-02 06:03:14
 ## Time   From                                    Plat  Expected
-## 05:13  Heathrow Central Bus Stn                -     On time
-## 06:13  Heathrow Central Bus Stn                -     On time
+## 07:27  Ealing Broadway                         13    Delayed
+## 08:18  London Paddington                       7     On time
+## 08:25  Ealing Broadway                         13    On time
+## 08:32  Basingstoke                             2     On time
+## 08:39  London Paddington                       7     On time
+## 08:54  Bristol Temple Meads                    15    On time
+## 08:56  London Paddington                       9     On time
+## 09:01  Didcot Parkway                          -     On time
+## 07:25  Heathrow Central Bus Stn                BUS   On time
+## 07:49  Bracknell                               BUS   On time
+## 07:57  Heathrow Central Bus Stn                BUS   On time
+## 08:03  Bracknell                               BUS   On time
+## 08:18  North Camp                              -     Cancelled
+## 08:19  Bracknell                               BUS   On time
+## 08:27  Heathrow Central Bus Stn                BUS   On time
+## 08:33  Bracknell                               BUS   On time
+## 08:49  Bracknell                               -     Cancelled
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -97,13 +112,32 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-02 04:03:46
+## Reading (RDG) Station Board on 2023-04-02 06:03:18
 ## Time   To                                      Plat  Expected
-## 06:20  Ealing Broadway                         14    On time
-## 05:28  North Camp                              -     Cancelled
-## 05:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:20  North Camp                              BUS   On time
-## 06:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:10  London Paddington                       15    On time
+## 07:37  Basingstoke                             12B   On time
+## 08:06  Newbury                                 12B   On time
+## 08:12  London Paddington                       13    On time
+## 08:21  Penzance                                7     On time
+## 08:26  Didcot Parkway                          13    On time
+## 08:34  Bedwyn                                  12    On time
+## 08:37  Basingstoke                             2     On time
+## 08:40  Exeter St Davids                        7     On time
+##        via Bristol                             
+## 08:59  Swansea                                 9     On time
+## 09:01  London Paddington                       -     On time
+## 07:21  Bracknell                               -     Cancelled
+## 07:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:35  Bracknell                               -     Cancelled
+## 07:35  North Camp                              BUS   On time
+## 07:50  North Camp                              BUS   On time
+## 07:51  Bracknell                               -     Cancelled
+## 08:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:05  Bracknell                               BUS   On time
+## 08:21  Bracknell                               BUS   On time
+## 08:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 08:35  Bracknell                               BUS   On time
+## 08:40  North Camp                              -     Cancelled
+## 08:51  Bracknell                               BUS   On time
+## 09:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
