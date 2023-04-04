@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-04-04 14:04)
+## Example (Last rendered on 2023-04-04 16:03)
 
 Load `trainR` to your working environment:
 
@@ -82,81 +82,84 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-04 14:04:13
+## Reading (RDG) Station Board on 2023-04-04 16:03:57
 ## Time   From                                    Plat  Expected
-## 14:46  London Paddington                       9B    15:02
-## 14:58  Penzance                                11    15:01
-## 14:59  Didcot Parkway                          15A   15:15
-## 15:00  London Paddington                       7     15:04
-## 15:05  Bournemouth                             8B    On time
-## 15:09  Bristol Temple Meads                    10    On time
-## 15:11  Abbey Wood                              13    On time
-## 15:11  London Paddington                       9     On time
-## 15:12  London Waterloo                         4     On time
-## 15:15  Cardiff Central                         11    15:19
-## 15:16  London Paddington                       -     Cancelled
-## 15:17  London Paddington                       12B   On time
-## 15:25  Didcot Parkway                          10    On time
-## 15:25  London Paddington                       9     On time
-## 15:26  Basingstoke                             2     On time
-## 15:27  London Paddington                       7     On time
-## 15:30  Cheltenham Spa                          10A   On time
-## 15:33  London Paddington                       7B    On time
-## 15:33  Redhill                                 5     On time
-## 15:35  Didcot Parkway                          15A   On time
-## 15:36  Newbury                                 1     On time
-## 15:39  Abbey Wood                              14    On time
-## 15:39  Bristol Temple Meads                    11    On time
-## 15:41  London Paddington                       9     On time
-## 15:43  London Paddington                       12B   On time
-## 15:43  London Waterloo                         6     On time
-## 15:44  Swansea                                 10A   On time
-## 15:46  London Paddington                       9     On time
-## 15:47  Exeter St Davids                        11    On time
-## 15:51  Gatwick Airport                         4     On time
-## 15:51  London Paddington                       9B    On time
-## 15:53  Basingstoke                             2     On time
-## 15:53  Hereford                                -     Cancelled
-## 15:56  London Paddington                       9     On time
-## 15:57  Plymouth                                11    On time
-## 16:07  Didcot Parkway                          15A   On time
-## 16:09  Bristol Temple Meads                    10    On time
-## 16:11  Abbey Wood                              14    On time
-## 16:11  London Paddington                       9     On time
-## 16:11  London Waterloo                         4     On time
-## 16:16  Cardiff Central                         11A   On time
-## 16:17  Basingstoke                             -     Cancelled
-## 16:21  London Paddington                       12B   On time
-## 16:22  Newbury                                 -     Cancelled
-## 16:24  Oxford                                  -     Cancelled
-## 16:25  Abbey Wood                              13    On time
-## 16:25  London Paddington                       9     On time
-## 16:27  London Paddington                       7     On time
-## 16:29  Cheltenham Spa                          -     Cancelled
-## 16:31  Didcot Parkway                          15A   On time
-## 16:32  Newbury                                 1     On time
-## 16:33  London Paddington                       7B    On time
-## 16:33  Redhill                                 5     On time
-## 16:38  Abbey Wood                              14    On time
-## 16:39  Bristol Temple Meads                    10    On time
-## 16:41  London Paddington                       9     On time
-## 16:42  London Paddington                       12B   On time
-## 16:42  London Waterloo                         6     On time
-## 16:43  Paignton                                11    On time
-## 16:45  Swansea                                 10    On time
-## 16:46  London Paddington                       9     On time
-## 16:50  Basingstoke                             2     On time
-## 16:52  Didcot Parkway                          8B    On time
-## 16:53  Worcester Foregate Street               -     Cancelled
-## 16:55  Abbey Wood                              13    On time
-## 16:56  London Paddington                       9     On time
 ## 16:57  Newbury                                 -     Cancelled
 ## 16:59  London Paddington                       7     On time
+## 17:01  Penzance                                10    17:07
+## 17:03  Didcot Parkway                          15A   On time
 ## 17:03  Gatwick Airport                         5     On time
-## 15:04  Heathrow Central Bus Stn                BUS   On time
-## 15:34  Heathrow Central Bus Stn                BUS   On time
-## 16:04  Heathrow Central Bus Stn                BUS   On time
-## 16:34  Heathrow Central Bus Stn                BUS   On time
+## 17:06  Bournemouth                             8B    On time
+## 17:09  Bristol Temple Meads                    11    17:14
+## 17:11  Abbey Wood                              14    On time
+## 17:11  London Paddington                       9     On time
+## 17:16  London Waterloo                         6     On time
+## 17:17  Cardiff Central                         11    17:19
+## 17:22  London Paddington                       12B   On time
+## 17:24  Didcot Parkway                          10    On time
+## 17:25  London Paddington                       8B    On time
+## 17:26  Abbey Wood                              13    On time
+## 17:26  Basingstoke                             2     On time
+## 17:27  London Paddington                       7     On time
+## 17:29  Cheltenham Spa                          10A   On time
+## 17:34  Newbury                                 1     On time
+## 17:35  Didcot Parkway                          15A   On time
+## 17:35  London Paddington                       -     Cancelled
+## 17:35  Redhill                                 5     On time
+## 17:38  Bristol Temple Meads                    10    On time
+## 17:40  Abbey Wood                              14    On time
+## 17:41  London Paddington                       9     On time
+## 17:42  Exeter St Davids                        11A   On time
+## 17:42  London Waterloo                         4     On time
+## 17:46  Basingstoke                             2     On time
+## 17:47  Swansea                                 10A   On time
+## 17:52  Didcot Parkway                          8B    On time
+## 17:54  London Paddington                       12B   On time
+## 17:55  London Paddington                       8     On time
+## 17:56  Worcester Shrub Hill                    10    Delayed
+## 17:57  Plymouth                                11    18:00
+## 17:58  Abbey Wood                              13    On time
+## 17:58  London Paddington                       9     On time
+## 18:01  London Paddington                       7     On time
+## 18:02  Gatwick Airport                         5     On time
+## 18:03  Didcot Parkway                          15A   On time
+## 18:06  Bournemouth                             12B   On time
+## 18:09  Bristol Temple Meads                    11    On time
+## 18:10  Abbey Wood                              14    On time
+## 18:11  London Paddington                       9     On time
+## 18:13  London Waterloo                         6     On time
+## 18:17  Cardiff Central                         11    On time
+## 18:20  Basingstoke                             2     On time
+## 18:25  Abbey Wood                              13    On time
+## 18:25  London Paddington                       8     On time
+## 18:25  Newbury                                 -     Cancelled
+## 18:26  Oxford                                  -     Cancelled
+## 18:27  London Paddington                       7     On time
+## 18:29  Didcot Parkway                          15A   On time
+## 18:30  Cheltenham Spa                          11A   On time
+## 18:30  London Paddington                       12B   On time
+## 18:33  Redhill                                 4     On time
+## 18:34  London Paddington                       7B    On time
+## 18:35  Newbury                                 1     On time
+## 18:40  Abbey Wood                              14    On time
+## 18:40  Bristol Temple Meads                    10    On time
+## 18:40  Manchester Piccadilly                   -     Cancelled
+## 18:40  Newbury                                 11A   On time
+## 18:42  London Paddington                       9     On time
+## 18:44  London Paddington                       12    On time
+## 18:44  London Waterloo                         5     On time
+## 18:47  Swansea                                 10    On time
+## 18:50  Basingstoke                             3     On time
+## 18:53  London Paddington                       9     On time
+## 18:53  London Paddington                       12B   On time
+## 18:57  Abbey Wood                              13    On time
+## 18:57  Great Malvern                           -     Cancelled
+## 18:57  Penzance                                11    On time
+## 18:59  London Paddington                       7     On time
+## 17:04  Heathrow Central Bus Stn                BUS   On time
+## 17:34  Heathrow Central Bus Stn                BUS   On time
+## 18:04  Heathrow Central Bus Stn                BUS   On time
+## 18:34  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -168,84 +171,81 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-04 14:04:21
+## Reading (RDG) Station Board on 2023-04-04 16:04:02
 ## Time   To                                      Plat  Expected
-## 14:48  Didcot Parkway                          9B    15:04
-## 15:02  Paignton                                7     15:05
-## 15:04  London Paddington                       11    On time
-## 15:05  Basingstoke                             -     Cancelled
-## 15:09  London Waterloo                         6     On time
-## 15:10  Newbury                                 1     On time
-## 15:12  Ealing Broadway                         15A   15:16
-## 15:13  London Paddington                       10    On time
-## 15:13  Swansea                                 9     On time
-## 15:15  Didcot Parkway                          8B    On time
-## 15:18  London Paddington                       11    15:20
-## 15:18  Redhill                                 5     On time
-## 15:18  Worcester Foregate Street               -     Cancelled
-## 15:23  Didcot Parkway                          12B   On time
-## 15:27  Abbey Wood                              13    On time
-## 15:27  Bristol Temple Meads                    9     On time
-## 15:27  London Paddington                       10    On time
-## 15:29  Penzance                                7     On time
-## 15:32  Basingstoke                             2     On time
-## 15:34  London Paddington                       10A   On time
-## 15:37  Newbury                                 -     Cancelled
-## 15:39  London Waterloo                         4     On time
-## 15:42  Ealing Broadway                         15A   On time
-## 15:43  Cardiff Central                         9     On time
-## 15:43  London Paddington                       11    On time
-## 15:45  London Paddington                       10A   On time
-## 15:48  Worcester Foregate Street               9     On time
-## 15:50  London Paddington                       11    On time
-## 15:51  Didcot Parkway                          12B   On time
-## 15:53  Cheltenham Spa                          9B    On time
-## 15:56  London Paddington                       -     Cancelled
-## 15:58  Abbey Wood                              14    On time
-## 15:58  Weston-super-Mare                       9     On time
-## 16:01  Gatwick Airport                         4     On time
+## 17:05  London Paddington                       10    17:08
+## 17:09  London Waterloo                         6     On time
+## 17:10  Newbury                                 1     On time
+## 17:11  Ealing Broadway                         15A   On time
+## 17:11  London Paddington                       11    17:15
+## 17:13  Swansea                                 9     On time
+## 17:15  Basingstoke                             2     On time
+## 17:15  Didcot Parkway                          8B    On time
+## 17:18  Abbey Wood                              13    On time
+## 17:18  London Paddington                       11    17:20
+## 17:20  Redhill                                 5     On time
+## 17:25  Didcot Parkway                          12B   On time
+## 17:27  Bristol Temple Meads                    8B    On time
+## 17:27  London Paddington                       10    On time
+## 17:28  Abbey Wood                              14    On time
+## 17:29  Penzance                                7     On time
+## 17:32  London Paddington                       10A   On time
+## 17:38  Basingstoke                             2     On time
+## 17:39  London Waterloo                         6     On time
+## 17:41  London Paddington                       10    On time
+## 17:41  Newbury                                 -     Cancelled
+## 17:42  Ealing Broadway                         15A   On time
+## 17:43  London Paddington                       11A   On time
+## 17:43  Swansea                                 9     On time
+## 17:48  Abbey Wood                              13    On time
+## 17:50  Gatwick Airport                         5     On time
 ##        via Guildford                           
-## 16:04  London Paddington                       11    On time
-## 16:07  Basingstoke                             2     On time
-## 16:09  London Waterloo                         6     On time
-## 16:12  Ealing Broadway                         15A   On time
-## 16:12  London Paddington                       10    On time
-## 16:12  Newbury                                 1     On time
-## 16:13  Swansea                                 9     On time
-## 16:15  Manchester Piccadilly                   -     Cancelled
-##        via Coventry & Stoke-on-Trent           
-## 16:18  Abbey Wood                              13    On time
-## 16:18  London Paddington                       11A   On time
-## 16:19  Great Malvern                           -     Cancelled
-## 16:20  Redhill                                 5     On time
-## 16:24  London Paddington                       -     Cancelled
-## 16:25  Didcot Parkway                          12B   On time
-## 16:26  London Paddington                       -     Cancelled
-## 16:27  Bristol Temple Meads                    9     On time
-## 16:28  Abbey Wood                              14    On time
-## 16:29  Penzance                                7     On time
-## 16:32  London Paddington                       -     Cancelled
-## 16:33  Basingstoke                             2     On time
-## 16:37  Newbury                                 -     Cancelled
-## 16:38  Ealing Broadway                         15A   On time
-## 16:39  London Waterloo                         4     On time
-## 16:42  London Paddington                       10    On time
-## 16:43  Swansea                                 9     On time
-## 16:45  London Paddington                       11    On time
-## 16:47  London Paddington                       10    On time
-## 16:48  Abbey Wood                              13    On time
-## 16:48  Didcot Parkway                          9     On time
-## 16:50  Didcot Parkway                          12B   On time
-## 16:50  Gatwick Airport                         5     On time
+## 17:50  London Paddington                       10A   On time
+## 17:52  Bournemouth                             8B    On time
+## 17:57  Basingstoke                             2     On time
+## 17:57  Taunton                                 8     On time
+## 17:58  Abbey Wood                              14    On time
+## 17:58  Didcot Parkway                          12B   On time
+## 17:58  London Paddington                       11    18:01
+## 18:00  Hereford                                9     On time
+## 18:00  London Paddington                       10    Delayed
+## 18:03  Plymouth                                7     On time
+## 18:07  Newbury                                 1     On time
+## 18:08  Ealing Broadway                         15A   On time
+## 18:09  London Waterloo                         4     On time
+## 18:12  London Paddington                       11    On time
+## 18:13  Carmarthen                              9     On time
+## 18:15  Didcot Parkway                          12B   On time
+## 18:17  Abbey Wood                              13    On time
+## 18:20  London Paddington                       11    On time
+## 18:20  Redhill                                 5     On time
+## 18:26  London Paddington                       11A   On time
+## 18:27  Bristol Temple Meads                    8     On time
+## 18:28  Abbey Wood                              14    On time
+## 18:28  London Paddington                       -     Cancelled
+## 18:29  Penzance                                7     On time
+## 18:32  Basingstoke                             2     On time
+## 18:32  Didcot Parkway                          12B   On time
+## 18:32  London Paddington                       11A   On time
+## 18:37  Ealing Broadway                         15A   On time
+## 18:38  Frome                                   7B    On time
+## 18:39  London Waterloo                         6     On time
+## 18:43  London Paddington                       10    On time
+## 18:43  Swansea                                 9     On time
+## 18:45  London Paddington                       11A   On time
+## 18:47  Abbey Wood                              13    On time
+## 18:49  London Paddington                       10    On time
+## 18:55  Cheltenham Spa                          9     On time
+## 18:57  Didcot Parkway                          12B   On time
+## 18:58  Abbey Wood                              14    On time
+## 18:58  London Paddington                       11    On time
+## 19:00  London Paddington                       -     Cancelled
+## 19:00  Weston-super-Mare                       9B    On time
+## 19:01  Gatwick Airport                         4     On time
 ##        via Guildford                           
-## 16:52  Bournemouth                             8B    On time
-## 16:57  London Paddington                       -     Cancelled
-## 16:58  Abbey Wood                              14    On time
-## 16:58  Taunton                                 9     On time
-## 16:59  London Paddington                       -     Cancelled
-## 17:02  Plymouth                                7     On time
-## 15:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 16:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 16:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 17:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 19:01  Plymouth                                7     On time
+## 17:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 18:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 18:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 19:00  Heathrow Airport T3 (Bus)               BUS   On time
 ```
