@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-04-08 22:03)
+## Example (Last rendered on 2023-04-09 00:07)
 
 Load `trainR` to your working environment:
 
@@ -82,39 +82,12 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-08 22:03:39
+## Reading (RDG) Station Board on 2023-04-09 00:07:58
 ## Time   From                                    Plat  Expected
-## 22:54  London Paddington                       9     23:05
-## 23:03  London Paddington                       10    23:05
-## 23:04  Hereford                                -     Cancelled
-## 23:04  Redhill                                 15    23:14
-## 23:10  London Paddington                       7     On time
-## 23:11  Penzance                                11    23:16
-## 23:13  London Waterloo                         4     On time
-## 23:27  Didcot Parkway                          7     On time
-## 23:29  London Paddington                       8     On time
-## 23:36  London Paddington                       10    On time
-## 23:41  London Waterloo                         6     On time
-## 23:46  London Paddington                       7     On time
-## 23:52  Taunton                                 11    On time
-## 23:55  London Paddington                       7     On time
-## 00:01  Gatwick Airport                         8     00:03
-## 00:10  Didcot Parkway                          7A    On time
-## 00:11  London Waterloo                         6     On time
-## 00:20  London Paddington                       8     On time
-## 00:28  London Paddington                       7     On time
-## 00:41  London Waterloo                         4     On time
-## 00:44  Gatwick Airport                         5     On time
-## 23:18  Bedwyn                                  BUS   On time
-## 23:18  Heathrow Central Bus Stn                BUS   On time
-## 23:40  Basingstoke                             BUS   On time
-## 23:47  Newbury                                 BUS   On time
-## 23:55  Banbury                                 BUS   On time
-## 00:17  Basingstoke                             BUS   On time
-## 00:18  Heathrow Central Bus Stn                BUS   On time
-## 00:37  Bedwyn                                  BUS   On time
-## 00:47  Newbury                                 BUS   On time
-## 00:57  Basingstoke                             BUS   On time
+## 01:29  London Paddington                       7     On time
+## 01:40  London Waterloo                         4     On time
+## 02:09  London Waterloo                         6     On time
+## 01:18  Heathrow Central Bus Stn                BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -126,23 +99,7 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-08 22:03:45
+## Reading (RDG) Station Board on 2023-04-09 00:08:02
 ## Time   To                                      Plat  Expected
-## 22:56  Bristol Temple Meads                    9     23:06
-## 23:06  London Paddington                       -     Cancelled
-## 23:09  London Waterloo                         5     On time
-## 23:13  London Paddington                       11    23:17
-## 23:17  London Paddington                       14A   On time
-## 23:22  Ealing Broadway                         10    On time
-## 23:34  Gatwick Airport                         5     On time
-##        via Guildford                           
-## 23:48  Didcot Parkway                          7     On time
-## 23:52  Virginia Water                          6     On time
-## 23:56  London Paddington                       11    On time
-## 00:05  Bristol Temple Meads                    7     On time
-## 00:20  London Paddington                       7A    On time
-## 23:08  Basingstoke                             BUS   On time
-## 23:10  Bedwyn                                  BUS   On time
-## 23:55  Southampton Central                     BUS   On time
-## 00:20  Newbury                                 BUS   On time
+## 02:46  Heathrow Airport T3 (Bus)               BUS   On time
 ```
