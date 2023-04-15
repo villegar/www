@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-04-15 00:07)
+## Example (Last rendered on 2023-04-15 02:16)
 
 Load `trainR` to your working environment:
 
@@ -82,16 +82,11 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-15 00:07:55
+## Reading (RDG) Station Board on 2023-04-15 02:16:38
 ## Time   From                                    Plat  Expected
-## 01:05  London Waterloo                         6     01:13
-## 01:13  London Paddington                       -     Cancelled
-## 01:25  Didcot Parkway                          -     On time
-## 01:33  London Paddington                       8A    On time
-## 01:40  London Waterloo                         5     On time
-## 02:29  London Paddington                       7     On time
-## 01:15  Banbury                                 BUS   On time
-## 01:18  Heathrow Central Bus Stn                BUS   On time
+## 04:00  Penzance                                10    On time
+## 04:21  London Paddington                       -     On time
+## 05:13  Heathrow Central Bus Stn                -     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -103,9 +98,13 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-15 00:07:59
+## Reading (RDG) Station Board on 2023-04-15 02:16:41
 ## Time   To                                      Plat  Expected
-## 01:15  Didcot Parkway                          -     Cancelled
-## 01:15  London Paddington                       10    On time
-## 02:46  Heathrow Airport T3 (Bus)               BUS   On time
+## 04:13  London Paddington                       -     On time
+## 04:26  Gatwick Airport                         -     On time
+##        via Guildford                           
+## 04:54  London Paddington                       -     On time
+## 05:08  Bedwyn                                  -     On time
+## 03:55  Heathrow Airport T3 (Bus)               -     On time
+## 05:00  Heathrow Airport T3 (Bus)               -     On time
 ```
