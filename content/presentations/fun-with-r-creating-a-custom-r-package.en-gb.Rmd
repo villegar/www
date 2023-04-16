@@ -1,0 +1,30 @@
+---
+title: 'Fun with R - Creating a custom R package'
+author: Roberto Villegas-Diaz
+date: '2023-04-17'
+slug: fun-with-r-creating-a-custom-r-package.en-gb
+description: ''
+output: html_document
+lang: 'en-gb'
+---
+
+```{r, echo = FALSE}
+BRANCH <- 'master'
+PROJECT <- '2023-04'
+REPO <- 'presentations'
+```
+
+### Abstract
+
+One of the many benefits of working with R, it’s the community of useRs that maintain an ever growing list of packages (over 19k, published on the CRAN: https://cran.r-project.org/web/packages/). Most of these packages are maintained by online communities, that involve contributions from people around the World. You don’t have to be an “R Jedi” to create your own packages, you just need to follow few steps and you soon will be sharing your own packages with your colleagues & the wider R community. This short talk will briefly discuss what are the benefits, what tools do you need (yes, there are R packages to create R packages) and demonstrate how to create your very own package. 
+
+```{css button-style, echo = FALSE}
+.badge * {
+  display: inline;
+}
+```
+
+<!-- badges: start -->
+[![Start](https://img.shields.io/badge/Start-red.svg?style=for-the-badge&logo=peertube&logoColor=white)](/`r REPO`/`r PROJECT`){.badge} 
+[![Source](https://img.shields.io/badge/Source-black.svg?style=for-the-badge&logo=github)](https://github.com/villegar/`r REPO`/tree/`r BRANCH`/`r PROJECT`){.badge}
+<!-- badges: end -->
