@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2023-04-16 20:49)
+## Example (Last rendered on 2023-04-16 20:58)
 
 Load `trainR` to your working environment:
 
@@ -82,18 +82,17 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-16 20:49:33
+## Reading (RDG) Station Board on 2023-04-16 20:59:00
 ## Time   From                                    Plat  Expected
-## 21:49  Swansea                                 10    21:53
-## 21:54  Didcot Parkway                          11A   21:56
-## 21:54  London Paddington                       9     21:59
+## 21:54  Didcot Parkway                          11A   On time
+## 21:54  London Paddington                       9     21:58
 ## 21:59  Abbey Wood                              14    On time
 ## 22:02  London Waterloo                         4     On time
 ## 22:07  London Paddington                       9     On time
 ## 22:10  Weston-super-Mare                       10A   On time
 ## 22:12  London Paddington                       12B   On time
 ## 22:13  Didcot Parkway                          13    On time
-## 22:16  London Paddington                       9B    22:19
+## 22:16  London Paddington                       9B    Delayed
 ## 22:23  Henley-on-Thames                        12    On time
 ## 22:32  Abbey Wood                              14    On time
 ## 22:35  Virginia Water                          4     On time
@@ -130,17 +129,14 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2023-04-16 20:49:37
+## Reading (RDG) Station Board on 2023-04-16 20:59:04
 ## Time   To                                      Plat  Expected
-## 21:54  Ealing Broadway                         14    On time
-## 21:54  London Waterloo                         4     On time
-## 21:55  Bristol Temple Meads                    9     22:00
-## 21:56  London Paddington                       10    On time
+## 21:55  Bristol Temple Meads                    9     21:59
 ## 21:58  London Paddington                       11A   On time
 ## 22:09  Swansea                                 9     On time
 ## 22:14  London Paddington                       10A   On time
 ## 22:15  Didcot Parkway                          12B   On time
-## 22:17  Didcot Parkway                          9B    22:20
+## 22:17  Didcot Parkway                          9B    Delayed
 ## 22:24  Virginia Water                          4     On time
 ## 22:28  Ealing Broadway                         14    On time
 ## 22:41  Bristol Temple Meads                    9     On time
@@ -157,7 +153,7 @@ print(rdg_dep)
 ## 23:20  Didcot Parkway                          13A   On time
 ## 23:37  Bristol Temple Meads                    12    On time
 ## 23:41  London Paddington                       14    On time
-## 21:52  Winchester                              BUS   On time
+## 23:52  Virginia Water                          4     On time
 ## 22:00  Heathrow Airport T3 (Bus)               BUS   On time
 ## 22:46  Newbury                                 BUS   On time
 ## 23:00  Heathrow Airport T3 (Bus)               BUS   On time
