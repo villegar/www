@@ -1,16 +1,16 @@
 ---
 title: 'Fun with R - Creating a custom R package'
 author: Roberto Villegas-Diaz
-date: '2023-04-17'
-slug: fun-with-r-creating-a-custom-r-package.en-gb
+date: '2023-04-16'
+slug: fun-with-r-creating-a-custom-r-package.en-uk
 description: ''
 output: html_document
-lang: 'en-gb'
+lang: 'en-uk'
 ---
 
 ```{r, echo = FALSE}
 BRANCH <- 'master'
-PROJECT <- '2023-04'
+PROJECT <- 'rthritis-meet-up-2023-04'
 REPO <- 'presentations'
 ```
 
