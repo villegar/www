@@ -1,7 +1,7 @@
 theme = "soho"
 baseurl = "/"
 languageCode = "en-uk"
-title = "Roberto's website"
+title = "Roberto Villegas-Diaz"
 DefaultContentLanguage = "en-uk"
 enableInlineShortcodes = true
 summarylength = 10
@@ -11,11 +11,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 googleAnalytics = "UA-168074535-1"
 
 [params]
-title = "Roberto's website"
+title = "Roberto Villegas-Diaz"
 author = "Roberto Villegas-Diaz"
 # description = "Example Blog"
 # gravatar = "soho@example.com"
-images = ["images/roberto.jpg"]
+images = ["images/roberto_villegasdiaz.jpg"]
 profilePicture = "images/roberto.jpg"
 copyright = "Roberto Villegas-Diaz"
 license = "CC BY-SA 4.0"
@@ -47,7 +47,7 @@ post = "/:year/:month/:day/:slug/"
   [[params.socialIcons]]
   icon = "fa-twitter"
   title = "Twitter"
-  url = "https://www.twitter.com/roberthillo"
+  url = "https://www.twitter.com/r_villegas_diaz"
 
 [taxonomies]
   series = "series"
