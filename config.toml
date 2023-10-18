@@ -7,7 +7,7 @@ enableInlineShortcodes = true
 summarylength = 10
 enableEmoji = true
 paginate = 5
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.qmd$", "\\.ipynb$", "\\.py$"]
 googleAnalytics = "UA-168074535-1"
 
 [params]
@@ -15,8 +15,8 @@ title = "Roberto Villegas-Diaz"
 author = "Roberto Villegas-Diaz"
 # description = "Example Blog"
 # gravatar = "soho@example.com"
-images = ["images/roberto_villegasdiaz.jpg"]
-profilePicture = "images/roberto_villegasdiaz.jpg"
+images = ["images/roberto.jpg"]
+profilePicture = "images/roberto.jpg"
 copyright = "Roberto Villegas-Diaz"
 license = "CC BY-SA 4.0"
 licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
@@ -98,3 +98,6 @@ post = "/:year/:month/:day/:slug/"
   noClasses = true
   style = "monokai"
   tabWidth = 4
+
+  [markup.goldmark.renderer]
+  unsafe= true
