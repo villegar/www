@@ -2,7 +2,7 @@
 title: 'NHS-R Community Conference 2023: You love {purrr}, but have you tried speeding up things {furrr}-ther?'
 author: Roberto Villegas-Diaz
 date: '2023-10-18'
-slug: nhsr-conf-2023
+slug: nhsr-conf-2023.en-uk
 description: ''
 output: html_document
 lang: 'en-uk'
