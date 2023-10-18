@@ -1,0 +1,30 @@
+---
+title: 'NHS-R Community Conference 2023: You love {purrr}, but have you tried speeding up things {furrr}-ther?'
+author: Roberto Villegas-Diaz
+date: '2023-10-18'
+slug: nhsr-conf-2023.en-uk
+description: ''
+output: html_document
+lang: 'en-uk'
+---
+
+```{r, echo = FALSE}
+BRANCH <- 'master'
+PROJECT <- 'nhsr-conf-2023'
+REPO <- 'presentations'
+```
+
+### Abstract
+
+Moving away from the classic loops in R can seem a little daunting at first, you might have tried the apply family of functions in base R, but they all take slightly different inputs and return different objects. Now, the purrr package has been out for about 8 years and has provided a simpler toolkit to do functional programming in R. One of the biggest “issues” with purrr is that the target functions are apply sequentially to each one of the input elements (and or combination of them), so for very large inputs/combinations, this results in large execution times. The package furrr was developed with the idea of taking advantage of ‘future’-supported backends (i.e., run with multiple CPUs locally, remotely, on high performance computing systems, etc.) and uses the same syntax as purrr does. On this short talk, I will demonstrate how easily you can update/tweak your purrr code to take advantage of furrr, as well as where is not feasible to use furrr, common mistakes, etc., so you can also speed up your workflows. 
+
+```{css button-style, echo = FALSE}
+.badge * {
+  display: inline;
+}
+```
+
+<!-- badges: start -->
+[![Start](https://img.shields.io/badge/Start-red.svg?style=for-the-badge&logo=peertube&logoColor=white)](/`r REPO`/`r PROJECT`){.badge} 
+[![Source](https://img.shields.io/badge/Source-black.svg?style=for-the-badge&logo=github)](https://github.com/villegar/`r REPO`/tree/`r BRANCH`/`r PROJECT`){.badge}
+<!-- badges: end -->
