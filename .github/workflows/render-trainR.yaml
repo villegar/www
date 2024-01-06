@@ -1,24 +1,30 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
     branches: master
   schedule:
-    - cron:  '0 */2 * * *'
+    - cron:  '0 5-22/2 * * *'
 
 name: Render trainR post
 
 jobs:
   render:
     name: Render the trainR post
-    runs-on: macOS-latest
+    runs-on: macos-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       NRE: ${{ secrets.NRE }}
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: r-lib/actions/setup-r@v1
-      - uses: r-lib/actions/setup-pandoc@v1
+          
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      - uses: r-lib/actions/setup-r@v2
+      
       - name: OS dependencies
         run: |
           brew install openssl
@@ -31,7 +37,7 @@ jobs:
           writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
       - name: Cache R packages
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
@@ -53,7 +59,7 @@ jobs:
         
       - name: Commit results
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git commit content/post/2021-02-08-trainr-an-interface-to-the-nre-systems.en-uk.md -m 'Re-build trainR post' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
