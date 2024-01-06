@@ -1,0 +1,13 @@
+---
+title: 'Poo-ket: 2023'
+author: Roberto Villegas-Diaz
+date: '2023-12-31'
+slug: pooket-2023
+hidden: true
+tags:
+- privacy
+Description: ''
+
+---
+
+![](https://cdn.ca.emap.com/wp-content/uploads/sites/13/2022/11/porta-potty-1024x682.jpg)
