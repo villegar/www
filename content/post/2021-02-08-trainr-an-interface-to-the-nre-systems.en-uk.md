@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2024-02-04 05:06)
+## Example (Last rendered on 2024-02-04 11:08)
 
 Load `trainR` to your working environment:
 
@@ -82,13 +82,45 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-02-04 05:06:12.617849
+## Reading (RDG) Station Board on 2024-02-04 11:08:38.333841
 ## Time   From                                    Plat  Expected
-## 05:05  Heathrow Airport T3 (Bus)               BUS   On time
-## 05:35  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:35  Heathrow Airport T3 (Bus)               BUS   On time
-## 07:05  Heathrow Airport T3 (Bus)               BUS   On time
+## 10:32  London Paddington                       9     11:12
+## 11:02  London Paddington                       10    11:16
+## 11:06  Bournemouth                             7     11:11
+## 11:12  London Paddington                       14    11:35
+## 11:17  Swindon                                 -     Cancelled
+## 11:19  Bedwyn                                  1     On time
+## 11:25  Oxford                                  -     Cancelled
+## 11:27  London Paddington                       -     Cancelled
+## 11:32  London Paddington                       7B    On time
+## 11:33  Basingstoke                             2     On time
+## 11:39  Manchester Piccadilly                   7B    On time
+## 11:41  Didcot Parkway                          12    On time
+## 11:42  Abbey Wood                              14    11:45
+## 12:02  London Paddington                       10    On time
+## 12:05  Bournemouth                             13    On time
+## 12:12  Abbey Wood                              14    On time
+## 12:17  Swindon                                 -     Cancelled
+## 12:19  Newbury                                 1     On time
+## 12:25  Oxford                                  11    On time
+## 12:32  Basingstoke                             2     On time
+## 12:32  London Paddington                       7     On time
+## 12:40  Manchester Piccadilly                   7     On time
+## 12:41  Didcot Parkway                          12    On time
+## 12:42  Abbey Wood                              14    On time
+## 13:02  London Paddington                       10    On time
+## 11:15  Heathrow Airport T3 (Bus)               BUS   On time
+## 11:18  Bracknell                               BUS   On time
+## 11:30  Bracknell                               BUS   On time
+## 11:45  Heathrow Airport T3 (Bus)               BUS   On time
+## 11:48  Bracknell                               BUS   On time
+## 12:00  Bracknell                               BUS   On time
+## 12:15  Heathrow Airport T3 (Bus)               BUS   On time
+## 12:18  Bracknell                               BUS   On time
+## 12:30  Bracknell                               BUS   On time
+## 12:45  Heathrow Airport T3 (Bus)               BUS   On time
+## 12:48  Bracknell                               BUS   On time
+## 13:00  Bracknell                               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -100,12 +132,45 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-02-04 05:06:13.476767
+## Reading (RDG) Station Board on 2024-02-04 11:08:41.957334
 ## Time   To                                      Plat  Expected
-## 06:25  London Paddington                       14    On time
-## 06:53  London Paddington                       13    On time
-## 05:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:25  Heathrow Airport T3 (Bus)               BUS   On time
-## 06:55  Heathrow Airport T3 (Bus)               BUS   On time
+## 10:33  Swindon                                 -     Cancelled
+## 11:14  Manchester Piccadilly                   7     On time
+##        via Coventry & Stoke-on-Trent           
+## 11:18  London Paddington                       -     Cancelled
+## 11:26  Didcot Parkway                          12A   On time
+## 11:27  London Paddington                       -     Cancelled
+## 11:29  Abbey Wood                              14    11:38
+## 11:33  Swindon                                 7B    On time
+## 11:37  Basingstoke                             2     On time
+## 11:43  Bedwyn                                  1     On time
+## 11:48  London Paddington                       10A   On time
+## 11:52  Bournemouth                             7B    On time
+## 11:55  Oxford                                  8     On time
+## 11:59  Abbey Wood                              14    On time
+## 12:14  Manchester Piccadilly                   13    On time
+##        via Coventry & Stoke-on-Trent           
+## 12:18  London Paddington                       11    On time
+## 12:26  Didcot Parkway                          12A   On time
+## 12:27  London Paddington                       11    On time
+## 12:29  Abbey Wood                              14    On time
+## 12:33  Swindon                                 7     On time
+## 12:37  Basingstoke                             2     On time
+## 12:43  Newbury                                 1     On time
+## 12:48  London Paddington                       10    On time
+## 12:52  Bournemouth                             7     On time
+## 12:55  Oxford                                  9     On time
+## 12:59  Abbey Wood                              14    On time
+## 11:18  Bracknell                               BUS   On time
+## 11:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 11:31  Bracknell                               BUS   On time
+## 11:48  Bracknell                               BUS   On time
+## 12:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 12:01  Bracknell                               BUS   On time
+## 12:18  Bracknell                               BUS   On time
+## 12:30  Heathrow Airport T3 (Bus)               BUS   On time
+## 12:31  Bracknell                               BUS   On time
+## 12:48  Bracknell                               BUS   On time
+## 13:00  Heathrow Airport T3 (Bus)               BUS   On time
+## 13:01  Bracknell                               BUS   On time
 ```
