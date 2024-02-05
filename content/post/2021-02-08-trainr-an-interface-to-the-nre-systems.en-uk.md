@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2024-02-05 05:07)
+## Example (Last rendered on 2024-02-05 11:06)
 
 Load `trainR` to your working environment:
 
@@ -82,13 +82,24 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-02-05 05:07:01.40882
+## Reading (RDG) Station Board on 2024-02-05 11:06:50.005724
 ## Time   From                                    Plat  Expected
-## 06:11  London Paddington                       13    On time
-## 06:14  Staines                                 5     On time
-## 06:42  London Paddington                       14    On time
-## 06:48  London Waterloo                         6     On time
-## 06:55  London Paddington                       13    On time
+## 11:10  Abbey Wood                              14    On time
+## 11:14  London Waterloo                         4     On time
+## 11:19  Basingstoke                             2     On time
+## 11:30  Didcot Parkway                          15    On time
+## 11:40  Abbey Wood                              14    On time
+## 11:40  Bristol Temple Meads                    10    On time
+## 11:46  London Paddington                       9     On time
+## 11:53  London Paddington                       9     On time
+## 12:10  Abbey Wood                              14    On time
+## 12:11  London Waterloo                         4     On time
+## 12:18  Basingstoke                             2     On time
+## 12:35  Didcot Parkway                          13    On time
+## 12:40  Abbey Wood                              14    On time
+## 12:40  Bristol Temple Meads                    10    On time
+## 12:43  London Waterloo                         6     On time
+## 12:53  London Paddington                       9     On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -100,14 +111,22 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-02-05 05:07:02.348305
+## Reading (RDG) Station Board on 2024-02-05 11:06:51.652732
 ## Time   To                                      Plat  Expected
-## 05:39  London Waterloo                         5     On time
-## 05:45  Abbey Wood                              14    On time
-## 06:09  London Waterloo                         6     On time
-## 06:14  Abbey Wood                              14    On time
-## 06:24  Abbey Wood                              13    On time
-## 06:39  London Waterloo                         5     On time
-## 06:44  Abbey Wood                              13    On time
-## 06:54  Abbey Wood                              14    On time
+## 11:07  Basingstoke                             2     On time
+## 11:09  London Waterloo                         5     On time
+## 11:29  Abbey Wood                              14    On time
+## 11:39  London Waterloo                         6     On time
+## 11:43  London Paddington                       10    On time
+## 11:48  Oxford                                  9     On time
+## 11:53  Didcot Parkway                          15A   On time
+## 11:55  Bristol Temple Meads                    9     On time
+## 11:59  Abbey Wood                              14    On time
+## 12:07  Basingstoke                             2     On time
+## 12:29  Abbey Wood                              14    On time
+## 12:39  London Waterloo                         5     On time
+## 12:42  London Paddington                       10    On time
+## 12:53  Didcot Parkway                          13    On time
+## 12:55  Bristol Temple Meads                    9     On time
+## 12:59  Abbey Wood                              14    On time
 ```
