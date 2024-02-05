@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2024-02-04 17:09)
+## Example (Last rendered on 2024-02-05 05:07)
 
 Load `trainR` to your working environment:
 
@@ -82,42 +82,13 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-02-04 17:09:44.391792
+## Reading (RDG) Station Board on 2024-02-05 05:07:01.40882
 ## Time   From                                    Plat  Expected
-## 17:07  Bournemouth                             8B    On time
-## 17:12  Abbey Wood                              14    On time
-## 17:17  Swindon                                 11    On time
-## 17:20  Bedwyn                                  3     On time
-## 17:25  Oxford                                  11    On time
-## 17:32  Basingstoke                             2     On time
-## 17:32  London Paddington                       7B    On time
-## 17:39  Manchester Piccadilly                   8     On time
-## 17:41  Didcot Parkway                          12    On time
-## 17:42  Abbey Wood                              14    On time
-## 18:02  London Paddington                       10    On time
-## 18:06  Bournemouth                             8B    On time
-## 18:12  Abbey Wood                              14    On time
-## 18:17  Swindon                                 11    On time
-## 18:21  Newbury                                 1     On time
-## 18:25  Oxford                                  11    On time
-## 18:32  Basingstoke                             2     On time
-## 18:32  London Paddington                       7     On time
-## 18:40  Manchester Piccadilly                   7     On time
-## 18:41  Didcot Parkway                          12    On time
-## 18:42  Abbey Wood                              14    On time
-## 19:02  London Paddington                       10    On time
-## 17:18  Bracknell                               BUS   On time
-## 17:18  Heathrow Airport T3 (Bus)               BUS   On time
-## 17:30  Bracknell                               BUS   On time
-## 17:48  Bracknell                               BUS   On time
-## 17:48  Heathrow Airport T3 (Bus)               BUS   On time
-## 18:00  Bracknell                               BUS   On time
-## 18:18  Bracknell                               BUS   On time
-## 18:18  Heathrow Airport T3 (Bus)               BUS   On time
-## 18:30  Bracknell                               BUS   On time
-## 18:48  Bracknell                               BUS   On time
-## 18:48  Heathrow Airport T3 (Bus)               BUS   On time
-## 19:00  Bracknell                               BUS   On time
+## 06:11  London Paddington                       13    On time
+## 06:14  Staines                                 5     On time
+## 06:42  London Paddington                       14    On time
+## 06:48  London Waterloo                         6     On time
+## 06:55  London Paddington                       13    On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -129,46 +100,14 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-02-04 17:09:47.443358
+## Reading (RDG) Station Board on 2024-02-05 05:07:02.348305
 ## Time   To                                      Plat  Expected
-## 17:14  Birmingham New Street                   8B    On time
-##        via Coventry                            
-## 17:18  London Paddington                       11    On time
-## 17:26  Didcot Parkway                          12A   On time
-## 17:27  London Paddington                       11    On time
-## 17:29  Abbey Wood                              14    On time
-## 17:33  Swindon                                 7B    On time
-## 17:37  Basingstoke                             2     On time
-## 17:42  York                                    -     Cancelled
-##        via Coventry & Doncaster                
-## 17:45  Bedwyn                                  3     On time
-## 17:48  London Paddington                       10    On time
-## 17:52  Bournemouth                             8     On time
-## 17:55  Oxford                                  7     On time
-## 17:59  Abbey Wood                              14    On time
-## 18:14  Manchester Piccadilly                   8B    On time
-##        via Coventry & Stoke-on-Trent           
-## 18:18  London Paddington                       11    On time
-## 18:26  Didcot Parkway                          12A   On time
-## 18:27  London Paddington                       11    On time
-## 18:29  Abbey Wood                              14    On time
-## 18:33  Swindon                                 7     On time
-## 18:37  Basingstoke                             2     On time
-## 18:43  Newbury                                 1     On time
-## 18:48  London Paddington                       10    On time
-## 18:52  Bournemouth                             7     On time
-## 18:55  Oxford                                  9     On time
-## 18:59  Abbey Wood                              14    On time
-## 17:18  Bracknell                               BUS   On time
-## 17:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 17:31  Bracknell                               BUS   On time
-## 17:48  Bracknell                               BUS   On time
-## 18:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 18:01  Bracknell                               BUS   On time
-## 18:18  Bracknell                               BUS   On time
-## 18:30  Heathrow Airport T3 (Bus)               BUS   On time
-## 18:31  Bracknell                               BUS   On time
-## 18:48  Bracknell                               BUS   On time
-## 19:00  Heathrow Airport T3 (Bus)               BUS   On time
-## 19:01  Bracknell                               BUS   On time
+## 05:39  London Waterloo                         5     On time
+## 05:45  Abbey Wood                              14    On time
+## 06:09  London Waterloo                         6     On time
+## 06:14  Abbey Wood                              14    On time
+## 06:24  Abbey Wood                              13    On time
+## 06:39  London Waterloo                         5     On time
+## 06:44  Abbey Wood                              13    On time
+## 06:54  Abbey Wood                              14    On time
 ```
