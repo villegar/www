@@ -1,7 +1,7 @@
 ---
 title: 'XXIV SIMMAC: API development with R'
 author: 'Roberto Villegas-Diaz'
-date: '2024-02-20'
+date: '2024-02-22'
 slug: xxiv-simmac.en-uk
 description: ''
 output: html_document
