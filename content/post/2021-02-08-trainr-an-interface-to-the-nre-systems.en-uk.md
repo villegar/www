@@ -65,7 +65,7 @@ your R session.
 
 You only need to perform this configuration once.
 
-## Example (Last rendered on 2024-04-06 17:07)
+## Example (Last rendered on 2024-04-07 05:07)
 
 Load `trainR` to your working environment:
 
@@ -82,25 +82,15 @@ print(rdg_arr)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-04-06 17:07:46.927295
+## Reading (RDG) Station Board on 2024-04-07 05:07:49.22242
 ## Time   From                                    Plat  Expected
-## 18:08  Southampton Central                     7B    18:05
-## 18:10  Abbey Wood                              14    On time
-## 18:13  Virginia Water                          5     On time
-## 18:19  Basingstoke                             2     On time
-## 18:40  Abbey Wood                              14    18:47
-## 18:41  Manchester Piccadilly                   7B    On time
-## 18:45  Virginia Water                          -     Cancelled
-## 19:05  Oxford                                  13    On time
-## 19:06  Southampton Central                     7     On time
-## 19:10  Abbey Wood                              14    On time
-## 19:13  Weybridge                               -     Cancelled
-## 19:24  Basingstoke                             12    On time
-## 19:40  Abbey Wood                              14    On time
-## 19:41  Manchester Piccadilly                   8B    On time
-## 19:45  Virginia Water                          -     Cancelled
-## 20:02  Oxford                                  15    On time
-## 20:06  Birmingham New Street                   -     Cancelled
+## 07:21  Slough                                  9     On time
+## 07:41  Ealing Broadway                         10    On time
+## 07:46  Guildford                               5     On time
+## 08:02  Virginia Water                          4     On time
+## 06:35  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:05  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:45  Heathrow Airport T3 (Bus)               BUS   On time
 ```
 
 ### Departures board at Reading Station (RDG)
@@ -112,23 +102,19 @@ print(rdg_dep)
 ```
 
 ```
-## Reading (RDG) Station Board on 2024-04-06 17:07:49.885295
+## Reading (RDG) Station Board on 2024-04-07 05:07:51.392419
 ## Time   To                                      Plat  Expected
-## 18:07  Basingstoke                             2     On time
-## 18:09  Virginia Water                          -     Cancelled
-## 18:15  Manchester Piccadilly                   7B    On time
-##        via Coventry & Stoke-on-Trent           
-## 18:29  Abbey Wood                              14    On time
-## 18:39  Weybridge                               5     On time
-## 18:50  Oxford                                  15B   On time
-## 18:52  Southampton Central                     7B    On time
-## 18:59  Abbey Wood                              14    On time
-## 19:09  Virginia Water                          -     Cancelled
-## 19:15  Manchester Piccadilly                   7     On time
-##        via Coventry & Stoke-on-Trent           
-## 19:29  Abbey Wood                              14    On time
-## 19:39  Weybridge                               -     Cancelled
-## 19:52  Southampton Central                     8B    On time
-## 19:53  Oxford                                  13B   On time
-## 19:59  Abbey Wood                              14    On time
+## 06:21  Guildford                               4     On time
+## 06:53  London Paddington                       9A    On time
+## 07:21  Guildford                               4     On time
+## 07:42  London Paddington                       9A    On time
+## 07:54  London Waterloo                         6     On time
+## 07:55  London Paddington                       10    On time
+## 07:56  Guildford                               7A    On time
+## 06:25  Heathrow Airport T3 (Bus)               BUS   On time
+## 06:55  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:25  Heathrow Airport T3 (Bus)               BUS   On time
+## 07:37  Basingstoke                             BUS   On time
+## 07:50  Newbury                                 BUS   On time
+## 07:55  Heathrow Airport T3 (Bus)               BUS   On time
 ```
